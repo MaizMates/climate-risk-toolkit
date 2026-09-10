@@ -56,4 +56,8 @@ assumption module 02 needs before it is worth overlaying exposures.
 ```bash
 python3 tests/test_hazard.py    # two checks, no framework
 python3 src/hazard.py           # queries the API, writes results/heat_gradient.json
+python3 src/deck.py             # writes deck.pdf, four pages, figure from that json
 ```
+
+[`deck.pdf`](deck.pdf) is the four-page version: question, method, result, limits. The figure is
+drawn from `results/heat_gradient.json`, so the deck cannot drift away from the numbers.
