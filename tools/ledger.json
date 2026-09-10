@@ -594,5 +594,18 @@
   "climate_practice": true,
   "status": "untried",
   "note": "Tenant globale unico gia noto. Il cancello 3 varia PER ANNUNCIO: Zurigo Quant & Analytics chiede solo inglese, Ginevra chiede francese eccellente."
+ },
+ {
+  "id": "un_estm",
+  "name": "UN system (UNDP, UNICEF, UN Women and others share this tenant)",
+  "ats": "oracle",
+  "host": "estm.fa.em2.oraclecloud.com",
+  "site": "CX_1",
+  "sector": "institution",
+  "country": "multi",
+  "lang": "en",
+  "climate_practice": true,
+  "status": "green",
+  "note": "Trovato il 10/09 da due link di Marco che il monitor non aveva: Climate and Energy Analyst a Roma e Programme Analyst Climate and Sustainable Energy Finance a Bonn. Un solo tenant copre tutto il sistema ONU. Il campo ExternalPostedEndDate da' la scadenza vera."
  }
 ]

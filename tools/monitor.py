@@ -91,10 +91,13 @@ def jget(url, data=None, headers=None):
     return json.loads(get(url, data, headers))
 
 
-def norm(emp, jid, title, loc, url, posted=""):
+def norm(emp, jid, title, loc, url, posted="", closes=""):
+    """`closes` is the real application deadline where the portal publishes one. Most do not,
+    which is why the dashboard has so many rows with no deadline; Oracle tenants do, and a role
+    that shuts in two days ranks differently from one that shuts in two months."""
     return {"emp": emp["id"], "org": emp["name"], "id": f'{emp["id"]}:{jid}',
             "title": (title or "").strip(), "loc": (loc or "").strip(),
-            "url": url or "", "posted": posted or ""}
+            "url": url or "", "posted": posted or "", "closes": closes or ""}
 
 
 # --- adapters --------------------------------------------------------------
@@ -224,9 +227,50 @@ def a_workday(e):
     return out
 
 
+def a_oracle(e):
+    """Oracle Recruiting Cloud. The config has documented this family since 05/09 and no adapter
+    was ever written, which is why the UN tenant was invisible: two UNDP climate roles in Rome
+    and Bonn that Marco found by hand on 10/09.
+
+    Two things bite. First, `offset` is inert unless `expand` is also present: without it the
+    server returns the first page forever. Second, `siteNumber` can be inert on some tenants
+    (measured on Verisk: CX_1 through CX_4 all return the same count), so a site that answers is
+    not proof it is the right one. `ExternalPostedEndDate` carries the real closing date, which
+    almost nothing else in this crawler gives us."""
+    host, site = e["host"], e.get("site", "CX_1")
+    base = (f'https://{host}/hcmRestApi/resources/latest/recruitingCEJobRequisitions'
+            f'?onlyData=true&expand=requisitionList.secondaryLocations'
+            f'&finder=findReqs;siteNumber={site},limit=100,offset=')
+    out, seen, off, total = [], set(), 0, None
+    while off < 3000:
+        d = jget(base + str(off))
+        item = (d.get("items") or [{}])[0]
+        if total is None:
+            total = int(item.get("TotalJobsCount") or 0)
+        rows = item.get("requisitionList") or []
+        if not rows:
+            break
+        fresh = 0
+        for r in rows:
+            rid = str(r.get("Id") or "")
+            if not rid or rid in seen:
+                continue
+            seen.add(rid)
+            fresh += 1
+            out.append(norm(e, rid, r.get("Title"),
+                            r.get("PrimaryLocation") or "",
+                            f'https://{host}/hcmUI/CandidateExperience/en/sites/{site}/job/{rid}',
+                            (r.get("PostedDate") or "")[:10],
+                            (r.get("ExternalPostedEndDate") or "")[:10]))
+        if fresh == 0 or (total and len(out) >= total):
+            break
+        off += 100
+    return out
+
+
 ADAPTERS = {"ashby": a_ashby, "greenhouse": a_greenhouse, "lever": a_lever, "phenom": a_phenom,
             "smartrecruiters": a_smartrecruiters, "workable": a_workable,
-            "recruitee": a_recruitee, "workday": a_workday}
+            "recruitee": a_recruitee, "workday": a_workday, "oracle": a_oracle}
 
 
 # --- filter + diff ---------------------------------------------------------
