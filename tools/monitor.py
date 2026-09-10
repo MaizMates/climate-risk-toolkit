@@ -51,13 +51,13 @@ LIST_B = (r"catastroph|\bcat\b|peril|hazard|flood|wildfire|windstorm|storm|droug
           r"meteorolog|geospatial|\bgis\b|remote sensing|satellite|natcat|nat cat|exposure|"
           r"resilien|impact forecasting|physical risk|extreme")
 # 'actuar' was here and produced ~40 useless rows on Marsh alone: actuarial work wants
-# IFoA/SOA exams I do not have and am not pursuing, so it fails gate 6 every time.
+# IFoA/SOA exams Marco does not have and is not pursuing, so it fails gate 6 every time.
 LIST_C = (r"quant|analytics|data scien|data analyst|data engineer|risk model|scenario|"
           r"stress test|statistic|modell?ing|portfolio analytics")
 RE_A, RE_B, RE_C = (re.compile(x, re.I) for x in (LIST_A, LIST_B, LIST_C))
 
-# Titles that fail gate 2 on sight. Interns/graduates/trainees are ADMITTED as of
-# 2026-09-09: I want the EY Zurich/Geneva quant internships in scope.
+# Titles that fail gate 2 on sight. Interns/graduates/trainees are ADMITTED (Marco's
+# call, 2026-09-09): he wants the EY Zurich/Geneva quant internships in scope.
 RE_SENIOR = re.compile(r"\b(senior|sr\.?|lead|principal|manager|director|vp|vice president|head of|staff|chief)\b", re.I)
 
 # Gate 4 is deterministic for these: local-hire hubs and markets with no right to work and
@@ -230,7 +230,7 @@ def a_workday(e):
 def a_oracle(e):
     """Oracle Recruiting Cloud. The config has documented this family since 05/09 and no adapter
     was ever written, which is why the UN tenant was invisible: two UNDP climate roles in Rome
-    and Bonn that I found by hand on 10/09.
+    and Bonn that Marco found by hand on 10/09.
 
     Two things bite. First, `offset` is inert unless `expand` is also present: without it the
     server returns the first page forever. Second, `siteNumber` can be inert on some tenants
@@ -275,14 +275,17 @@ ADAPTERS = {"ashby": a_ashby, "greenhouse": a_greenhouse, "lever": a_lever, "phe
 
 # --- filter + diff ---------------------------------------------------------
 def promote(job, climate_practice):
-    """Return the list that promoted this title, or None."""
+    """Return the list that promoted this title, or None.
+
+    C never promotes on its own (PERIMETRO.md, 10/09): a climate practice at the employer
+    does not make the ROLE climate. C alone let in Capco Data Engineer, Baringa Data
+    Engineering Consultant and two LSEG data roles, all rejected as "data, not climate".
+    C now only survives as a qualifier on a title that already matched A or B."""
     t = job["title"]
     if RE_A.search(t):
-        return "A"
+        return "AC" if climate_practice and RE_C.search(t) else "A"
     if RE_B.search(t):
-        return "B"
-    if climate_practice and RE_C.search(t):
-        return "C"
+        return "BC" if climate_practice and RE_C.search(t) else "B"
     return None
 
 

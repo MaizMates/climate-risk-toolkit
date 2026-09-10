@@ -251,7 +251,7 @@
   "lang": "en",
   "climate_practice": true,
   "status": "untried",
-  "note": "Frankfurt, English, insurance climate stress testing. Highest-value omission: I live there."
+  "note": "Frankfurt, English, insurance climate stress testing. Highest-value omission: he lives there."
  },
  {
   "id": "esrb",
@@ -606,6 +606,33 @@
   "lang": "en",
   "climate_practice": true,
   "status": "green",
-  "note": "Added 10/09 after two roles the monitor had missed: Climate and Energy Analyst (Rome) and Programme Analyst, Climate and Sustainable Energy Finance (Bonn). One tenant covers the whole UN system. ExternalPostedEndDate carries the real deadline."
+  "note": "Trovato il 10/09 da due link di Marco che il monitor non aveva: Climate and Energy Analyst a Roma e Programme Analyst Climate and Sustainable Energy Finance a Bonn. Un solo tenant copre tutto il sistema ONU. Il campo ExternalPostedEndDate da' la scadenza vera."
+ },
+ {
+  "id": "iceye",
+  "name": "ICEYE",
+  "ats": "ashby",
+  "slug": "iceye",
+  "sector": "physical-risk",
+  "country": "fi",
+  "lang": "en",
+  "climate_practice": true,
+  "status": "green",
+  "note": "Verificato 10/09: api.ashbyhq.com/posting-api/job-board/iceye risponde 191 annunci, con Espoo (HQ ICEYE) fra le sedi. La pagina careers e' JS-rendered, quindi l'host ATS non e' leggibile dall'HTML: la conferma e' il contenuto della board, non il sorgente."
+ },
+ {
+  "id": "sustainalytics",
+  "name": "Morningstar Sustainalytics",
+  "ats": "workday",
+  "host": "morningstar.wd5.myworkdayjobs.com",
+  "tenant": "morningstar",
+  "site": "Sustainalytics",
+  "path": "/en-US/Sustainalytics",
+  "sector": "esg-data",
+  "country": "nl",
+  "lang": "en",
+  "climate_practice": true,
+  "status": "green",
+  "note": "Verificato 10/09: /wday/cxs/morningstar/Sustainalytics/jobs risponde senza errorCode con total=0. L'endpoint e' vivo, la board e' vuota oggi."
  }
 ]
