@@ -23,7 +23,7 @@ and `hits`. Each hit carries the list that promoted it (`A` climate, `B` physica
 - **A** and **B** always apply. **C** applies only where `climate_practice: true`, because
   applied globally it promotes ~12% of a large board and stops being a filter.
 - `actuar` was removed from list C on 2026-09-09: it produced ~40 rows on Marsh alone, all
-  of them failing gate 6, because actuarial work wants exams Marco does not have.
+  of them failing gate 6, because actuarial work wants exams I do not have.
 - `RE_GEO_NO` rejects local-hire hubs and no-right-to-work markets before the agent sees
   them. The UK is deliberately absent: it needs the sponsor-register check, a judgement.
 

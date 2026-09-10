@@ -251,7 +251,7 @@
   "lang": "en",
   "climate_practice": true,
   "status": "untried",
-  "note": "Frankfurt, English, insurance climate stress testing. Highest-value omission: he lives there."
+  "note": "Frankfurt, English, insurance climate stress testing. Highest-value omission: I live there."
  },
  {
   "id": "esrb",
@@ -606,6 +606,6 @@
   "lang": "en",
   "climate_practice": true,
   "status": "green",
-  "note": "Trovato il 10/09 da due link di Marco che il monitor non aveva: Climate and Energy Analyst a Roma e Programme Analyst Climate and Sustainable Energy Finance a Bonn. Un solo tenant copre tutto il sistema ONU. Il campo ExternalPostedEndDate da' la scadenza vera."
+  "note": "Added 10/09 after two roles the monitor had missed: Climate and Energy Analyst (Rome) and Programme Analyst, Climate and Sustainable Energy Finance (Bonn). One tenant covers the whole UN system. ExternalPostedEndDate carries the real deadline."
  }
 ]
