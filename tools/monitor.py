@@ -135,14 +135,18 @@ def a_phenom(e):
         jobs = (rs.get("data") or {}).get("jobs") or []
         if not jobs:
             break
+        fresh = 0
         for j in jobs:
             jid = str(j.get("jobId") or j.get("reqId") or "")
-            if jid in seen:
+            if not jid or jid in seen:
                 continue
             seen.add(jid)
+            fresh += 1
             out.append(norm(e, jid, j.get("title"),
                             j.get("cityStateCountry") or j.get("location") or "",
                             j.get("applyUrl") or "", (j.get("postedDate") or "")[:10]))
+        if fresh == 0:                # same wrap-around defect as Workday
+            break
         frm += 10
     return out
 
@@ -186,9 +190,13 @@ def a_recruitee(e):
 
 
 def a_workday(e):
-    out, off, total = [], 0, None
+    """Some Workday tenants do not return an empty page past the end of the list: they wrap
+    around and serve page one again, forever. Measured 2026-09-10: LSEG reported 2,996 postings
+    and has 736, Lombard Odier reported 2,981 and has 41, RMI reported 450 and has 3.
+    Counting until the page is empty is therefore wrong. Stop when a page adds nothing new."""
+    out, seen, off, total = [], set(), 0, None
     url = f'https://{e["host"]}/wday/cxs/{e["tenant"]}/{e["site"]}/jobs'
-    while off < 3000:
+    while off < 6000:
         d = jget(url, data=json.dumps({"appliedFacets": {}, "limit": 20, "offset": off,
                                        "searchText": ""}).encode(),
                  headers={"Content-Type": "application/json"})
@@ -199,10 +207,19 @@ def a_workday(e):
             break
         if total is None:
             total = int(d.get("total") or 0)
+        fresh = 0
         for j in posts:
             p = j.get("externalPath", "")
+            if not p or p in seen:
+                continue
+            seen.add(p)
+            fresh += 1
             out.append(norm(e, p, j.get("title"), j.get("locationsText", ""),
                             f'https://{e["host"]}{e["path"]}{p}' if e.get("path") else p))
+        if fresh == 0:                # the tenant wrapped around: every row is a repeat
+            break
+        if total and len(out) >= total:
+            break
         off += 20
     return out
 
