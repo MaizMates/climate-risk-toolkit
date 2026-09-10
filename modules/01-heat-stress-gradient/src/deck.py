@@ -1,7 +1,7 @@
 """Four pages: the question, the method, the result, the limits.
 
-The figure is drawn from results/heat_gradient.json, which src/hazard.py wrote from the API.
-Nothing here is typed in by hand, so the deck cannot drift away from the numbers."""
+Every number, and the figure, come from results/heat_gradient.json, which src/hazard.py wrote
+from the API. Nothing is typed in by hand, so the deck cannot drift away from the numbers."""
 import json, os, sys
 import matplotlib
 matplotlib.use("Agg")
@@ -9,24 +9,197 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-INK, MUTED, ACCENT, PRIMARY = "#10201E", "#61736D", "#B04E15", "#0F5257"
+INK, MUTED, HAIR, BAR, ACCENT = "#14181A", "#6E7B80", "#DCE1E3", "#B7C0C4", "#B4451E"
+L, R = 0.07, 0.93                      # text margins
+SOURCE = ("Source: World Bank Climate Change Knowledge Portal, CMIP6 ensemble median, indicator "
+          "hd35. Baseline 1995-2014 against 2040-2059, SSP3-7.0.")
+
+matplotlib.rcParams.update({
+    "font.family": ["Arial", "Helvetica Neue", "Helvetica", "DejaVu Sans"],
+    "pdf.fonttype": 42,
+})
 
 
-def page(pdf, title, blocks, foot):
-    fig = plt.figure(figsize=(11.69, 8.27))          # A4 landscape
+def ordinal(n):
+    return "%d%s" % (n, "th" if 10 <= n % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th"))
+
+
+def rule(fig, y, x0=L, x1=R):
+    fig.add_artist(plt.Line2D([x0, x1], [y, y], color=HAIR, lw=0.8))
+
+
+def chrome(fig, kicker, title, page):
+    """Header and footer shared by every page, so no page depends on the ones before it."""
     fig.patch.set_facecolor("white")
-    fig.text(0.06, 0.90, title, fontsize=21, color=INK, weight="bold", va="top")
-    fig.add_artist(plt.Line2D([0.06, 0.94], [0.865, 0.865], color="#D3DCD6", lw=1))
-    y = 0.80
-    for head, body in blocks:
-        if head:
-            fig.text(0.06, y, head, fontsize=10, color=PRIMARY, weight="bold", va="top")
-            y -= 0.045
-        for line in body:
-            fig.text(0.06, y, line, fontsize=11.5, color=INK, va="top")
-            y -= 0.042
-        y -= 0.025
-    fig.text(0.06, 0.055, foot, fontsize=8.5, color=MUTED, va="top")
+    fig.text(L, 0.945, kicker.upper(), fontsize=8, color=ACCENT, weight="bold", va="top")
+    fig.text(L, 0.895, title, fontsize=23, color=INK, weight="bold", va="top")
+    rule(fig, 0.845)
+    rule(fig, 0.075)
+    fig.text(L, 0.052, "Marco Izzo  ·  climate-risk-toolkit  ·  module 01", fontsize=8,
+             color=MUTED, va="top")
+    fig.text(R, 0.052, "%d of 4" % page, fontsize=8, color=MUTED, va="top", ha="right")
+
+
+def body(fig, y, lines, size=11.5, color=INK, lead=0.040, x=L, weight="normal"):
+    for line in lines:
+        fig.text(x, y, line, fontsize=size, color=color, va="top", weight=weight)
+        y -= lead
+    return y
+
+
+def head(fig, y, text, x=L):
+    fig.text(x, y, text, fontsize=9.5, color=ACCENT, weight="bold", va="top")
+    return y - 0.045
+
+
+def page1(pdf, facts, top_level, top_change, swaps):
+    fig = plt.figure(figsize=(11.69, 8.27))
+    chrome(fig, "Module 01  ·  heat-stress gradient, euro area",
+           "Where it is hot and where it is heating are two different lists", 1)
+    y = body(fig, 0.775, [
+        "Between now and mid-century, which euro-area countries",
+        "see heat stress grow fastest, and is that ranking the same",
+        "as the ranking by level of heat stress today?",
+    ], size=13.5, lead=0.046)
+
+    y = head(fig, y - 0.030, "Why the distinction changes the answer")
+    y = body(fig, y, [
+        "A book concentrated where the level is already high holds a",
+        "hazard that should be priced today. One concentrated where the",
+        "change is largest holds a hazard that arrives inside the maturity",
+        "of loans written now. If the two orderings agree, today's exposure",
+        "map still serves. If they do not, it stops serving.",
+    ], lead=0.038)
+
+    y = head(fig, y - 0.030, "Finding")
+    for label, seq in (("By level", top_level), ("By change", top_change)):
+        fig.text(L, y, label, fontsize=12, color=MUTED, va="top")
+        fig.text(L + 0.11, y, "  ".join(seq), fontsize=15, color=INK, weight="bold", va="top")
+        y -= 0.055
+    body(fig, y - 0.010, [
+        ("The orderings differ: %s and %s trade places (page 3)." % swaps) if swaps
+        else "The orderings agree in the top three (page 3).",
+        "The gap is small in days; the point is that it is not zero.",
+    ], lead=0.038)
+
+    # right-hand column: enough of the setup to read this page on its own
+    x = 0.60
+    yy = head(fig, 0.795, "At a glance", x=x)
+    rule(fig, yy + 0.020, x0=x, x1=R)
+    for k, v in facts:
+        fig.text(x, yy, k, fontsize=10, color=MUTED, va="top")
+        fig.text(x + 0.13, yy, v, fontsize=11, color=INK, va="top")
+        yy -= 0.052
+        rule(fig, yy + 0.020, x0=x, x1=R)
+    pdf.savefig(fig); plt.close(fig)
+
+
+def page2(pdf, n, isos):
+    fig = plt.figure(figsize=(11.69, 8.27))
+    chrome(fig, "Method", "One indicator, two periods, one subtraction", 2)
+    rows = [
+        ("Source", ["World Bank Climate Change Knowledge Portal API. Public, no key, no registration,",
+                    "queried live at run time."]),
+        ("Model", ["CMIP6 ensemble median, 0.25° climatology, aggregated to country."]),
+        ("Indicator", ["hd35 — days per year with a maximum heat index at or above 35 °C."]),
+        ("Baseline", ["1995–2014, historical."]),
+        ("Projection", ["2040–2059, under SSP2-4.5 and SSP3-7.0."]),
+        ("Change", ["projection minus baseline, per country, in days per year."]),
+        ("Coverage", ["%d countries: %s." % (n, " ".join(isos))]),
+        ("Requests", ["one call per collection for the whole country list, not one per country."]),
+    ]
+    y = 0.775
+    rule(fig, y + 0.022)
+    for k, lines in rows:
+        fig.text(L, y, k, fontsize=10.5, color=ACCENT, weight="bold", va="top")
+        yy = body(fig, y, lines, size=11.5, lead=0.034, x=L + 0.13)
+        y = min(y - 0.050, yy - 0.016)
+        rule(fig, y + 0.022)
+
+    y = head(fig, y - 0.022, "What the code is defended against")
+    body(fig, y, [
+        "The API keys each value by a period string, and that key is not the same across",
+        "collections. Reading by key returned empty baselines, which silently made every change",
+        "equal to the projection: plausible numbers, wrong ones. tests/test_hazard.py now pins",
+        "that the value is read from the payload rather than from its key, and that change is",
+        "projection minus baseline and not the reverse.",
+    ], lead=0.036)
+    pdf.savefig(fig); plt.close(fig)
+
+
+def panel(fig, box, data, key, title, unit, highlight, fmt):
+    ax = fig.add_axes(box)
+    names = [r["iso3"] for r in data][::-1]
+    vals = [r[key] for r in data][::-1]
+    ax.barh(names, vals, color=[ACCENT if n in highlight else BAR for n in names], height=0.62)
+    span = max(vals) or 1.0
+    for i, (n, v) in enumerate(zip(names, vals)):
+        ax.text(v + span * 0.02, i, fmt % v, va="center", fontsize=9.5,
+                color=ACCENT if n in highlight else MUTED)
+    ax.set_xlim(0, span * 1.18)
+    ax.set_xticks([])
+    ax.tick_params(axis="y", length=0, labelsize=10.5, colors=INK)
+    for s in ax.spines.values():
+        s.set_visible(False)
+    x0, y1 = box[0], box[1] + box[3]
+    fig.text(x0 - 0.005, y1 + 0.055, title, fontsize=12.5, color=INK, weight="bold", va="top")
+    fig.text(x0 - 0.005, y1 + 0.022, unit, fontsize=9.5, color=MUTED, va="top")
+
+
+def page3(pdf, by_level, by_change, swaps, detail):
+    fig = plt.figure(figsize=(11.69, 8.27))
+    chrome(fig, "Result", ("%s and %s trade places between level and change" % swaps) if swaps
+           else "The two rankings hold the same order", 3)
+    body(fig, 0.795, detail, size=12, lead=0.036)
+    hi = set(swaps)
+    panel(fig, [0.085, 0.225, 0.345, 0.430], by_level, "midcentury_days",
+          "By level, 2040–2059", "days per year at or above 35 °C", hi, "%.1f")
+    panel(fig, [0.585, 0.225, 0.345, 0.430], by_change, "change_days",
+          "By change from baseline", "additional days per year vs 1995–2014", hi, "+%.1f")
+    body(fig, 0.175, [
+        "The left panel is a photograph, the right panel is the direction of travel. A portfolio "
+        "ranked on either one alone",
+        "is answering a different question from the one it thinks it is answering.",
+    ], size=11, lead=0.030)
+    fig.text(L, 0.100, SOURCE, fontsize=8, color=MUTED, va="top")
+    pdf.savefig(fig); plt.close(fig)
+
+
+def page4(pdf):
+    fig = plt.figure(figsize=(11.69, 8.27))
+    chrome(fig, "Limits", "What this does not tell you", 4)
+    items = [
+        ("Country means hide the hazard.",
+         ["Heat stress is urban and local. A national mean over Spain",
+          "averages Seville with Bilbao. Countries are used because",
+          "exposure data is reported by country, not because the",
+          "hazard is national."]),
+        ("hd35 is one indicator.",
+         ["It says nothing about drought, flood, wildfire or wind,",
+          "which reach a balance sheet through different channels",
+          "and on different timescales."]),
+        ("Ensemble median only.",
+         ["No spread, therefore no view on the tail, which is the part",
+          "a supervisor asks about first. An interquartile range in",
+          "place of the median is the first thing I would add."]),
+        ("No exposures.",
+         ["This is the hazard layer alone: an input to a risk view,",
+          "not a risk view. Overlaying it is module 02, and doing that",
+          "honestly needs exposure data at a finer grain than country,",
+          "which is the real constraint and the reason 01 stops here."]),
+    ]
+    for i, (lead, lines) in enumerate(items):
+        x = L if i % 2 == 0 else 0.52
+        y = 0.775 if i < 2 else 0.470
+        rule(fig, y + 0.030, x0=x, x1=x + 0.38)
+        fig.text(x, y, lead, fontsize=12.5, color=INK, weight="bold", va="top")
+        body(fig, y - 0.050, lines, size=11, color=MUTED, lead=0.034, x=x)
+    fig.text(L, 0.170, "Everything above is a limit on the claim, not a caveat on the code. "
+                       "The numbers are what the model says; what they",
+             fontsize=11, color=INK, va="top")
+    fig.text(L, 0.142, "cannot carry is a view on any single asset, any single city, or the tail.",
+             fontsize=11, color=INK, va="top")
+    fig.text(L, 0.100, SOURCE, fontsize=8, color=MUTED, va="top")
     pdf.savefig(fig); plt.close(fig)
 
 
@@ -36,90 +209,41 @@ def main():
     hot = [r for r in rows if r["scenario"] == "ssp370"]
     by_level = sorted(hot, key=lambda r: -r["midcentury_days"])
     by_change = sorted(hot, key=lambda r: -r["change_days"])
+    lvl = [r["iso3"] for r in by_level]
+    chg = [r["iso3"] for r in by_change]
+
+    # countries whose rank moves between the two orderings, taken from the data
+    moved = [iso for iso in lvl[:5] if lvl.index(iso) != chg.index(iso)]
+    swaps = tuple(moved[:2])
+    if len(swaps) == 2:
+        a, b = (next(r for r in hot if r["iso3"] == i) for i in swaps)
+        detail = [
+            "%s ranks %s by level (%.1f days per year) but %s by change (+%.1f days)."
+            % (swaps[0], ordinal(lvl.index(swaps[0]) + 1), a["midcentury_days"],
+               ordinal(chg.index(swaps[0]) + 1), a["change_days"]),
+            "%s is the reverse: %s by level (%.1f days), %s by change (+%.1f days)."
+            % (swaps[1], ordinal(lvl.index(swaps[1]) + 1), b["midcentury_days"],
+               ordinal(chg.index(swaps[1]) + 1), b["change_days"]),
+        ]
+    else:
+        swaps, detail = (), ["No country in the top five changes rank between the two orderings."]
+
+    facts = [("Indicator", "hd35, days ≥ 35 °C"),
+             ("Model", "CMIP6 ensemble median"),
+             ("Baseline", "1995–2014"),
+             ("Projection", "2040–2059"),
+             ("Scenarios", "SSP2-4.5, SSP3-7.0"),
+             ("Coverage", "%d countries" % len(hot)),
+             ("Source", "World Bank CCKP")]
+
     out = os.path.join(HERE, "deck.pdf")
-
     with PdfPages(out) as pdf:
-        page(pdf, "Where does heat stress grow fastest in the euro area?",
-             [("The question", [
-                 "Is the ranking of countries by the LEVEL of heat stress the same as the ranking",
-                 "by its CHANGE between now and mid-century?"]),
-              ("Why it matters", [
-                 "If the two agree, today's exposure map still works for tomorrow.",
-                 "If they disagree, a book concentrated where the level is already high is exposed now,",
-                 "and a book concentrated where the change is largest is exposed to repricing later.",
-                 "Those are two different conversations with two different time horizons."]),
-              ("Why I started here", [
-                 "Both my ECB years were transition risk: PACTA alignment over AnaCredit exposures,",
-                 "trajectories, Pillar 3 disclosure quality. Physical risk is the half I had read",
-                 "about and never built. This is the smallest honest piece of it."])],
-             "Marco Izzo  ·  climate-risk-toolkit  ·  module 01  ·  page 1 of 4")
-
-        page(pdf, "Method",
-             [("Data", [
-                 "World Bank Climate Change Knowledge Portal, CMIP6 ensemble median.",
-                 "Indicator hd35: days per year with a maximum heat index at or above 35 C.",
-                 "Public API, no key, no registration. Queried live at run time."]),
-              ("Comparison", [
-                 "Baseline   1995-2014, historical",
-                 "Projection 2040-2059, SSP2-4.5 and SSP3-7.0",
-                 "Change     projection minus baseline, per country"]),
-              ("Scope", [
-                 "Eleven euro-area countries plus Poland: ES PT GR IT FR PL AT DE BE IE NL.",
-                 "One request per collection for the whole country list, not one per country."]),
-              ("Check", [
-                 "tests/test_hazard.py pins two things that would fail silently: that the value is",
-                 "read from the payload rather than from its period key, and that change is",
-                 "projection minus baseline and not the reverse."])],
-             "Method  ·  module 01  ·  page 2 of 4")
-
-        # results page, figure from the data
-        fig = plt.figure(figsize=(11.69, 8.27)); fig.patch.set_facecolor("white")
-        fig.text(0.06, 0.93, "Result: the two orderings are not the same",
-                 fontsize=21, color=INK, weight="bold", va="top")
-        fig.add_artist(plt.Line2D([0.06, 0.94], [0.885, 0.885], color="#D3DCD6", lw=1))
-        ax1 = fig.add_axes([0.08, 0.20, 0.38, 0.60])
-        ax2 = fig.add_axes([0.56, 0.20, 0.38, 0.60])
-        for ax, data, key, lab, col in (
-                (ax1, by_level[::-1], "midcentury_days", "days per year at or above 35 C, 2040-2059", PRIMARY),
-                (ax2, by_change[::-1], "change_days", "change in days from the 1995-2014 baseline", ACCENT)):
-            names = [r["iso3"] for r in data]
-            vals = [r[key] for r in data]
-            ax.barh(names, vals, color=col, height=0.68)
-            ax.set_xlabel(lab, fontsize=9, color=MUTED)
-            ax.tick_params(labelsize=9, colors=INK)
-            for s in ("top", "right"): ax.spines[s].set_visible(False)
-            for s in ("left", "bottom"): ax.spines[s].set_color("#D3DCD6")
-        ax1.set_title("by level", fontsize=12, color=INK, weight="bold", loc="left")
-        ax2.set_title("by change", fontsize=12, color=INK, weight="bold", loc="left")
-        swap = [r["iso3"] for r in by_level[:3]] != [r["iso3"] for r in by_change[:3]]
-        fig.text(0.06, 0.135,
-                 ("Greece and Portugal swap between the two rankings: Portugal is second by level and third by change."
-                  if swap else "The two rankings agree in the top three."),
-                 fontsize=11.5, color=INK, va="top")
-        fig.text(0.06, 0.095,
-                 "The effect is small in absolute days and I have not inflated it. What it establishes is that level and",
-                 fontsize=11.5, color=INK, va="top")
-        fig.text(0.06, 0.062,
-                 "gradient are separate variables, which is the assumption module 02 needs before overlaying exposures.",
-                 fontsize=11.5, color=INK, va="top")
-        fig.text(0.06, 0.022, "Result  ·  figure generated from results/heat_gradient.json  ·  page 3 of 4",
-                 fontsize=8.5, color=MUTED, va="top")
-        pdf.savefig(fig); plt.close(fig)
-
-        page(pdf, "Limits, and what comes next",
-             [("What this does not tell you", [
-                 "Country means hide what matters. Heat stress is urban and local; a national average",
-                 "over Spain averages Seville with Bilbao. Countries are used because exposure data is",
-                 "reported by country, not because the hazard is national.",
-                 "hd35 is one indicator. It says nothing about drought, flood or wind.",
-                 "Ensemble median only: no spread, so no view on the tail, which is what a supervisor asks about.",
-                 "No exposures. This is the hazard layer alone."]),
-              ("Next", [
-                 "Module 02 overlays this on exposures. Doing it honestly needs exposure data at a finer",
-                 "grain than country, which is the real constraint and the reason 01 stops here.",
-                 "The first thing I would add to 01 is the ensemble spread, reported as an interquartile",
-                 "range rather than a median."])],
-             "Limits  ·  module 01  ·  page 4 of 4")
+        pdf.infodict().update({"Title": "Heat-stress gradient across euro-area countries",
+                               "Author": "Marco Izzo", "Subject": "climate-risk-toolkit module 01"})
+        page1(pdf, facts, lvl[:3], chg[:3], swaps)
+        page2(pdf, len(hot), lvl)
+        page3(pdf, by_level, by_change, swaps, detail)
+        page4(pdf)
     print("wrote", out, os.path.getsize(out), "bytes")
     return 0
 
