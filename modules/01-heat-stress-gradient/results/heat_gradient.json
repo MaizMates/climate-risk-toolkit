@@ -1,0 +1,156 @@
+[
+ {
+  "iso3": "ITA",
+  "scenario": "ssp245",
+  "baseline_days": 0.42,
+  "midcentury_days": 3.61,
+  "change_days": 3.19
+ },
+ {
+  "iso3": "ESP",
+  "scenario": "ssp245",
+  "baseline_days": 6.87,
+  "midcentury_days": 18.45,
+  "change_days": 11.58
+ },
+ {
+  "iso3": "FRA",
+  "scenario": "ssp245",
+  "baseline_days": 0.43,
+  "midcentury_days": 1.79,
+  "change_days": 1.36
+ },
+ {
+  "iso3": "DEU",
+  "scenario": "ssp245",
+  "baseline_days": 0.09,
+  "midcentury_days": 0.62,
+  "change_days": 0.53
+ },
+ {
+  "iso3": "NLD",
+  "scenario": "ssp245",
+  "baseline_days": 0.0,
+  "midcentury_days": 0.13,
+  "change_days": 0.13
+ },
+ {
+  "iso3": "PRT",
+  "scenario": "ssp245",
+  "baseline_days": 5.13,
+  "midcentury_days": 11.9,
+  "change_days": 6.77
+ },
+ {
+  "iso3": "GRC",
+  "scenario": "ssp245",
+  "baseline_days": 2.11,
+  "midcentury_days": 9.38,
+  "change_days": 7.27
+ },
+ {
+  "iso3": "AUT",
+  "scenario": "ssp245",
+  "baseline_days": 0.08,
+  "midcentury_days": 0.66,
+  "change_days": 0.58
+ },
+ {
+  "iso3": "BEL",
+  "scenario": "ssp245",
+  "baseline_days": 0.0,
+  "midcentury_days": 0.17,
+  "change_days": 0.17
+ },
+ {
+  "iso3": "IRL",
+  "scenario": "ssp245",
+  "baseline_days": 0.0,
+  "midcentury_days": 0.0,
+  "change_days": 0.0
+ },
+ {
+  "iso3": "POL",
+  "scenario": "ssp245",
+  "baseline_days": 0.11,
+  "midcentury_days": 0.76,
+  "change_days": 0.65
+ },
+ {
+  "iso3": "ITA",
+  "scenario": "ssp370",
+  "baseline_days": 0.42,
+  "midcentury_days": 4.14,
+  "change_days": 3.72
+ },
+ {
+  "iso3": "ESP",
+  "scenario": "ssp370",
+  "baseline_days": 6.87,
+  "midcentury_days": 20.58,
+  "change_days": 13.71
+ },
+ {
+  "iso3": "FRA",
+  "scenario": "ssp370",
+  "baseline_days": 0.43,
+  "midcentury_days": 2.0,
+  "change_days": 1.57
+ },
+ {
+  "iso3": "DEU",
+  "scenario": "ssp370",
+  "baseline_days": 0.09,
+  "midcentury_days": 0.72,
+  "change_days": 0.63
+ },
+ {
+  "iso3": "NLD",
+  "scenario": "ssp370",
+  "baseline_days": 0.0,
+  "midcentury_days": 0.11,
+  "change_days": 0.11
+ },
+ {
+  "iso3": "PRT",
+  "scenario": "ssp370",
+  "baseline_days": 5.13,
+  "midcentury_days": 13.29,
+  "change_days": 8.16
+ },
+ {
+  "iso3": "GRC",
+  "scenario": "ssp370",
+  "baseline_days": 2.11,
+  "midcentury_days": 10.56,
+  "change_days": 8.45
+ },
+ {
+  "iso3": "AUT",
+  "scenario": "ssp370",
+  "baseline_days": 0.08,
+  "midcentury_days": 0.79,
+  "change_days": 0.71
+ },
+ {
+  "iso3": "BEL",
+  "scenario": "ssp370",
+  "baseline_days": 0.0,
+  "midcentury_days": 0.21,
+  "change_days": 0.21
+ },
+ {
+  "iso3": "IRL",
+  "scenario": "ssp370",
+  "baseline_days": 0.0,
+  "midcentury_days": 0.0,
+  "change_days": 0.0
+ },
+ {
+  "iso3": "POL",
+  "scenario": "ssp370",
+  "baseline_days": 0.11,
+  "midcentury_days": 0.83,
+  "change_days": 0.72
+ }
+]

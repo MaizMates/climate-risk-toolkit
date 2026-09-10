@@ -3,6 +3,10 @@
 One module per question. The order is not arbitrary: it follows the gaps that actually block
 me, largest first.
 
+**Built:** [`01-heat-stress-gradient`](01-heat-stress-gradient/) — where heat stress grows
+fastest across the euro area, and whether that ordering matches the ordering by level. It does
+not, which is what module 02 needs before overlaying exposures.
+
 1. **Physical risk and geospatial hazard mapping** — the gap I named myself. All my ECB work is
    transition risk, and every bank running a climate ICAAP asks for the physical half.
 2. **Investor rather than supervisor view** — financial materiality, transition plans as an

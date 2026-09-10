@@ -1,0 +1,16 @@
+SSP3-7.0, 2040-2059, days per year at or above 35 C heat index
+
+      by level                  by change                 
+1     ESP    20.58 days   ESP   +13.71 days
+2     PRT    13.29 days   GRC    +8.45 days
+3     GRC    10.56 days   PRT    +8.16 days
+4     ITA     4.14 days   ITA    +3.72 days
+5     FRA     2.00 days   FRA    +1.57 days
+6     POL     0.83 days   POL    +0.72 days
+7     AUT     0.79 days   AUT    +0.71 days
+8     DEU     0.72 days   DEU    +0.63 days
+9     BEL     0.21 days   BEL    +0.21 days
+10    NLD     0.11 days   NLD    +0.11 days
+11    IRL     0.00 days   IRL    +0.00 days
+
+Top three identical under both orderings: False
