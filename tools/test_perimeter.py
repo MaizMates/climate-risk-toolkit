@@ -6,6 +6,9 @@ object. Every title in MUST_KEEP is a role I would actually apply to. Both lists
 with climate_practice=True, which is the hardest case, because that flag is exactly what used
 to wave the data roles through.
 
+The last two MUST_DROP entries are a different failure: the content was right and the roles
+still had to go, because the posting's own title says only internal staff may apply.
+
     python3 test_perimeter.py
 """
 import importlib.util
@@ -27,12 +30,17 @@ MUST_DROP = [
     "Data Modelling Consultant (Insurance)",      # Capco
     "Quantitative Support Engineer",              # LSEG
     "AI Data Engineer",                           # LSEG
+
+    # Right content, wrong door: the title itself says Marco is not eligible (tier_ok).
+    "Climate and Energy Analyst [Open to Tier 1 applicants]",      # UNDP Rome, job 36578
+    "Programme Analyst- Climate and Sustainable Energy Finance "
+    "[Open to Tier 0, 1 & 2 applicants]",                          # UNDP Bonn, job 36699
 ]
 
 MUST_KEEP = [
     "Climate Data Specialist",                                    # MSCI Sofia
-    "Climate and Energy Analyst [Open to Tier 1 applicants]",     # UNDP Rome
-    "Programme Analyst- Climate and Sustainable Energy Finance",  # UNDP Bonn
+    "Climate Analyst [Open to internal and external applicants]",  # tier tag that admits
+    "Junior GIS Analyst",                                         # Aon Prague, req 101561
     "Hydrological Modelling and GIS Analyst",                     # Aon Prague
     "Statistical Modeler in Wildfire Team",                       # Aon Prague
     "Carbon Markets Analyst",                                     # UNDP

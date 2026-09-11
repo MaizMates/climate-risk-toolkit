@@ -274,6 +274,27 @@ ADAPTERS = {"ashby": a_ashby, "greenhouse": a_greenhouse, "lever": a_lever, "phe
 
 
 # --- filter + diff ---------------------------------------------------------
+RE_TIER = re.compile(r"\[\s*open to ([^\]]*)\]", re.I)
+
+
+def tier_ok(title):
+    """False when the posting's own title says Marco cannot apply.
+
+    UN agencies put the eligibility tier in the title. The body defines the scale:
+    "Tier 3 or no tier indicated: All other contract types from UNDP/UNCDF/UNV and other
+    agencies, and other external candidates." Marco is an external candidate, so Tier 3.
+    On 10/09 two UNDP roles reached the top of the dashboard on content alone; both were
+    Tier 1 and 2 only. Content says whether the job is right, this says whether he can apply.
+    """
+    m = RE_TIER.search(title)
+    if not m:
+        return True
+    scope = m.group(1).lower()
+    if "external" in scope:
+        return True
+    return "3" in scope
+
+
 def promote(job, climate_practice):
     """Return the list that promoted this title, or None.
 
@@ -282,6 +303,8 @@ def promote(job, climate_practice):
     Engineering Consultant and two LSEG data roles, all rejected as "data, not climate".
     C now only survives as a qualifier on a title that already matched A or B."""
     t = job["title"]
+    if not tier_ok(t):
+        return None
     if RE_A.search(t):
         return "AC" if climate_practice and RE_C.search(t) else "A"
     if RE_B.search(t):
