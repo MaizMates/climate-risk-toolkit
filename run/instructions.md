@@ -150,6 +150,13 @@ register line, but say how many postings the line covers.
    institution or a consultancy? Write the answer in `next` ("Dove porta"), including the part
    that argues against the role. Gate 6 now carries the weight gate 1 used to.
 
+**If the crawl yields nothing new, say so in one line and spend the run on coverage instead.**
+The 15/09 run promoted 63 titles, rejected all 63, and reported "the market didn't open anything
+new". That conclusion is not available to you: the ledger only contains boards that were already
+reachable. Zero new roles means **turn an `untried` or `red` ledger row green**, which is the
+`coverage` agent's whole job. A run that finds nothing and does not widen the map has not
+measured the market, it has measured its own ledger.
+
 **Target: 3-8 rows in total**, all through a door in `perimetro.md`. If a run finds two, it
 reports two. Padding the list is a failed run, not a full one.
 
@@ -222,7 +229,16 @@ Never generic career advice. If you have nothing evidence-backed to say, write f
 **A correction already given is never repeated** — it lives in the config and in the row's
 `caveat`, not here. Marco's words: "ho capito, basta."
 
-## 5. The GitHub project
+## 5. The GitHub project — NOT from this run
+
+**The sandbox cannot push to `MaizMates/climate-risk-toolkit`.** The 15/09 run tried and got
+*"not in this session's authorized repository set"*; it is not the token. **Do not attempt a
+push, a clone or a write test.** Building a module you cannot commit wastes the whole budget.
+
+Report the gap in one line in `Consigli` if a module is overdue, and nothing else. Modules are
+built from Marco's own machine, where the push works.
+
+## 5-bis. The GitHub project, for reference only
 
 Read `claude/daily-project-pipeline.md`. Then look for the credential, which may be filed under
 **either** `claude/github-token.md` **or** a flat `github-token.md` — the web uploader flattens a
@@ -277,7 +293,14 @@ that used it.
 
 ## 7. Close
 
-Update `state.md`: new, closed, ineligible, recall outcome, the ledger rows moved, the verdict
+**Write the state INTO `claude/job-monitor-state.md`. Never create a new dated file.** The 15/09
+run wrote `job-monitor-state-2026-09-15.md` as a separate project doc "rather than risk a lossy
+retranscription". That is how the project ended up with four config files and three copies of the
+verdicts, which took an hour to undo on 15/09. If the file is too large to rewrite safely,
+**replace its oldest section instead of adding a document**: the log is allowed to forget, the
+project is not allowed to grow a new file per run.
+
+Update `claude/job-monitor-state.md`: new, closed, ineligible, recall outcome, the ledger rows moved, the verdict
 for every promoted title, the two agents dispatched and what each changed, the advice written,
 and the run's token cost against the previous run. Structural discoveries go to the playbook,
 new rules to the config.
