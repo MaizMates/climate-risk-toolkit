@@ -250,8 +250,21 @@ before claiming it; the PDF exists to make that reading fast.
 **Do not regenerate the HTML.** The page is a shell; the data lives in the artifact db.
 Write with `Artifact action:"write_db"`, `db_op:"batch"`:
 
-`feed/jobs`, `feed/actions`, `feed/outreach`, `feed/programs`, `feed/ideas`, `feed/advice`,
-`feed/projects`, `feed/meta` (run date, cadence, counts).
+`feed/jobs`, `feed/outreach`, `feed/programs`, `feed/ideas`, `feed/advice`, `feed/projects`,
+`feed/meta`.
+
+**The page reads these collections as of 15/09/2026, and did not before: every run until then
+wrote into collections nothing displayed.** One document per row, and the document must carry
+the same fields as the embedded rows in the page (`id`, `title`, `org`, `loc`, `url`, `deadline`,
+`fit`, `contract`, `cat`, `track`, `pay`, `years`, `langs`, `visa`, `req`, `duties`, `about`,
+`contacts`, `caveat`, `next`, `why`). A missing field renders blank, it does not fall back.
+
+`feed/meta` takes ONE document with `run` (e.g. "15 set 2026") and `seen` (e.g. "3.308"); it
+fills the date in the top bar.
+
+**An empty collection is ignored and the embedded data stays**, so a half-finished run cannot
+blank the page. That also means: never write a partial `feed/jobs`. Build the whole list, then
+write it in one batch.
 
 **The weekly targets are 2 applications, 3 contacts, 1 module read.** The page computes the tally
 and the streak from `apps/` and `feed/projects` by ISO week; the run never writes them.
