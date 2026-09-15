@@ -634,5 +634,42 @@
   "climate_practice": true,
   "status": "green",
   "note": "Verificato 10/09: /wday/cxs/morningstar/Sustainalytics/jobs risponde senza errorCode con total=0. L'endpoint e' vivo, la board e' vuota oggi."
+ },
+ {
+  "id": "aon",
+  "name": "Aon (Impact Forecasting)",
+  "ats": null,
+  "host": "jobs.aon.com",
+  "sector": "physical-risk",
+  "country": "multi",
+  "lang": "en",
+  "climate_practice": true,
+  "status": "untried",
+  "note": "Verificato 11/09: jobs.aon.com non e' uno dei nove adapter (non ashby/greenhouse/lever/phenom/smartrecruiters/workable/recruitee/workday/oracle), quindi nessun enumeratore scritto. Ogni pagina singola (https://jobs.aon.com/jobs/<id>?lang=en-us) porta un blocco <script type=\"application/ld+json\"> schema.org JobPosting con description/qualifications separati: e' li' che si legge il requisito reale, non nell'HTML visibile (client-rendered, vuoto). Nessuna API di listing trovata in /jobs?location=Prague. Due posizioni Impact Forecasting Praga verificate cosi' l'11/09: job 101561 (Junior GIS Analyst) e job 101151 (Hydrological Modelling and GIS Analyst), entrambe validThrough 2027. Job 101161 e 101143 (Catastrophe Analyst, Flood Hazard Modeller) trovati via ricerca ma la pagina risponde col fallback generico 'Aon Careers': requisizione chiusa o spostata."
+ },
+ {
+  "id": "ey",
+  "name": "EY (Ernst & Young), global careers",
+  "ats": "sf_rmk",
+  "host": "careers.ey.com",
+  "slug": "ey",
+  "query": "climate",
+  "sector": "consulting",
+  "country": "multi",
+  "lang": "en",
+  "climate_practice": true,
+  "status": "green"
+ },
+ {
+  "id": "abnamro",
+  "name": "ABN AMRO",
+  "ats": "rss",
+  "feed": "https://www.werkenbijabnamro.nl/en/feeds/rss",
+  "host": "werkenbijabnamro.nl",
+  "sector": "bank",
+  "country": "NL",
+  "lang": "en",
+  "climate_practice": true,
+  "status": "green"
  }
 ]

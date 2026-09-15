@@ -10,6 +10,7 @@ stdlib only. Usage:
 """
 import argparse, concurrent.futures as cf, gzip, hashlib, json, re, sys, urllib.error, urllib.request
 from pathlib import Path
+from urllib.parse import unquote
 
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/122 Safari/537.36"
 TIMEOUT = 30
@@ -80,11 +81,27 @@ def get(url, data=None, headers=None):
     if CTX is None:
         CTX = _ssl_ctx()
     req = urllib.request.Request(url, data=data, headers=h, method="POST" if data else "GET")
-    with urllib.request.urlopen(req, timeout=TIMEOUT, context=CTX) as r:
-        raw = r.read()
-        if r.headers.get("Content-Encoding") == "gzip":
-            raw = gzip.decompress(raw)
-        return raw.decode("utf-8", "replace")
+    try:
+        with urllib.request.urlopen(req, timeout=TIMEOUT, context=CTX) as r:
+            raw = r.read()
+            if r.headers.get("Content-Encoding") == "gzip":
+                raw = gzip.decompress(raw)
+            return raw.decode("utf-8", "replace")
+    except urllib.error.URLError as ex:
+        if "CERTIFICATE_VERIFY_FAILED" not in str(ex) or data:
+            raise
+        # careers.ey.com serves a chain that is missing its intermediate, so no CA bundle on
+        # its own can verify it; curl completes the chain through the AIA extension and every
+        # browser does the same. Verification stays ON, it is just done by a client that can
+        # fetch the missing certificate. Measured 15/09/2026: openssl sees 2 certs, not 3.
+        import subprocess
+        cmd = ["curl", "-sS", "--compressed", "-L", "--max-time", str(TIMEOUT)]
+        for k, v in h.items():
+            cmd += ["-H", f"{k}: {v}"]
+        out = subprocess.run(cmd + [url], capture_output=True)
+        if out.returncode != 0:
+            raise
+        return out.stdout.decode("utf-8", "replace")
 
 
 def jget(url, data=None, headers=None):
@@ -268,9 +285,53 @@ def a_oracle(e):
     return out
 
 
+def a_sf_rmk(e):
+    """SAP SuccessFactors Recruiting Marketing (careers.ey.com and its family).
+
+    No JSON anywhere: the search page is server-rendered and paginates with `startrow`,
+    25 unique requisitions per page, and every row is duplicated in the markup because the
+    title and the location are separate links to the same href. Proven on careers.ey.com on
+    15/09/2026: startrow 0, 25 and 50 each returned 25 distinct ids."""
+    host, out, seen, row = e["host"], [], set(), 0
+    q = e.get("query", "")
+    while row < 2000:
+        h = get(f"https://{host}/{e['slug']}/search/?q={q}&startrow={row}")
+        pairs = re.findall(r'href="(/%s/job/([^"/]+)/(\d+)/)"' % re.escape(e["slug"]), h)
+        fresh = 0
+        for href, slug, jid in pairs:
+            if jid in seen:
+                continue
+            seen.add(jid)
+            fresh += 1
+            title = unquote(slug).replace("-", " ")
+            out.append(norm(e, jid, title, "", f"https://{host}{href}"))
+        if fresh == 0:
+            break
+        row += 25
+    return out
+
+
+def a_rss(e):
+    """A plain RSS job feed. ABN AMRO's board is a custom Symfony app that renders nothing
+    server-side, so there is no listing to scrape; its route table publishes /feeds/rss, which
+    returns every open vacancy with its description. Found on 15/09/2026 by reading the route
+    table at /en/js/routing, not by guessing the path."""
+    x = get(e["feed"])
+    out = []
+    for it in re.findall(r"<item>(.*?)</item>", x, re.S):
+        def field(tag):
+            m = re.search(r"<%s>\s*(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?\s*</%s>" % (tag, tag), it, re.S)
+            return (m.group(1) or "").strip() if m else ""
+        link = field("link")
+        jid = (re.search(r"/vacancy/(\d+)/", link) or [None, link])[1]
+        out.append(norm(e, jid, field("title"), field("category"), link, field("pubDate")[:16]))
+    return out
+
+
 ADAPTERS = {"ashby": a_ashby, "greenhouse": a_greenhouse, "lever": a_lever, "phenom": a_phenom,
             "smartrecruiters": a_smartrecruiters, "workable": a_workable,
-            "recruitee": a_recruitee, "workday": a_workday, "oracle": a_oracle}
+            "recruitee": a_recruitee, "workday": a_workday, "oracle": a_oracle,
+            "sf_rmk": a_sf_rmk, "rss": a_rss}
 
 
 # --- filter + diff ---------------------------------------------------------
