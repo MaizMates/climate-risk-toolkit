@@ -74,6 +74,12 @@ Files that no longer exist, and must not be looked for: the v6 and v7 config add
 verdicts file. Their content is either merged into the two files above or lives in the repo
 `MaizMates/climate-risk-toolkit`.
 
+**Seniority, once more, because it has now cost a role twice.** "Senior" in a title is NOT a
+reject when the body states a years range Marco meets. On 15/09 I rejected EY Dublin on its title
+alone; its body says *"Track record of success from 2-4 years of relevant experience"* and it asks
+for exactly his background. Read the body before you reject on a title. The rule was already
+written down and applied anyway.
+
 Read **`perimetro.md` first, before anything else.** It is the authority on what may enter the
 list, it supersedes gate 1 as written in older config files, and it is short. Three doors:
 climate risk; climate data or climate science; ESG **and** AI together. Plus one resaleability
@@ -317,6 +323,20 @@ The main README states in one line that Marco uses AI assistants as a tool. He r
 before claiming it; the PDF exists to make that reading fast.
 
 ## 6. Writing the dashboard
+
+**Writing the feed IS the run. A run that finds roles and does not write them has failed.**
+On 17/09 a run found two EY roles, wrote the verdicts into the state file, and told Marco it
+had "not touched the live dashboard this run, didn't want to risk a production write without
+re-checking the page's constraints first". He only learned about the roles from the notification.
+That is the worst possible outcome: the work was done and thrown away.
+
+There is nothing to be careful about. The feed collections are not the dashboard's code and not
+Marco's tracker. Writing `feed/v1/jobs` cannot break the page: it has a baked-in fallback, an
+empty collection is ignored, and `apps/` — the only irreplaceable data — is never touched by you.
+**Write the feed every run, before you write the state file**, so that if the budget runs out the
+roles are already in front of him.
+
+
 
 **Do not regenerate the HTML.** The page is a shell; the data lives in the artifact db.
 Write with `Artifact action:"write_db"`, `db_op:"batch"`:
