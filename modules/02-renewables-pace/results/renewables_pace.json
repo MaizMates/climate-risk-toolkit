@@ -1,0 +1,276 @@
+{
+ "yardstick_2030": 42.5,
+ "n_countries": 27,
+ "rows": [
+  {
+   "latest_year": 2025,
+   "latest": 16.3,
+   "pace_pp_per_year": -0.20899999999999963,
+   "projected_2030": 15.255000000000003,
+   "geo": "SK",
+   "gap_to_yardstick": -27.244999999999997,
+   "required_pp_per_year": 5.24,
+   "shortfall_in_pace": 5.449
+  },
+  {
+   "latest_year": 2025,
+   "latest": 14.9,
+   "pace_pp_per_year": 0.38000000000000006,
+   "projected_2030": 16.8,
+   "geo": "BE",
+   "gap_to_yardstick": -25.7,
+   "required_pp_per_year": 5.5200000000000005,
+   "shortfall_in_pace": 5.140000000000001
+  },
+  {
+   "latest_year": 2025,
+   "latest": 17.2,
+   "pace_pp_per_year": 0.20799999999999982,
+   "projected_2030": 18.24,
+   "geo": "IE",
+   "gap_to_yardstick": -24.26,
+   "required_pp_per_year": 5.0600000000000005,
+   "shortfall_in_pace": 4.852
+  },
+  {
+   "latest_year": 2025,
+   "latest": 20.5,
+   "pace_pp_per_year": 0.02819999999999965,
+   "projected_2030": 20.641,
+   "geo": "IT",
+   "gap_to_yardstick": -21.859,
+   "required_pp_per_year": 4.4,
+   "shortfall_in_pace": 4.3718
+  },
+  {
+   "latest_year": 2025,
+   "latest": 19.1,
+   "pace_pp_per_year": 0.3594000000000001,
+   "projected_2030": 20.897000000000002,
+   "geo": "CZ",
+   "gap_to_yardstick": -21.602999999999998,
+   "required_pp_per_year": 4.68,
+   "shortfall_in_pace": 4.3206
+  },
+  {
+   "latest_year": 2025,
+   "latest": 18.7,
+   "pace_pp_per_year": 0.5195999999999998,
+   "projected_2030": 21.298,
+   "geo": "PL",
+   "gap_to_yardstick": -21.202,
+   "required_pp_per_year": 4.76,
+   "shortfall_in_pace": 4.2404
+  },
+  {
+   "latest_year": 2025,
+   "latest": 22.7,
+   "pace_pp_per_year": -0.12379999999999995,
+   "projected_2030": 22.081,
+   "geo": "BG",
+   "gap_to_yardstick": -20.419,
+   "required_pp_per_year": 3.96,
+   "shortfall_in_pace": 4.0838
+  },
+  {
+   "latest_year": 2025,
+   "latest": 19.6,
+   "pace_pp_per_year": 1.1500000000000004,
+   "projected_2030": 25.35,
+   "geo": "HU",
+   "gap_to_yardstick": -17.15,
+   "required_pp_per_year": 4.58,
+   "shortfall_in_pace": 3.4299999999999997
+  },
+  {
+   "latest_year": 2025,
+   "latest": 25.4,
+   "pace_pp_per_year": 0.07999999999999971,
+   "projected_2030": 25.799999999999997,
+   "geo": "SI",
+   "gap_to_yardstick": -16.700000000000003,
+   "required_pp_per_year": 3.4200000000000004,
+   "shortfall_in_pace": 3.3400000000000007
+  },
+  {
+   "latest_year": 2025,
+   "latest": 28.5,
+   "pace_pp_per_year": -0.5045999999999999,
+   "projected_2030": 25.977,
+   "geo": "HR",
+   "gap_to_yardstick": -16.523,
+   "required_pp_per_year": 2.8,
+   "shortfall_in_pace": 3.3045999999999998
+  },
+  {
+   "latest_year": 2025,
+   "latest": 21.5,
+   "pace_pp_per_year": 0.9241999999999997,
+   "projected_2030": 26.121,
+   "geo": "CY",
+   "gap_to_yardstick": -16.379,
+   "required_pp_per_year": 4.2,
+   "shortfall_in_pace": 3.2758000000000003
+  },
+  {
+   "latest_year": 2025,
+   "latest": 25.6,
+   "pace_pp_per_year": 0.2244,
+   "projected_2030": 26.722,
+   "geo": "RO",
+   "gap_to_yardstick": -15.777999999999999,
+   "required_pp_per_year": 3.38,
+   "shortfall_in_pace": 3.1555999999999997
+  },
+  {
+   "latest_year": 2025,
+   "latest": 18.8,
+   "pace_pp_per_year": 1.6172,
+   "projected_2030": 26.886000000000003,
+   "geo": "MT",
+   "gap_to_yardstick": -15.613999999999997,
+   "required_pp_per_year": 4.74,
+   "shortfall_in_pace": 3.1228000000000002
+  },
+  {
+   "latest_year": 2025,
+   "latest": 23.9,
+   "pace_pp_per_year": 0.9581999999999994,
+   "projected_2030": 28.690999999999995,
+   "geo": "FR",
+   "gap_to_yardstick": -13.809000000000005,
+   "required_pp_per_year": 3.72,
+   "shortfall_in_pace": 2.761800000000001
+  },
+  {
+   "latest_year": 2025,
+   "latest": 20.2,
+   "pace_pp_per_year": 1.7002,
+   "projected_2030": 28.701,
+   "geo": "LU",
+   "gap_to_yardstick": -13.799,
+   "required_pp_per_year": 4.46,
+   "shortfall_in_pace": 2.7598000000000003
+  },
+  {
+   "latest_year": 2025,
+   "latest": 23.9,
+   "pace_pp_per_year": 0.9619999999999997,
+   "projected_2030": 28.709999999999997,
+   "geo": "DE",
+   "gap_to_yardstick": -13.790000000000003,
+   "required_pp_per_year": 3.72,
+   "shortfall_in_pace": 2.7580000000000005
+  },
+  {
+   "latest_year": 2025,
+   "latest": 26.0,
+   "pace_pp_per_year": 0.9560000000000002,
+   "projected_2030": 30.78,
+   "geo": "ES",
+   "gap_to_yardstick": -11.719999999999999,
+   "required_pp_per_year": 3.3,
+   "shortfall_in_pace": 2.3439999999999994
+  },
+  {
+   "latest_year": 2025,
+   "latest": 22.7,
+   "pace_pp_per_year": 1.7401999999999997,
+   "projected_2030": 31.400999999999996,
+   "geo": "NL",
+   "gap_to_yardstick": -11.099000000000004,
+   "required_pp_per_year": 3.96,
+   "shortfall_in_pace": 2.2198
+  },
+  {
+   "latest_year": 2025,
+   "latest": 26.9,
+   "pace_pp_per_year": 1.0302,
+   "projected_2030": 32.051,
+   "geo": "EL",
+   "gap_to_yardstick": -10.448999999999998,
+   "required_pp_per_year": 3.12,
+   "shortfall_in_pace": 2.0898000000000003
+  },
+  {
+   "latest_year": 2025,
+   "latest": 36.7,
+   "pace_pp_per_year": 0.5436000000000007,
+   "projected_2030": 39.418000000000006,
+   "geo": "PT",
+   "gap_to_yardstick": -3.0819999999999936,
+   "required_pp_per_year": 1.1599999999999995,
+   "shortfall_in_pace": 0.6163999999999987
+  },
+  {
+   "latest_year": 2025,
+   "latest": 38.5,
+   "pace_pp_per_year": 2.3454,
+   "projected_2030": 50.227000000000004,
+   "geo": "LT",
+   "gap_to_yardstick": 7.727000000000004,
+   "required_pp_per_year": 0.8,
+   "shortfall_in_pace": -1.5454
+  },
+  {
+   "latest_year": 2025,
+   "latest": 46.3,
+   "pace_pp_per_year": 0.8335999999999999,
+   "projected_2030": 50.467999999999996,
+   "geo": "LV",
+   "gap_to_yardstick": 7.967999999999996,
+   "required_pp_per_year": -0.7599999999999995,
+   "shortfall_in_pace": -1.5935999999999995
+  },
+  {
+   "latest_year": 2025,
+   "latest": 44.2,
+   "pace_pp_per_year": 1.5310000000000001,
+   "projected_2030": 51.855000000000004,
+   "geo": "AT",
+   "gap_to_yardstick": 9.355000000000004,
+   "required_pp_per_year": -0.3400000000000006,
+   "shortfall_in_pace": -1.8710000000000007
+  },
+  {
+   "latest_year": 2025,
+   "latest": 42.3,
+   "pace_pp_per_year": 2.4461999999999997,
+   "projected_2030": 54.53099999999999,
+   "geo": "EE",
+   "gap_to_yardstick": 12.030999999999992,
+   "required_pp_per_year": 0.04000000000000057,
+   "shortfall_in_pace": -2.4061999999999992
+  },
+  {
+   "latest_year": 2025,
+   "latest": 53.0,
+   "pace_pp_per_year": 1.8122,
+   "projected_2030": 62.061,
+   "geo": "FI",
+   "gap_to_yardstick": 19.561,
+   "required_pp_per_year": -2.1,
+   "shortfall_in_pace": -3.9122000000000003
+  },
+  {
+   "latest_year": 2025,
+   "latest": 48.2,
+   "pace_pp_per_year": 3.3038000000000003,
+   "projected_2030": 64.71900000000001,
+   "geo": "DK",
+   "gap_to_yardstick": 22.21900000000001,
+   "required_pp_per_year": -1.1400000000000006,
+   "shortfall_in_pace": -4.443800000000001
+  },
+  {
+   "latest_year": 2025,
+   "latest": 65.4,
+   "pace_pp_per_year": 1.0552000000000006,
+   "projected_2030": 70.67600000000002,
+   "geo": "SE",
+   "gap_to_yardstick": 28.176000000000016,
+   "required_pp_per_year": -4.580000000000001,
+   "shortfall_in_pace": -5.635200000000001
+  }
+ ]
+}
