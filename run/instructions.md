@@ -85,7 +85,7 @@ beats a long dirty one; Marco's words were that every data role makes the tool d
 
 Also read **`verdicts-marco-links.md`**. It holds the adjudication of every role Marco sent by
 hand, with the sentence from each posting that decides it. Any role marked AMMESSO that is not
-yet in `feed/jobs` must be added this run. It also records three filter defects those roles
+yet in `feed/v1/jobs` must be added this run. It also records three filter defects those roles
 exposed, which are now rules: **"Senior" in a title is not an automatic reject when the body
 states a years range**; **the language gate is a property of the posting, never of the employer
 or the country**; and **an aggregator is never a source, because it does not retract**.
@@ -106,7 +106,7 @@ tens of lines. **Never `cat` a job board's raw payload.** Marsh and ABB alone ar
 pulling those through context costs more than the rest of the run combined. That is the whole
 reason full enumeration is affordable: HTTP is free, context is not.
 
-**A written verdict is not the end of the job. A role marked AMMESSO must be IN `feed/jobs`
+**A written verdict is not the end of the job. A role marked AMMESSO must be IN `feed/v1/jobs`
 before the run closes, and `python3 tools/check_admitted.py` is the check that proves it.** On
 10/09 be-TSE Rome and Zero Carbon Shipping were both adjudicated with the deciding sentence and
 neither reached the page; Marco found them himself two days later. A verdict that stays in a
@@ -186,7 +186,7 @@ After the fabricated World Bank quotation, an unverified number costs more than 
 ## 4. "Da fare ora" — the only section Marco reads first
 
 Avvisi, Consigli, Progetti and Programmi used to be four separate sections. Marco skipped all
-three of the advisory ones, every time, and said so. They are now **one list**: `feed/actions`,
+three of the advisory ones, every time, and said so. They are now **one list**: `feed/v1/actions`,
 rendered as **"Da fare ora"**, **at most five entries**, each one an action he can take today.
 Five types only: `CANDIDATI` (apply to this role), `SCRIVI` (send this cold email), `PREPARA`
 (prepare for this interview), `LEGGI` (read this module before claiming it), `SCADE` (this
@@ -195,7 +195,7 @@ closes). The page interleaves the types round-robin so one type cannot fill the 
 ### Cold contacts: a reachable person, or nothing
 
 **An address deduced from a pattern is not an address.** On 12/09 the page showed
-`chris.jaques@db.com`, marked "deduced", and the mail bounced. From now on a `feed/outreach`
+`chris.jaques@db.com`, marked "deduced", and the mail bounced. From now on a `feed/v1/outreach`
 row reaches the page only if it has **one** of:
 
 - `email` **read verbatim on an official page**, with `emailConf: "v"` and `emailSrc` naming the page; or
@@ -215,7 +215,7 @@ CV and letter. The reference letter goes only when asked. These are in `ATTACH` 
 specific posting demands something else (a transcript, a portfolio, a writing sample), put that
 sentence in the row's `caveat`, quoted from the posting.
 
-`feed/advice` still exists and still feeds the advisory panel, but it is now **secondary**, and
+`feed/v1/advice` still exists and still feeds the advisory panel, but it is now **secondary**, and
 the rule that governs both is Marco's: *less information in general, but more useful*. Every
 section was unnecessarily long. A field that does not change what he does this week does not get
 written. Each entry is concrete and tied to evidence:
@@ -266,8 +266,12 @@ before claiming it; the PDF exists to make that reading fast.
 **Do not regenerate the HTML.** The page is a shell; the data lives in the artifact db.
 Write with `Artifact action:"write_db"`, `db_op:"batch"`:
 
-`feed/jobs`, `feed/outreach`, `feed/programs`, `feed/ideas`, `feed/advice`, `feed/projects`,
-`feed/meta`.
+`feed/v1/jobs`, `feed/v1/outreach`, `feed/v1/programs`, `feed/v1/ideas`, `feed/v1/advice`,
+`feed/v1/modules`, `feed/v1/meta`.
+
+**The `v1` segment is not decoration and must not be dropped.** A collection path needs an ODD
+number of segments; `feed/v1/jobs` has two and is rejected by the database. On 17/09 a run found two
+EY roles, wrote them to `feed/v1/jobs`, and nothing reached the page.
 
 **The page reads these collections as of 15/09/2026, and did not before: every run until then
 wrote into collections nothing displayed.** One document per row, and the document must carry
@@ -275,15 +279,15 @@ the same fields as the embedded rows in the page (`id`, `title`, `org`, `loc`, `
 `fit`, `contract`, `cat`, `track`, `pay`, `years`, `langs`, `visa`, `req`, `duties`, `about`,
 `contacts`, `caveat`, `next`, `why`). A missing field renders blank, it does not fall back.
 
-`feed/meta` takes ONE document with `run` (e.g. "15 set 2026") and `seen` (e.g. "3.308"); it
+`feed/v1/meta` takes ONE document with `run` (e.g. "15 set 2026") and `seen` (e.g. "3.308"); it
 fills the date in the top bar.
 
 **An empty collection is ignored and the embedded data stays**, so a half-finished run cannot
-blank the page. That also means: never write a partial `feed/jobs`. Build the whole list, then
+blank the page. That also means: never write a partial `feed/v1/jobs`. Build the whole list, then
 write it in one batch.
 
 **The weekly targets are 2 applications, 3 contacts, 1 module read.** The page computes the tally
-and the streak from `apps/` and `feed/projects` by ISO week; the run never writes them.
+and the streak from `apps/` and `feed/v1/modules` by ISO week; the run never writes them.
 
 Republish the HTML **only** when the interface itself changed, and then pass
 `capabilities: {"sample": {}, "downloads": true, "db": {}}` — without `db` the tracker stops
@@ -308,5 +312,5 @@ new rules to the config.
 **Never write "oggi", "stamattina" or "ieri" into a field that survives the run** — `why`,
 `caveat`, `about`, `visa`, `years`, `langs`. Write the date, and the date the verification
 actually happened, with the method and the datum: "riverificata il 9 settembre con la searchText
-sulla requisizione: total 1, externalPath …_752475WD". Relative words live only in `feed/ideas`,
+sulla requisizione: total 1, externalPath …_752475WD". Relative words live only in `feed/v1/ideas`,
 which is rewritten every run.
