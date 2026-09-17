@@ -254,16 +254,38 @@ Never generic career advice. If you have nothing evidence-backed to say, write f
 **A correction already given is never repeated** — it lives in the config and in the row's
 `caveat`, not here. Marco's words: "ho capito, basta."
 
-## 5. The portfolio module — one per run, twice a week
+## 5. The portfolio module — you do not choose it
 
-Marco asked for **a new module on every scheduled run**, Monday and Thursday, and wants it visible
-in the Project panel. Write the module's entry into `feed/v1/modules` every run, numbered from what
-already exists in `modules/` in the repository: `{id, t, q, d, data, pdf, url, kind}` where `q` is
-the question the module answers and `data` names the public source.
+**Fetch `modules/ROADMAP.md` and build the lowest-numbered module that does not yet exist under
+`modules/`. Do not choose, improvise or reorder.** The roadmap names the estimand, the data source
+and the method for each one in advance, precisely so that a run cannot wander off and produce
+something unrelated to the last one. Next in line is `03-hazard-exposure-join`.
 
-Commit it with the Contents API in §5-bis, then write the `feed/v1/modules` entry pointing at the
-files you actually created. The entry and the commit go together: a Project panel row whose files
-are not in the repository is worse than no row.
+```bash
+curl -sS https://raw.githubusercontent.com/MaizMates/climate-risk-toolkit/main/modules/ROADMAP.md
+curl -sS https://raw.githubusercontent.com/MaizMates/climate-risk-toolkit/main/modules/STANDARD.md
+```
+
+**`STANDARD.md` is not advice, it is the acceptance test.** A module that does not state its
+estimand, fetch every input by code, put an interval on its headline number, test itself out of
+sample, sweep the arbitrary choices and name the assumption that would break it **is not
+finished**. Half a module built to the standard beats a whole one built without it: if the budget
+runs out, commit what exists with an honest README saying which sections are missing, and the
+next run finishes it.
+
+**Two rules with a history behind them.**
+
+*Never type an input.* On 13/09 a run produced a module whose data file claimed to be an extract
+from the WRI Global Power Plant Database and contained five invented plants. Checked against the
+real database on 17/09: 34,492 plants, zero matches. The module was deleted. If the only way to
+get the data is to type it, the module does not get built — say so and stop.
+
+*Never report an estimate without its uncertainty.* Module 02's first version measured a trend as
+the difference between the first and last value and published a wrong figure for Italy. Fit the
+thing, report the standard error, and backtest the projection.
+
+Then write the `feed/v1/modules` entry pointing at the files you actually committed, and
+`SendUserFile` the PDF.
 
 ## 5-bis. How to commit — the API, never `git push`
 
