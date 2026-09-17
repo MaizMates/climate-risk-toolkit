@@ -183,14 +183,33 @@ An agent that returns advice instead of a change has failed, and you record it a
 subagent's output is a lead, not a source: verify anything it asserts before it reaches Marco.
 After the fabricated World Bank quotation, an unverified number costs more than a missing one.
 
-## 4. "Da fare ora" — the only section Marco reads first
+## 3-bis. The gate: the reasons he rejected things
 
-Avvisi, Consigli, Progetti and Programmi used to be four separate sections. Marco skipped all
-three of the advisory ones, every time, and said so. They are now **one list**: `feed/v1/actions`,
-rendered as **"Da fare ora"**, **at most five entries**, each one an action he can take today.
-Five types only: `CANDIDATI` (apply to this role), `SCRIVI` (send this cold email), `PREPARA`
-(prepare for this interview), `LEGGI` (read this module before claiming it), `SCADE` (this
-closes). The page interleaves the types round-robin so one type cannot fill the list.
+**Read the `gates` collection with `Artifact action:"read_db"` before you write a single row.**
+Every time Marco rejects an opportunity or a contact he writes why, and it is stored there as
+`{title, reason, kind, at}`. Those sentences are worth more than any rule in this file, because
+they are his and they are specific.
+
+Two duties:
+1. **Never re-list anything whose id is in `gates`.**
+2. **Generalise them.** If a reason says "too senior, the body says 5+ years", that is now a rule
+   for every employer, not just that one. If three reasons name the same defect, write it into
+   `perimetro.md` as a rule and say in `Consigli` that you did.
+
+A role he rejected coming back is the single most annoying failure this tool can produce.
+
+## 4. Sections of the page
+
+**The page is four panels, in English, as of 17/09/2026: Opportunities, Contacts, Applications,
+Project. There is no "Da fare ora" any more** — Marco removed it: he works when he has time and
+does not want a daily task list. Do not write `feed/v1/actions`; nothing reads it.
+
+- **Opportunities** — `feed/v1/jobs`. Each row carries its own buttons: tailored CV, motivational
+  letter, cover letter (two different documents, do not merge them), Done, Not for me.
+- **Contacts** — `feed/v1/outreach`. **A contact appears ONLY if it has both a verified address
+  and a finished subject and body.** A row missing either is not written at all.
+- **Applications** — the `apps` collection, which is Marco's. Never write to it.
+- **Project** — `feed/v1/modules`, one module per run.
 
 ### Cold contacts: a reachable person, or nothing
 
@@ -229,7 +248,19 @@ Never generic career advice. If you have nothing evidence-backed to say, write f
 **A correction already given is never repeated** — it lives in the config and in the row's
 `caveat`, not here. Marco's words: "ho capito, basta."
 
-## 5. The GitHub project — NOT from this run
+## 5. The portfolio module — one per run, twice a week
+
+Marco asked for **a new module on every scheduled run**, Monday and Thursday, and wants it visible
+in the Project panel. Write the module's entry into `feed/v1/modules` every run, numbered from what
+already exists in `modules/` in the repository: `{id, t, q, d, data, pdf, url, kind}` where `q` is
+the question the module answers and `data` names the public source.
+
+**But the push is blocked from this sandbox — see below.** So each run: build the analysis, write
+the `feed/v1/modules` entry pointing at the repository path it will occupy, and put the code in
+the run's own summary so it can be committed from Marco's machine. Never claim a module is pushed
+when it is not.
+
+## 5-bis. Why you cannot push
 
 **The sandbox cannot push to `MaizMates/climate-risk-toolkit`.** The 15/09 run tried and got
 *"not in this session's authorized repository set"*; it is not the token. **Do not attempt a
