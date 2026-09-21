@@ -74,6 +74,22 @@ Files that no longer exist, and must not be looked for: the v6 and v7 config add
 verdicts file. Their content is either merged into the two files above or lives in the repo
 `MaizMates/climate-risk-toolkit`.
 
+**Passability beats content. Read `apps` and `gates` BEFORE you promote anything.**
+
+Two rules added 21/09, both from Marco rejecting rows the numbers said were fine:
+
+1. **At a consultancy, the grade presumes the trade.** Marco has never worked in consulting, so
+   a Senior Consultant or Assistant Manager grade at a Big Four is a screening reject however
+   well the years line up. Only entry grades pass there: Analyst, Associate, Assistant,
+   Consultant with no qualifier, Graduate, Intern. Elsewhere — a bank, an authority, a data
+   vendor — "Senior" is still decided by the body.
+
+2. **Two or more rejections in the same role family close that family.** Aon rejected three
+   catastrophe-modelling and GIS applications between 17 and 20 September. That is an answer,
+   not bad luck. The family is defined by the trade the role asks for, not by the employer:
+   "catastrophe modelling and GIS" is a family, "Aon" is not. The rejections are in `apps` with
+   their dates. Read them.
+
 **Seniority, once more, because it has now cost a role twice.** "Senior" in a title is NOT a
 reject when the body states a years range Marco meets. On 15/09 I rejected EY Dublin on its title
 alone; its body says *"Track record of success from 2-4 years of relevant experience"* and it asks
