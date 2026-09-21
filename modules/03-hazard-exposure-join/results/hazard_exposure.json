@@ -1,0 +1,263 @@
+{
+ "estimand": "share of total thermal generating capacity, in MW, across the countries in module 01's hazard table, sitting in a country whose projected change in annual days >=35C heat index (baseline 1995-2014 to mid-century 2040-2059, SSP2-4.5) exceeds k days",
+ "thermal_definition_base": [
+  "Coal",
+  "Gas",
+  "Oil",
+  "Petcoke"
+ ],
+ "k_reference": 2,
+ "n_plants": 676,
+ "n_countries": 11,
+ "total_thermal_mw": 260625.725,
+ "by_country": [
+  {
+   "iso3": "DEU",
+   "thermal_mw": 75054.34999999999,
+   "share_of_total_thermal": 0.28797752025438006,
+   "change_days_ssp245": 0.53,
+   "exposed_at_k_reference": false
+  },
+  {
+   "iso3": "ITA",
+   "thermal_mw": 56411.35,
+   "share_of_total_thermal": 0.21644582475501986,
+   "change_days_ssp245": 3.19,
+   "exposed_at_k_reference": true
+  },
+  {
+   "iso3": "ESP",
+   "thermal_mw": 39609.12499999999,
+   "share_of_total_thermal": 0.1519770352677196,
+   "change_days_ssp245": 11.58,
+   "exposed_at_k_reference": true
+  },
+  {
+   "iso3": "POL",
+   "thermal_mw": 33418.0,
+   "share_of_total_thermal": 0.1282221852812112,
+   "change_days_ssp245": 0.65,
+   "exposed_at_k_reference": false
+  },
+  {
+   "iso3": "NLD",
+   "thermal_mw": 14327.0,
+   "share_of_total_thermal": 0.05497154971943004,
+   "change_days_ssp245": 0.13,
+   "exposed_at_k_reference": false
+  },
+  {
+   "iso3": "FRA",
+   "thermal_mw": 12970.0,
+   "share_of_total_thermal": 0.049764849574998785,
+   "change_days_ssp245": 1.36,
+   "exposed_at_k_reference": false
+  },
+  {
+   "iso3": "GRC",
+   "thermal_mw": 10701.0,
+   "share_of_total_thermal": 0.04105887858921064,
+   "change_days_ssp245": 7.27,
+   "exposed_at_k_reference": true
+  },
+  {
+   "iso3": "PRT",
+   "thermal_mw": 5807.0,
+   "share_of_total_thermal": 0.02228099317517486,
+   "change_days_ssp245": 6.77,
+   "exposed_at_k_reference": true
+  },
+  {
+   "iso3": "IRL",
+   "thermal_mw": 5753.1,
+   "share_of_total_thermal": 0.022074183198914844,
+   "change_days_ssp245": 0.0,
+   "exposed_at_k_reference": false
+  },
+  {
+   "iso3": "BEL",
+   "thermal_mw": 4507.800000000001,
+   "share_of_total_thermal": 0.017296066994154168,
+   "change_days_ssp245": 0.17,
+   "exposed_at_k_reference": false
+  },
+  {
+   "iso3": "AUT",
+   "thermal_mw": 2067.0,
+   "share_of_total_thermal": 0.007930913189785851,
+   "change_days_ssp245": 0.58,
+   "exposed_at_k_reference": false
+  }
+ ],
+ "exposure_by_k": [
+  {
+   "k": 0,
+   "exposed_share": 0.9779258168010851,
+   "ci_lo": 0.96452169489495,
+   "ci_hi": 0.9891051814606228,
+   "top10_share_of_exposed": 0.11939689482148189,
+   "n_countries_exposed": 10
+  },
+  {
+   "k": 1,
+   "exposed_share": 0.4815275813621236,
+   "ci_lo": 0.4168959142226939,
+   "ci_hi": 0.5483852315940835,
+   "top10_share_of_exposed": 0.16682433790530127,
+   "n_countries_exposed": 5
+  },
+  {
+   "k": 2,
+   "exposed_share": 0.4317627317871249,
+   "ci_lo": 0.3685290707233876,
+   "ci_hi": 0.495382223848211,
+   "top10_share_of_exposed": 0.1789253786652667,
+   "n_countries_exposed": 4
+  },
+  {
+   "k": 3,
+   "exposed_share": 0.4317627317871249,
+   "ci_lo": 0.3685290707233876,
+   "ci_hi": 0.495382223848211,
+   "top10_share_of_exposed": 0.1789253786652667,
+   "n_countries_exposed": 4
+  },
+  {
+   "k": 5,
+   "exposed_share": 0.21531690703210504,
+   "ci_lo": 0.1669617032808923,
+   "ci_hi": 0.2672754616265125,
+   "top10_share_of_exposed": 0.23915088308604557,
+   "n_countries_exposed": 3
+  },
+  {
+   "k": 8,
+   "exposed_share": 0.15197703526771958,
+   "ci_lo": 0.11312027491175611,
+   "ci_hi": 0.1969649166299226,
+   "top10_share_of_exposed": 0.30752964121272564,
+   "n_countries_exposed": 1
+  }
+ ],
+ "fuel_definition_sensitivity": [
+  {
+   "include_gas": true,
+   "include_biomass": false,
+   "n_plants": 676,
+   "total_mw": 260625.72500000006,
+   "exposed_share": 0.4317627317871249,
+   "ci_lo": 0.3685290707233876,
+   "ci_hi": 0.495382223848211
+  },
+  {
+   "include_gas": true,
+   "include_biomass": true,
+   "n_plants": 1016,
+   "total_mw": 266617.57900000026,
+   "exposed_share": 0.4258730029200358,
+   "ci_lo": 0.3636056779857046,
+   "ci_hi": 0.49198350280246744
+  },
+  {
+   "include_gas": false,
+   "include_biomass": false,
+   "n_plants": 297,
+   "total_mw": 136693.38100000002,
+   "exposed_share": 0.28358857405099946,
+   "ci_lo": 0.20378970214675013,
+   "ci_hi": 0.36961133717344324
+  },
+  {
+   "include_gas": false,
+   "include_biomass": true,
+   "n_plants": 637,
+   "total_mw": 142685.235,
+   "exposed_share": 0.2788055470490692,
+   "ci_lo": 0.20262117182681139,
+   "ci_hi": 0.3598876671486951
+  }
+ ],
+ "validation_eurostat": {
+  "source": "Eurostat nrg_inf_epc, combustible fuels (siec=CF), net max electrical capacity, operator=TOTAL",
+  "error": null,
+  "rows": [
+   {
+    "iso3": "AUT",
+    "wri_thermal_mw": 2067.0,
+    "eurostat_combustible_mw": 5577.794,
+    "eurostat_year": "2024",
+    "ratio_wri_over_eurostat": 0.3705766114704129
+   },
+   {
+    "iso3": "BEL",
+    "wri_thermal_mw": 4507.800000000001,
+    "eurostat_combustible_mw": 7797.0,
+    "eurostat_year": "2024",
+    "ratio_wri_over_eurostat": 0.5781454405540594
+   },
+   {
+    "iso3": "DEU",
+    "wri_thermal_mw": 75054.34999999999,
+    "eurostat_combustible_mw": 90178.0,
+    "eurostat_year": "2024",
+    "ratio_wri_over_eurostat": 0.8322911353101643
+   },
+   {
+    "iso3": "ESP",
+    "wri_thermal_mw": 39609.12499999999,
+    "eurostat_combustible_mw": 38324.849,
+    "eurostat_year": "2024",
+    "ratio_wri_over_eurostat": 1.0335102690163238
+   },
+   {
+    "iso3": "FRA",
+    "wri_thermal_mw": 12970.0,
+    "eurostat_combustible_mw": 20411.218,
+    "eurostat_year": "2024",
+    "ratio_wri_over_eurostat": 0.6354348868352687
+   },
+   {
+    "iso3": "GRC",
+    "wri_thermal_mw": 10701.0,
+    "eurostat_combustible_mw": 11041.223,
+    "eurostat_year": "2024",
+    "ratio_wri_over_eurostat": 0.9691861128065251
+   },
+   {
+    "iso3": "IRL",
+    "wri_thermal_mw": 5753.1,
+    "eurostat_combustible_mw": 5319.747,
+    "eurostat_year": "2024",
+    "ratio_wri_over_eurostat": 1.081461204827974
+   },
+   {
+    "iso3": "ITA",
+    "wri_thermal_mw": 56411.35,
+    "eurostat_combustible_mw": 60037.422,
+    "eurostat_year": "2024",
+    "ratio_wri_over_eurostat": 0.9396031361906245
+   },
+   {
+    "iso3": "NLD",
+    "wri_thermal_mw": 14327.0,
+    "eurostat_combustible_mw": 24403.34,
+    "eurostat_year": "2024",
+    "ratio_wri_over_eurostat": 0.5870917669466557
+   },
+   {
+    "iso3": "POL",
+    "wri_thermal_mw": 33418.0,
+    "eurostat_combustible_mw": 34394.392,
+    "eurostat_year": "2024",
+    "ratio_wri_over_eurostat": 0.9716118837047621
+   },
+   {
+    "iso3": "PRT",
+    "wri_thermal_mw": 5807.0,
+    "eurostat_combustible_mw": 6121.33,
+    "eurostat_year": "2024",
+    "ratio_wri_over_eurostat": 0.9486500482738228
+   }
+  ]
+ }
+}
