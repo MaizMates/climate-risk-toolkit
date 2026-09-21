@@ -287,39 +287,36 @@ thing, report the standard error, and backtest the projection.
 Then write the `feed/v1/modules` entry pointing at the files you actually committed, and
 `SendUserFile` the PDF.
 
-## 5-bis. How to commit — the API, never `git push`
+## 5-bis. You cannot commit. Hand the module over instead.
 
-**`git push` is blocked in this sandbox** and it is not the token: the git proxy answers
-*"not in this session's authorized repository set"*. Do not clone, do not push, do not run a
-write test with git. **It does not follow that you cannot commit.** GitHub's REST Contents API is
-plain HTTPS to `api.github.com`, the same kind of call as the `raw.githubusercontent.com` fetch
-you already make, and it creates real commits. Verified on 17/09/2026: `PUT` returned HTTP 201
-and commit `aef7c1d`.
+**Measured, twice.** `git push` fails in this sandbox with *"not in this session's authorized
+repository set"*. The GitHub REST Contents API, which I proposed on 17/09 as the way round it,
+**also fails: the proxy returns a flat 403 on any GitHub API write.** Reads work —
+`raw.githubusercontent.com` GETs are how you fetch these instructions — writes do not, by any
+route. Do not spend budget rediscovering this.
 
-Read username and token from `github-token.md`, then, for each file:
+The only channel you can write to is the artifact database. So use it.
 
-```bash
-# the sha is required only when the file already exists
-SHA=$(curl -sS -H "Authorization: Bearer $TOK" \
-  "https://api.github.com/repos/MaizMates/climate-risk-toolkit/contents/$PATH_IN_REPO" \
-  | python3 -c "import sys,json;print(json.load(sys.stdin).get('sha',''))")
+**Write the module's files into `feed/v1/pending_module`, one document per file:**
 
-python3 - "$PATH_ON_DISK" "$SHA" <<'EOF' > /tmp/payload.json
-import base64, json, sys
-p = {"message": "<subject in Marco's voice, no AI wording, no 03:30 timestamps>",
-     "content": base64.b64encode(open(sys.argv[1],"rb").read()).decode(), "branch": "main"}
-if sys.argv[2]: p["sha"] = sys.argv[2]
-print(json.dumps(p))
-EOF
-
-curl -sS -X PUT -H "Authorization: Bearer $TOK" -H "Accept: application/vnd.github+json" \
-  -d @/tmp/payload.json \
-  "https://api.github.com/repos/MaizMates/climate-risk-toolkit/contents/$PATH_IN_REPO"
+```
+{ "path": "modules/03-hazard-exposure-join/src/join.py",   // path inside the repo
+  "text": "<the complete file contents>",
+  "built": "2026-09-21",
+  "module": "03-hazard-exposure-join" }
 ```
 
-**Report the HTTP status of every write.** 201 is a new file, 200 an update. Anything else: stop,
-quote the body, and say the module is not committed. Never claim a module is pushed when the call
-did not return 200 or 201.
+Use the file's path with slashes replaced by `__` as the document id. Text files only; if a step
+produces a PDF, commit the script that builds it and let the deck be regenerated after the files
+land, rather than trying to move binary content through the database.
+
+Then say in the run summary, in one line: *module 03 is staged in `feed/v1/pending_module`, N
+files, not yet committed*. Never write that a module is published, pushed or committed. It is
+staged, and someone with a working network path commits it.
+
+**This does not lower the bar.** The module still has to meet `STANDARD.md` in full: estimand,
+fetched inputs, intervals, backtest, sensitivity, limits. Staging a half-built module is worse
+than staging nothing, because it looks finished in the database.
 
 ## 5-ter. The module itself — what makes it worth showing
 
