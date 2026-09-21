@@ -25,23 +25,42 @@ moves to the next one in the list, recording why.
 
 ## 03 — `03-hazard-exposure-join`
 
-**Estimand.** The share of a country's thermal generating capacity, in MW, located in grid cells
-whose projected annual count of days above 35 °C rises by more than *k* days between the current
-period and 2050 under a stated scenario.
+**Scope narrowed on 21/09/2026, and the reason matters.** The original entry asked for plants
+joined to hazard *grid cells*. The World Bank CCKP API returned HTTP 502 when the build tried it,
+and module 01's committed output is country-level, not gridded — so the gridded version cannot be
+built from anything currently in hand. Rather than wait on someone else's outage or quietly swap
+in a different hazard source, the estimand drops to the resolution the available data actually
+supports, and says so.
 
-**Data.** WRI Global Power Plant Database, the real one:
-`https://raw.githubusercontent.com/wri/global-power-plant-database/master/output_database/global_power_plant_database.csv`
-— 34,492 plants with latitude, longitude, capacity, fuel and country. Hazard from the World Bank
-CCKP CMIP6 indicators already used in module 01.
+**Estimand.** The share of each country's thermal generating capacity, in MW, that sits in
+countries whose projected annual count of days above 35 °C rises by more than *k* days by
+mid-century under SSP2-4.5 — that is, a capacity-weighted exposure measure at country resolution.
 
-**Method.** Join plants to hazard cells by coordinates, aggregate capacity by country and by fuel,
-and report exposed share. This is the module the invented-data one pretended to be; do it on the
-real database or not at all.
+**Data, both real and both already proven reachable.**
+- Plants: WRI Global Power Plant Database,
+  `https://raw.githubusercontent.com/wri/global-power-plant-database/master/output_database/global_power_plant_database.csv`
+  — fetched successfully on 21/09, 34,936 rows, with capacity, fuel, country and coordinates.
+- Hazard: `modules/01-heat-stress-gradient/results/heat_gradient.json`, already in this
+  repository, country-level change in hot days. **This is the reuse the roadmap intends: module
+  03 consumes module 01's output rather than re-fetching it.**
 
-**Uncertainty.** Bootstrap over plants to get an interval on the exposed share. Sensitivity to
-*k* and to the cell-matching radius.
+**Method.** Filter WRI to thermal fuels, aggregate capacity by country, join to the hazard table
+by ISO3, and report exposed capacity share at several thresholds of *k*.
 
-**Answers in interview.** "Have you done asset-level physical risk?"
+**Uncertainty.** Bootstrap over plants for an interval on the exposed share — the capacity
+distribution is heavily skewed by a few large plants, and that skew is the point. Report how much
+of the exposed total comes from the largest ten plants.
+
+**Sensitivity.** Sweep *k*. Sweep the definition of "thermal" (with and without gas, with and
+without biomass), because that choice moves the answer more than the threshold does.
+
+**The limitation to state on the limits page, not bury.** Country resolution attributes a
+national average to every plant in the country. For a large country this is close to
+meaningless at the asset level, and the module must say which countries it is least defensible
+for. The gridded version becomes module 11 when CCKP is back.
+
+**Answers in interview.** "Have you joined an asset register to a hazard layer, and do you know
+what resolution costs you?"
 
 ## 04 — `04-flood-depth-damage`
 
@@ -123,3 +142,11 @@ hand-coded sample, reported as precision and recall with an interval.
 pipeline without a labelled test set and measured error.
 
 **Answers in interview.** "You say you use LLMs. How do you know the output is right?"
+
+## 11 — `11-hazard-exposure-gridded`
+
+The version of module 03 that was intended: WRI plant coordinates joined to CCKP hazard **grid
+cells**, not country averages, with a stated matching radius and a sensitivity sweep over it.
+Blocked on 21/09/2026 by a 502 from the CCKP API. Build it when the endpoint answers again; the
+comparison against module 03's country-level numbers is itself the finding, because it measures
+what the coarse resolution was costing.
