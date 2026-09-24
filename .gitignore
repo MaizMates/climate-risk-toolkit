@@ -1,7 +1,5 @@
 __pycache__/
 *.pyc
 .DS_Store
-tools/state/
 data/raw/
 *.token
-github-token.md

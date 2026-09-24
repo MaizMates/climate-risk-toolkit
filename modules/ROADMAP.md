@@ -1,18 +1,15 @@
 # Module roadmap
 
-One module per scheduled run, Monday and Thursday. **The run builds the lowest-numbered module
-that does not yet exist in `modules/`.** It does not choose, improvise, or reorder: the order
-encodes which gap blocks Marco most, and the sequence is designed so each module reuses the
-previous one's output.
-
-Every module meets `STANDARD.md`. A module that cannot meet it is not built — the run says so and
-moves to the next one in the list, recording why.
+Modules are built in this order, lowest number first. The order encodes which gap in my own
+work each one closes, and the sequence is designed so each module reuses the previous one's
+output. Every module meets `STANDARD.md`; one that cannot meet it is not built, and the entry
+records why.
 
 | # | Module | The gap it closes |
 |---|---|---|
 | 01 | `01-heat-stress-gradient` | **built** |
 | 02 | `02-renewables-pace` | **built** |
-| 03 | `03-hazard-exposure-join` | physical risk, asset level |
+| 03 | `03-hazard-exposure-join` | **built** |
 | 04 | `04-flood-depth-damage` | physical risk, loss not hazard |
 | 05 | `05-pacta-alignment-open` | transition alignment, reproducible |
 | 06 | `06-scenario-pd-shift` | climate into credit metrics |
@@ -26,7 +23,7 @@ moves to the next one in the list, recording why.
 ## 03 — `03-hazard-exposure-join`
 
 **Scope narrowed on 21/09/2026, and the reason matters.** The original entry asked for plants
-joined to hazard *grid cells*. The World Bank CCKP API returned HTTP 502 when the build tried it,
+joined to hazard *grid cells*. The World Bank CCKP API returned HTTP 502 when I tried it,
 and module 01's committed output is country-level, not gridded — so the gridded version cannot be
 built from anything currently in hand. Rather than wait on someone else's outage or quietly swap
 in a different hazard source, the estimand drops to the resolution the available data actually
@@ -39,10 +36,9 @@ mid-century under SSP2-4.5 — that is, a capacity-weighted exposure measure at 
 **Data, both real and both already proven reachable.**
 - Plants: WRI Global Power Plant Database,
   `https://raw.githubusercontent.com/wri/global-power-plant-database/master/output_database/global_power_plant_database.csv`
-  — fetched successfully on 21/09, 34,936 rows, with capacity, fuel, country and coordinates.
+  — fetched on 21/09, 34,936 rows, with capacity, fuel, country and coordinates.
 - Hazard: `modules/01-heat-stress-gradient/results/heat_gradient.json`, already in this
-  repository, country-level change in hot days. **This is the reuse the roadmap intends: module
-  03 consumes module 01's output rather than re-fetching it.**
+  repository, country-level change in hot days. Module 03 consumes module 01's output rather than re-fetching it.
 
 **Method.** Filter WRI to thermal fuels, aggregate capacity by country, join to the hazard table
 by ISO3, and report exposed capacity share at several thresholds of *k*.
@@ -59,7 +55,7 @@ national average to every plant in the country. For a large country this is clos
 meaningless at the asset level, and the module must say which countries it is least defensible
 for. The gridded version becomes module 11 when CCKP is back.
 
-**Answers in interview.** "Have you joined an asset register to a hazard layer, and do you know
+**The question it answers.** "Have you joined an asset register to a hazard layer, and do you know
 what resolution costs you?"
 
 ## 04 — `04-flood-depth-damage`
@@ -76,7 +72,7 @@ published curve, integrate over the exceedance-probability curve to get expected
 **Uncertainty.** The curve choice dominates: repeat with at least two published curves and report
 the spread. Say which drives the answer, the hazard or the curve.
 
-**Answers in interview.** "How does a hazard map become a number a risk manager can use?"
+**The question it answers.** "How does a hazard map become a number a risk manager can use?"
 
 ## 05 — `05-pacta-alignment-open`
 
@@ -86,12 +82,12 @@ IEA scenario trajectory, by technology, at a stated horizon.
 **Data.** Company production and capacity from public filings or an open asset-level source; IEA
 or NGFS published sector pathways.
 
-**Method.** The PACTA logic Marco built at the ECB, reproduced on public inputs so it can be shown.
+**Method.** The PACTA logic I built at the ECB, reproduced on public inputs so it can be shown.
 
 **Uncertainty.** Sensitivity to the scenario chosen and to the allocation rule (ownership versus
 operational control) — the allocation rule is the part practitioners argue about.
 
-**Answers in interview.** "You say you built an alignment methodology. Show me."
+**The question it answers.** "You say you built an alignment methodology. Show me."
 
 ## 06 — `06-scenario-pd-shift`
 
@@ -106,7 +102,7 @@ point is the auditability of each step, not sophistication.
 **Uncertainty.** The elasticity is the weak link: report the range from the literature, cite it,
 and show the PD range it implies.
 
-**Answers in interview.** "Where does climate actually enter a credit model?"
+**The question it answers.** "Where does climate actually enter a credit model?"
 
 ## 07 — `07-financed-emissions-pcaf`
 
@@ -126,7 +122,7 @@ both and say so.
 
 **Data.** Published Pillar 3 disclosures.
 
-**Method.** Marco's ECB work, on public documents, with the validation rules in code.
+**Method.** The assessment I ran at the ECB, on public documents only, with the validation rules in code.
 
 ## 09 — `09-nature-dependency-encore`
 
@@ -141,7 +137,7 @@ hand-coded sample, reported as precision and recall with an interval.
 **Method.** This is the AI module and it must be evaluated, not demonstrated: no extraction
 pipeline without a labelled test set and measured error.
 
-**Answers in interview.** "You say you use LLMs. How do you know the output is right?"
+**The question it answers.** "You say you use LLMs. How do you know the output is right?"
 
 ## 11 — `11-hazard-exposure-gridded`
 

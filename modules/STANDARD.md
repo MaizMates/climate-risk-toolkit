@@ -1,13 +1,9 @@
 # The standard every module has to meet
 
-This file exists because of two failures worth naming. The first: a module whose data file
-claimed to be an extract from the WRI Global Power Plant Database and contained five invented
-plants. Checked against the real database, 34,492 plants, zero matches. The second, milder but
-more common: analyses that compute one number, draw one bar chart, and stop — correct, and
-indistinguishable from an undergraduate exercise.
-
 A module is not finished when it produces a number. It is finished when a hostile reviewer who
-knows the field cannot dismiss it in one question.
+knows the field cannot dismiss it in one question. One computed number and one bar chart is
+correct and indistinguishable from an undergraduate exercise; these ten points are what separate
+the two.
 
 ## 1. The estimand comes first
 
