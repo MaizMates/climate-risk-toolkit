@@ -1,0 +1,1068 @@
+{
+ "estimand": "total greenhouse-gas emissions, in tCO2e, for reporting year 2024, of an illustrative office-based financial-services firm with offices in Frankfurt, Paris and Milan, by scope, with a 95% Monte Carlo interval",
+ "reporting_year": 2024,
+ "organisation": {
+  "cities": [
+   {
+    "city": "Frankfurt",
+    "country": "DE",
+    "employees": 200,
+    "employees_range": [
+     150,
+     250
+    ]
+   },
+   {
+    "city": "Paris",
+    "country": "FR",
+    "employees": 150,
+    "employees_range": [
+     110,
+     190
+    ]
+   },
+   {
+    "city": "Milan",
+    "country": "IT",
+    "employees": 100,
+    "employees_range": [
+     75,
+     125
+    ]
+   }
+  ],
+  "boundary": "operational control",
+  "standard": "GHG Protocol Corporate Standard"
+ },
+ "assumptions": {
+  "commute_days_per_year": {
+   "value": 220,
+   "unit": "days/employee/year",
+   "range": [
+    200,
+    230
+   ],
+   "rationale": "euro-area working days net of annual leave and public holidays, rounded; a fully office-based firm is assumed (no structural WFH discount)"
+  },
+  "commute_distance_km_oneway": {
+   "value": 12.0,
+   "unit": "km, one-way",
+   "range": [
+    8.0,
+    18.0
+   ],
+   "rationale": "typical one-way commute for an office worker in a large euro-area city"
+  },
+  "business_travel_km_per_employee_year": {
+   "value": 2000.0,
+   "unit": "km/employee/year",
+   "range": [
+    1000.0,
+    4000.0
+   ],
+   "rationale": "moderately travel-intensive office role (client and inter-office travel), not a sales or field role"
+  },
+  "business_travel_air_share": {
+   "value": 0.5,
+   "unit": "fraction of business-travel km flown",
+   "range": [
+    0.3,
+    0.7
+   ],
+   "rationale": "even split between short-haul flights and rail for inter-city business travel within continental Europe; no basis to assume either dominates"
+  },
+  "gas_activity_uncertainty_pct": {
+   "value": 0.15,
+   "unit": "fraction, +/-",
+   "range": [
+    0.1,
+    0.25
+   ],
+   "rationale": "compounds a national sector average, an employment-based per-employee scaling and an assumed headcount -- three approximations stacked"
+  },
+  "elec_activity_uncertainty_pct": {
+   "value": 0.15,
+   "unit": "fraction, +/-",
+   "range": [
+    0.1,
+    0.25
+   ],
+   "rationale": "same chain of approximations as the gas activity figure"
+  },
+  "commute_travel_activity_uncertainty_pct": {
+   "value": 0.35,
+   "unit": "fraction, +/-",
+   "range": [
+    0.25,
+    0.5
+   ],
+   "rationale": "distance and mode split are themselves assumptions, not fitted to this firm"
+  },
+  "combustion_factor_uncertainty_pct": {
+   "value": 0.05,
+   "unit": "fraction, +/-",
+   "range": [
+    0.03,
+    0.1
+   ],
+   "rationale": "published national combustion factors are the least uncertain input in this inventory; treated as tight but not exact"
+  },
+  "grid_intensity_uncertainty_pct": {
+   "value": 0.3,
+   "unit": "fraction, +/-",
+   "range": [
+    0.03,
+    1.1
+   ],
+   "rationale": "set from the module's own validation against AIB's independently computed production-mix CO2 figure -- the divergence ranges from 3% (Germany) to over 100% (France, where CRF1A1A/GEP and AIB's Ecoinvent-based production mix disagree sharply); 30% is the largest of the three country divergences that is not the France outlier, used as a conservative single figure -- see results/emissions_inventory.json:validation"
+  },
+  "residual_mix_uncertainty_pct": {
+   "value": 0.1,
+   "unit": "fraction, +/-",
+   "range": [
+    0.05,
+    0.15
+   ],
+   "rationale": "AIB residual mix is a one-year snapshot; year-to-year movement of 10%+ is observed in the AIB series for several member states"
+  }
+ },
+ "per_country": {
+  "DE": {
+   "elec_kwh_per_employee": 3478.6278011406184,
+   "gas_kwh_per_employee": 2655.5465176565467,
+   "location_intensity_kg_co2e_kwh": 0.3020473766023552,
+   "td_loss_rate": 0.08507705118003771,
+   "market_intensity_kg_co2_kwh": 0.7245641857372283
+  },
+  "FR": {
+   "elec_kwh_per_employee": 5088.123036543509,
+   "gas_kwh_per_employee": 2258.550535029275,
+   "location_intensity_kg_co2e_kwh": 0.037346310826184594,
+   "td_loss_rate": 0.08335266830134225,
+   "market_intensity_kg_co2_kwh": 0.0235195899176714
+  },
+  "IT": {
+   "elec_kwh_per_employee": 4924.2908122339,
+   "gas_kwh_per_employee": 3406.374616919312,
+   "location_intensity_kg_co2e_kwh": 0.16177723089270407,
+   "td_loss_rate": 0.0856323902541133,
+   "market_intensity_kg_co2_kwh": 0.44119534688554735
+  }
+ },
+ "raw_inputs": {
+  "grid": {
+   "DE": {
+    "ghg_kt": 155255.07,
+    "gep_gwh": 514009.0,
+    "dl_gwh": 43730.37
+   },
+   "FR": {
+    "ghg_kt": 21321.17,
+    "gep_gwh": 570904.315,
+    "dl_gwh": 47586.398
+   },
+   "IT": {
+    "ghg_kt": 43842.79,
+    "gep_gwh": 271007.173,
+    "dl_gwh": 23206.992
+   }
+  },
+  "office_energy": {
+   "DE": {
+    "TOTAL": 276802.985,
+    "G3000": 92195.264,
+    "E7000": 120771.0
+   },
+   "FR": {
+    "TOTAL": 214768.023,
+    "G3000": 55933.004,
+    "E7000": 126007.367
+   },
+   "IT": {
+    "TOTAL": 197445.345,
+    "G3000": 66245.811,
+    "E7000": 95765.638
+   }
+  },
+  "services_employment_thousand_persons": {
+   "DE": 34718.0,
+   "FR": 24765.0,
+   "IT": 19447.6
+  },
+  "modal_split": {
+   "DE": {
+    "TRN": 0.106,
+    "CAR": 0.841,
+    "BUS_TOT": 0.053
+   },
+   "FR": {
+    "TRN": 0.11599999999999999,
+    "CAR": 0.826,
+    "BUS_TOT": 0.059000000000000004
+   },
+   "IT": {
+    "TRN": 0.07,
+    "CAR": 0.833,
+    "BUS_TOT": 0.09699999999999999
+   }
+  },
+  "desnz_factors": {
+   "gas_net_kwh": 0.20264,
+   "gas_gross_kwh": 0.1829,
+   "gas_wtt_net_kwh": 0.03347,
+   "car_avg_km": 0.16984,
+   "rail_national_pkm": 0.03546,
+   "bus_avg_pkm": 0.10846,
+   "flight_intl_economy_pkm": 0.13465,
+   "vintage": "DESNZ GHG conversion factors 2024, full set v1.1"
+  },
+  "aib_residual_mix": {
+   "DE": {
+    "residual_mix_g_co2_kwh": 724.5641857372283,
+    "production_mix_g_co2_kwh": 311.5818409618842
+   },
+   "FR": {
+    "residual_mix_g_co2_kwh": 23.5195899176714,
+    "production_mix_g_co2_kwh": 18.06833006945716
+   },
+   "IT": {
+    "residual_mix_g_co2_kwh": 441.19534688554734,
+    "production_mix_g_co2_kwh": 235.24240383320188
+   }
+  }
+ },
+ "line_items": [
+  {
+   "city": "Frankfurt",
+   "country": "DE",
+   "scope": "1",
+   "category": "Stationary combustion (natural gas)",
+   "ghg_protocol_category": null,
+   "activity_value": 531109.3035313094,
+   "activity_unit": "kWh",
+   "factor_value": 0.20264,
+   "factor_unit": "kg CO2e / kWh",
+   "factor_source": "DESNZ Fuels, Natural gas, kWh (Net CV)",
+   "factor_vintage": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "tco2e": 107.62398926758452,
+   "activity_uncertainty_pct": 0.15,
+   "factor_uncertainty_pct": 0.05,
+   "data_quality_score": 3,
+   "data_quality_rationale": "national commercial-services energy intensity, scaled by an assumed headcount -- a sector average, not a metered bill",
+   "mc_ci_lo": 90.60367887587617,
+   "mc_ci_hi": 124.9256629113951
+  },
+  {
+   "city": "Frankfurt",
+   "country": "DE",
+   "scope": "2_location",
+   "category": "Purchased electricity, location-based",
+   "ghg_protocol_category": null,
+   "activity_value": 695725.5602281237,
+   "activity_unit": "kWh",
+   "factor_value": 0.3020473766023552,
+   "factor_unit": "kg CO2e / kWh",
+   "factor_source": "Eurostat env_air_gge (CRF1A1A) / nrg_bal_c (GEP)",
+   "factor_vintage": "2024",
+   "tco2e": 210.14208030210864,
+   "activity_uncertainty_pct": 0.15,
+   "factor_uncertainty_pct": 0.3,
+   "data_quality_score": 3,
+   "data_quality_rationale": "national commercial-services energy intensity, scaled by an assumed headcount -- a sector average, not a metered bill",
+   "mc_ci_lo": 141.5180432754051,
+   "mc_ci_hi": 291.39414021959806
+  },
+  {
+   "city": "Frankfurt",
+   "country": "DE",
+   "scope": "2_market",
+   "category": "Purchased electricity, market-based",
+   "ghg_protocol_category": null,
+   "activity_value": 695725.5602281237,
+   "activity_unit": "kWh",
+   "factor_value": 0.7245641857372283,
+   "factor_unit": "kg CO2e / kWh",
+   "factor_source": "AIB European Residual Mixes 2024, CO2 sheet",
+   "factor_vintage": "AIB 2024",
+   "tco2e": 504.0978240432674,
+   "activity_uncertainty_pct": 0.15,
+   "factor_uncertainty_pct": 0.1,
+   "data_quality_score": 3,
+   "data_quality_rationale": "national commercial-services energy intensity, scaled by an assumed headcount -- a sector average, not a metered bill",
+   "mc_ci_lo": 409.2210152710126,
+   "mc_ci_hi": 605.1649433486187
+  },
+  {
+   "city": "Frankfurt",
+   "country": "DE",
+   "scope": "3",
+   "category": "WTT, natural gas",
+   "ghg_protocol_category": 3,
+   "activity_value": 531109.3035313094,
+   "activity_unit": "kWh",
+   "factor_value": 0.03347,
+   "factor_unit": "kg CO2e / kWh",
+   "factor_source": "DESNZ WTT- fuels, Natural gas, kWh (Net CV)",
+   "factor_vintage": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "tco2e": 17.776228389192926,
+   "activity_uncertainty_pct": 0.15,
+   "factor_uncertainty_pct": 0.05,
+   "data_quality_score": 3,
+   "data_quality_rationale": "a physical ratio (WTT, grid loss share) applied to an already-scored activity line, so it inherits that line's score",
+   "mc_ci_lo": 14.96070488527424,
+   "mc_ci_hi": 20.7336452432289
+  },
+  {
+   "city": "Frankfurt",
+   "country": "DE",
+   "scope": "3",
+   "category": "T&D losses, electricity",
+   "ghg_protocol_category": 3,
+   "activity_value": 59190.279094788486,
+   "activity_unit": "kWh",
+   "factor_value": 0.3020473766023552,
+   "factor_unit": "kg CO2e / kWh",
+   "factor_source": "Eurostat nrg_bal_c (DL/GEP) x location-based intensity",
+   "factor_vintage": "2024",
+   "tco2e": 17.87826852094209,
+   "activity_uncertainty_pct": 0.15,
+   "factor_uncertainty_pct": 0.3,
+   "data_quality_score": 3,
+   "data_quality_rationale": "a physical ratio (WTT, grid loss share) applied to an already-scored activity line, so it inherits that line's score",
+   "mc_ci_lo": 11.91410375774157,
+   "mc_ci_hi": 24.631045615287803
+  },
+  {
+   "city": "Frankfurt",
+   "country": "DE",
+   "scope": "3",
+   "category": "Business travel, air",
+   "ghg_protocol_category": 6,
+   "activity_value": 200000.0,
+   "activity_unit": "passenger.km",
+   "factor_value": 0.13465,
+   "factor_unit": "kg CO2e / passenger.km",
+   "factor_source": "DESNZ Business travel- air, international economy",
+   "factor_vintage": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "tco2e": 26.93,
+   "activity_uncertainty_pct": 0.35,
+   "factor_uncertainty_pct": 0.05,
+   "data_quality_score": 5,
+   "data_quality_rationale": "a firm-wide assumed travel budget with an assumed mode split -- the least constrained input in this inventory",
+   "mc_ci_lo": 17.958821831051992,
+   "mc_ci_hi": 36.33822920924983
+  },
+  {
+   "city": "Frankfurt",
+   "country": "DE",
+   "scope": "3",
+   "category": "Business travel, rail",
+   "ghg_protocol_category": 6,
+   "activity_value": 200000.0,
+   "activity_unit": "passenger.km",
+   "factor_value": 0.03546,
+   "factor_unit": "kg CO2e / passenger.km",
+   "factor_source": "DESNZ Business travel- land, national rail",
+   "factor_vintage": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "tco2e": 7.092,
+   "activity_uncertainty_pct": 0.35,
+   "factor_uncertainty_pct": 0.05,
+   "data_quality_score": 5,
+   "data_quality_rationale": "a firm-wide assumed travel budget with an assumed mode split -- the least constrained input in this inventory",
+   "mc_ci_lo": 4.697304983108817,
+   "mc_ci_hi": 9.517669327642151
+  },
+  {
+   "city": "Frankfurt",
+   "country": "DE",
+   "scope": "3",
+   "category": "Commuting, car",
+   "ghg_protocol_category": 7,
+   "activity_value": 888096.0,
+   "activity_unit": "km",
+   "factor_value": 0.16984,
+   "factor_unit": "kg CO2e / km",
+   "factor_source": "DESNZ Business travel- land, average car",
+   "factor_vintage": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "tco2e": 150.83422464,
+   "activity_uncertainty_pct": 0.35,
+   "factor_uncertainty_pct": 0.05,
+   "data_quality_score": 4,
+   "data_quality_rationale": "national modal-split shares applied to an assumed commute distance and frequency -- no data on this firm's actual employees",
+   "mc_ci_lo": 100.13940479966743,
+   "mc_ci_hi": 203.38604324786974
+  },
+  {
+   "city": "Frankfurt",
+   "country": "DE",
+   "scope": "3",
+   "category": "Commuting, rail",
+   "ghg_protocol_category": 7,
+   "activity_value": 111936.0,
+   "activity_unit": "passenger.km",
+   "factor_value": 0.03546,
+   "factor_unit": "kg CO2e / passenger.km",
+   "factor_source": "DESNZ Business travel- land, national rail",
+   "factor_vintage": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "tco2e": 3.96925056,
+   "activity_uncertainty_pct": 0.35,
+   "factor_uncertainty_pct": 0.05,
+   "data_quality_score": 4,
+   "data_quality_rationale": "national modal-split shares applied to an assumed commute distance and frequency -- no data on this firm's actual employees",
+   "mc_ci_lo": 2.634221474815515,
+   "mc_ci_hi": 5.341782368851691
+  },
+  {
+   "city": "Frankfurt",
+   "country": "DE",
+   "scope": "3",
+   "category": "Commuting, bus",
+   "ghg_protocol_category": 7,
+   "activity_value": 55968.0,
+   "activity_unit": "passenger.km",
+   "factor_value": 0.10846,
+   "factor_unit": "kg CO2e / passenger.km",
+   "factor_source": "DESNZ Business travel- land, average local bus",
+   "factor_vintage": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "tco2e": 6.07028928,
+   "activity_uncertainty_pct": 0.35,
+   "factor_uncertainty_pct": 0.05,
+   "data_quality_score": 4,
+   "data_quality_rationale": "national modal-split shares applied to an assumed commute distance and frequency -- no data on this firm's actual employees",
+   "mc_ci_lo": 4.0239215952157075,
+   "mc_ci_hi": 8.176784770032283
+  },
+  {
+   "city": "Paris",
+   "country": "FR",
+   "scope": "1",
+   "category": "Stationary combustion (natural gas)",
+   "ghg_protocol_category": null,
+   "activity_value": 338782.58025439124,
+   "activity_unit": "kWh",
+   "factor_value": 0.20264,
+   "factor_unit": "kg CO2e / kWh",
+   "factor_source": "DESNZ Fuels, Natural gas, kWh (Net CV)",
+   "factor_vintage": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "tco2e": 68.65090206274984,
+   "activity_uncertainty_pct": 0.15,
+   "factor_uncertainty_pct": 0.05,
+   "data_quality_score": 3,
+   "data_quality_rationale": "national commercial-services energy intensity, scaled by an assumed headcount -- a sector average, not a metered bill",
+   "mc_ci_lo": 57.848997038407,
+   "mc_ci_hi": 79.61438692654242
+  },
+  {
+   "city": "Paris",
+   "country": "FR",
+   "scope": "2_location",
+   "category": "Purchased electricity, location-based",
+   "ghg_protocol_category": null,
+   "activity_value": 763218.4554815264,
+   "activity_unit": "kWh",
+   "factor_value": 0.037346310826184594,
+   "factor_unit": "kg CO2e / kWh",
+   "factor_source": "Eurostat env_air_gge (CRF1A1A) / nrg_bal_c (GEP)",
+   "factor_vintage": "2024",
+   "tco2e": 28.50339366669362,
+   "activity_uncertainty_pct": 0.15,
+   "factor_uncertainty_pct": 0.3,
+   "data_quality_score": 3,
+   "data_quality_rationale": "national commercial-services energy intensity, scaled by an assumed headcount -- a sector average, not a metered bill",
+   "mc_ci_lo": 19.222279871984146,
+   "mc_ci_hi": 39.23506455979952
+  },
+  {
+   "city": "Paris",
+   "country": "FR",
+   "scope": "2_market",
+   "category": "Purchased electricity, market-based",
+   "ghg_protocol_category": null,
+   "activity_value": 763218.4554815264,
+   "activity_unit": "kWh",
+   "factor_value": 0.0235195899176714,
+   "factor_unit": "kg CO2e / kWh",
+   "factor_source": "AIB European Residual Mixes 2024, CO2 sheet",
+   "factor_vintage": "AIB 2024",
+   "tco2e": 17.950585090524047,
+   "activity_uncertainty_pct": 0.15,
+   "factor_uncertainty_pct": 0.1,
+   "data_quality_score": 3,
+   "data_quality_rationale": "national commercial-services energy intensity, scaled by an assumed headcount -- a sector average, not a metered bill",
+   "mc_ci_lo": 14.59360029037224,
+   "mc_ci_hi": 21.608140808153596
+  },
+  {
+   "city": "Paris",
+   "country": "FR",
+   "scope": "3",
+   "category": "WTT, natural gas",
+   "ghg_protocol_category": 3,
+   "activity_value": 338782.58025439124,
+   "activity_unit": "kWh",
+   "factor_value": 0.03347,
+   "factor_unit": "kg CO2e / kWh",
+   "factor_source": "DESNZ WTT- fuels, Natural gas, kWh (Net CV)",
+   "factor_vintage": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "tco2e": 11.339052961114476,
+   "activity_uncertainty_pct": 0.15,
+   "factor_uncertainty_pct": 0.05,
+   "data_quality_score": 3,
+   "data_quality_rationale": "a physical ratio (WTT, grid loss share) applied to an already-scored activity line, so it inherits that line's score",
+   "mc_ci_lo": 9.560902076875868,
+   "mc_ci_hi": 13.191159594266399
+  },
+  {
+   "city": "Paris",
+   "country": "FR",
+   "scope": "3",
+   "category": "T&D losses, electricity",
+   "ghg_protocol_category": 3,
+   "activity_value": 63616.29476121442,
+   "activity_unit": "kWh",
+   "factor_value": 0.037346310826184594,
+   "factor_unit": "kg CO2e / kWh",
+   "factor_source": "Eurostat nrg_bal_c (DL/GEP) x location-based intensity",
+   "factor_vintage": "2024",
+   "tco2e": 2.3758339177624928,
+   "activity_uncertainty_pct": 0.15,
+   "factor_uncertainty_pct": 0.3,
+   "data_quality_score": 3,
+   "data_quality_rationale": "a physical ratio (WTT, grid loss share) applied to an already-scored activity line, so it inherits that line's score",
+   "mc_ci_lo": 1.598805750727632,
+   "mc_ci_hi": 3.282289034516361
+  },
+  {
+   "city": "Paris",
+   "country": "FR",
+   "scope": "3",
+   "category": "Business travel, air",
+   "ghg_protocol_category": 6,
+   "activity_value": 150000.0,
+   "activity_unit": "passenger.km",
+   "factor_value": 0.13465,
+   "factor_unit": "kg CO2e / passenger.km",
+   "factor_source": "DESNZ Business travel- air, international economy",
+   "factor_vintage": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "tco2e": 20.1975,
+   "activity_uncertainty_pct": 0.35,
+   "factor_uncertainty_pct": 0.05,
+   "data_quality_score": 5,
+   "data_quality_rationale": "a firm-wide assumed travel budget with an assumed mode split -- the least constrained input in this inventory",
+   "mc_ci_lo": 13.434737673584056,
+   "mc_ci_hi": 27.16984431594388
+  },
+  {
+   "city": "Paris",
+   "country": "FR",
+   "scope": "3",
+   "category": "Business travel, rail",
+   "ghg_protocol_category": 6,
+   "activity_value": 150000.0,
+   "activity_unit": "passenger.km",
+   "factor_value": 0.03546,
+   "factor_unit": "kg CO2e / passenger.km",
+   "factor_source": "DESNZ Business travel- land, national rail",
+   "factor_vintage": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "tco2e": 5.319,
+   "activity_uncertainty_pct": 0.35,
+   "factor_uncertainty_pct": 0.05,
+   "data_quality_score": 5,
+   "data_quality_rationale": "a firm-wide assumed travel budget with an assumed mode split -- the least constrained input in this inventory",
+   "mc_ci_lo": 3.5322183272751015,
+   "mc_ci_hi": 7.157250310056508
+  },
+  {
+   "city": "Paris",
+   "country": "FR",
+   "scope": "3",
+   "category": "Commuting, car",
+   "ghg_protocol_category": 7,
+   "activity_value": 654192.0,
+   "activity_unit": "km",
+   "factor_value": 0.16984,
+   "factor_unit": "kg CO2e / km",
+   "factor_source": "DESNZ Business travel- land, average car",
+   "factor_vintage": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "tco2e": 111.10796927999999,
+   "activity_uncertainty_pct": 0.35,
+   "factor_uncertainty_pct": 0.05,
+   "data_quality_score": 4,
+   "data_quality_rationale": "national modal-split shares applied to an assumed commute distance and frequency -- no data on this firm's actual employees",
+   "mc_ci_lo": 73.94830273582723,
+   "mc_ci_hi": 149.80535805887928
+  },
+  {
+   "city": "Paris",
+   "country": "FR",
+   "scope": "3",
+   "category": "Commuting, rail",
+   "ghg_protocol_category": 7,
+   "activity_value": 91872.0,
+   "activity_unit": "passenger.km",
+   "factor_value": 0.03546,
+   "factor_unit": "kg CO2e / passenger.km",
+   "factor_source": "DESNZ Business travel- land, national rail",
+   "factor_vintage": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "tco2e": 3.2577811199999998,
+   "activity_uncertainty_pct": 0.35,
+   "factor_uncertainty_pct": 0.05,
+   "data_quality_score": 4,
+   "data_quality_rationale": "national modal-split shares applied to an assumed commute distance and frequency -- no data on this firm's actual employees",
+   "mc_ci_lo": 2.161552682764576,
+   "mc_ci_hi": 4.38381520271092
+  },
+  {
+   "city": "Paris",
+   "country": "FR",
+   "scope": "3",
+   "category": "Commuting, bus",
+   "ghg_protocol_category": 7,
+   "activity_value": 46728.0,
+   "activity_unit": "passenger.km",
+   "factor_value": 0.10846,
+   "factor_unit": "kg CO2e / passenger.km",
+   "factor_source": "DESNZ Business travel- land, average local bus",
+   "factor_vintage": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "tco2e": 5.06811888,
+   "activity_uncertainty_pct": 0.35,
+   "factor_uncertainty_pct": 0.05,
+   "data_quality_score": 4,
+   "data_quality_rationale": "national modal-split shares applied to an assumed commute distance and frequency -- no data on this firm's actual employees",
+   "mc_ci_lo": 3.3649246523272023,
+   "mc_ci_hi": 6.816552543798617
+  },
+  {
+   "city": "Milan",
+   "country": "IT",
+   "scope": "1",
+   "category": "Stationary combustion (natural gas)",
+   "ghg_protocol_category": null,
+   "activity_value": 340637.4616919312,
+   "activity_unit": "kWh",
+   "factor_value": 0.20264,
+   "factor_unit": "kg CO2e / kWh",
+   "factor_source": "DESNZ Fuels, Natural gas, kWh (Net CV)",
+   "factor_vintage": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "tco2e": 69.02677523725293,
+   "activity_uncertainty_pct": 0.15,
+   "factor_uncertainty_pct": 0.05,
+   "data_quality_score": 3,
+   "data_quality_rationale": "national commercial-services energy intensity, scaled by an assumed headcount -- a sector average, not a metered bill",
+   "mc_ci_lo": 58.26855270898049,
+   "mc_ci_hi": 80.42277800740925
+  },
+  {
+   "city": "Milan",
+   "country": "IT",
+   "scope": "2_location",
+   "category": "Purchased electricity, location-based",
+   "ghg_protocol_category": null,
+   "activity_value": 492429.08122339007,
+   "activity_unit": "kWh",
+   "factor_value": 0.16177723089270407,
+   "factor_unit": "kg CO2e / kWh",
+   "factor_source": "Eurostat env_air_gge (CRF1A1A) / nrg_bal_c (GEP)",
+   "factor_vintage": "2024",
+   "tco2e": 79.6638131713585,
+   "activity_uncertainty_pct": 0.15,
+   "factor_uncertainty_pct": 0.3,
+   "data_quality_score": 3,
+   "data_quality_rationale": "national commercial-services energy intensity, scaled by an assumed headcount -- a sector average, not a metered bill",
+   "mc_ci_lo": 53.30780493396087,
+   "mc_ci_hi": 110.4415352419572
+  },
+  {
+   "city": "Milan",
+   "country": "IT",
+   "scope": "2_market",
+   "category": "Purchased electricity, market-based",
+   "ghg_protocol_category": null,
+   "activity_value": 492429.08122339007,
+   "activity_unit": "kWh",
+   "factor_value": 0.44119534688554735,
+   "factor_unit": "kg CO2e / kWh",
+   "factor_source": "AIB European Residual Mixes 2024, CO2 sheet",
+   "factor_vintage": "AIB 2024",
+   "tco2e": 217.25741930688497,
+   "activity_uncertainty_pct": 0.15,
+   "factor_uncertainty_pct": 0.1,
+   "data_quality_score": 3,
+   "data_quality_rationale": "national commercial-services energy intensity, scaled by an assumed headcount -- a sector average, not a metered bill",
+   "mc_ci_lo": 177.4170966282281,
+   "mc_ci_hi": 260.42845440004385
+  },
+  {
+   "city": "Milan",
+   "country": "IT",
+   "scope": "3",
+   "category": "WTT, natural gas",
+   "ghg_protocol_category": 3,
+   "activity_value": 340637.4616919312,
+   "activity_unit": "kWh",
+   "factor_value": 0.03347,
+   "factor_unit": "kg CO2e / kWh",
+   "factor_source": "DESNZ WTT- fuels, Natural gas, kWh (Net CV)",
+   "factor_vintage": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "tco2e": 11.401135842828937,
+   "activity_uncertainty_pct": 0.15,
+   "factor_uncertainty_pct": 0.05,
+   "data_quality_score": 3,
+   "data_quality_rationale": "a physical ratio (WTT, grid loss share) applied to an already-scored activity line, so it inherits that line's score",
+   "mc_ci_lo": 9.611227270474087,
+   "mc_ci_hi": 13.30949402191111
+  },
+  {
+   "city": "Milan",
+   "country": "IT",
+   "scope": "3",
+   "category": "T&D losses, electricity",
+   "ghg_protocol_category": 3,
+   "activity_value": 42167.87925579579,
+   "activity_unit": "kWh",
+   "factor_value": 0.16177723089270407,
+   "factor_unit": "kg CO2e / kWh",
+   "factor_source": "Eurostat nrg_bal_c (DL/GEP) x location-based intensity",
+   "factor_vintage": "2024",
+   "tco2e": 6.821802738620542,
+   "activity_uncertainty_pct": 0.15,
+   "factor_uncertainty_pct": 0.3,
+   "data_quality_score": 3,
+   "data_quality_rationale": "a physical ratio (WTT, grid loss share) applied to an already-scored activity line, so it inherits that line's score",
+   "mc_ci_lo": 4.590744819915085,
+   "mc_ci_hi": 9.415705932293339
+  },
+  {
+   "city": "Milan",
+   "country": "IT",
+   "scope": "3",
+   "category": "Business travel, air",
+   "ghg_protocol_category": 6,
+   "activity_value": 100000.0,
+   "activity_unit": "passenger.km",
+   "factor_value": 0.13465,
+   "factor_unit": "kg CO2e / passenger.km",
+   "factor_source": "DESNZ Business travel- air, international economy",
+   "factor_vintage": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "tco2e": 13.465,
+   "activity_uncertainty_pct": 0.35,
+   "factor_uncertainty_pct": 0.05,
+   "data_quality_score": 5,
+   "data_quality_rationale": "a firm-wide assumed travel budget with an assumed mode split -- the least constrained input in this inventory",
+   "mc_ci_lo": 8.925992481168773,
+   "mc_ci_hi": 18.07996415033297
+  },
+  {
+   "city": "Milan",
+   "country": "IT",
+   "scope": "3",
+   "category": "Business travel, rail",
+   "ghg_protocol_category": 6,
+   "activity_value": 100000.0,
+   "activity_unit": "passenger.km",
+   "factor_value": 0.03546,
+   "factor_unit": "kg CO2e / passenger.km",
+   "factor_source": "DESNZ Business travel- land, national rail",
+   "factor_vintage": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "tco2e": 3.546,
+   "activity_uncertainty_pct": 0.35,
+   "factor_uncertainty_pct": 0.05,
+   "data_quality_score": 5,
+   "data_quality_rationale": "a firm-wide assumed travel budget with an assumed mode split -- the least constrained input in this inventory",
+   "mc_ci_lo": 2.360269235186814,
+   "mc_ci_hi": 4.771847739261048
+  },
+  {
+   "city": "Milan",
+   "country": "IT",
+   "scope": "3",
+   "category": "Commuting, car",
+   "ghg_protocol_category": 7,
+   "activity_value": 439824.0,
+   "activity_unit": "km",
+   "factor_value": 0.16984,
+   "factor_unit": "kg CO2e / km",
+   "factor_source": "DESNZ Business travel- land, average car",
+   "factor_vintage": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "tco2e": 74.69970816,
+   "activity_uncertainty_pct": 0.35,
+   "factor_uncertainty_pct": 0.05,
+   "data_quality_score": 4,
+   "data_quality_rationale": "national modal-split shares applied to an assumed commute distance and frequency -- no data on this firm's actual employees",
+   "mc_ci_lo": 49.58071397560608,
+   "mc_ci_hi": 100.6450765483376
+  },
+  {
+   "city": "Milan",
+   "country": "IT",
+   "scope": "3",
+   "category": "Commuting, rail",
+   "ghg_protocol_category": 7,
+   "activity_value": 36960.0,
+   "activity_unit": "passenger.km",
+   "factor_value": 0.03546,
+   "factor_unit": "kg CO2e / passenger.km",
+   "factor_source": "DESNZ Business travel- land, national rail",
+   "factor_vintage": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "tco2e": 1.3106016,
+   "activity_uncertainty_pct": 0.35,
+   "factor_uncertainty_pct": 0.05,
+   "data_quality_score": 4,
+   "data_quality_rationale": "national modal-split shares applied to an assumed commute distance and frequency -- no data on this firm's actual employees",
+   "mc_ci_lo": 0.8698123143513614,
+   "mc_ci_hi": 1.7563745674749291
+  },
+  {
+   "city": "Milan",
+   "country": "IT",
+   "scope": "3",
+   "category": "Commuting, bus",
+   "ghg_protocol_category": 7,
+   "activity_value": 51215.99999999999,
+   "activity_unit": "passenger.km",
+   "factor_value": 0.10846,
+   "factor_unit": "kg CO2e / passenger.km",
+   "factor_source": "DESNZ Business travel- land, average local bus",
+   "factor_vintage": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "tco2e": 5.554887359999999,
+   "activity_uncertainty_pct": 0.35,
+   "factor_uncertainty_pct": 0.05,
+   "data_quality_score": 4,
+   "data_quality_rationale": "national modal-split shares applied to an assumed commute distance and frequency -- no data on this firm's actual employees",
+   "mc_ci_lo": 3.6980920710185603,
+   "mc_ci_hi": 7.483683122988374
+  }
+ ],
+ "monte_carlo": {
+  "n_draws": 5000,
+  "seed": 0,
+  "by_scope": {
+   "scope1": {
+    "mean": 245.27947699905903,
+    "ci_lo": 220.64821772797117,
+    "ci_hi": 270.4476980860978,
+    "point_estimate": 245.3016665675873
+   },
+   "scope2_location": {
+    "mean": 319.7595691570118,
+    "ci_lo": 241.4634480057829,
+    "ci_hi": 406.2407955363972,
+    "point_estimate": 318.3092871401608
+   },
+   "scope2_market": {
+    "mean": 738.5397917143015,
+    "ci_lo": 633.2069907259945,
+    "ci_hi": 848.2180701768,
+    "point_estimate": 739.3058284406764
+   },
+   "scope3": {
+    "mean": 506.24745727972396,
+    "ci_lo": 424.9077206341985,
+    "ci_hi": 587.0321133977213,
+    "point_estimate": 506.0146532504614
+   }
+  },
+  "total_location_based": {
+   "mean": 1071.2865034357949,
+   "ci_lo": 950.0953796729569,
+   "ci_hi": 1194.2449130397608,
+   "point_estimate": 1069.6256069582096
+  },
+  "total_market_based": {
+   "mean": 1490.0667259930844,
+   "ci_lo": 1353.6677049258358,
+   "ci_hi": 1630.4048279955941,
+   "point_estimate": 1490.622148258725
+  },
+  "top_variance_drivers": [
+   {
+    "city": "Frankfurt",
+    "category": "Purchased electricity, market-based",
+    "variance_tco2e2": 2698.2181578087134,
+    "sd_tco2e": 51.944375612848724
+   },
+   {
+    "city": "Frankfurt",
+    "category": "Purchased electricity, location-based",
+    "variance_tco2e2": 1649.55537176634,
+    "sd_tco2e": 40.61471865920457
+   },
+   {
+    "city": "Frankfurt",
+    "category": "Commuting, car",
+    "variance_tco2e2": 953.5117484646497,
+    "sd_tco2e": 30.87898554785519
+   }
+  ]
+ },
+ "completeness": [
+  {
+   "category": 1,
+   "name": "Purchased goods and services",
+   "included": false,
+   "reason": "no public spend-based emission-factor set is reachable with this module's library stack (stdlib, numpy, pandas, matplotlib, openpyxl only); likely the largest true gap for an office-based services firm (IT services, professional services, office supplies)"
+  },
+  {
+   "category": 2,
+   "name": "Capital goods",
+   "included": false,
+   "reason": "no capex data for an illustrative firm and no generic public per-employee benchmark"
+  },
+  {
+   "category": 3,
+   "name": "Fuel- and energy-related activities",
+   "included": true,
+   "reason": "WTT on Scope 1 gas and T&D losses on Scope 2 electricity, both computed from data already fetched for Scope 1/2"
+  },
+  {
+   "category": 4,
+   "name": "Upstream transportation and distribution",
+   "included": false,
+   "reason": "not applicable -- a financial-services firm distributes no physical product"
+  },
+  {
+   "category": 5,
+   "name": "Waste generated in operations",
+   "included": false,
+   "reason": "Eurostat publishes waste generation only at municipal aggregate level, not decomposable to a commercial-services employee; an office-waste-per-employee figure would be an unfetched assumption stacked on an unfetched assumption, one layer too many"
+  },
+  {
+   "category": 6,
+   "name": "Business travel",
+   "included": true,
+   "reason": "assumed travel budget, split air/rail, DESNZ factors"
+  },
+  {
+   "category": 7,
+   "name": "Employee commuting",
+   "included": true,
+   "reason": "assumed commute distance and frequency, Eurostat national modal split, DESNZ factors"
+  },
+  {
+   "category": 8,
+   "name": "Upstream leased assets",
+   "included": false,
+   "reason": "the three offices are the firm's only leased assets and are already Scope 1/2 under the operational-control boundary this inventory uses"
+  },
+  {
+   "category": 9,
+   "name": "Downstream transportation and distribution",
+   "included": false,
+   "reason": "not applicable, no physical product"
+  },
+  {
+   "category": 10,
+   "name": "Processing of sold products",
+   "included": false,
+   "reason": "not applicable, no physical product"
+  },
+  {
+   "category": 11,
+   "name": "Use of sold products",
+   "included": false,
+   "reason": "not applicable, no physical product"
+  },
+  {
+   "category": 12,
+   "name": "End-of-life treatment of sold products",
+   "included": false,
+   "reason": "not applicable, no physical product"
+  },
+  {
+   "category": 13,
+   "name": "Downstream leased assets",
+   "included": false,
+   "reason": "the firm leases no assets to others"
+  },
+  {
+   "category": 14,
+   "name": "Franchises",
+   "included": false,
+   "reason": "not a franchise model"
+  },
+  {
+   "category": 15,
+   "name": "Investments",
+   "included": false,
+   "reason": "financed emissions -- excluded here by the roadmap and named as the reason for module 05"
+  }
+ ],
+ "validation": {
+  "source": "AIB European Residual Mixes 2024, CO2 sheet, Production mix CO2 column -- independent of the Eurostat CRF1A1A/GEP ratio this module fits",
+  "rows": [
+   {
+    "country": "DE",
+    "computed_location_g_co2e_kwh": 302.0473766023552,
+    "aib_production_mix_g_co2_kwh": 311.5818409618842,
+    "ratio_computed_over_aib": 0.9693998073504696,
+    "abs_pct_diff": 0.030600192649530438
+   },
+   {
+    "country": "FR",
+    "computed_location_g_co2e_kwh": 37.34631082618459,
+    "aib_production_mix_g_co2_kwh": 18.06833006945716,
+    "ratio_computed_over_aib": 2.0669486711068594,
+    "abs_pct_diff": 1.0669486711068596
+   },
+   {
+    "country": "IT",
+    "computed_location_g_co2e_kwh": 161.77723089270407,
+    "aib_production_mix_g_co2_kwh": 235.24240383320188,
+    "ratio_computed_over_aib": 0.6877043775127033,
+    "abs_pct_diff": 0.3122956224872967
+   }
+  ]
+ },
+ "order_of_magnitude_check": {
+  "tco2e_per_employee_scope12_location": 1.252468786017218,
+  "bound_lo": 0.3,
+  "bound_hi": 6.0,
+  "within_bound": true,
+  "note": "a wide sanity bound meant to catch a unit or scaling error, not a published per-employee benchmark"
+ },
+ "vintage_check": {
+  "vintages": {
+   "DESNZ conversion factors": "DESNZ GHG conversion factors 2024, full set v1.1",
+   "Eurostat (env_air_gge, nrg_bal_c, nama_10_a10_e, tran_hv_psmod)": "2024",
+   "AIB European Residual Mixes": "2024"
+  },
+  "all_reporting_year_2024": true,
+  "note": "all three source families carry reporting-year-2024 data; no vintage mismatch found, which is itself a checked outcome, not an assumption"
+ },
+ "reconciliation": {
+  "location_based_tco2e": 1069.6256069582096,
+  "market_based_tco2e": 1490.622148258725,
+  "delta_tco2e": 420.99654130051545,
+  "delta_pct_of_location": 0.39359242950226403
+ },
+ "sensitivity": {
+  "headcount": [
+   {
+    "label": "low (-20%)",
+    "headcount_multiplier": 0.8,
+    "total_location_tco2e": 855.7004855665679
+   },
+   {
+    "label": "base",
+    "headcount_multiplier": 1.0,
+    "total_location_tco2e": 1069.6256069582096
+   },
+   {
+    "label": "high (+20%)",
+    "headcount_multiplier": 1.2,
+    "total_location_tco2e": 1283.5507283498512
+   }
+  ],
+  "gas_calorific_value_convention": {
+   "net_cv_tco2e": 245.3016665675873,
+   "gross_cv_tco2e": 221.40581728785887,
+   "pct_difference_if_gross_used_on_net_activity": -0.09741413343861023,
+   "note": "Gross CV factor applied to the same (net-CV-basis) activity figure -- the wrong-convention case, not a recommendation"
+  },
+  "scope3_boundary": {
+   "scope12_plus_cat3_tco2e": 631.2032760782096,
+   "scope12_plus_all_scope3_tco2e": 1069.6256069582096,
+   "cat6_cat7_share_of_total": 0.40988391454724143
+  }
+ }
+}

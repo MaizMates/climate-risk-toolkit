@@ -13,7 +13,7 @@ draws on the work of, any employer.
 | 01 | `01-heat-stress-gradient` | **built** |
 | 02 | `02-renewables-pace` | **built** |
 | 03 | `03-hazard-exposure-join` | **built** |
-| 04 | `04-emissions-inventory` | carbon accounting from activity data to a checked inventory |
+| 04 | `04-emissions-inventory` | **built** |
 | 05 | `05-portfolio-climate-risk` | climate risk of a real, public portfolio |
 | 06 | `06-flood-depth-damage` | physical risk, loss not hazard |
 | 07 | `07-pacta-alignment-open` | transition alignment, reproducible |

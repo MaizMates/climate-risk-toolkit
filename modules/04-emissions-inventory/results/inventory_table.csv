@@ -1,0 +1,31 @@
+city,country,scope,ghg_protocol_category,category,activity_value,activity_unit,factor_value,factor_unit,factor_source,tco2e,mc_ci_lo,mc_ci_hi,data_quality_score
+Frankfurt,DE,1,None,Stationary combustion (natural gas),531109.3035313094,kWh,0.20264,kg CO2e / kWh,DESNZ Fuels; Natural gas; kWh (Net CV),107.62398926758452,90.60367887587617,124.9256629113951,3
+Frankfurt,DE,2_location,None,Purchased electricity; location-based,695725.5602281237,kWh,0.3020473766023552,kg CO2e / kWh,Eurostat env_air_gge (CRF1A1A) / nrg_bal_c (GEP),210.14208030210864,141.5180432754051,291.39414021959806,3
+Frankfurt,DE,2_market,None,Purchased electricity; market-based,695725.5602281237,kWh,0.7245641857372283,kg CO2e / kWh,AIB European Residual Mixes 2024; CO2 sheet,504.0978240432674,409.2210152710126,605.1649433486187,3
+Frankfurt,DE,3,3,WTT; natural gas,531109.3035313094,kWh,0.03347,kg CO2e / kWh,DESNZ WTT- fuels; Natural gas; kWh (Net CV),17.776228389192926,14.96070488527424,20.7336452432289,3
+Frankfurt,DE,3,3,T&D losses; electricity,59190.279094788486,kWh,0.3020473766023552,kg CO2e / kWh,Eurostat nrg_bal_c (DL/GEP) x location-based intensity,17.87826852094209,11.91410375774157,24.631045615287803,3
+Frankfurt,DE,3,6,Business travel; air,200000.0,passenger.km,0.13465,kg CO2e / passenger.km,DESNZ Business travel- air; international economy,26.93,17.958821831051992,36.33822920924983,5
+Frankfurt,DE,3,6,Business travel; rail,200000.0,passenger.km,0.03546,kg CO2e / passenger.km,DESNZ Business travel- land; national rail,7.092,4.697304983108817,9.517669327642151,5
+Frankfurt,DE,3,7,Commuting; car,888096.0,km,0.16984,kg CO2e / km,DESNZ Business travel- land; average car,150.83422464,100.13940479966743,203.38604324786974,4
+Frankfurt,DE,3,7,Commuting; rail,111936.0,passenger.km,0.03546,kg CO2e / passenger.km,DESNZ Business travel- land; national rail,3.96925056,2.634221474815515,5.341782368851691,4
+Frankfurt,DE,3,7,Commuting; bus,55968.0,passenger.km,0.10846,kg CO2e / passenger.km,DESNZ Business travel- land; average local bus,6.07028928,4.0239215952157075,8.176784770032283,4
+Paris,FR,1,None,Stationary combustion (natural gas),338782.58025439124,kWh,0.20264,kg CO2e / kWh,DESNZ Fuels; Natural gas; kWh (Net CV),68.65090206274984,57.848997038407,79.61438692654242,3
+Paris,FR,2_location,None,Purchased electricity; location-based,763218.4554815264,kWh,0.037346310826184594,kg CO2e / kWh,Eurostat env_air_gge (CRF1A1A) / nrg_bal_c (GEP),28.50339366669362,19.222279871984146,39.23506455979952,3
+Paris,FR,2_market,None,Purchased electricity; market-based,763218.4554815264,kWh,0.0235195899176714,kg CO2e / kWh,AIB European Residual Mixes 2024; CO2 sheet,17.950585090524047,14.59360029037224,21.608140808153596,3
+Paris,FR,3,3,WTT; natural gas,338782.58025439124,kWh,0.03347,kg CO2e / kWh,DESNZ WTT- fuels; Natural gas; kWh (Net CV),11.339052961114476,9.560902076875868,13.191159594266399,3
+Paris,FR,3,3,T&D losses; electricity,63616.29476121442,kWh,0.037346310826184594,kg CO2e / kWh,Eurostat nrg_bal_c (DL/GEP) x location-based intensity,2.3758339177624928,1.598805750727632,3.282289034516361,3
+Paris,FR,3,6,Business travel; air,150000.0,passenger.km,0.13465,kg CO2e / passenger.km,DESNZ Business travel- air; international economy,20.1975,13.434737673584056,27.16984431594388,5
+Paris,FR,3,6,Business travel; rail,150000.0,passenger.km,0.03546,kg CO2e / passenger.km,DESNZ Business travel- land; national rail,5.319,3.5322183272751015,7.157250310056508,5
+Paris,FR,3,7,Commuting; car,654192.0,km,0.16984,kg CO2e / km,DESNZ Business travel- land; average car,111.10796927999999,73.94830273582723,149.80535805887928,4
+Paris,FR,3,7,Commuting; rail,91872.0,passenger.km,0.03546,kg CO2e / passenger.km,DESNZ Business travel- land; national rail,3.2577811199999998,2.161552682764576,4.38381520271092,4
+Paris,FR,3,7,Commuting; bus,46728.0,passenger.km,0.10846,kg CO2e / passenger.km,DESNZ Business travel- land; average local bus,5.06811888,3.3649246523272023,6.816552543798617,4
+Milan,IT,1,None,Stationary combustion (natural gas),340637.4616919312,kWh,0.20264,kg CO2e / kWh,DESNZ Fuels; Natural gas; kWh (Net CV),69.02677523725293,58.26855270898049,80.42277800740925,3
+Milan,IT,2_location,None,Purchased electricity; location-based,492429.08122339007,kWh,0.16177723089270407,kg CO2e / kWh,Eurostat env_air_gge (CRF1A1A) / nrg_bal_c (GEP),79.6638131713585,53.30780493396087,110.4415352419572,3
+Milan,IT,2_market,None,Purchased electricity; market-based,492429.08122339007,kWh,0.44119534688554735,kg CO2e / kWh,AIB European Residual Mixes 2024; CO2 sheet,217.25741930688497,177.4170966282281,260.42845440004385,3
+Milan,IT,3,3,WTT; natural gas,340637.4616919312,kWh,0.03347,kg CO2e / kWh,DESNZ WTT- fuels; Natural gas; kWh (Net CV),11.401135842828937,9.611227270474087,13.30949402191111,3
+Milan,IT,3,3,T&D losses; electricity,42167.87925579579,kWh,0.16177723089270407,kg CO2e / kWh,Eurostat nrg_bal_c (DL/GEP) x location-based intensity,6.821802738620542,4.590744819915085,9.415705932293339,3
+Milan,IT,3,6,Business travel; air,100000.0,passenger.km,0.13465,kg CO2e / passenger.km,DESNZ Business travel- air; international economy,13.465,8.925992481168773,18.07996415033297,5
+Milan,IT,3,6,Business travel; rail,100000.0,passenger.km,0.03546,kg CO2e / passenger.km,DESNZ Business travel- land; national rail,3.546,2.360269235186814,4.771847739261048,5
+Milan,IT,3,7,Commuting; car,439824.0,km,0.16984,kg CO2e / km,DESNZ Business travel- land; average car,74.69970816,49.58071397560608,100.6450765483376,4
+Milan,IT,3,7,Commuting; rail,36960.0,passenger.km,0.03546,kg CO2e / passenger.km,DESNZ Business travel- land; national rail,1.3106016,0.8698123143513614,1.7563745674749291,4
+Milan,IT,3,7,Commuting; bus,51215.99999999999,passenger.km,0.10846,kg CO2e / passenger.km,DESNZ Business travel- land; average local bus,5.554887359999999,3.6980920710185603,7.483683122988374,4
