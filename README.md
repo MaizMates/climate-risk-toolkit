@@ -4,7 +4,9 @@ Climate and financial risk, worked end to end on public data. I spent two years 
 Central Bank in climate and nature risk supervision: the internal climate alignment methodology
 for significant institutions, and the Pillar 3 ESG data quality assessment across 86 banks. That
 work is all transition risk. This repository is where I build the parts I want to be stronger in,
-starting with physical risk. No ECB internal data appears anywhere in it.
+starting with physical risk, carbon accounting and portfolio risk. It is an independent project
+on public data: no ECB internal data appears anywhere in it, and nothing here is affiliated with
+any employer.
 
 ## Modules
 

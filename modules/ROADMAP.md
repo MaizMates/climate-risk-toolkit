@@ -2,21 +2,27 @@
 
 Modules are built in this order, lowest number first. The order encodes which gap in my own
 work each one closes, and the sequence is designed so each module reuses the previous one's
-output. Every module meets `STANDARD.md`; one that cannot meet it is not built, and the entry
-records why.
+output. Every module meets `STANDARD.md`; one that cannot meet it is not built, and its row is
+marked **blocked** with the reason.
+
+Every module is an independent project on public data. None of it is affiliated with, or
+draws on the work of, any employer.
 
 | # | Module | The gap it closes |
 |---|---|---|
 | 01 | `01-heat-stress-gradient` | **built** |
 | 02 | `02-renewables-pace` | **built** |
 | 03 | `03-hazard-exposure-join` | **built** |
-| 04 | `04-flood-depth-damage` | physical risk, loss not hazard |
-| 05 | `05-pacta-alignment-open` | transition alignment, reproducible |
-| 06 | `06-scenario-pd-shift` | climate into credit metrics |
-| 07 | `07-financed-emissions-pcaf` | carbon accounting end to end |
-| 08 | `08-disclosure-quality-index` | data quality at scale |
-| 09 | `09-nature-dependency-encore` | nature risk, quantified |
-| 10 | `10-transition-plan-nlp` | AI on unstructured regulatory text |
+| 04 | `04-emissions-inventory` | carbon accounting from activity data to a checked inventory |
+| 05 | `05-portfolio-climate-risk` | climate risk of a real, public portfolio |
+| 06 | `06-flood-depth-damage` | physical risk, loss not hazard |
+| 07 | `07-pacta-alignment-open` | transition alignment, reproducible |
+| 08 | `08-scenario-pd-shift` | climate into credit metrics |
+| 09 | `09-financed-emissions-pcaf` | financed emissions with data-quality scores |
+| 10 | `10-disclosure-quality-index` | data quality at scale |
+| 11 | `11-hazard-exposure-gridded` | module 03 at grid-cell resolution |
+| 12 | `12-nature-dependency-encore` | nature risk, quantified |
+| 13 | `13-transition-plan-nlp` | AI on unstructured regulatory text |
 
 ---
 
@@ -58,7 +64,74 @@ for. The gridded version becomes module 11 when CCKP is back.
 **The question it answers.** "Have you joined an asset register to a hazard layer, and do you know
 what resolution costs you?"
 
-## 04 — `04-flood-depth-damage`
+## 04 — `04-emissions-inventory`
+
+**Estimand.** Total greenhouse-gas emissions, in tCO2e, for one reporting year of an illustrative
+organisation, by scope: Scope 1, Scope 2 both location-based and market-based, and the Scope 3
+categories material for it, with a 95% interval from activity-data and emission-factor
+uncertainty.
+
+**The organisation is illustrative and says so.** A mid-sized, office-based financial services
+firm with offices in three euro-area cities. Its activity data are built from public, aggregated
+statistics (office energy intensity per square metre, floor area per employee, business travel
+and commuting patterns by country) scaled by stated assumptions about the firm. Every assumption
+lives in one file, with its value, unit, source or rationale, and a range; a figure attributed to
+a source is fetched from it by code, and a figure that is an assumption is labelled as one.
+
+**Emission factors, fetched.** A national government's published conversion factors (the UK
+DESNZ greenhouse-gas conversion factors, the most complete public set), location-based grid
+intensities for the three countries from a European public source (EEA or Eurostat), and the AIB
+European residual mixes for market-based Scope 2. Record the vintage of each; mixing vintages is
+a quality finding, not a detail.
+
+**Method.** The GHG Protocol Corporate Standard: organisational boundary (operational control),
+activity data times factor, line by line, with a data-quality score on every line.
+
+**Quality checks, in code.** Unit and dimension checks; completeness against the fifteen Scope 3
+categories, with every exclusion justified; location- against market-based reconciliation;
+factor-vintage consistency; an order-of-magnitude check of intensity per employee against
+published sector benchmarks.
+
+**Uncertainty.** Propagate the ranges on activity data and factors by Monte Carlo and report the
+interval on each scope and the total. Say which three lines drive it.
+
+**Deliverables.** The inventory table, `METHOD.md` as a two-page methodological note (boundary,
+base year, sources and vintages, assumptions, exclusions, QA/QC, uncertainty), and the deck.
+Category 15, financed emissions, is excluded here and named as the reason for module 05.
+
+**The question it answers.** "Walk me through a GHG inventory you built, and how you know it is
+right."
+
+## 05 — `05-portfolio-climate-risk`
+
+**Estimand.** For a real portfolio whose full holdings are published without an account (a UCITS
+equity ETF's holdings file, or a public pension fund's disclosed holdings; record the URL and the
+as-of date): (a) the share of market value in climate-policy-relevant sectors, and (b) the
+portfolio's weighted average carbon intensity, in tCO2e per EUR million of value added, with an
+interval that reflects proxy uncertainty.
+
+**Data, fetched.** The holdings file. Emission intensities by NACE sector from Eurostat's air
+emissions accounts divided by Eurostat gross value added by the same NACE breakdown. The
+climate-policy-relevant sector classification of Battiston et al. (2017), encoded as a mapping
+with the citation; no numbers are transcribed. Module 01's country hazard table for a physical
+risk overlay by country of domicile.
+
+**Method.** Map each holding to a sector (the holdings file carries a sector label; the mapping
+from it to NACE is coarse, and the module says how coarse), attach the sector intensity, weight
+by market value. This is a sector-average proxy, PCAF data-quality score 5 on every line, and the
+deck says so on the first page.
+
+**Uncertainty.** Use the spread of the same sector's intensity across EU member states as the
+proxy's distribution and resample it for an interval on the portfolio figure. Sweep the reference
+year and the sector-mapping choices.
+
+**Validation.** Compare against the fund's own published carbon metric where it discloses one.
+Where it does not, say so.
+
+**The question it answers.** "How would you assess the climate risk of a portfolio when you do
+not have company-level data?"
+
+## 06 — `06-flood-depth-damage`
 
 **Estimand.** Expected annual damage, as a fraction of asset value, for a portfolio of locations,
 under a published depth-damage function.
@@ -74,7 +147,7 @@ the spread. Say which drives the answer, the hazard or the curve.
 
 **The question it answers.** "How does a hazard map become a number a risk manager can use?"
 
-## 05 — `05-pacta-alignment-open`
+## 07 — `07-pacta-alignment-open`
 
 **Estimand.** The production-weighted alignment gap between a set of listed power utilities and an
 IEA scenario trajectory, by technology, at a stated horizon.
@@ -89,7 +162,7 @@ operational control) — the allocation rule is the part practitioners argue abo
 
 **The question it answers.** "You say you built an alignment methodology. Show me."
 
-## 06 — `06-scenario-pd-shift`
+## 08 — `08-scenario-pd-shift`
 
 **Estimand.** The change in a one-year probability of default for a sector under an NGFS
 disorderly transition scenario relative to the orderly one, via a stated transmission channel.
@@ -104,7 +177,7 @@ and show the PD range it implies.
 
 **The question it answers.** "Where does climate actually enter a credit model?"
 
-## 07 — `07-financed-emissions-pcaf`
+## 09 — `09-financed-emissions-pcaf`
 
 **Estimand.** Financed emissions for a synthetic but realistic loan book, with the PCAF data
 quality score attached to every line.
@@ -116,7 +189,7 @@ quality score attached to every line.
 **Uncertainty.** The headline number is nearly meaningless without the score distribution: show
 both and say so.
 
-## 08 — `08-disclosure-quality-index`
+## 10 — `10-disclosure-quality-index`
 
 **Estimand.** A reproducible index of Pillar 3 ESG template completeness across a set of banks.
 
@@ -124,12 +197,19 @@ both and say so.
 
 **Method.** The assessment I ran at the ECB, on public documents only, with the validation rules in code.
 
-## 09 — `09-nature-dependency-encore`
+## 11 — `11-hazard-exposure-gridded`
+
+The version of module 03 that was intended: WRI plant coordinates joined to CCKP hazard **grid
+cells**, not country averages, with a stated matching radius and a sensitivity sweep over it.
+Blocked on 21/09/2026 by a 502 from the CCKP API. Build it when the endpoint answers again; the
+comparison against module 03's country-level numbers is itself the finding, because it measures
+what the coarse resolution was costing.
+## 12 — `12-nature-dependency-encore`
 
 **Estimand.** The share of a portfolio's exposure in sectors with high dependency on a named
 ecosystem service, using ENCORE ratings.
 
-## 10 — `10-transition-plan-nlp`
+## 13 — `13-transition-plan-nlp`
 
 **Estimand.** Agreement between an LLM extraction of stated transition-plan commitments and a
 hand-coded sample, reported as precision and recall with an interval.
@@ -139,10 +219,3 @@ pipeline without a labelled test set and measured error.
 
 **The question it answers.** "You say you use LLMs. How do you know the output is right?"
 
-## 11 — `11-hazard-exposure-gridded`
-
-The version of module 03 that was intended: WRI plant coordinates joined to CCKP hazard **grid
-cells**, not country averages, with a stated matching radius and a sensitivity sweep over it.
-Blocked on 21/09/2026 by a 502 from the CCKP API. Build it when the endpoint answers again; the
-comparison against module 03's country-level numbers is itself the finding, because it measures
-what the coarse resolution was costing.
