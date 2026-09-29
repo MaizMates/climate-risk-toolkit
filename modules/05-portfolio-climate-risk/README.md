@@ -1,10 +1,10 @@
 # 05 — Portfolio climate risk: a real ETF, no company-level data
 
-**15.3% of the SPDR MSCI EMU UCITS ETF's EUR 353mn (215 holdings, as of 25 September 2026) sits
+**15.3% of the SPDR MSCI EMU UCITS ETF's EUR 353mn (215 holdings, as of 28 September 2026) sits
 in climate-policy-relevant sectors. Its weighted average carbon intensity is 142 tCO2e per EUR
-million of gross value added, interval [139, 309] from the spread of the same sector's intensity
-across EU member states — right-skewed, because a few high-carbon member states are a real
-possibility for any company sharing a sector code with this portfolio's holdings.**
+million of gross value added, interval [82, 245] from resampling each sector's intensity across
+the member states the fund actually holds. The reference year moves that number more than anything
+else in the module: from 408 in 2015 to 142 in 2024.**
 
 ## Estimand
 
@@ -57,23 +57,24 @@ quality score 5 on every line, and the deck says so on the first page.
 
 ## Uncertainty
 
-The interval on WACI resamples, for each holding, the *dispersion* of its NACE code's intensity
-across EU member states around that holding's own point value (not the raw cross-country level,
-which would recentre the whole portfolio on the EU27 average instead of putting an interval around
-this portfolio's own estimate — see `notes.md` for the bug this replaced). 2,000 resamples give
-[139, 309], visibly right-skewed: Poland- and Bulgaria-level intensity is a real possibility for
-any company sharing a NACE code with this portfolio, even though none of its actual holdings are
-domiciled there.
+Each holding is scored with its own country's intensity for its sector, which is the point
+estimate. The interval asks how far that national-sector figure could be from the truth, using
+the spread of the same sector's intensity across the member states this fund actually holds,
+weighted by how much it holds in each, and expressed as a ratio to their weighted median. One
+ratio is drawn per sector per resample and applied to every holding in that sector, because they
+all share the same national-sector figure: if it is wrong, it is wrong for all of them. 2,000
+resamples give [82, 245]. `notes.md` records the two earlier versions of this interval and why
+both were wrong.
 
 ## Sensitivity
 
 Sweeping the four sectors where this portfolio holds a real mix of sub-industries under one GICS
 label moves WACI from 142 (base) to 216 (all four alternates) — a 52% swing from a labelling
-choice, more than the interval width and more than the year chosen. The mapping choice moves the
+choice, about half the width of the interval, and far less than the reference year. The mapping choice moves the
 two headline numbers differently: reclassifying Consumer Discretionary from retail trade to
 motor-vehicle manufacture barely moves WACI (142 vs 142) but moves the CPRS share from 15.3% to
 22.9%, because "transportation" is a Battiston CPRS category and "retail trade" is not. Sweeping
-the reference year 2015–2024 (all years Eurostat has) moves WACI from 409 to 142, monotonically —
+the reference year 2015–2024 (all years Eurostat has) moves WACI from 408 to 142, monotonically —
 realised EU decarbonisation and GVA growth, not a projection.
 
 ## Validation
@@ -89,7 +90,7 @@ honest description of this one.
 ## Physical risk overlay
 
 Weighting module 01's SSP2-4.5 mid-century heat-day change by market value gives a portfolio mean
-of 2.33 days [1.51, 3.31], and 22.7% of covered value (Finland is not in module 01's table and is
+of 2.32 days [1.50, 3.31], and 22.6% of covered value (Finland is not in module 01's table and is
 excluded, 3.5% of the portfolio) sits in a country crossing the k=2 reference used in modules 01
 and 03 — mostly Spain, Italy and Portugal.
 
@@ -103,8 +104,8 @@ and 03 — mostly Spain, Italy and Portugal.
   that would break the headline number if it were wrong.
 - **The mapping is many-to-one by design.** One NACE code per GICS sector cannot separate a
   chemicals company from a mining company inside "Materials," or an airline from a machinery maker
-  inside "Industrials." The sensitivity section shows this costs more than the year chosen or the
-  interval width — it is the first thing a skeptical reviewer should attack.
+  inside "Industrials." The sensitivity section shows it is worth 52% on WACI, the largest swing
+  from any modelling choice here — it is the first thing a skeptical reviewer should attack.
 - **No backtest.** Nothing in this module is forward-looking: the portfolio is a snapshot of
   today's holdings, the intensity is a realised national statistic, and the CPRS classification is
   a fixed taxonomy. The year sweep is a robustness check on which vintage to use, not a forecast,

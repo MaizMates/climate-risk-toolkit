@@ -262,37 +262,57 @@ def portfolio_waci(holdings, intensity, mapping, year=REF_YEAR):
     return waci, rows
 
 
-def _ratio_distribution(intensity, nace, year):
-    """Cross-country intensities for one NACE code, expressed as a ratio to their own median.
-    A plain draw of the absolute cross-country levels would recentre the whole portfolio on the
-    EU27 average -- dominated by higher-intensity member states this fund barely holds -- instead
-    of putting an interval around this portfolio's own point estimate. The ratio has the same
-    dispersion but a median of 1, so resampling it around each holding's own value is what turns
-    the roadmap's 'spread across member states' into an interval, not a different central value."""
-    dist = sector_distribution(intensity, nace, year)
-    if not dist:
+def _ratio_distribution(intensity, nace, year, country_weight):
+    """The member states this portfolio actually holds, each with its intensity for one NACE code
+    as a ratio to their weighted median, and its weight in the portfolio.
+
+    Two earlier versions were wrong. Drawing the absolute cross-country level recentred the
+    portfolio on the EU27 average. Drawing a ratio from all 27 member states, equally weighted,
+    let Poland and Bulgaria set the upper bound of a fund that holds nothing domiciled there.
+    The countries that can plausibly stand in for a holding's true intensity are the ones the
+    fund is invested in, in proportion to how much it holds in each."""
+    pairs = [(intensity[(g, nace, year)], w) for g, w in country_weight.items()
+             if (g, nace, year) in intensity]
+    if not pairs:
         return None
-    med = sorted(dist)[len(dist) // 2]
-    return [v / med for v in dist] if med else None
+    pairs.sort()
+    half, acc, med = sum(w for _, w in pairs) / 2, 0.0, pairs[-1][0]
+    for v, w in pairs:
+        acc += w
+        if acc >= half:
+            med = v
+            break
+    return [(v / med, w) for v, w in pairs] if med else None
 
 
 def bootstrap_waci_ci(rows, intensity, year=REF_YEAR, n=N_BOOT, seed=0):
-    """Resample each holding's own intensity by the cross-country dispersion for its NACE code --
-    the roadmap's stated proxy uncertainty: how much this holding's number would move if it sat
-    in a different member state, since a single company-level figure is not available."""
+    """Interval on the proxy WACI. One ratio is drawn per NACE code per resample and applied to
+    every holding in that sector, because every holding in a sector is scored with the same
+    national-sector figure: if that figure misstates the sector it does so for all of them.
+    Drawing each holding independently (the version first committed) let 215 errors cancel and
+    gave an interval far too narrow on the low side."""
     rng = random.Random(seed)
-    ratios = {n_: _ratio_distribution(intensity, n_, year) for n_ in {r["nace"] for r in rows}}
-    usable = [r for r in rows if r["intensity"] is not None and ratios.get(r["nace"])]
+    usable = [r for r in rows if r["intensity"] is not None]
     total_mv = sum(r["market_value"] for r in usable)
     if total_mv == 0:
         return None, None
+    country_weight = {}
+    for r in usable:
+        g = COUNTRY_MAP[r["country"]][1]
+        country_weight[g] = country_weight.get(g, 0.0) + r["market_value"] / total_mv
+    ratios = {n_: _ratio_distribution(intensity, n_, year, country_weight)
+              for n_ in {r["nace"] for r in usable}}
     draws = []
     for _ in range(n):
-        s = 0.0
-        for r in usable:
-            rr = ratios[r["nace"]]
-            s += r["market_value"] * r["intensity"] * rr[rng.randrange(len(rr))]
-        draws.append(s / total_mv)
+        pick = {}
+        for n_, rr in ratios.items():
+            if rr:
+                vals, wts = zip(*rr)
+                pick[n_] = rng.choices(vals, wts)[0]
+            else:
+                pick[n_] = 1.0
+        draws.append(sum(r["market_value"] * r["intensity"] * pick[r["nace"]]
+                         for r in usable) / total_mv)
     draws.sort()
     lo = draws[int(0.025 * (len(draws) - 1))]
     hi = draws[int(0.975 * (len(draws) - 1))]

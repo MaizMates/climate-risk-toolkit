@@ -3,43 +3,43 @@
  "fund": {
   "isin": "IE00B910VR50",
   "name": "SPDR MSCI EMU UCITS ETF",
-  "holdings_as_of": "25-Sep-2026"
+  "holdings_as_of": "28-Sep-2026"
  },
  "reference_year": 2024,
  "n_holdings": 215,
- "total_market_value_eur": 353426622.2400002,
+ "total_market_value_eur": 353272422.3300002,
  "sector_weights": {
-  "Communication Services": 0.03246677575467976,
-  "Consumer Discretionary": 0.07578467434128851,
-  "Consumer Staples": 0.05323922570049796,
-  "Energy": 0.0416658008009374,
-  "Financials": 0.27378927876658504,
-  "Health Care": 0.05809234559036085,
-  "Industrials": 0.19811727049936784,
-  "Information Technology": 0.15528982373243636,
-  "Materials": 0.040056364798649685,
-  "Real Estate": 0.00533206519094734,
-  "Utilities": 0.0661663748242487
+  "Communication Services": 0.03205506998058801,
+  "Consumer Discretionary": 0.07587825897420364,
+  "Consumer Staples": 0.05350326412499845,
+  "Energy": 0.0419972991725374,
+  "Financials": 0.2735000911555584,
+  "Health Care": 0.058607316425791,
+  "Industrials": 0.19750140002387306,
+  "Information Technology": 0.1556577339021185,
+  "Materials": 0.0401289800842632,
+  "Real Estate": 0.005313363912246139,
+  "Utilities": 0.06585722224382151
  },
  "country_weights": {
-  "Austria": 0.011299093612954305,
-  "Belgium": 0.03244551994222176,
-  "Finland": 0.0346434476622012,
-  "France": 0.27497565758927395,
-  "Germany": 0.25178095618833285,
-  "Ireland": 0.012371469025983121,
-  "Italy": 0.09549316385985666,
-  "Netherlands": 0.16346349693139053,
-  "Portugal": 0.006336293473894811,
-  "Spain": 0.11719090171389003
+  "Austria": 0.01153262749220269,
+  "Belgium": 0.03236770259219004,
+  "Finland": 0.03444019946350278,
+  "France": 0.2751032134606191,
+  "Germany": 0.25149796433021765,
+  "Ireland": 0.01241494884053832,
+  "Italy": 0.09522707990655166,
+  "Netherlands": 0.1643610199376413,
+  "Portugal": 0.006353727345021198,
+  "Spain": 0.11670151663151472
  },
- "cprs_share": 0.1532206056147831,
+ "cprs_share": 0.15329686541286824,
  "cprs_breakdown": {
-  "not_cpr": 0.8467793943852167,
-  "fossil_fuel": 0.0416658008009374,
-  "utilities": 0.0661663748242487,
-  "energy_intensive": 0.040056364798649685,
-  "housing": 0.00533206519094734
+  "not_cpr": 0.8467031345871322,
+  "fossil_fuel": 0.0419972991725374,
+  "utilities": 0.06585722224382151,
+  "energy_intensive": 0.0401289800842632,
+  "housing": 0.005313363912246139
  },
  "sector_to_cprs": {
   "Energy": "fossil_fuel",
@@ -55,157 +55,157 @@
   "Real Estate": "housing"
  },
  "waci": {
-  "point": 142.01416922384607,
-  "ci_lo": 138.89951366745558,
-  "ci_hi": 309.40788092529345,
-  "fallback_value_share": 0.16052976001188968,
+  "point": 141.9232572053366,
+  "ci_lo": 81.82851056669944,
+  "ci_hi": 244.82577345772333,
+  "fallback_value_share": 0.16017300809046134,
   "unit": "tCO2e / EUR mn GVA"
  },
  "physical_overlay": {
-  "mean_change_days": 2.325897933078277,
-  "ci_lo": 1.5129556251799012,
-  "ci_hi": 3.31080018145113,
-  "exposed_share_at_k": 0.22688027394359225,
+  "mean_change_days": 2.319054022087464,
+  "ci_lo": 1.4962127262526521,
+  "ci_hi": 3.3107792340928186,
+  "exposed_share_at_k": 0.2260681562776356,
   "k": 2,
-  "covered_value_share": 0.9653565523377986,
+  "covered_value_share": 0.9655598005364973,
   "by_country": [
    {
     "country": "France",
     "iso3": "FRA",
     "change_days": 1.36,
-    "market_value": 97183717.85999997,
-    "weight": 0.27497565758927395
+    "market_value": 97186378.61000003,
+    "weight": 0.2751032134606191
    },
    {
     "country": "Germany",
     "iso3": "DEU",
     "change_days": 0.53,
-    "market_value": 88986092.88999996,
-    "weight": 0.25178095618833285
+    "market_value": 88847295.06999998,
+    "weight": 0.25149796433021765
    },
    {
     "country": "Netherlands",
     "iso3": "NLD",
     "change_days": 0.13,
-    "market_value": 57772351.57999999,
-    "weight": 0.16346349693139053
+    "market_value": 58064215.650000006,
+    "weight": 0.1643610199376413
    },
    {
     "country": "Spain",
     "iso3": "ESP",
     "change_days": 11.58,
-    "market_value": 41418384.550000004,
-    "weight": 0.11719090171389003
+    "market_value": 41227427.47000001,
+    "weight": 0.11670151663151472
    },
    {
     "country": "Italy",
     "iso3": "ITA",
     "change_days": 3.19,
-    "market_value": 33749826.35,
-    "weight": 0.09549316385985666
+    "market_value": 33641101.19,
+    "weight": 0.09522707990655166
    },
    {
     "country": "Belgium",
     "iso3": "BEL",
     "change_days": 0.17,
-    "market_value": 11467110.520000001,
-    "weight": 0.03244551994222176
+    "market_value": 11434616.700000001,
+    "weight": 0.03236770259219004
    },
    {
     "country": "Ireland",
     "iso3": "IRL",
     "change_days": 0.0,
-    "market_value": 4372406.51,
-    "weight": 0.012371469025983121
+    "market_value": 4385859.05,
+    "weight": 0.01241494884053832
    },
    {
     "country": "Austria",
     "iso3": "AUT",
     "change_days": 0.58,
-    "market_value": 3993400.49,
-    "weight": 0.011299093612954305
+    "market_value": 4074159.25,
+    "weight": 0.01153262749220269
    },
    {
     "country": "Portugal",
     "iso3": "PRT",
     "change_days": 6.77,
-    "market_value": 2239414.8,
-    "weight": 0.006336293473894811
+    "market_value": 2244596.65,
+    "weight": 0.006353727345021198
    }
   ]
  },
  "mapping_sensitivity": [
   {
    "variant": "base",
-   "waci": 142.01416922384607,
-   "cprs_share": 0.1532206056147831
+   "waci": 141.9232572053366,
+   "cprs_share": 0.15329686541286824
   },
   {
    "variant": "Materials -> C24",
-   "waci": 175.82522531512137,
-   "cprs_share": 0.1532206056147831
+   "waci": 175.79969738828095,
+   "cprs_share": 0.15329686541286824
   },
   {
    "variant": "Industrials -> C",
-   "waci": 182.72483530483768,
-   "cprs_share": 0.1532206056147831
+   "waci": 182.48741926146363,
+   "cprs_share": 0.15329686541286824
   },
   {
    "variant": "Consumer Discretionary -> C29",
-   "waci": 142.17096102854353,
-   "cprs_share": 0.22900527995607162
+   "waci": 142.082043224632,
+   "cprs_share": 0.2291751243870719
   },
   {
    "variant": "Health Care -> Q",
-   "waci": 141.56749940653935,
-   "cprs_share": 0.1532206056147831
+   "waci": 141.46634463122732,
+   "cprs_share": 0.15329686541286824
   },
   {
    "variant": "all alternates",
-   "waci": 216.24601338350362,
-   "cprs_share": 0.22900527995607162
+   "waci": 216.06573288959402,
+   "cprs_share": 0.2291751243870719
   }
  ],
  "year_sensitivity": [
   {
    "year": 2015,
-   "waci": 409.08942203911863
+   "waci": 407.9459728962555
   },
   {
    "year": 2016,
-   "waci": 394.27357213695996
+   "waci": 393.2375594326141
   },
   {
    "year": 2017,
-   "waci": 380.34596987315985
+   "waci": 379.2452075625922
   },
   {
    "year": 2018,
-   "waci": 340.28572351911754
+   "waci": 339.4098676129953
   },
   {
    "year": 2019,
-   "waci": 277.30460263644454
+   "waci": 276.67284272923445
   },
   {
    "year": 2020,
-   "waci": 247.00219586543008
+   "waci": 246.5403359467295
   },
   {
    "year": 2021,
-   "waci": 244.9822841040915
+   "waci": 244.37132997122507
   },
   {
    "year": 2022,
-   "waci": 200.82263261512315
+   "waci": 200.42293207402952
   },
   {
    "year": 2023,
-   "waci": 143.7528349805571
+   "waci": 143.6295633459535
   },
   {
    "year": 2024,
-   "waci": 142.01416922384607
+   "waci": 141.9232572053366
   }
  ],
  "validation": {

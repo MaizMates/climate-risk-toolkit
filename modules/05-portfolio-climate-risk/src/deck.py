@@ -55,9 +55,9 @@ def main():
                 f"(as of {fund['holdings_as_of']}) sits in climate-policy-relevant sectors.",
                 f"WACI at {d['reference_year']}: {waci['point']:.0f} tCO2e/EUR mn GVA, interval "
                 f"[{waci['ci_lo']:.0f}, {waci['ci_hi']:.0f}]",
-                "from the spread of the same sector's intensity across EU member states --",
-                "right-skewed, because a few high-carbon member states are a real possibility",
-                "for any company sharing that sector code."])])
+                "from the spread of each sector's intensity across the member states this fund",
+                "holds, one shared draw per sector. The reference year moves it more than that:",
+                "408 in 2015, 142 in 2024."])])
 
         page(pdf, "MODULE 05 / 2 of 6", "Method: a coarse, honest join", [
             ("Data, all fetched by code", [
@@ -188,8 +188,8 @@ def main():
             ("The mapping is many-to-one by design", [
                 "One NACE code per GICS sector cannot separate a chemicals company from a mining",
                 "company inside 'Materials', or an airline from a machinery maker inside",
-                "'Industrials'. The sensitivity page shows this costs more than the year chosen or",
-                "the interval width -- it is the first thing a skeptical reviewer should attack."]),
+                "'Industrials'. The sensitivity page shows it is worth 52% on WACI, the largest",
+                "swing from any modelling choice -- the first thing a skeptical reviewer attacks."]),
             ("No backtest, and why not one here", [
                 "STANDARD.md requires backtesting anything forward-looking. Nothing in this module",
                 "is: the portfolio is a snapshot of today's holdings, the intensity is a realised",

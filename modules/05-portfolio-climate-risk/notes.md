@@ -16,6 +16,16 @@ value — same dispersion, centred on the number actually being reported. `test_
 brackets_the_point_estimate` exists because this is exactly the kind of error that runs clean and
 produces a plausible, wrong-shaped number.
 
+**The interval that was still wrong after the fix.** The corrected version above still had two
+defects, found on review after the first commit. It drew the ratio from all 27 member states with
+equal weight, so Poland and Bulgaria set the upper bound of a fund that holds nothing domiciled
+there. And it drew each holding independently, although every holding in a sector is scored with
+the same national-sector figure: 215 independent errors cancel, and the interval came out far too
+narrow on the low side ([139, 309] around 142). The interval now draws one ratio per sector per
+resample, from the member states the fund holds, weighted by its country mix: [82, 245].
+`test_bootstrap_ignores_member_states_the_fund_does_not_hold` and
+`test_bootstrap_shares_one_draw_across_a_sector` pin both.
+
 **Which fund.** I looked at iShares first — the obvious choice, and the one with the most public
 name recognition — but iShares' site has moved to a new front end and the old
 `?fileType=csv&fileName=...` ajax endpoint that used to return a raw holdings CSV now returns the

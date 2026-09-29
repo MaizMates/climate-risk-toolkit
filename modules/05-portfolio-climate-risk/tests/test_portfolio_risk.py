@@ -84,6 +84,32 @@ def test_bootstrap_ci_brackets_the_point_estimate():
     assert lo <= waci <= hi, f"point estimate {waci} must lie inside its own interval [{lo}, {hi}]"
 
 
+def test_bootstrap_ignores_member_states_the_fund_does_not_hold():
+    """Poland's utility intensity is ten times France's; the fund holds nothing in Poland. If
+    the interval ever reaches Poland's level again, the draw has gone back to all 27 states."""
+    holdings = [{"country": "France", "sector": "Utilities", "market_value": 1.0}]
+    intensity = {("FR", "D", 2024): 500.0, ("PL", "D", 2024): 5000.0, ("DE", "D", 2024): 600.0}
+    waci, rows = P.portfolio_waci(holdings, intensity, P.GICS_TO_NACE, 2024)
+    lo, hi = P.bootstrap_waci_ci(rows, intensity, 2024, n=2000, seed=0)
+    assert hi < 1000, f"upper bound {hi} reached a country the fund does not hold"
+
+
+def test_bootstrap_shares_one_draw_across_a_sector():
+    """Two holdings in the same sector and country are scored with the same national figure, so
+    their proxy errors are one error. Independent draws would narrow the interval; a shared draw
+    must give exactly the interval of one holding of the combined size."""
+    one = [{"country": "France", "sector": "Utilities", "market_value": 2.0},
+           {"country": "Germany", "sector": "Utilities", "market_value": 2.0}]
+    two = [{"country": "France", "sector": "Utilities", "market_value": 1.0},
+           {"country": "France", "sector": "Utilities", "market_value": 1.0},
+           {"country": "Germany", "sector": "Utilities", "market_value": 2.0}]
+    intensity = {("FR", "D", 2024): 500.0, ("DE", "D", 2024): 800.0}
+    _, r1 = P.portfolio_waci(one, intensity, P.GICS_TO_NACE, 2024)
+    _, r2 = P.portfolio_waci(two, intensity, P.GICS_TO_NACE, 2024)
+    assert P.bootstrap_waci_ci(r1, intensity, 2024, n=500, seed=1) == \
+        P.bootstrap_waci_ci(r2, intensity, 2024, n=500, seed=1)
+
+
 def test_jsonstat_decode_matches_manual_flat_index():
     doc = {
         "id": ["nace_r2", "geo", "time"],
