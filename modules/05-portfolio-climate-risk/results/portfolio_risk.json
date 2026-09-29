@@ -1,0 +1,218 @@
+{
+ "estimand": "share of market value in climate-policy-relevant sectors, and the portfolio's weighted average carbon intensity in tCO2e per EUR million of gross value added, for the SPDR MSCI EMU UCITS ETF",
+ "fund": {
+  "isin": "IE00B910VR50",
+  "name": "SPDR MSCI EMU UCITS ETF",
+  "holdings_as_of": "25-Sep-2026"
+ },
+ "reference_year": 2024,
+ "n_holdings": 215,
+ "total_market_value_eur": 353426622.2400002,
+ "sector_weights": {
+  "Communication Services": 0.03246677575467976,
+  "Consumer Discretionary": 0.07578467434128851,
+  "Consumer Staples": 0.05323922570049796,
+  "Energy": 0.0416658008009374,
+  "Financials": 0.27378927876658504,
+  "Health Care": 0.05809234559036085,
+  "Industrials": 0.19811727049936784,
+  "Information Technology": 0.15528982373243636,
+  "Materials": 0.040056364798649685,
+  "Real Estate": 0.00533206519094734,
+  "Utilities": 0.0661663748242487
+ },
+ "country_weights": {
+  "Austria": 0.011299093612954305,
+  "Belgium": 0.03244551994222176,
+  "Finland": 0.0346434476622012,
+  "France": 0.27497565758927395,
+  "Germany": 0.25178095618833285,
+  "Ireland": 0.012371469025983121,
+  "Italy": 0.09549316385985666,
+  "Netherlands": 0.16346349693139053,
+  "Portugal": 0.006336293473894811,
+  "Spain": 0.11719090171389003
+ },
+ "cprs_share": 0.1532206056147831,
+ "cprs_breakdown": {
+  "not_cpr": 0.8467793943852167,
+  "fossil_fuel": 0.0416658008009374,
+  "utilities": 0.0661663748242487,
+  "energy_intensive": 0.040056364798649685,
+  "housing": 0.00533206519094734
+ },
+ "sector_to_cprs": {
+  "Energy": "fossil_fuel",
+  "Materials": "energy_intensive",
+  "Industrials": "not_cpr",
+  "Consumer Discretionary": "not_cpr",
+  "Consumer Staples": "not_cpr",
+  "Health Care": "not_cpr",
+  "Financials": "not_cpr",
+  "Information Technology": "not_cpr",
+  "Communication Services": "not_cpr",
+  "Utilities": "utilities",
+  "Real Estate": "housing"
+ },
+ "waci": {
+  "point": 142.01416922384607,
+  "ci_lo": 138.89951366745558,
+  "ci_hi": 309.40788092529345,
+  "fallback_value_share": 0.16052976001188968,
+  "unit": "tCO2e / EUR mn GVA"
+ },
+ "physical_overlay": {
+  "mean_change_days": 2.325897933078277,
+  "ci_lo": 1.5129556251799012,
+  "ci_hi": 3.31080018145113,
+  "exposed_share_at_k": 0.22688027394359225,
+  "k": 2,
+  "covered_value_share": 0.9653565523377986,
+  "by_country": [
+   {
+    "country": "France",
+    "iso3": "FRA",
+    "change_days": 1.36,
+    "market_value": 97183717.85999997,
+    "weight": 0.27497565758927395
+   },
+   {
+    "country": "Germany",
+    "iso3": "DEU",
+    "change_days": 0.53,
+    "market_value": 88986092.88999996,
+    "weight": 0.25178095618833285
+   },
+   {
+    "country": "Netherlands",
+    "iso3": "NLD",
+    "change_days": 0.13,
+    "market_value": 57772351.57999999,
+    "weight": 0.16346349693139053
+   },
+   {
+    "country": "Spain",
+    "iso3": "ESP",
+    "change_days": 11.58,
+    "market_value": 41418384.550000004,
+    "weight": 0.11719090171389003
+   },
+   {
+    "country": "Italy",
+    "iso3": "ITA",
+    "change_days": 3.19,
+    "market_value": 33749826.35,
+    "weight": 0.09549316385985666
+   },
+   {
+    "country": "Belgium",
+    "iso3": "BEL",
+    "change_days": 0.17,
+    "market_value": 11467110.520000001,
+    "weight": 0.03244551994222176
+   },
+   {
+    "country": "Ireland",
+    "iso3": "IRL",
+    "change_days": 0.0,
+    "market_value": 4372406.51,
+    "weight": 0.012371469025983121
+   },
+   {
+    "country": "Austria",
+    "iso3": "AUT",
+    "change_days": 0.58,
+    "market_value": 3993400.49,
+    "weight": 0.011299093612954305
+   },
+   {
+    "country": "Portugal",
+    "iso3": "PRT",
+    "change_days": 6.77,
+    "market_value": 2239414.8,
+    "weight": 0.006336293473894811
+   }
+  ]
+ },
+ "mapping_sensitivity": [
+  {
+   "variant": "base",
+   "waci": 142.01416922384607,
+   "cprs_share": 0.1532206056147831
+  },
+  {
+   "variant": "Materials -> C24",
+   "waci": 175.82522531512137,
+   "cprs_share": 0.1532206056147831
+  },
+  {
+   "variant": "Industrials -> C",
+   "waci": 182.72483530483768,
+   "cprs_share": 0.1532206056147831
+  },
+  {
+   "variant": "Consumer Discretionary -> C29",
+   "waci": 142.17096102854353,
+   "cprs_share": 0.22900527995607162
+  },
+  {
+   "variant": "Health Care -> Q",
+   "waci": 141.56749940653935,
+   "cprs_share": 0.1532206056147831
+  },
+  {
+   "variant": "all alternates",
+   "waci": 216.24601338350362,
+   "cprs_share": 0.22900527995607162
+  }
+ ],
+ "year_sensitivity": [
+  {
+   "year": 2015,
+   "waci": 409.08942203911863
+  },
+  {
+   "year": 2016,
+   "waci": 394.27357213695996
+  },
+  {
+   "year": 2017,
+   "waci": 380.34596987315985
+  },
+  {
+   "year": 2018,
+   "waci": 340.28572351911754
+  },
+  {
+   "year": 2019,
+   "waci": 277.30460263644454
+  },
+  {
+   "year": 2020,
+   "waci": 247.00219586543008
+  },
+  {
+   "year": 2021,
+   "waci": 244.9822841040915
+  },
+  {
+   "year": 2022,
+   "waci": 200.82263261512315
+  },
+  {
+   "year": 2023,
+   "waci": 143.7528349805571
+  },
+  {
+   "year": 2024,
+   "waci": 142.01416922384607
+  }
+ ],
+ "validation": {
+  "source": "State Street per-ISIN sustainability report, MSCI Weighted Average Carbon Intensity, Scope 1+2+3, tCO2e/$M Sales",
+  "url": "https://www.ssga.com/library-content/products/ssga-sustainability-report/etfs/ie00b910vr50-ssga-sustainability-report.pdf",
+  "ssga_waci_usd_per_million_sales": 1014.54,
+  "error": null,
+  "note": "Not unit-comparable: SSGA/MSCI use company Scope 1+2+3 emissions over USD sales; this module uses NACE-sector emissions over EUR gross value added. Reported as an order-of-magnitude and no-disclosed-metric check, not a like-for-like validation."
+ }
+}

@@ -10,3 +10,4 @@
 | 02 | [`02-renewables-pace`](02-renewables-pace/) | 19 of 27 member states fall short of the 42.5% yardstick on their realised pace; the method's own five-year error is 5.5 points, so one country cannot be called either way |
 | 03 | [`03-hazard-exposure-join`](03-hazard-exposure-join/) | 43.2% of thermal capacity in eleven countries is exposed at a two-day threshold, interval 36.9–49.5%, concentrated in ten plants |
 | 04 | [`04-emissions-inventory`](04-emissions-inventory/) | an illustrative firm's Scope 2 method choice (location- vs market-based) swings the 2024 total by 39%, more than any other choice in the inventory |
+| 05 | [`05-portfolio-climate-risk`](05-portfolio-climate-risk/) | 15.3% of a real Eurozone ETF sits in climate-policy-relevant sectors; the GICS-to-NACE sector mapping moves the carbon-intensity proxy by 52%, more than the year chosen or the interval itself |

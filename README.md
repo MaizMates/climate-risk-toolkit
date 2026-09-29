@@ -16,6 +16,7 @@ any employer.
 | 02 | [Renewables pace](modules/02-renewables-pace/) · [deck](modules/02-renewables-pace/deck.pdf) | On their realised five-year pace, 19 of 27 member states fall short of the 42.5% yardstick for 2030, 7 reach it, and 1 cannot be called, because the method's own out-of-sample error is 5.5 points. |
 | 03 | [Hazard-exposure join](modules/03-hazard-exposure-join/) · [deck](modules/03-hazard-exposure-join/deck.pdf) | 43.2% of 260,626 MW of thermal capacity in eleven countries sits in countries where the yearly count of days above a 35 °C heat index rises by more than two by 2040–2059 under SSP2-4.5 (interval 36.9–49.5%), and ten plants hold 17.9% of it. |
 | 04 | [Emissions inventory](modules/04-emissions-inventory/) · [deck](modules/04-emissions-inventory/deck.pdf) | An illustrative 450-employee firm's 2024 inventory comes to 1,070 tCO2e location-based [950, 1,194] versus 1,491 tCO2e market-based [1,354, 1,630] — a 39% swing from the Scope 2 method alone, driven by Germany's near-fully-fossil residual mix. |
+| 05 | [Portfolio climate risk](modules/05-portfolio-climate-risk/) · [deck](modules/05-portfolio-climate-risk/deck.pdf) | 15.3% of a real EUR 353mn Eurozone ETF sits in climate-policy-relevant sectors; its carbon-intensity proxy is 142 tCO2e/EUR mn value added [139, 309], and the sector-mapping choice alone moves that number by 52%, more than the interval width. |
 
 What comes next, and why in that order, is in [`modules/ROADMAP.md`](modules/ROADMAP.md).
 

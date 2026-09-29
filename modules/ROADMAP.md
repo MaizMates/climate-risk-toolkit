@@ -14,7 +14,7 @@ draws on the work of, any employer.
 | 02 | `02-renewables-pace` | **built** |
 | 03 | `03-hazard-exposure-join` | **built** |
 | 04 | `04-emissions-inventory` | **built** |
-| 05 | `05-portfolio-climate-risk` | climate risk of a real, public portfolio |
+| 05 | `05-portfolio-climate-risk` | **built** |
 | 06 | `06-flood-depth-damage` | physical risk, loss not hazard |
 | 07 | `07-pacta-alignment-open` | transition alignment, reproducible |
 | 08 | `08-scenario-pd-shift` | climate into credit metrics |
