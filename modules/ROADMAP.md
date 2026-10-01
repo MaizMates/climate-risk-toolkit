@@ -15,7 +15,7 @@ draws on the work of, any employer.
 | 03 | `03-hazard-exposure-join` | **built** |
 | 04 | `04-emissions-inventory` | **built** |
 | 05 | `05-portfolio-climate-risk` | **built** |
-| 06 | `06-flood-depth-damage` | physical risk, loss not hazard |
+| 06 | `06-flood-depth-damage` | **built** |
 | 07 | `07-pacta-alignment-open` | transition alignment, reproducible |
 | 08 | `08-scenario-pd-shift` | climate into credit metrics |
 | 09 | `09-financed-emissions-pcaf` | financed emissions with data-quality scores |

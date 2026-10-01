@@ -11,3 +11,4 @@
 | 03 | [`03-hazard-exposure-join`](03-hazard-exposure-join/) | 43.2% of thermal capacity in eleven countries is exposed at a two-day threshold, interval 36.9–49.5%, concentrated in ten plants |
 | 04 | [`04-emissions-inventory`](04-emissions-inventory/) | an illustrative firm's Scope 2 method choice (location- vs market-based) swings the 2024 total by 39%, more than any other choice in the inventory |
 | 05 | [`05-portfolio-climate-risk`](05-portfolio-climate-risk/) | 15.3% of a real Eurozone ETF sits in climate-policy-relevant sectors; carbon-intensity proxy 142 [82, 245]; the sector mapping moves it by 52%, the reference year by a factor of almost three |
+| 06 | [`06-flood-depth-damage`](06-flood-depth-damage/) | expected annual flood damage across 167 large gas and nuclear plants is 0.81% of asset value [0.14%, 1.67%]; resampling the portfolio moves it ten times more than the damage-curve choice does |
