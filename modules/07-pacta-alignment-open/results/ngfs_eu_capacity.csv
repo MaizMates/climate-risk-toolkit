@@ -1,0 +1,901 @@
+model,scenario,region,variable,year,gw
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Biomass,2020,8.09012631276571
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Biomass,2025,7.11903559731937
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Biomass,2030,7.06521352576758
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Biomass,2035,6.10180387306577
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Coal,2020,36.8919399219158
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Coal,2025,29.2955264888775
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Coal,2030,7.78115971360614
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Coal,2035,4.82314118992166
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Gas,2020,12.6809158694039
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Gas,2025,10.2338141269337
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Gas,2030,7.86976759546971
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Gas,2035,6.75084149717933
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Geothermal,2020,0.460718934653486
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Geothermal,2025,1.34424505711606
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Geothermal,2030,1.95366373014775
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Geothermal,2035,1.96151151930262
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Hydro,2020,12.6842279205488
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Hydro,2025,13.266249401875
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Hydro,2030,13.8482708832012
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Hydro,2035,14.4302923645274
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Nuclear,2020,14.4607414561168
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Nuclear,2025,14.9702077598554
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Nuclear,2030,15.9002332799898
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Nuclear,2035,15.7954604840411
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Oil,2020,5.44229135452487
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Oil,2025,3.00149721467882
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Oil,2030,2.76840669500049
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Oil,2035,2.12397024968528
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Solar,2020,16.3163907827123
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Solar,2025,47.5356272571181
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Solar,2030,86.6285011654266
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Solar,2035,117.117887439339
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Wind,2020,21.2089361412981
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Wind,2025,47.2970842664153
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Wind,2030,83.0064726475019
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Wind,2035,104.563156284449
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Biomass,2020,40.6491710591025
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Biomass,2025,36.6417210739937
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Biomass,2030,25.8632970816834
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Biomass,2035,24.6356058607122
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Coal,2020,63.7970915311526
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Coal,2025,60.2058342779926
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Coal,2030,10.879337142699
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Coal,2035,5.62421735550175
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Gas,2020,140.149673313638
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Gas,2025,97.2071812605191
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Gas,2030,58.4598428174236
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Gas,2035,48.440508659496
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Geothermal,2020,3.35414360499977
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Geothermal,2025,6.14602743569639
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Geothermal,2030,9.62487476233671
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Geothermal,2035,9.6955930435763
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Hydro,2020,100.722154366086
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Hydro,2025,100.722154366086
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Hydro,2030,100.722154366086
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Hydro,2035,100.722154366086
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Nuclear,2020,122.503820917458
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Nuclear,2025,120.128929973214
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Nuclear,2030,117.302231540483
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Nuclear,2035,110.536605877382
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Oil,2020,21.7364381301413
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Oil,2025,7.33620476464978
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Oil,2030,4.87793310149397
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Oil,2035,3.89184959311808
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Solar,2020,153.036384704521
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Solar,2025,268.006666925546
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Solar,2030,422.340738430359
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Solar,2035,559.033867892809
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Wind,2020,182.611751341187
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Wind,2025,289.924887911305
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Wind,2030,454.051243297333
+GCAM,Below 2?C,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Wind,2035,578.566476811634
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Biomass,2020,8.0901393697212
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Biomass,2025,7.27350972037563
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Biomass,2030,8.04159439701361
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Biomass,2035,8.29695042130312
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Coal,2020,36.8919399219158
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Coal,2025,31.3853233665854
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Coal,2030,23.9953471153054
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Coal,2035,23.8314469034919
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Gas,2020,12.6809158694039
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Gas,2025,10.8557916335568
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Gas,2030,10.0631468605026
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Gas,2035,11.69992212692
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Geothermal,2020,0.460718934653486
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Geothermal,2025,1.20711295476326
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Geothermal,2030,1.90094440728954
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Geothermal,2035,1.95480701228418
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Hydro,2020,12.6842279205488
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Hydro,2025,13.266249401875
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Hydro,2030,13.8482708832012
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Hydro,2035,14.4302923645274
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Nuclear,2020,14.4607414561168
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Nuclear,2025,14.6923443304062
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Nuclear,2030,14.5855884296601
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Nuclear,2035,13.5972587463444
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Oil,2020,5.44229135452487
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Oil,2025,3.136054165726
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Oil,2030,2.94958565964176
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Oil,2035,3.41682431822714
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Solar,2020,16.3163907827123
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Solar,2025,44.4096315449225
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Solar,2030,71.1937222145614
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Solar,2035,87.5196704172973
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Wind,2020,21.2089361412981
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Wind,2025,43.5781544070301
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Wind,2030,65.6757103049232
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Wind,2035,74.6679130396146
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Biomass,2020,40.6491710591025
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Biomass,2025,39.3520009986872
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Biomass,2030,39.7824469637986
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Biomass,2035,42.0877310860697
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Coal,2020,63.7970915311526
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Coal,2025,57.3177319091936
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Coal,2030,41.8849830997918
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Coal,2035,41.8974752607264
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Gas,2020,140.149673313638
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Gas,2025,104.755870114042
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Gas,2030,84.2681361886746
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Gas,2035,91.7213850339499
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Geothermal,2020,3.35414360499977
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Geothermal,2025,5.92916897283336
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Geothermal,2030,8.51418548754926
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Geothermal,2035,9.63310393380789
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Hydro,2020,100.722154366086
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Hydro,2025,100.722154366086
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Hydro,2030,100.722154366086
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Hydro,2035,100.722154366086
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Nuclear,2020,122.503820917458
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Nuclear,2025,119.771402773259
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Nuclear,2030,114.282225128059
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Nuclear,2035,104.491516667167
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Oil,2020,21.7364381301413
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Oil,2025,7.86189731562879
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Oil,2030,6.03607097688333
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Oil,2035,7.20136456244873
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Solar,2020,153.036384704521
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Solar,2025,261.588123903917
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Solar,2030,372.232418876504
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Solar,2035,449.175872765892
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Wind,2020,182.611751341187
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Wind,2025,282.222627266921
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Wind,2030,389.690647422653
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Wind,2035,449.603972262256
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Biomass,2020,8.0901393697212
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Biomass,2025,7.27350972037563
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Biomass,2030,8.04270105714497
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Biomass,2035,7.37419609742696
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Coal,2020,36.8919399219158
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Coal,2025,31.3853233665854
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Coal,2030,23.9965968673672
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Coal,2035,9.49912336253314
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Gas,2020,12.6809158694039
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Gas,2025,10.8557916334742
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Gas,2030,10.0629422646088
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Gas,2035,8.11345390821059
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Geothermal,2020,0.460718934653486
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Geothermal,2025,1.20711295476326
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Geothermal,2030,1.90089681057147
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Geothermal,2035,1.96132468777065
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Hydro,2020,12.6842279205488
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Hydro,2025,13.266249401875
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Hydro,2030,13.8482708832012
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Hydro,2035,14.4302923645274
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Nuclear,2020,14.4607414561168
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Nuclear,2025,14.6923443304062
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Nuclear,2030,14.5854893541767
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Nuclear,2035,14.6477750522241
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Oil,2020,5.44229135452487
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Oil,2025,3.136054165726
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Oil,2030,2.94950748805869
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Oil,2035,2.91516121765671
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Solar,2020,16.3163907827123
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Solar,2025,44.4096315449225
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Solar,2030,71.1920403745595
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Solar,2035,107.271300998726
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Wind,2020,21.2089361412981
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Wind,2025,43.5781544070301
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Wind,2030,65.6740059808307
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Wind,2035,92.539147759719
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Biomass,2020,40.6491710591025
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Biomass,2025,39.3520023043827
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Biomass,2030,39.7922983593368
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Biomass,2035,30.1914484743858
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Coal,2020,63.7970915311526
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Coal,2025,57.3177319091936
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Coal,2030,41.8886345659202
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Coal,2035,13.2595516738522
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Gas,2020,140.149673313638
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Gas,2025,104.755870114042
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Gas,2030,84.2657197355334
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Gas,2035,60.562318934195
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Geothermal,2020,3.35414360499977
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Geothermal,2025,5.92916897283336
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Geothermal,2030,8.51400259571873
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Geothermal,2035,9.67774811791174
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Hydro,2020,100.722154366086
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Hydro,2025,100.722154366086
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Hydro,2030,100.722154366086
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Hydro,2035,100.722154366086
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Nuclear,2020,122.503820917458
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Nuclear,2025,119.771402773259
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Nuclear,2030,114.281955242496
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Nuclear,2035,107.806073928005
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Oil,2020,21.7364381301413
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Oil,2025,7.86189588288582
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Oil,2030,6.03607992069835
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Oil,2035,5.49256263481907
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Solar,2020,153.036384704521
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Solar,2025,261.588123903917
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Solar,2030,372.226614178463
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Solar,2035,525.824747028407
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Wind,2020,182.611751341187
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Wind,2025,282.222627266921
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Wind,2030,389.683126285545
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Wind,2035,533.041930905164
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Biomass,2020,8.0835645397833
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Biomass,2025,7.2019685984588
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Biomass,2030,9.03614589891151
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Biomass,2035,9.18312605544817
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Coal,2020,36.892880260835
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Coal,2025,31.1563998465573
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Coal,2030,9.28047718151827
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Coal,2035,13.8269656198011
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Gas,2020,12.6825552309951
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Gas,2025,10.4074151922477
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Gas,2030,8.32969837573983
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Gas,2035,9.31025168486903
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Geothermal,2020,0.460821110649878
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Geothermal,2025,1.23299333389706
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Geothermal,2030,1.95217154420922
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Geothermal,2035,1.9557948844098
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Hydro,2020,12.6842279205488
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Hydro,2025,13.266249401875
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Hydro,2030,13.8482708832012
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Hydro,2035,14.4302923645274
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Nuclear,2020,14.4607414561168
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Nuclear,2025,14.7415129348934
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Nuclear,2030,15.3661782670241
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Nuclear,2035,14.4054599555445
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Oil,2020,5.4437086238682
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Oil,2025,3.02228143006387
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Oil,2030,3.91544391060951
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Oil,2035,3.05768466082241
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Solar,2020,16.3194094331654
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Solar,2025,44.9878533265925
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Solar,2030,80.8540903405565
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Solar,2035,98.0187499114282
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Wind,2020,21.2123405775762
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Wind,2025,44.2320843606395
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Wind,2030,76.9422244192888
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Wind,2035,85.1412041707793
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Biomass,2020,40.5755572497352
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Biomass,2025,38.6026555705506
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Biomass,2030,35.3075515378903
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Biomass,2035,38.2900172943115
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Coal,2020,63.7962448978389
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Coal,2025,57.5041121858204
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Coal,2030,11.9117195016414
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Coal,2035,21.4406546232549
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Gas,2020,140.174092342569
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Gas,2025,101.341798614015
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Gas,2030,67.7317465175655
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Gas,2035,74.1267371150461
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Geothermal,2020,3.35473904442702
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Geothermal,2025,6.04783822496912
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Geothermal,2030,9.54421049664581
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Geothermal,2035,9.66412091488195
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Hydro,2020,100.722154366086
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Hydro,2025,100.722154366086
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Hydro,2030,100.722154366086
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Hydro,2035,100.722154366086
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Nuclear,2020,122.503820917458
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Nuclear,2025,119.964045044526
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Nuclear,2030,116.060501806564
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Nuclear,2035,106.837552238507
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Oil,2020,21.7378919344303
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Oil,2025,7.46778193266114
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Oil,2030,6.02065991780913
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Oil,2035,5.26367015964044
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Solar,2020,153.05670664045
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Solar,2025,265.055673901884
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Solar,2030,403.766517554822
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Solar,2035,492.945920721781
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Wind,2020,182.63431698053
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Wind,2025,286.429276698201
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Wind,2030,430.500372118331
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Wind,2035,500.992032069783
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Biomass,2020,8.09012618219615
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Biomass,2025,7.02517397668826
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Biomass,2030,6.95939482793348
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Biomass,2035,6.23170266163202
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Coal,2020,36.8919916990144
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Coal,2025,28.7960284993999
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Coal,2030,5.37800214960047
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Coal,2035,2.04005709805821
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Gas,2020,12.6809166954036
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Gas,2025,9.5220207438104
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Gas,2030,6.80151561488379
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Gas,2035,4.14488130255499
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Geothermal,2020,0.460718934653486
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Geothermal,2025,1.3894524263436
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Geothermal,2030,1.95496988530664
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Geothermal,2035,1.96482298248851
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Hydro,2020,12.6842279205488
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Hydro,2025,13.266249401875
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Hydro,2030,13.8482708832012
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Hydro,2035,14.4302923645274
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Nuclear,2020,14.4607414561168
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Nuclear,2025,15.0709418767729
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Nuclear,2030,16.2767510867997
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Nuclear,2035,16.8868760443883
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Oil,2020,5.44229135452487
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Oil,2025,2.86060825393494
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Oil,2030,2.45237165686863
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Oil,2035,1.42017449231584
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Solar,2020,16.3163907489405
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Solar,2025,48.4784152352917
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Solar,2030,90.1260128799494
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Solar,2035,129.197042264791
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Wind,2020,21.2089359763265
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Wind,2025,48.4166387446058
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Wind,2030,87.1683251344286
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-12,Capacity|Electricity|Wind,2035,117.489819258617
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Biomass,2020,40.6491671420158
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Biomass,2025,35.390291266085
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Biomass,2030,24.7296946566206
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Biomass,2035,25.4768138040156
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Coal,2020,63.7971491252556
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Coal,2025,60.7054055271692
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Coal,2030,7.10487189610387
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Coal,2035,1.24106773736213
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Gas,2020,140.149706353626
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Gas,2025,91.493020495827
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Gas,2030,49.0530687102757
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Gas,2035,25.6657495148793
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Geothermal,2020,3.35414360499977
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Geothermal,2025,6.3344633550113
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Geothermal,2030,9.63027535630275
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Geothermal,2035,9.71488957305167
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Hydro,2020,100.722154366086
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Hydro,2025,100.722154366086
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Hydro,2030,100.722154366086
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Hydro,2035,100.722154366086
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Nuclear,2020,122.503820917458
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Nuclear,2025,120.454767816385
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Nuclear,2030,118.326202733899
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Nuclear,2035,113.629080791413
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Oil,2020,21.7364395628843
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Oil,2025,6.82798689313464
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Oil,2030,4.31587516818171
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Oil,2035,2.6607552586043
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Solar,2020,153.036384541709
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Solar,2025,273.331404417802
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Solar,2030,435.752516964661
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Solar,2035,604.104375866928
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Wind,2020,182.611750516329
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Wind,2025,296.504105509281
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Wind,2030,471.75059205501
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Capacity|Electricity|Wind,2035,632.480476057954
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Biomass,2020,2.67408341176471
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Biomass,2025,2.67408341176471
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Biomass,2030,2.61008341176471
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Biomass,2035,1.6637484418108
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Coal,2020,64.311415
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Coal,2025,41.5323327668132
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Coal,2030,43.0689392557154
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Coal,2035,44.5139392557154
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Gas,2020,18.402204
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Gas,2025,18.7580885694444
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Gas,2030,24.9695229448271
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Gas,2035,26.7494919027058
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Geothermal,2020,0.0195
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Geothermal,2025,0.0195
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Geothermal,2030,0.318903299090971
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Geothermal,2035,0.737575835791319
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Hydro,2020,30.221717
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Hydro,2025,27.0264278299506
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Hydro,2030,24.5760653070223
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Hydro,2035,22.6726117026449
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Nuclear,2020,14.7663333333333
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Nuclear,2025,15.2063333333333
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Nuclear,2030,15.6463333333333
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Nuclear,2035,15.6463333333333
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Oil,2020,5.573702
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Oil,2025,0.418
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Oil,2030,0.418
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Oil,2035,0.418
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Solar,2020,12.3126003616636
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Solar,2025,90.5202656767572
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Solar,2030,90.5201746767573
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Solar,2035,90.5201746767573
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Wind,2020,13.0576167902887
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Wind,2025,22.7940870470915
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Wind,2030,22.7940870470915
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Wind,2035,25.1263960990468
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Biomass,2020,17.032232
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Biomass,2025,4.79161468762254
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Biomass,2030,0.0
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Biomass,2035,0.0
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Coal,2020,99.490413
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Coal,2025,53.9749949863393
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Coal,2030,80.823061205203
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Coal,2035,80.635061205203
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Gas,2020,234.300753
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Gas,2025,232.757261
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Gas,2030,259.777168609078
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Gas,2035,253.388455609078
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Geothermal,2020,2.96221
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Geothermal,2025,2.42470255166611
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Geothermal,2030,2.95421
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Geothermal,2035,6.25426158958336
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Hydro,2020,180.554114
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Hydro,2025,186.389530714473
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Hydro,2030,192.808203812362
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Hydro,2035,199.687100064625
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Nuclear,2020,91.485
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Nuclear,2025,95.804
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Nuclear,2030,98.781
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Nuclear,2035,99.342
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Oil,2020,38.5047571363999
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Oil,2025,0.912875
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Oil,2030,0.912875
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Oil,2035,0.912875
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Solar,2020,204.324657495279
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Solar,2025,433.49296521932
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Solar,2030,433.48588221932
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Solar,2035,443.315703377733
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Wind,2020,193.204913034716
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Wind,2025,319.860834340517
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Wind,2030,302.172420320348
+MESSAGE,Below 2?C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Wind,2035,272.80176951293
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Biomass,2020,2.67408341176471
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Biomass,2025,2.67408341176471
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Biomass,2030,2.61008341176471
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Biomass,2035,0.0
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Coal,2020,64.311415
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Coal,2025,41.531241837765
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Coal,2030,18.6779563778171
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Coal,2035,26.3212087318714
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Gas,2020,18.402204
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Gas,2025,18.7581450916314
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Gas,2030,19.0922665268662
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Gas,2035,22.6140336128632
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Geothermal,2020,0.0195
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Geothermal,2025,0.0195
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Geothermal,2030,0.318903299090971
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Geothermal,2035,0.318903299090971
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Hydro,2020,30.221717
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Hydro,2025,27.0264278299506
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Hydro,2030,24.5760653070223
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Hydro,2035,22.4638770466733
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Nuclear,2020,14.7663333333333
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Nuclear,2025,15.2063333333333
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Nuclear,2030,10.239142061215
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Nuclear,2035,11.5937376889349
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Oil,2020,5.573702
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Oil,2025,0.418
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Oil,2030,0.0
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Oil,2035,0.3
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Solar,2020,12.3126003616636
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Solar,2025,90.5202656767572
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Solar,2030,113.679270105034
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Solar,2035,110.816853519917
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Wind,2020,13.0576167902887
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Wind,2025,22.7940870470915
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Wind,2030,31.948278424189
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Wind,2035,29.2506616339003
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Biomass,2020,17.032232
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Biomass,2025,4.76663455873883
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Biomass,2030,0.0
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Biomass,2035,0.0
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Coal,2020,99.490413
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Coal,2025,54.0024152326626
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Coal,2030,87.5674987479024
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Coal,2035,61.9827490352899
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Gas,2020,234.300753
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Gas,2025,232.757261
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Gas,2030,232.549211970592
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Gas,2035,226.160498970592
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Geothermal,2020,2.96221
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Geothermal,2025,2.42470255166612
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Geothermal,2030,1.99139317757902
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Geothermal,2035,1.64170875800107
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Hydro,2020,180.554114
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Hydro,2025,186.389530714473
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Hydro,2030,192.808203812362
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Hydro,2035,199.687100064625
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Nuclear,2020,91.485
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Nuclear,2025,95.804
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Nuclear,2030,94.462
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Nuclear,2035,94.5779210330662
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Oil,2020,38.5047571363999
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Oil,2025,0.912875
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Oil,2030,0.912875
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Oil,2035,0.912875
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Solar,2020,204.324657495279
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Solar,2025,433.49296521932
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Solar,2030,432.513767057488
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Solar,2035,430.195485500876
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Wind,2020,193.204913034716
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Wind,2025,319.860834340517
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Wind,2030,253.05655380548
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Wind,2035,205.230752556008
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Biomass,2020,2.67408341176471
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Biomass,2025,2.67408341176471
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Biomass,2030,2.61008341176471
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Biomass,2035,0.0
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Coal,2020,64.311415
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Coal,2025,41.531241837765
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Coal,2030,18.6779563778171
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Coal,2035,23.9273256981968
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Gas,2020,18.402204
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Gas,2025,18.7581450916314
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Gas,2030,19.0922665268662
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Gas,2035,24.4964416128632
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Geothermal,2020,0.0195
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Geothermal,2025,0.0195
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Geothermal,2030,0.318903299090971
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Geothermal,2035,0.737575835791319
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Hydro,2020,30.221717
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Hydro,2025,27.0264278299506
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Hydro,2030,24.5760653070223
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Hydro,2035,22.4638770466733
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Nuclear,2020,14.7663333333333
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Nuclear,2025,15.2063333333333
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Nuclear,2030,10.239142061215
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Nuclear,2035,12.6003333333333
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Oil,2020,5.573702
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Oil,2025,0.418
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Oil,2030,0.0
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Oil,2035,0.418
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Solar,2020,12.3126003616636
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Solar,2025,90.5202656767572
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Solar,2030,113.679270105034
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Solar,2035,113.679270105034
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Wind,2020,13.0576167902887
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Wind,2025,22.7940870470915
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Wind,2030,31.948278424189
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Wind,2035,34.1066190226374
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Biomass,2020,17.032232
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Biomass,2025,4.76663455873883
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Biomass,2030,0.0
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Biomass,2035,0.0
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Coal,2020,99.490413
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Coal,2025,54.0024152326626
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Coal,2030,87.5674987479024
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Coal,2035,85.115083
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Gas,2020,234.300753
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Gas,2025,232.757261
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Gas,2030,232.549211970592
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Gas,2035,226.160498970592
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Geothermal,2020,2.96221
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Geothermal,2025,2.42470255166612
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Geothermal,2030,1.99139317757902
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Geothermal,2035,5.1216901591893
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Hydro,2020,180.554114
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Hydro,2025,186.389530714473
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Hydro,2030,192.808203812362
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Hydro,2035,199.687100064625
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Nuclear,2020,91.485
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Nuclear,2025,95.804
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Nuclear,2030,94.462
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Nuclear,2035,99.342
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Oil,2020,38.5047571363999
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Oil,2025,0.912875
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Oil,2030,0.912875
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Oil,2035,4.42469546493433
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Solar,2020,204.324657495279
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Solar,2025,433.49296521932
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Solar,2030,432.513767057488
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Solar,2035,431.17796521932
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Wind,2020,193.204913034716
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Wind,2025,319.860834340517
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Wind,2030,253.05655380548
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Wind,2035,269.865834340517
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Biomass,2020,2.67408341176471
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Biomass,2025,2.67408341176471
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Biomass,2030,2.30562029133107
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Biomass,2035,0.0682712580466439
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Coal,2020,64.311415
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Coal,2025,41.5323327668132
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Coal,2030,36.1278550170738
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Coal,2035,34.7653927039242
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Gas,2020,18.402204
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Gas,2025,18.7580885694444
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Gas,2030,25.2243370664075
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Gas,2035,26.3351137310117
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Geothermal,2020,0.0195
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Geothermal,2025,0.0195
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Geothermal,2030,0.0195
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Geothermal,2035,0.318903299090971
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Hydro,2020,30.221717
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Hydro,2025,27.0264278299506
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Hydro,2030,24.4852179551059
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Hydro,2035,28.7943848922331
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Nuclear,2020,14.7663333333333
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Nuclear,2025,15.2063333333333
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Nuclear,2030,15.6463333333333
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Nuclear,2035,15.6463333333333
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Oil,2020,5.573702
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Oil,2025,0.418
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Oil,2030,0.418
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Oil,2035,0.418
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Solar,2020,12.3126003616636
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Solar,2025,90.5202656767572
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Solar,2030,77.5830489365503
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Solar,2035,90.5201746767573
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Wind,2020,13.0576167902887
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Wind,2025,22.7940870470915
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Wind,2030,22.7940870470915
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Wind,2035,22.5540870470915
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Biomass,2020,17.032232
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Biomass,2025,4.79161468762254
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Biomass,2030,0.0
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Biomass,2035,0.0
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Coal,2020,99.490413
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Coal,2025,53.9749949863393
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Coal,2030,49.811583
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Coal,2035,67.2252623054457
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Gas,2020,234.300753
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Gas,2025,232.757261
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Gas,2030,271.21667516346
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Gas,2035,274.476524749221
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Geothermal,2020,2.96221
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Geothermal,2025,2.42470255166611
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Geothermal,2030,1.99139317757902
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Geothermal,2035,3.54799842613556
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Hydro,2020,180.554114
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Hydro,2025,186.389530714473
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Hydro,2030,192.808203812362
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Hydro,2035,199.687100064625
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Nuclear,2020,91.485
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Nuclear,2025,95.804
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Nuclear,2030,98.781
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Nuclear,2035,99.342
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Oil,2020,38.5047571363999
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Oil,2025,0.912875
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Oil,2030,0.912875
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Oil,2035,0.912875
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Solar,2020,204.324657495279
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Solar,2025,433.49296521932
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Solar,2030,420.571981748234
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Solar,2035,447.104656818542
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Wind,2020,193.204913034716
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Wind,2025,319.860834340517
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Wind,2030,271.082522218845
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Wind,2035,269.865834340517
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Biomass,2020,2.67408341176471
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Biomass,2025,2.67408341176471
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Biomass,2030,0.0
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Biomass,2035,0.0
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Coal,2020,64.311415
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Coal,2025,41.5323327668132
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Coal,2030,23.7588592136105
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Coal,2035,19.3139048835208
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Gas,2020,18.402204
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Gas,2025,18.7580885694444
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Gas,2030,15.3318528994472
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Gas,2035,10.9335647449536
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Geothermal,2020,0.0195
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Geothermal,2025,0.0195
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Geothermal,2030,0.324290789559721
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Geothermal,2035,0.745012524879949
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Hydro,2020,30.221717
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Hydro,2025,27.0264278299506
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Hydro,2030,29.948089652118
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Hydro,2035,28.7943848922331
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Nuclear,2020,14.7663333333333
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Nuclear,2025,15.2063333333333
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Nuclear,2030,15.6463333333333
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Nuclear,2035,15.6463333333333
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Oil,2020,5.573702
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Oil,2025,0.418
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Oil,2030,0.0
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Oil,2035,0.0
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Solar,2020,12.3126003616636
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Solar,2025,90.5202656767572
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Solar,2030,104.390012539487
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Solar,2035,127.334967930134
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Wind,2020,13.0576167902887
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Wind,2025,22.7940870470915
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Wind,2030,44.8054120846343
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe,Capacity|Electricity|Wind,2035,56.9533784428964
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Biomass,2020,17.032232
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Biomass,2025,4.79161468762254
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Biomass,2030,0.0
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Biomass,2035,0.0
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Coal,2020,99.490413
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Coal,2025,53.9749949863393
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Coal,2030,12.6284466264007
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Coal,2035,4.70094174117647
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Gas,2020,234.300753
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Gas,2025,232.757261
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Gas,2030,63.1667200460682
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Gas,2035,31.287949575813
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Geothermal,2020,2.96221
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Geothermal,2025,2.42470255166611
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Geothermal,2030,6.16102517209919
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Geothermal,2035,11.8400066686161
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Hydro,2020,180.554114
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Hydro,2025,186.389530714473
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Hydro,2030,230.395596362505
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Hydro,2035,243.50202543776
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Nuclear,2020,91.485
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Nuclear,2025,95.804
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Nuclear,2030,98.781
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Nuclear,2035,99.342
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Oil,2020,38.5047571363999
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Oil,2025,0.912875
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Oil,2030,0.0
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Oil,2035,0.0
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Solar,2020,204.324657495279
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Solar,2025,433.49296521932
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Solar,2030,611.771207069957
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Solar,2035,806.875675888655
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Wind,2020,193.204913034716
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Wind,2025,319.860834340517
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Wind,2030,345.657665558956
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Capacity|Electricity|Wind,2035,372.348202649554
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Biomass,2020,32.40179999999999
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Biomass,2025,34.0305619
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Biomass,2030,33.8931
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Biomass,2035,31.493402
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Coal,2020,125.0104135
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Coal,2025,49.7864514
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Coal,2030,12.2962637
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Coal,2035,3.657048099999999
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Gas,2020,272.4983117999999
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Gas,2025,253.7782576
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Gas,2030,157.8209025
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Gas,2035,104.9295092
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Geothermal,2020,4.439400000000001
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Geothermal,2025,4.439400000000001
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Geothermal,2030,4.439400000000001
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Geothermal,2035,4.439400000000001
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Hydro,2020,128.2155586999999
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Hydro,2025,132.7108373
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Hydro,2030,135.1586352
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Hydro,2035,135.5157749
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Nuclear,2020,121.0678914
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Nuclear,2025,104.9682105
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Nuclear,2030,86.03454540000001
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Nuclear,2035,64.54761080000002
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Oil,2020,27.1395187
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Oil,2025,16.0044274
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Oil,2030,5.221211400000001
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Oil,2035,0.0001
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Solar,2020,159.2653478
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Solar,2025,394.1750265
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Solar,2030,751.9463917999999
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Solar,2035,1068.098068
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Wind,2020,209.07225
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Wind,2025,321.6473339
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Wind,2030,456.8043655
+REMIND,Below 2?C,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Wind,2035,590.2735045000002
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Biomass,2020,32.40179999999999
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Biomass,2025,34.0310287
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Biomass,2030,33.8931
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Biomass,2035,31.493401
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Coal,2020,125.0104135
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Coal,2025,53.794891
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Coal,2030,16.6137266
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Coal,2035,6.846911799999999
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Gas,2020,272.4983117999999
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Gas,2025,253.5373231
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Gas,2030,161.125887
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Gas,2035,101.8319542
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Geothermal,2020,4.439400000000001
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Geothermal,2025,4.439400000000001
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Geothermal,2030,4.439400000000001
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Geothermal,2035,4.439400000000001
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Hydro,2020,128.2155586999999
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Hydro,2025,132.7950124
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Hydro,2030,135.2709317
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Hydro,2035,135.5302835
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Nuclear,2020,121.0678914
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Nuclear,2025,104.9682105
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Nuclear,2030,86.03454540000001
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Nuclear,2035,64.54761080000002
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Oil,2020,27.1395187
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Oil,2025,16.0044273
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Oil,2030,5.2212113
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Oil,2035,0.0001
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Solar,2020,159.2653478
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Solar,2025,375.0537116
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Solar,2030,687.0346559
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Solar,2035,911.5760544
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Wind,2020,209.07225
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Wind,2025,319.5648298
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Wind,2030,444.2504754
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Wind,2035,551.9805499
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Biomass,2020,32.40179999999999
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Biomass,2025,34.0310287
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Biomass,2030,33.8931
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Biomass,2035,32.1357775
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Coal,2020,125.0104135
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Coal,2025,53.794891
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Coal,2030,16.6137266
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Coal,2035,6.8087203
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Gas,2020,272.4983117999999
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Gas,2025,253.5373231
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Gas,2030,161.125887
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Gas,2035,97.8385134
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Geothermal,2020,4.439400000000001
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Geothermal,2025,4.439400000000001
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Geothermal,2030,4.439400000000001
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Geothermal,2035,4.439400000000001
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Hydro,2020,128.2155586999999
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Hydro,2025,132.7950124
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Hydro,2030,135.2709317
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Hydro,2035,135.5514478000001
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Nuclear,2020,121.0678914
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Nuclear,2025,104.9682105
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Nuclear,2030,86.03454540000001
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Nuclear,2035,64.54761080000002
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Oil,2020,27.1395187
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Oil,2025,16.0044273
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Oil,2030,5.2212113
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Oil,2035,0.0001
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Solar,2020,159.2653478
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Solar,2025,375.0537116
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Solar,2030,687.0346559
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Solar,2035,1017.6169914
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Wind,2020,209.07225
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Wind,2025,319.5648298
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Wind,2030,444.2504754
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Wind,2035,587.0237351000001
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Biomass,2020,32.40179999999999
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Biomass,2025,34.1824019
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Biomass,2030,33.8931
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Biomass,2035,31.6975839
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Coal,2020,125.0104135
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Coal,2025,44.4021862
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Coal,2030,8.761641
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Coal,2035,1.0455693
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Gas,2020,272.4983117999999
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Gas,2025,248.8227769
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Gas,2030,124.6679897
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Gas,2035,81.1030285
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Geothermal,2020,4.439400000000001
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Geothermal,2025,4.439400000000001
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Geothermal,2030,4.439400000000001
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Geothermal,2035,4.439400000000001
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Hydro,2020,128.2155586999999
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Hydro,2025,133.4727435
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Hydro,2030,136.5782279
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Hydro,2035,136.5785911
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Nuclear,2020,121.0678914
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Nuclear,2025,104.9682105
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Nuclear,2030,86.03454540000001
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Nuclear,2035,64.54761080000002
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Oil,2020,27.1395187
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Oil,2025,16.0044273
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Oil,2030,5.2212113
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Oil,2035,0.0001
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Solar,2020,159.2653478
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Solar,2025,410.5971647
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Solar,2030,827.8708494
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Solar,2035,1161.6333623
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Wind,2020,209.07225
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Wind,2025,334.3674211000001
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Wind,2030,504.8429226000001
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Wind,2035,668.8477042999999
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Biomass,2020,32.40179999999999
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Biomass,2025,32.31754039999999
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Biomass,2030,33.8931
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Biomass,2035,33.4268631
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Coal,2020,125.0104135
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Coal,2025,42.7126885
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Coal,2030,7.595911099999999
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Coal,2035,0.0230826
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Gas,2020,272.4983117999999
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Gas,2025,244.2677176
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Gas,2030,83.6394716
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Gas,2035,30.912027
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Geothermal,2020,4.439400000000001
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Geothermal,2025,4.439400000000001
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Geothermal,2030,4.439400000000001
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Geothermal,2035,4.439400000000001
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Hydro,2020,128.2155586999999
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Hydro,2025,134.1511325
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Hydro,2030,138.0871296
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Hydro,2035,138.448128
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Nuclear,2020,121.0678914
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Nuclear,2025,105.046894
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Nuclear,2030,86.20295209999999
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Nuclear,2035,64.7159261
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Oil,2020,27.1395187
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Oil,2025,16.0044274
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Oil,2030,5.221211400000001
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Oil,2035,0.0001
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Solar,2020,159.2653478
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Solar,2025,425.6601727
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Solar,2030,905.9131476
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Solar,2035,1299.2054748
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Wind,2020,209.07225
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Wind,2025,347.058561
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Wind,2030,552.123567
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Capacity|Electricity|Wind,2035,746.2267594

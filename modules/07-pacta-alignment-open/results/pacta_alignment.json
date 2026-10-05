@@ -1,0 +1,2257 @@
+{
+ "estimand": "production-weighted gap, as a share of the set's capacity, between the base-year (2020) capacity of a set of listed European power utilities and the PACTA market-share-approach target from an NGFS Phase 5 pathway, by technology, at the horizon",
+ "headline": {
+  "config": {
+   "model": "REMIND",
+   "scenario": "Net Zero 2050",
+   "alloc": "ownership",
+   "alias": "extended",
+   "horizon": 2030,
+   "direction": "lookup",
+   "min_mw": 2000.0,
+   "listed_only": true
+  },
+  "n_companies": 22,
+  "members": [
+   "A2A",
+   "CEZ",
+   "Centrica",
+   "Drax",
+   "E.ON",
+   "EDP",
+   "EnBW",
+   "Endesa",
+   "Enea",
+   "Enel",
+   "Engie",
+   "Fortum",
+   "Iberdrola",
+   "Naturgy",
+   "Orsted",
+   "PGE",
+   "PPC",
+   "RWE",
+   "SSE",
+   "Tauron",
+   "Uniper",
+   "Verbund"
+  ],
+  "total_mw": 220458.59536666665,
+  "by_tech": [
+   {
+    "tech": "Coal",
+    "held_mw": 85053.0,
+    "target_mw": 5168.009677756164,
+    "held_share": 0.3858003352445383,
+    "target_share": 0.02344208747751809,
+    "gap": 0.36235824776702014,
+    "ci_lo": 0.24354305206409038,
+    "ci_hi": 0.4826529641803187,
+    "scenario_change_pct": -93.9237773179592,
+    "incl_model_ci_lo": 0.2185422879975741,
+    "incl_model_ci_hi": 0.4614247259142625
+   },
+   {
+    "tech": "Gas",
+    "held_mw": 60125.739,
+    "target_mw": 18454.738329573436,
+    "held_share": 0.2727303006716472,
+    "target_share": 0.08371067727651772,
+    "gap": 0.18901962339512943,
+    "ci_lo": 0.13203283629300092,
+    "ci_hi": 0.2445341395818678,
+    "scenario_change_pct": -69.30642577287335,
+    "incl_model_ci_lo": 0.12590347628740095,
+    "incl_model_ci_hi": 0.24069142639144434
+   },
+   {
+    "tech": "Oil",
+    "held_mw": 11502.6,
+    "target_mw": 2212.917145418648,
+    "held_share": 0.052175783760523745,
+    "target_share": 0.010037790278660377,
+    "gap": 0.04213799348186336,
+    "ci_lo": 0.006432515436800322,
+    "ci_hi": 0.08382794635894342,
+    "scenario_change_pct": -80.76159176691662,
+    "incl_model_ci_lo": 0.007352263203624199,
+    "incl_model_ci_hi": 0.09183849721995166
+   },
+   {
+    "tech": "Nuclear",
+    "held_mw": 13919.355,
+    "target_mw": 11419.663239620531,
+    "held_share": 0.06313818237319953,
+    "target_share": 0.05179958268638767,
+    "gap": 0.011338599686811864,
+    "ci_lo": 0.0031696066303842853,
+    "ci_hi": 0.019416391839145272,
+    "scenario_change_pct": -28.797841357299802,
+    "incl_model_ci_lo": -0.0066841169778270185,
+    "incl_model_ci_hi": 0.01756723699906774
+   },
+   {
+    "tech": "Hydro",
+    "held_mw": 33577.89,
+    "target_mw": 35594.61828779998,
+    "held_share": 0.15230928031702853,
+    "target_share": 0.1614571581053532,
+    "gap": -0.009147877788324654,
+    "ci_lo": -0.009147877788324712,
+    "ci_hi": -0.009147877788324602,
+    "scenario_change_pct": 7.699198911652916,
+    "incl_model_ci_lo": -0.040523158177312675,
+    "incl_model_ci_hi": -0.001216603828384281
+   },
+   {
+    "tech": "Renewables",
+    "held_mw": 16280.01136666667,
+    "target_mw": 239206.49421619886,
+    "held_share": 0.07384611763306285,
+    "target_share": 1.0850404531442774,
+    "gap": -1.0111943355112145,
+    "ci_lo": -1.0111943355112147,
+    "ci_hi": -1.011194335511214,
+    "scenario_change_pct": 269.31083825827966,
+    "incl_model_ci_lo": -1.0111943355112147,
+    "incl_model_ci_hi": -0.5457184194298289
+   }
+  ],
+  "n_boot": 4000,
+  "n_models_drawn": 3,
+  "fossil": {
+   "incl_model_ci_lo": 0.4444329524606875,
+   "incl_model_ci_hi": 0.6790640832083954,
+   "gap": 0.5935158646440128,
+   "ci_lo": 0.4746890916660299,
+   "ci_hi": 0.6989219074558932
+  },
+  "companies": [
+   {
+    "group": "RWE",
+    "mw": 28879.024033333335,
+    "Coal": 14125.0,
+    "Gas": 11358.0,
+    "Oil": 0.0,
+    "Nuclear": 0.0,
+    "Hydro": 434.05,
+    "Renewables": 2961.974033333334,
+    "gap_mw": {
+     "Coal": 13266.733546161737,
+     "Gas": 7871.823839282955,
+     "Oil": 0.0,
+     "Nuclear": 0.0,
+     "Hydro": -264.18178250302407,
+     "Renewables": -29202.305517598892
+    },
+    "listed_on": [
+     "Frankfurt Stock Exchange"
+    ]
+   },
+   {
+    "group": "Iberdrola",
+    "mw": 25797.56333333333,
+    "Coal": 833.55,
+    "Gas": 5601.379999999999,
+    "Oil": 1434.3,
+    "Nuclear": 4084.25,
+    "Hydro": 9910.93,
+    "Renewables": 3933.153333333333,
+    "gap_mw": {
+     "Coal": 782.9016458338489,
+     "Gas": 3882.1162719565727,
+     "Oil": 1158.3635107128853,
+     "Nuclear": 833.4924796449127,
+     "Hydro": -235.9929566098981,
+     "Renewables": -26086.349912658465
+    },
+    "listed_on": [
+     "OTC Markets Group",
+     "Madrid Stock Exchange"
+    ]
+   },
+   {
+    "group": "Enel",
+    "mw": 19749.769999999997,
+    "Coal": 7396.0,
+    "Gas": 7026.85,
+    "Oil": 4900.0,
+    "Nuclear": 0.0,
+    "Hydro": 0.0,
+    "Renewables": 426.92,
+    "gap_mw": {
+     "Coal": 6946.602570436262,
+     "Gas": 4870.058579421151,
+     "Oil": 3957.317996578915,
+     "Nuclear": 0.0,
+     "Hydro": -180.66848230752075,
+     "Renewables": -19970.85555164931
+    },
+    "listed_on": [
+     "OTC Markets Group",
+     "Italian Stock Exchange"
+    ]
+   },
+   {
+    "group": "Endesa",
+    "mw": 18320.064,
+    "Coal": 3714.2999999999997,
+    "Gas": 4188.1,
+    "Oil": 3936.6,
+    "Nuclear": 3035.81,
+    "Hydro": 3283.9900000000002,
+    "Renewables": 161.264,
+    "gap_mw": {
+     "Coal": 3488.610860920958,
+     "Gas": 2902.6224177937092,
+     "Oil": 3179.26082149644,
+     "Nuclear": 591.9022418246541,
+     "Hydro": -167.58970654628638,
+     "Renewables": -18525.14494300292
+    },
+    "listed_on": [
+     "OTC Markets Group",
+     "Madrid Stock Exchange"
+    ]
+   },
+   {
+    "group": "PGE",
+    "mw": 16216.0,
+    "Coal": 13132.0,
+    "Gas": 897.0,
+    "Oil": 0.0,
+    "Nuclear": 0.0,
+    "Hydro": 1636.0,
+    "Renewables": 551.0,
+    "gap_mw": {
+     "Coal": 12334.0704373944,
+     "Gas": 621.678639182674,
+     "Oil": 0.0,
+     "Nuclear": 0.0,
+     "Hydro": -148.34198621547284,
+     "Renewables": -16397.527344649854
+    },
+    "listed_on": [
+     "Warsaw Stock Exchange"
+    ]
+   },
+   {
+    "group": "E.ON",
+    "mw": 14520.945,
+    "Coal": 7204.0,
+    "Gas": 3316.4,
+    "Oil": 231.0,
+    "Nuclear": 1634.295,
+    "Hydro": 1167.0,
+    "Renewables": 968.25,
+    "gap_mw": {
+     "Coal": 6766.268917985781,
+     "Gas": 2298.478304331572,
+     "Oil": 186.5592769815774,
+     "Nuclear": 469.15665245015,
+     "Hydro": -132.83583023098413,
+     "Renewables": -14683.497330269889
+    },
+    "listed_on": [
+     "Frankfurt Stock Exchange",
+     "OTC Markets Group"
+    ]
+   },
+   {
+    "group": "CEZ",
+    "mw": 13195.8,
+    "Coal": 6231.0,
+    "Gas": 840.0,
+    "Oil": 0.0,
+    "Nuclear": 4173.0,
+    "Hydro": 1827.0,
+    "Renewables": 124.79999999999998,
+    "gap_mw": {
+     "Coal": 5852.390564682038,
+     "Gas": 582.1739764921361,
+     "Oil": 0.0,
+     "Nuclear": 426.3425937087213,
+     "Hydro": -120.71356571917454,
+     "Renewables": -13343.518212538882
+    },
+    "listed_on": [
+     "Prague Stock Exchange",
+     "Warsaw Stock Exchange"
+    ]
+   },
+   {
+    "group": "Engie",
+    "mw": 11034.949999999999,
+    "Coal": 940.0,
+    "Gas": 6126.65,
+    "Oil": 140.0,
+    "Nuclear": 0.0,
+    "Hydro": 3111.7,
+    "Renewables": 716.6,
+    "gap_mw": {
+     "Coal": 882.8835067888165,
+     "Gas": 4246.1621346137445,
+     "Oil": 113.06622847368328,
+     "Nuclear": 0.0,
+     "Hydro": -100.94637400027341,
+     "Renewables": -11158.478932649474
+    },
+    "listed_on": [
+     "Euronext Paris"
+    ]
+   },
+   {
+    "group": "Naturgy",
+    "mw": 10182.709,
+    "Coal": 2076.74,
+    "Gas": 6079.869,
+    "Oil": 0.0,
+    "Nuclear": 0.0,
+    "Hydro": 1759.5,
+    "Renewables": 266.6,
+    "gap_mw": {
+     "Coal": 1950.5526530729855,
+     "Gas": 4213.739895572937,
+     "Oil": 0.0,
+     "Nuclear": 0.0,
+     "Hydro": -93.15017748607374,
+     "Renewables": -10296.697660959062
+    },
+    "listed_on": [
+     "OTC Markets Group",
+     "Madrid Stock Exchange"
+    ]
+   },
+   {
+    "group": "PPC",
+    "mw": 7957.0,
+    "Coal": 4375.0,
+    "Gas": 3081.0,
+    "Oil": 501.0,
+    "Nuclear": 0.0,
+    "Hydro": 0.0,
+    "Renewables": 0.0,
+    "gap_mw": {
+     "Coal": 4109.165257660715,
+     "Gas": 2135.330978062228,
+     "Oil": 404.6155747522523,
+     "Nuclear": 0.0,
+     "Hydro": -72.78966356169934,
+     "Renewables": -8046.0733276627325
+    },
+    "listed_on": [
+     "Euronext Athens"
+    ]
+   },
+   {
+    "group": "Orsted",
+    "mw": 6245.05,
+    "Coal": 2768.0,
+    "Gas": 0.0,
+    "Oil": 0.0,
+    "Nuclear": 0.0,
+    "Hydro": 0.0,
+    "Renewables": 3477.05,
+    "gap_mw": {
+     "Coal": 2599.8101561611106,
+     "Gas": 0.0,
+     "Oil": 0.0,
+     "Nuclear": 0.0,
+     "Hydro": -57.12895418197694,
+     "Renewables": -6314.959184984308
+    },
+    "listed_on": [
+     "Nasdaq Copenhagen A/S",
+     "OTC Markets Group"
+    ]
+   },
+   {
+    "group": "Verbund",
+    "mw": 6231.400000000001,
+    "Coal": 0.0,
+    "Gas": 0.0,
+    "Oil": 0.0,
+    "Nuclear": 0.0,
+    "Hydro": 6143.400000000001,
+    "Renewables": 88.0,
+    "gap_mw": {
+     "Coal": 0.0,
+     "Gas": 0.0,
+     "Oil": 0.0,
+     "Nuclear": 0.0,
+     "Hydro": -57.00408565016642,
+     "Renewables": -6301.156382304582
+    },
+    "listed_on": [
+     "OTC Markets Group",
+     "Wiener Boerse AG"
+    ]
+   },
+   {
+    "group": "Enea",
+    "mw": 5774.0,
+    "Coal": 5569.0,
+    "Gas": 0.0,
+    "Oil": 0.0,
+    "Nuclear": 0.0,
+    "Hydro": 0.0,
+    "Renewables": 205.0,
+    "gap_mw": {
+     "Coal": 5230.615158837148,
+     "Gas": 0.0,
+     "Oil": 0.0,
+     "Nuclear": 0.0,
+     "Hydro": -52.8198463497866,
+     "Renewables": -5838.636093241751
+    },
+    "listed_on": [
+     "Warsaw Stock Exchange"
+    ]
+   },
+   {
+    "group": "EnBW",
+    "mw": 5663.7,
+    "Coal": 4418.5,
+    "Gas": 418.0,
+    "Oil": 136.0,
+    "Nuclear": 0.0,
+    "Hydro": 652.9,
+    "Renewables": 38.3,
+    "gap_mw": {
+     "Coal": 4150.022100794027,
+     "Gas": 289.7008597306106,
+     "Oil": 109.83576480300661,
+     "Nuclear": 0.0,
+     "Hydro": -51.810835429734425,
+     "Renewables": -5727.1013580348645
+    },
+    "listed_on": [
+     "Frankfurt Stock Exchange"
+    ]
+   },
+   {
+    "group": "Fortum",
+    "mw": 5534.0,
+    "Coal": 909.0,
+    "Gas": 707.0,
+    "Oil": 0.0,
+    "Nuclear": 992.0,
+    "Hydro": 2462.0,
+    "Renewables": 464.0,
+    "gap_mw": {
+     "Coal": 853.7671358202491,
+     "Gas": 489.99643021421457,
+     "Oil": 0.0,
+     "Nuclear": 178.7977927510317,
+     "Hydro": -50.624355680588906,
+     "Renewables": -5595.949452719061
+    },
+    "listed_on": [
+     "OTC Markets Group"
+    ]
+   },
+   {
+    "group": "Uniper",
+    "mw": 5058.2,
+    "Coal": 2000.0,
+    "Gas": 3017.0,
+    "Oil": 0.0,
+    "Nuclear": 0.0,
+    "Hydro": 41.2,
+    "Renewables": 0.0,
+    "gap_mw": {
+     "Coal": 1878.475546359184,
+     "Gas": 2090.974865567589,
+     "Oil": 0.0,
+     "Nuclear": 0.0,
+     "Hydro": -46.271795428903815,
+     "Renewables": -5114.823187882824
+    },
+    "listed_on": [
+     "Frankfurt Stock Exchange"
+    ]
+   },
+   {
+    "group": "EDP",
+    "mw": 5033.44,
+    "Coal": 2519.91,
+    "Gas": 2076.49,
+    "Oil": 0.0,
+    "Nuclear": 0.0,
+    "Hydro": 383.04,
+    "Renewables": 54.0,
+    "gap_mw": {
+     "Coal": 2366.794657012985,
+     "Gas": 1439.1410005311377,
+     "Oil": 0.0,
+     "Nuclear": 0.0,
+     "Hydro": -46.045293974864876,
+     "Renewables": -5089.786016135567
+    },
+    "listed_on": [
+     "Euronext Lisbon"
+    ]
+   },
+   {
+    "group": "Tauron",
+    "mw": 4743.0,
+    "Coal": 4525.0,
+    "Gas": 158.0,
+    "Oil": 0.0,
+    "Nuclear": 0.0,
+    "Hydro": 0.0,
+    "Renewables": 60.0,
+    "gap_mw": {
+     "Coal": 4250.050923637654,
+     "Gas": 109.50415272113989,
+     "Oil": 0.0,
+     "Nuclear": 0.0,
+     "Hydro": -43.38838435002388,
+     "Renewables": -4796.094733329689
+    },
+    "listed_on": [
+     "Warsaw Stock Exchange"
+    ]
+   },
+   {
+    "group": "SSE",
+    "mw": 3506.9799999999996,
+    "Coal": 0.0,
+    "Gas": 735.0,
+    "Oil": 223.7,
+    "Nuclear": 0.0,
+    "Hydro": 765.1799999999998,
+    "Renewables": 1783.0999999999997,
+    "gap_mw": {
+     "Coal": 0.0,
+     "Gas": 509.4022294306191,
+     "Oil": 180.66368078259248,
+     "Nuclear": 0.0,
+     "Hydro": -32.08142444609882,
+     "Renewables": -3546.2383107511187
+    },
+    "listed_on": [
+     "London Stock Exchange"
+    ]
+   },
+   {
+    "group": "A2A",
+    "mw": 2545.0,
+    "Coal": 336.0,
+    "Gas": 2209.0,
+    "Oil": 0.0,
+    "Nuclear": 0.0,
+    "Hydro": 0.0,
+    "Renewables": 0.0,
+    "gap_mw": {
+     "Coal": 315.5838917883429,
+     "Gas": 1530.9789453227722,
+     "Oil": 0.0,
+     "Nuclear": 0.0,
+     "Hydro": -23.281348971286267,
+     "Renewables": -2573.4895838760403
+    },
+    "listed_on": [
+     "Italian Stock Exchange"
+    ]
+   },
+   {
+    "group": "Centrica",
+    "mw": 2215.0,
+    "Coal": 0.0,
+    "Gas": 2215.0,
+    "Oil": 0.0,
+    "Nuclear": 0.0,
+    "Hydro": 0.0,
+    "Renewables": 0.0,
+    "gap_mw": {
+     "Coal": 0.0,
+     "Gas": 1535.1373308691445,
+     "Oil": 0.0,
+     "Nuclear": 0.0,
+     "Hydro": -20.262549301139128,
+     "Renewables": -2239.79545315734
+    },
+    "listed_on": [
+     "London Stock Exchange"
+    ]
+   },
+   {
+    "group": "Drax",
+    "mw": 2055.0,
+    "Coal": 1980.0,
+    "Gas": 75.0,
+    "Oil": 0.0,
+    "Nuclear": 0.0,
+    "Hydro": 0.0,
+    "Renewables": 0.0,
+    "gap_mw": {
+     "Coal": 1859.690790895592,
+     "Gas": 51.97981932965501,
+     "Oil": 0.0,
+     "Nuclear": 0.0,
+     "Hydro": -18.79888885500718,
+     "Renewables": -2078.0043594755452
+    },
+    "listed_on": [
+     "London Stock Exchange"
+    ]
+   }
+  ],
+  "largest_two_share_of_set": 0.2480129535241236,
+  "leave_one_out": [
+   {
+    "dropped": "A2A",
+    "coal": 0.3651420017946567,
+    "renewables": -1.0111943355112145
+   },
+   {
+    "dropped": "CEZ",
+    "coal": 0.35719193899026314,
+    "renewables": -1.0111943355112147
+   },
+   {
+    "dropped": "Centrica",
+    "coal": 0.3660358975851304,
+    "renewables": -1.0111943355112145
+   },
+   {
+    "dropped": "Drax",
+    "coal": 0.3572528162842537,
+    "renewables": -1.0111943355112147
+   },
+   {
+    "dropped": "E.ON",
+    "coal": 0.3550527126733362,
+    "renewables": -1.0111943355112147
+   },
+   {
+    "dropped": "EDP",
+    "coal": 0.3598381792195539,
+    "renewables": -1.0111943355112147
+   },
+   {
+    "dropped": "EnBW",
+    "coal": 0.3525920301418991,
+    "renewables": -1.0111943355112145
+   },
+   {
+    "dropped": "Endesa",
+    "coal": 0.37794070702306937,
+    "renewables": -1.0111943355112143
+   },
+   {
+    "dropped": "Enea",
+    "coal": 0.3477397855952455,
+    "renewables": -1.0111943355112145
+   },
+   {
+    "dropped": "Enel",
+    "coal": 0.3634039889305288,
+    "renewables": -1.0111943355112145
+   },
+   {
+    "dropped": "Engie",
+    "coal": 0.37723584973958035,
+    "renewables": -1.0111943355112147
+   },
+   {
+    "dropped": "Fortum",
+    "coal": 0.3677160496759078,
+    "renewables": -1.0111943355112145
+   },
+   {
+    "dropped": "Iberdrola",
+    "coal": 0.4063581079898144,
+    "renewables": -1.0111943355112147
+   },
+   {
+    "dropped": "Naturgy",
+    "coal": 0.3706294574037529,
+    "renewables": -1.0111943355112145
+   },
+   {
+    "dropped": "Orsted",
+    "coal": 0.3607856825010512,
+    "renewables": -1.0111943355112145
+   },
+   {
+    "dropped": "PGE",
+    "coal": 0.33073864814329546,
+    "renewables": -1.0111943355112145
+   },
+   {
+    "dropped": "PPC",
+    "coal": 0.3565894408172968,
+    "renewables": -1.0111943355112145
+   },
+   {
+    "dropped": "RWE",
+    "coal": 0.3477315264484625,
+    "renewables": -1.0111943355112145
+   },
+   {
+    "dropped": "SSE",
+    "coal": 0.3682156972522717,
+    "renewables": -1.0111943355112145
+   },
+   {
+    "dropped": "Tauron",
+    "coal": 0.35062341816336584,
+    "renewables": -1.0111943355112145
+   },
+   {
+    "dropped": "Uniper",
+    "coal": 0.36214657193686944,
+    "renewables": -1.0111943355112145
+   },
+   {
+    "dropped": "Verbund",
+    "coal": 0.37289845570500235,
+    "renewables": -1.0111943355112145
+   }
+  ]
+ },
+ "sweeps": [
+  {
+   "factor": "set definition",
+   "value": "listed owner groups",
+   "n_companies": 22,
+   "total_mw": 220458.59536666665,
+   "coal": 0.36235824776702014,
+   "fossil": 0.5935158646440128,
+   "renewables": -1.0111943355112145,
+   "gap": {
+    "Coal": 0.36235824776702014,
+    "Gas": 0.18901962339512943,
+    "Oil": 0.04213799348186336,
+    "Nuclear": 0.011338599686811864,
+    "Hydro": -0.009147877788324654,
+    "Renewables": -1.0111943355112145
+   }
+  },
+  {
+   "factor": "set definition",
+   "value": "all aliased owner groups",
+   "n_companies": 27,
+   "total_mw": 283910.73323666665,
+   "coal": 0.33551255845238936,
+   "fossil": 0.5499844776903869,
+   "renewables": -1.0111943355112145,
+   "gap": {
+    "Coal": 0.33551255845238936,
+    "Gas": 0.17824123229031355,
+    "Oil": 0.03623068694768404,
+    "Nuclear": 0.014854111120500247,
+    "Hydro": -0.009147877788324633,
+    "Renewables": -1.0111943355112145
+   }
+  },
+  {
+   "factor": "allocation rule",
+   "value": "ownership",
+   "n_companies": 22,
+   "total_mw": 220458.59536666665,
+   "coal": 0.36235824776702014,
+   "fossil": 0.5935158646440128,
+   "renewables": -1.0111943355112145,
+   "gap": {
+    "Coal": 0.36235824776702014,
+    "Gas": 0.18901962339512943,
+    "Oil": 0.04213799348186336,
+    "Nuclear": 0.011338599686811864,
+    "Hydro": -0.009147877788324654,
+    "Renewables": -1.0111943355112145
+   }
+  },
+  {
+   "factor": "allocation rule",
+   "value": "control",
+   "n_companies": 22,
+   "total_mw": 221769.98369999998,
+   "coal": 0.3627439292309965,
+   "fossil": 0.592534646057423,
+   "renewables": -1.0111943355112143,
+   "gap": {
+    "Coal": 0.3627439292309965,
+    "Gas": 0.18790189716024477,
+    "Oil": 0.04188881966618169,
+    "Nuclear": 0.011217016654730877,
+    "Hydro": -0.009147877788324701,
+    "Renewables": -1.0111943355112143
+   }
+  },
+  {
+   "factor": "owner-name aliases",
+   "value": "strict",
+   "n_companies": 20,
+   "total_mw": 183917.099,
+   "coal": 0.3810456133216702,
+   "fossil": 0.5853573362825145,
+   "renewables": -1.0111943355112145,
+   "gap": {
+    "Coal": 0.3810456133216702,
+    "Gas": 0.1666128713995681,
+    "Oil": 0.03769885156127632,
+    "Nuclear": 0.012195533975846447,
+    "Hydro": -0.009147877788324653,
+    "Renewables": -1.0111943355112145
+   }
+  },
+  {
+   "factor": "owner-name aliases",
+   "value": "extended",
+   "n_companies": 22,
+   "total_mw": 220458.59536666665,
+   "coal": 0.36235824776702014,
+   "fossil": 0.5935158646440128,
+   "renewables": -1.0111943355112145,
+   "gap": {
+    "Coal": 0.36235824776702014,
+    "Gas": 0.18901962339512943,
+    "Oil": 0.04213799348186336,
+    "Nuclear": 0.011338599686811864,
+    "Hydro": -0.009147877788324654,
+    "Renewables": -1.0111943355112145
+   }
+  },
+  {
+   "factor": "minimum fleet, MW",
+   "value": "500",
+   "n_companies": 23,
+   "total_mw": 221833.59536666668,
+   "coal": 0.3635248116234791,
+   "fossil": 0.5932496350469803,
+   "renewables": -1.0111943355112143,
+   "gap": {
+    "Coal": 0.3635248116234791,
+    "Gas": 0.18784801554313243,
+    "Oil": 0.04187680788036871,
+    "Nuclear": 0.011268319193257237,
+    "Hydro": -0.009147877788324685,
+    "Renewables": -1.0111943355112143
+   }
+  },
+  {
+   "factor": "minimum fleet, MW",
+   "value": "1,000",
+   "n_companies": 23,
+   "total_mw": 221833.59536666668,
+   "coal": 0.3635248116234791,
+   "fossil": 0.5932496350469803,
+   "renewables": -1.0111943355112143,
+   "gap": {
+    "Coal": 0.3635248116234791,
+    "Gas": 0.18784801554313243,
+    "Oil": 0.04187680788036871,
+    "Nuclear": 0.011268319193257237,
+    "Hydro": -0.009147877788324685,
+    "Renewables": -1.0111943355112143
+   }
+  },
+  {
+   "factor": "minimum fleet, MW",
+   "value": "2,000",
+   "n_companies": 22,
+   "total_mw": 220458.59536666665,
+   "coal": 0.36235824776702014,
+   "fossil": 0.5935158646440128,
+   "renewables": -1.0111943355112145,
+   "gap": {
+    "Coal": 0.36235824776702014,
+    "Gas": 0.18901962339512943,
+    "Oil": 0.04213799348186336,
+    "Nuclear": 0.011338599686811864,
+    "Hydro": -0.009147877788324654,
+    "Renewables": -1.0111943355112145
+   }
+  },
+  {
+   "factor": "minimum fleet, MW",
+   "value": "5,000",
+   "n_companies": 17,
+   "total_mw": 205393.61536666667,
+   "coal": 0.35765310710745696,
+   "fossil": 0.5866914697779384,
+   "renewables": -1.0111943355112145,
+   "gap": {
+    "Coal": 0.35765310710745696,
+    "Gas": 0.18468927636837118,
+    "Oil": 0.04434908630211035,
+    "Nuclear": 0.012170250549984453,
+    "Hydro": -0.009147877788324654,
+    "Renewables": -1.0111943355112145
+   }
+  },
+  {
+   "factor": "horizon",
+   "value": "2025",
+   "n_companies": 22,
+   "total_mw": 220458.59536666665,
+   "coal": 0.2539827603631022,
+   "fossil": 0.3036446256695522,
+   "renewables": -0.3746575344552075,
+   "gap": {
+    "Coal": 0.2539827603631022,
+    "Gas": 0.02825462805052589,
+    "Oil": 0.021407237255924118,
+    "Nuclear": 0.0052102679582767455,
+    "Hydro": -0.005500431924769156,
+    "Renewables": -0.3746575344552075
+   }
+  },
+  {
+   "factor": "horizon",
+   "value": "2030",
+   "n_companies": 22,
+   "total_mw": 220458.59536666665,
+   "coal": 0.36235824776702014,
+   "fossil": 0.5935158646440128,
+   "renewables": -1.0111943355112145,
+   "gap": {
+    "Coal": 0.36235824776702014,
+    "Gas": 0.18901962339512943,
+    "Oil": 0.04213799348186336,
+    "Nuclear": 0.011338599686811864,
+    "Hydro": -0.009147877788324654,
+    "Renewables": -1.0111943355112145
+   }
+  },
+  {
+   "factor": "horizon",
+   "value": "2035",
+   "n_companies": 22,
+   "total_mw": 220458.59536666665,
+   "coal": 0.38572909898054236,
+   "fossil": 0.6796966474994063,
+   "renewables": -1.555095342039831,
+   "gap": {
+    "Coal": 0.38572909898054236,
+    "Gas": 0.2417919570085578,
+    "Oil": 0.052175591510306124,
+    "Nuclear": 0.018326501893603263,
+    "Hydro": -0.009482411093959054,
+    "Renewables": -1.555095342039831
+   }
+  },
+  {
+   "factor": "direction rule",
+   "value": "lookup",
+   "n_companies": 22,
+   "total_mw": 220458.59536666665,
+   "coal": 0.36235824776702014,
+   "fossil": 0.5935158646440128,
+   "renewables": -1.0111943355112145,
+   "gap": {
+    "Coal": 0.36235824776702014,
+    "Gas": 0.18901962339512943,
+    "Oil": 0.04213799348186336,
+    "Nuclear": 0.011338599686811864,
+    "Hydro": -0.009147877788324654,
+    "Renewables": -1.0111943355112145
+   }
+  },
+  {
+   "factor": "direction rule",
+   "value": "scenario",
+   "n_companies": 22,
+   "total_mw": 220458.59536666665,
+   "coal": 0.36235824776702014,
+   "fossil": 0.5935158646440128,
+   "renewables": -1.0111943355112145,
+   "gap": {
+    "Coal": 0.36235824776702014,
+    "Gas": 0.18901962339512943,
+    "Oil": 0.04213799348186336,
+    "Nuclear": 0.018182433595716623,
+    "Hydro": -0.009147877788324654,
+    "Renewables": -1.0111943355112145
+   }
+  },
+  {
+   "factor": "IAM",
+   "value": "REMIND",
+   "n_companies": 22,
+   "total_mw": 220458.59536666665,
+   "coal": 0.36235824776702014,
+   "fossil": 0.5935158646440128,
+   "renewables": -1.0111943355112145,
+   "gap": {
+    "Coal": 0.36235824776702014,
+    "Gas": 0.18901962339512943,
+    "Oil": 0.04213799348186336,
+    "Nuclear": 0.011338599686811864,
+    "Hydro": -0.009147877788324654,
+    "Renewables": -1.0111943355112145
+   }
+  },
+  {
+   "factor": "IAM",
+   "value": "GCAM",
+   "n_companies": 22,
+   "total_mw": 220458.59536666665,
+   "coal": 0.337970976961969,
+   "fossil": 0.550209877938203,
+   "renewables": -0.7340576132656728,
+   "gap": {
+    "Coal": 0.337970976961969,
+    "Gas": 0.17305631339748911,
+    "Oil": 0.03918258757874481,
+    "Nuclear": 0.0008662126194052122,
+    "Hydro": -0.0012166038283843623,
+    "Renewables": -0.7340576132656728
+   }
+  },
+  {
+   "factor": "IAM",
+   "value": "MESSAGE",
+   "n_companies": 22,
+   "total_mw": 220458.59536666665,
+   "coal": 0.30009778257386927,
+   "fossil": 0.5402840851092038,
+   "renewables": -0.5457184194298291,
+   "gap": {
+    "Coal": 0.30009778257386927,
+    "Gas": 0.1880105187748107,
+    "Oil": 0.052175783760523745,
+    "Nuclear": -0.006684116977827014,
+    "Hydro": -0.040523158177312654,
+    "Renewables": -0.5457184194298291
+   }
+  },
+  {
+   "factor": "WRI coverage rescaled to Eurostat, by technology",
+   "value": "rescaled",
+   "n_companies": 22,
+   "total_mw": 277596.5673512354,
+   "coal": 0.21567527604490994,
+   "fossil": 0.41274053334241323,
+   "renewables": -1.011194335511214,
+   "gap": {
+    "Coal": 0.21567527604490994,
+    "Gas": 0.1668160534709843,
+    "Oil": 0.030249203826518984,
+    "Nuclear": 0.011788467808824978,
+    "Hydro": -0.009147877788324679,
+    "Renewables": -1.011194335511214
+   }
+  },
+  {
+   "factor": "scenario pace corrected by 2020-24 backtest",
+   "value": "corrected",
+   "n_companies": 22,
+   "total_mw": 220458.59536666665,
+   "coal": 0.3197468575912022,
+   "fossil": 0.5102896963354727,
+   "renewables": -0.7840659429056602,
+   "gap": {
+    "Coal": 0.3197468575912022,
+    "Gas": 0.15831399288621095,
+    "Oil": 0.032228845858059574,
+    "Nuclear": 0.00951349274912519,
+    "Hydro": -0.002666181725023645,
+    "Renewables": -0.7840659429056602
+   }
+  }
+ ],
+ "sweep_summary": [
+  {
+   "factor": "scenario and IAM grid",
+   "coal_min": 0.13335432391832971,
+   "coal_max": 0.36235824776702014,
+   "coal_span": 0.22900392384869042
+  },
+  {
+   "factor": "WRI coverage rescaled to Eurostat, by technology",
+   "coal_min": 0.21567527604490994,
+   "coal_max": 0.36235824776702014,
+   "coal_span": 0.1466829717221102
+  },
+  {
+   "factor": "horizon",
+   "coal_min": 0.2539827603631022,
+   "coal_max": 0.38572909898054236,
+   "coal_span": 0.13174633861744017
+  },
+  {
+   "factor": "IAM",
+   "coal_min": 0.30009778257386927,
+   "coal_max": 0.36235824776702014,
+   "coal_span": 0.06226046519315087
+  },
+  {
+   "factor": "scenario pace corrected by 2020-24 backtest",
+   "coal_min": 0.3197468575912022,
+   "coal_max": 0.36235824776702014,
+   "coal_span": 0.04261139017581794
+  },
+  {
+   "factor": "set definition",
+   "coal_min": 0.33551255845238936,
+   "coal_max": 0.36235824776702014,
+   "coal_span": 0.026845689314630772
+  },
+  {
+   "factor": "owner-name aliases",
+   "coal_min": 0.36235824776702014,
+   "coal_max": 0.3810456133216702,
+   "coal_span": 0.01868736555465006
+  },
+  {
+   "factor": "minimum fleet, MW",
+   "coal_min": 0.35765310710745696,
+   "coal_max": 0.3635248116234791,
+   "coal_span": 0.005871704516022147
+  },
+  {
+   "factor": "allocation rule",
+   "coal_min": 0.36235824776702014,
+   "coal_max": 0.3627439292309965,
+   "coal_span": 0.0003856814639763839
+  },
+  {
+   "factor": "direction rule",
+   "coal_min": 0.36235824776702014,
+   "coal_max": 0.36235824776702014,
+   "coal_span": 0.0
+  }
+ ],
+ "coverage_factors": {
+  "Coal": 0.7494613950766948,
+  "Gas": 1.1112659422044866,
+  "Oil": 0.9039140817609697,
+  "Nuclear": 0.945389723898949,
+  "Hydro": 1.3947545146832194,
+  "Renewables": 4.708071058472064
+ },
+ "scenario_grid": [
+  {
+   "model": "REMIND",
+   "scenario": "Net Zero 2050",
+   "coal": 0.36235824776702014,
+   "fossil": 0.5935158646440128,
+   "renewables": -1.0111943355112145,
+   "gap": {
+    "Coal": 0.36235824776702014,
+    "Gas": 0.18901962339512943,
+    "Oil": 0.04213799348186336,
+    "Nuclear": 0.011338599686811864,
+    "Hydro": -0.009147877788324654,
+    "Renewables": -1.0111943355112145
+   }
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Delayed transition",
+   "coal": 0.33452795630835386,
+   "fossil": 0.4881331906475319,
+   "renewables": -0.7083971838268811,
+   "gap": {
+    "Coal": 0.33452795630835386,
+    "Gas": 0.11146724066506446,
+    "Oil": 0.04213799367411358,
+    "Nuclear": 0.011393368064276866,
+    "Hydro": -0.006538137709677623,
+    "Renewables": -0.7083971838268811
+   }
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "coal": 0.358760635587099,
+   "fossil": 0.5488548053138211,
+   "renewables": -0.8950589225570297,
+   "gap": {
+    "Coal": 0.358760635587099,
+    "Gas": 0.14795617605260858,
+    "Oil": 0.04213799367411358,
+    "Nuclear": 0.011393368064276866,
+    "Hydro": -0.007749594932837621,
+    "Renewables": -0.8950589225570297
+   }
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Current Policies",
+   "coal": 0.33452795630835386,
+   "fossil": 0.4881331906475319,
+   "renewables": -0.7083971838268811,
+   "gap": {
+    "Coal": 0.33452795630835386,
+    "Gas": 0.11146724066506446,
+    "Oil": 0.04213799367411358,
+    "Nuclear": 0.011393368064276866,
+    "Hydro": -0.006538137709677623,
+    "Renewables": -0.7083971838268811
+   }
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Net Zero 2050",
+   "coal": 0.337970976961969,
+   "fossil": 0.550209877938203,
+   "renewables": -0.7340576132656728,
+   "gap": {
+    "Coal": 0.337970976961969,
+    "Gas": 0.17305631339748911,
+    "Oil": 0.03918258757874481,
+    "Nuclear": 0.0008662126194052122,
+    "Hydro": -0.0012166038283843623,
+    "Renewables": -0.7340576132656728
+   }
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Delayed transition",
+   "coal": 0.13335432391832971,
+   "fossil": 0.27267848268042777,
+   "renewables": -0.5552882044726272,
+   "gap": {
+    "Coal": 0.13335432391832971,
+    "Gas": 0.10439826395849187,
+    "Oil": 0.034925894803606194,
+    "Nuclear": 0.002969936112843512,
+    "Hydro": -0.0012166039890799233,
+    "Renewables": -0.5552882044726272
+   }
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "coal": 0.3046003389982021,
+   "fossil": 0.47472325902043716,
+   "renewables": -0.6503016062045124,
+   "gap": {
+    "Coal": 0.3046003389982021,
+    "Gas": 0.13701974398625563,
+    "Oil": 0.03310317603597939,
+    "Nuclear": 0.0020312383957487275,
+    "Hydro": -0.0012166054604958831,
+    "Renewables": -0.6503016062045124
+   }
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Current Policies",
+   "coal": 0.13337310343774308,
+   "fossil": 0.2726924519687534,
+   "renewables": -0.5552944591249265,
+   "gap": {
+    "Coal": 0.13337310343774308,
+    "Gas": 0.10439358662592899,
+    "Oil": 0.03492576190508134,
+    "Nuclear": 0.0029698007818817914,
+    "Hydro": -0.0012166039890799233,
+    "Renewables": -0.5552944591249265
+   }
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Net Zero 2050",
+   "coal": 0.30009778257386927,
+   "fossil": 0.5402840851092038,
+   "renewables": -0.5457184194298291,
+   "gap": {
+    "Coal": 0.30009778257386927,
+    "Gas": 0.1880105187748107,
+    "Oil": 0.052175783760523745,
+    "Nuclear": -0.006684116977827014,
+    "Hydro": -0.040523158177312654,
+    "Renewables": -0.5457184194298291
+   }
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Delayed transition",
+   "coal": 0.13556178353734286,
+   "fossil": 0.18780259818580047,
+   "renewables": -0.3192699509387387,
+   "gap": {
+    "Coal": 0.13556178353734286,
+    "Gas": 0.0011456033383681757,
+    "Oil": 0.05109521131008944,
+    "Nuclear": 0.00044475912866364514,
+    "Hydro": -0.005402589705319888,
+    "Renewables": -0.3192699509387387
+   }
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "coal": 0.18338828403278812,
+   "fossil": 0.1867843017866614,
+   "renewables": -0.28675674485333236,
+   "gap": {
+    "Coal": 0.18338828403278812,
+    "Gas": -0.047204405897137404,
+    "Oil": 0.05060042365101066,
+    "Nuclear": -0.006684116977827014,
+    "Hydro": -0.005328319361956988,
+    "Renewables": -0.28675674485333236
+   }
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Current Policies",
+   "coal": 0.13556178353734286,
+   "fossil": 0.18780259818580047,
+   "renewables": -0.3192699509387387,
+   "gap": {
+    "Coal": 0.13556178353734286,
+    "Gas": 0.0011456033383681757,
+    "Oil": 0.05109521131008944,
+    "Nuclear": 0.00044475912866364514,
+    "Hydro": -0.005402589705319888,
+    "Renewables": -0.3192699509387387
+   }
+  }
+ ],
+ "allocation_rank_agreement": {
+  "n": 22,
+  "mw_moved_between_groups": 3005.757833333334,
+  "share_of_attributed_mw": 0.010471318727237078,
+  "spearman_coal_share": 0.9988706945228685
+ },
+ "backtest": [
+  {
+   "tech": "Coal",
+   "model": "REMIND",
+   "scenario": "Net Zero 2050",
+   "realised_ratio": 0.7163603382513887,
+   "scenario_ratio": 0.4733384351216468,
+   "error": -0.24302190312974187
+  },
+  {
+   "tech": "Coal",
+   "model": "REMIND",
+   "scenario": "Delayed transition",
+   "realised_ratio": 0.7163603382513887,
+   "scenario_ratio": 0.5442586229026432,
+   "error": -0.17210171534874552
+  },
+  {
+   "tech": "Coal",
+   "model": "REMIND",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "realised_ratio": 0.7163603382513887,
+   "scenario_ratio": 0.48415031968516764,
+   "error": -0.23221001856622103
+  },
+  {
+   "tech": "Coal",
+   "model": "REMIND",
+   "scenario": "Current Policies",
+   "realised_ratio": 0.7163603382513887,
+   "scenario_ratio": 0.5442586229026432,
+   "error": -0.17210171534874552
+  },
+  {
+   "tech": "Coal",
+   "model": "GCAM",
+   "scenario": "Net Zero 2050",
+   "realised_ratio": 0.7163603382513887,
+   "scenario_ratio": 0.9111109165805555,
+   "error": 0.19475057832916687
+  },
+  {
+   "tech": "Coal",
+   "model": "GCAM",
+   "scenario": "Delayed transition",
+   "realised_ratio": 0.7163603382513887,
+   "scenario_ratio": 0.9047683664898407,
+   "error": 0.18840802823845204
+  },
+  {
+   "tech": "Coal",
+   "model": "GCAM",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "realised_ratio": 0.7163603382513887,
+   "scenario_ratio": 0.9044296940124125,
+   "error": 0.1880693557610238
+  },
+  {
+   "tech": "Coal",
+   "model": "GCAM",
+   "scenario": "Current Policies",
+   "realised_ratio": 0.7163603382513887,
+   "scenario_ratio": 0.9047683664898407,
+   "error": 0.18840802823845204
+  },
+  {
+   "tech": "Coal",
+   "model": "MESSAGE",
+   "scenario": "Net Zero 2050",
+   "realised_ratio": 0.7163603382513887,
+   "scenario_ratio": 0.6664530496114,
+   "error": -0.04990728863998872
+  },
+  {
+   "tech": "Coal",
+   "model": "MESSAGE",
+   "scenario": "Delayed transition",
+   "realised_ratio": 0.7163603382513887,
+   "scenario_ratio": 0.666581640690494,
+   "error": -0.0497786975608947
+  },
+  {
+   "tech": "Coal",
+   "model": "MESSAGE",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "realised_ratio": 0.7163603382513887,
+   "scenario_ratio": 0.6664530496114,
+   "error": -0.04990728863998872
+  },
+  {
+   "tech": "Coal",
+   "model": "MESSAGE",
+   "scenario": "Current Policies",
+   "realised_ratio": 0.7163603382513887,
+   "scenario_ratio": 0.666581640690494,
+   "error": -0.0497786975608947
+  },
+  {
+   "tech": "Gas",
+   "model": "REMIND",
+   "scenario": "Net Zero 2050",
+   "realised_ratio": 1.039224351416981,
+   "scenario_ratio": 0.9171206778830403,
+   "error": -0.1221036735339407
+  },
+  {
+   "tech": "Gas",
+   "model": "REMIND",
+   "scenario": "Delayed transition",
+   "realised_ratio": 1.039224351416981,
+   "scenario_ratio": 0.9443343672120323,
+   "error": -0.09488998420494865
+  },
+  {
+   "tech": "Gas",
+   "model": "REMIND",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "realised_ratio": 1.039224351416981,
+   "scenario_ratio": 0.930493411886158,
+   "error": -0.10873093953082302
+  },
+  {
+   "tech": "Gas",
+   "model": "REMIND",
+   "scenario": "Current Policies",
+   "realised_ratio": 1.039224351416981,
+   "scenario_ratio": 0.9443343672120323,
+   "error": -0.09488998420494865
+  },
+  {
+   "tech": "Gas",
+   "model": "GCAM",
+   "scenario": "Net Zero 2050",
+   "realised_ratio": 1.039224351416981,
+   "scenario_ratio": 0.7287685895632618,
+   "error": -0.31045576185371915
+  },
+  {
+   "tech": "Gas",
+   "model": "GCAM",
+   "scenario": "Delayed transition",
+   "realised_ratio": 1.039224351416981,
+   "scenario_ratio": 0.8051755076808641,
+   "error": -0.2340488437361169
+  },
+  {
+   "tech": "Gas",
+   "model": "GCAM",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "realised_ratio": 1.039224351416981,
+   "scenario_ratio": 0.7848575934650514,
+   "error": -0.25436675795192965
+  },
+  {
+   "tech": "Gas",
+   "model": "GCAM",
+   "scenario": "Current Policies",
+   "realised_ratio": 1.039224351416981,
+   "scenario_ratio": 0.8051755076812965,
+   "error": -0.23404884373568446
+  },
+  {
+   "tech": "Gas",
+   "model": "MESSAGE",
+   "scenario": "Net Zero 2050",
+   "realised_ratio": 1.039224351416981,
+   "scenario_ratio": 0.9962403053936386,
+   "error": -0.04298404602334238
+  },
+  {
+   "tech": "Gas",
+   "model": "MESSAGE",
+   "scenario": "Delayed transition",
+   "realised_ratio": 1.039224351416981,
+   "scenario_ratio": 0.9962404843300078,
+   "error": -0.042983867086973215
+  },
+  {
+   "tech": "Gas",
+   "model": "MESSAGE",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "realised_ratio": 1.039224351416981,
+   "scenario_ratio": 0.9962403053936386,
+   "error": -0.04298404602334238
+  },
+  {
+   "tech": "Gas",
+   "model": "MESSAGE",
+   "scenario": "Current Policies",
+   "realised_ratio": 1.039224351416981,
+   "scenario_ratio": 0.9962404843300078,
+   "error": -0.042983867086973215
+  },
+  {
+   "tech": "Oil",
+   "model": "REMIND",
+   "scenario": "Net Zero 2050",
+   "realised_ratio": 0.8841261033183828,
+   "scenario_ratio": 0.6717674643213182,
+   "error": -0.21235863899706464
+  },
+  {
+   "tech": "Oil",
+   "model": "REMIND",
+   "scenario": "Delayed transition",
+   "realised_ratio": 0.8841261033183828,
+   "scenario_ratio": 0.6717674613735872,
+   "error": -0.2123586419447956
+  },
+  {
+   "tech": "Oil",
+   "model": "REMIND",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "realised_ratio": 0.8841261033183828,
+   "scenario_ratio": 0.6717674613735872,
+   "error": -0.2123586419447956
+  },
+  {
+   "tech": "Oil",
+   "model": "REMIND",
+   "scenario": "Current Policies",
+   "realised_ratio": 0.8841261033183828,
+   "scenario_ratio": 0.6717674613735872,
+   "error": -0.2123586419447956
+  },
+  {
+   "tech": "Oil",
+   "model": "GCAM",
+   "scenario": "Net Zero 2050",
+   "realised_ratio": 0.8841261033183828,
+   "scenario_ratio": 0.48518167905665116,
+   "error": -0.39894442426173166
+  },
+  {
+   "tech": "Oil",
+   "model": "GCAM",
+   "scenario": "Delayed transition",
+   "realised_ratio": 0.8841261033183828,
+   "scenario_ratio": 0.5237222712655998,
+   "error": -0.36040383205278304
+  },
+  {
+   "tech": "Oil",
+   "model": "GCAM",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "realised_ratio": 0.8841261033183828,
+   "scenario_ratio": 0.5087401226495445,
+   "error": -0.3753859806688383
+  },
+  {
+   "tech": "Oil",
+   "model": "GCAM",
+   "scenario": "Current Policies",
+   "realised_ratio": 0.8841261033183828,
+   "scenario_ratio": 0.523722313438078,
+   "error": -0.36040378988030486
+  },
+  {
+   "tech": "Oil",
+   "model": "MESSAGE",
+   "scenario": "Net Zero 2050",
+   "realised_ratio": 0.8841261033183828,
+   "scenario_ratio": 0.22415465560411962,
+   "error": -0.6599714477142632
+  },
+  {
+   "tech": "Oil",
+   "model": "MESSAGE",
+   "scenario": "Delayed transition",
+   "realised_ratio": 0.8841261033183828,
+   "scenario_ratio": 0.22415465560411962,
+   "error": -0.6599714477142632
+  },
+  {
+   "tech": "Oil",
+   "model": "MESSAGE",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "realised_ratio": 0.8841261033183828,
+   "scenario_ratio": 0.22415465560411962,
+   "error": -0.6599714477142632
+  },
+  {
+   "tech": "Oil",
+   "model": "MESSAGE",
+   "scenario": "Current Policies",
+   "realised_ratio": 0.8841261033183828,
+   "scenario_ratio": 0.22415465560411962,
+   "error": -0.6599714477142632
+  },
+  {
+   "tech": "Nuclear",
+   "model": "REMIND",
+   "scenario": "Net Zero 2050",
+   "realised_ratio": 0.9169799213633966,
+   "scenario_ratio": 0.8941354493599448,
+   "error": -0.022844472003451743
+  },
+  {
+   "tech": "Nuclear",
+   "model": "REMIND",
+   "scenario": "Delayed transition",
+   "realised_ratio": 0.9169799213633966,
+   "scenario_ratio": 0.8936155195976263,
+   "error": -0.02336440176577026
+  },
+  {
+   "tech": "Nuclear",
+   "model": "REMIND",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "realised_ratio": 0.9169799213633966,
+   "scenario_ratio": 0.8936155195976263,
+   "error": -0.02336440176577026
+  },
+  {
+   "tech": "Nuclear",
+   "model": "REMIND",
+   "scenario": "Current Policies",
+   "realised_ratio": 0.9169799213633966,
+   "scenario_ratio": 0.8936155195976263,
+   "error": -0.02336440176577026
+  },
+  {
+   "tech": "Nuclear",
+   "model": "GCAM",
+   "scenario": "Net Zero 2050",
+   "realised_ratio": 0.9169799213633966,
+   "scenario_ratio": 0.9915957666393009,
+   "error": 0.07461584527590437
+  },
+  {
+   "tech": "Nuclear",
+   "model": "GCAM",
+   "scenario": "Delayed transition",
+   "realised_ratio": 0.9169799213633966,
+   "scenario_ratio": 0.9853929207580655,
+   "error": 0.06841299939466894
+  },
+  {
+   "tech": "Nuclear",
+   "model": "GCAM",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "realised_ratio": 0.9169799213633966,
+   "scenario_ratio": 0.9868053204127714,
+   "error": 0.06982539904937479
+  },
+  {
+   "tech": "Nuclear",
+   "model": "GCAM",
+   "scenario": "Current Policies",
+   "realised_ratio": 0.9169799213633966,
+   "scenario_ratio": 0.9853929207580655,
+   "error": 0.06841299939466894
+  },
+  {
+   "tech": "Nuclear",
+   "model": "MESSAGE",
+   "scenario": "Net Zero 2050",
+   "realised_ratio": 0.9169799213633966,
+   "scenario_ratio": 1.0358320209315022,
+   "error": 0.11885209956810561
+  },
+  {
+   "tech": "Nuclear",
+   "model": "MESSAGE",
+   "scenario": "Delayed transition",
+   "realised_ratio": 0.9169799213633966,
+   "scenario_ratio": 1.0358320209315022,
+   "error": 0.11885209956810561
+  },
+  {
+   "tech": "Nuclear",
+   "model": "MESSAGE",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "realised_ratio": 0.9169799213633966,
+   "scenario_ratio": 1.0358320209315022,
+   "error": 0.11885209956810561
+  },
+  {
+   "tech": "Nuclear",
+   "model": "MESSAGE",
+   "scenario": "Current Policies",
+   "realised_ratio": 0.9169799213633966,
+   "scenario_ratio": 1.0358320209315022,
+   "error": 0.11885209956810561
+  },
+  {
+   "tech": "Hydro",
+   "model": "REMIND",
+   "scenario": "Net Zero 2050",
+   "realised_ratio": 1.0156953739322079,
+   "scenario_ratio": 1.0370349674263057,
+   "error": 0.021339593494097864
+  },
+  {
+   "tech": "Hydro",
+   "model": "REMIND",
+   "scenario": "Delayed transition",
+   "realised_ratio": 1.0156953739322079,
+   "scenario_ratio": 1.0285734664119206,
+   "error": 0.012878092479712722
+  },
+  {
+   "tech": "Hydro",
+   "model": "REMIND",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "realised_ratio": 1.0156953739322079,
+   "scenario_ratio": 1.0328021644380987,
+   "error": 0.017106790505890812
+  },
+  {
+   "tech": "Hydro",
+   "model": "REMIND",
+   "scenario": "Current Policies",
+   "realised_ratio": 1.0156953739322079,
+   "scenario_ratio": 1.0285734664119206,
+   "error": 0.012878092479712722
+  },
+  {
+   "tech": "Hydro",
+   "model": "GCAM",
+   "scenario": "Net Zero 2050",
+   "realised_ratio": 1.0156953739322079,
+   "scenario_ratio": 1.0041057405736136,
+   "error": -0.011589633358594309
+  },
+  {
+   "tech": "Hydro",
+   "model": "GCAM",
+   "scenario": "Delayed transition",
+   "realised_ratio": 1.0156953739322079,
+   "scenario_ratio": 1.0041057405736136,
+   "error": -0.011589633358594309
+  },
+  {
+   "tech": "Hydro",
+   "model": "GCAM",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "realised_ratio": 1.0156953739322079,
+   "scenario_ratio": 1.0041057405736136,
+   "error": -0.011589633358594309
+  },
+  {
+   "tech": "Hydro",
+   "model": "GCAM",
+   "scenario": "Current Policies",
+   "realised_ratio": 1.0156953739322079,
+   "scenario_ratio": 1.0041057405736136,
+   "error": -0.011589633358594309
+  },
+  {
+   "tech": "Hydro",
+   "model": "MESSAGE",
+   "scenario": "Net Zero 2050",
+   "realised_ratio": 1.0156953739322079,
+   "scenario_ratio": 1.010020608271443,
+   "error": -0.005674765660764969
+  },
+  {
+   "tech": "Hydro",
+   "model": "MESSAGE",
+   "scenario": "Delayed transition",
+   "realised_ratio": 1.0156953739322079,
+   "scenario_ratio": 1.010020608271443,
+   "error": -0.005674765660764969
+  },
+  {
+   "tech": "Hydro",
+   "model": "MESSAGE",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "realised_ratio": 1.0156953739322079,
+   "scenario_ratio": 1.010020608271443,
+   "error": -0.005674765660764969
+  },
+  {
+   "tech": "Hydro",
+   "model": "MESSAGE",
+   "scenario": "Current Policies",
+   "realised_ratio": 1.0156953739322079,
+   "scenario_ratio": 1.010020608271443,
+   "error": -0.005674765660764969
+  },
+  {
+   "tech": "Renewables",
+   "model": "REMIND",
+   "scenario": "Net Zero 2050",
+   "realised_ratio": 1.6740847340931266,
+   "scenario_ratio": 1.7982587015810527,
+   "error": 0.12417396748792608
+  },
+  {
+   "tech": "Renewables",
+   "model": "REMIND",
+   "scenario": "Delayed transition",
+   "realised_ratio": 1.6740847340931266,
+   "scenario_ratio": 1.6474379687791254,
+   "error": -0.02664676531400123
+  },
+  {
+   "tech": "Renewables",
+   "model": "REMIND",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "realised_ratio": 1.6740847340931266,
+   "scenario_ratio": 1.7471419372477346,
+   "error": 0.07305720315460795
+  },
+  {
+   "tech": "Renewables",
+   "model": "REMIND",
+   "scenario": "Current Policies",
+   "realised_ratio": 1.6740847340931266,
+   "scenario_ratio": 1.6474379687791254,
+   "error": -0.02664676531400123
+  },
+  {
+   "tech": "Renewables",
+   "model": "GCAM",
+   "scenario": "Net Zero 2050",
+   "realised_ratio": 1.6740847340931266,
+   "scenario_ratio": 1.5470959650547795,
+   "error": -0.1269887690383471
+  },
+  {
+   "tech": "Renewables",
+   "model": "GCAM",
+   "scenario": "Delayed transition",
+   "realised_ratio": 1.6740847340931266,
+   "scenario_ratio": 1.4882608939668107,
+   "error": -0.18582384012631592
+  },
+  {
+   "tech": "Renewables",
+   "model": "GCAM",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "realised_ratio": 1.6740847340931266,
+   "scenario_ratio": 1.503818634435438,
+   "error": -0.17026609965768857
+  },
+  {
+   "tech": "Renewables",
+   "model": "GCAM",
+   "scenario": "Current Policies",
+   "realised_ratio": 1.6740847340931266,
+   "scenario_ratio": 1.4882608915132316,
+   "error": -0.18582384257989504
+  },
+  {
+   "tech": "Renewables",
+   "model": "MESSAGE",
+   "scenario": "Net Zero 2050",
+   "realised_ratio": 1.6740847340931266,
+   "scenario_ratio": 1.7737917908457435,
+   "error": 0.09970705675261682
+  },
+  {
+   "tech": "Renewables",
+   "model": "MESSAGE",
+   "scenario": "Delayed transition",
+   "realised_ratio": 1.6740847340931266,
+   "scenario_ratio": 1.7737469419909953,
+   "error": 0.09966220789786862
+  },
+  {
+   "tech": "Renewables",
+   "model": "MESSAGE",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "realised_ratio": 1.6740847340931266,
+   "scenario_ratio": 1.7737917908457435,
+   "error": 0.09970705675261682
+  },
+  {
+   "tech": "Renewables",
+   "model": "MESSAGE",
+   "scenario": "Current Policies",
+   "realised_ratio": 1.6740847340931266,
+   "scenario_ratio": 1.7737469419909953,
+   "error": 0.09966220789786862
+  }
+ ],
+ "pace_factors": {
+  "Coal": 1.5134210220374051,
+  "Gas": 1.133138066209333,
+  "Oil": 1.3161192678654199,
+  "Nuclear": 1.025549229727783,
+  "Hydro": 0.979422493778529,
+  "Renewables": 0.9309476621029273
+ },
+ "validation_wri_vs_eurostat": [
+  {
+   "tech": "Coal",
+   "wri_mw": 143256.21000000005,
+   "eurostat_mw": 107364.999,
+   "ratio": 1.3342915413243757
+  },
+  {
+   "tech": "Gas",
+   "wri_mw": 142168.54399999997,
+   "eurostat_mw": 157987.061,
+   "ratio": 0.8998746042880055
+  },
+  {
+   "tech": "Oil",
+   "wri_mw": 28931.970999999998,
+   "eurostat_mw": 26152.016,
+   "ratio": 1.106299835546139
+  },
+  {
+   "tech": "Nuclear",
+   "wri_mw": 112159.66,
+   "eurostat_mw": 106034.59,
+   "ratio": 1.0577648293825628
+  },
+  {
+   "tech": "Hydro",
+   "wri_mw": 108263.62589999993,
+   "eurostat_mw": 151001.181,
+   "ratio": 0.7169720473908077
+  },
+  {
+   "tech": "Renewables",
+   "wri_mw": 72417.89487999993,
+   "eurostat_mw": 340948.595,
+   "ratio": 0.21240121221206365
+  }
+ ],
+ "coverage": {
+  "n_plants": 9519,
+  "max_commissioning_year": 2018,
+  "n_without_commissioning_year": 7373,
+  "plant_mw": 700450.4902600021,
+  "owner_known_mw": 456552.42648000096,
+  "set_mw": 220458.59536666668,
+  "n_owner_strings": 2593
+ },
+ "listing": {
+  "Iberdrola": {
+   "qid": "Q1437502",
+   "label": "Iberdrola",
+   "description": "Spanish multinational electric utility company",
+   "listed": true,
+   "exchanges": [
+    "OTC Markets Group",
+    "Madrid Stock Exchange"
+   ],
+   "ended_exchanges": []
+  },
+  "Endesa": {
+   "qid": "Q1275336",
+   "label": "Endesa",
+   "description": "Spanish power utility",
+   "listed": true,
+   "exchanges": [
+    "OTC Markets Group",
+    "Madrid Stock Exchange"
+   ],
+   "ended_exchanges": []
+  },
+  "Naturgy": {
+   "qid": "Q474690",
+   "label": "Naturgy",
+   "description": "Spanish energy company",
+   "listed": true,
+   "exchanges": [
+    "OTC Markets Group",
+    "Madrid Stock Exchange"
+   ],
+   "ended_exchanges": []
+  },
+  "EDP": {
+   "qid": "Q1341222",
+   "label": "Energias de Portugal",
+   "description": "Portuguese energy company",
+   "listed": true,
+   "exchanges": [
+    "Euronext Lisbon"
+   ],
+   "ended_exchanges": []
+  },
+  "Enel": {
+   "qid": "Q651222",
+   "label": "Enel",
+   "description": "Italian multinational energy company",
+   "listed": true,
+   "exchanges": [
+    "OTC Markets Group",
+    "Italian Stock Exchange"
+   ],
+   "ended_exchanges": []
+  },
+  "RWE": {
+   "qid": "Q138133",
+   "label": "RWE",
+   "description": "German multinational energy company",
+   "listed": true,
+   "exchanges": [
+    "Frankfurt Stock Exchange"
+   ],
+   "ended_exchanges": []
+  },
+  "E.ON": {
+   "qid": "Q270223",
+   "label": "E.ON",
+   "description": "European utility company based in Germany",
+   "listed": true,
+   "exchanges": [
+    "Frankfurt Stock Exchange",
+    "OTC Markets Group"
+   ],
+   "ended_exchanges": []
+  },
+  "Uniper": {
+   "qid": "Q19839259",
+   "label": "Uniper",
+   "description": "German energy company",
+   "listed": true,
+   "exchanges": [
+    "Frankfurt Stock Exchange"
+   ],
+   "ended_exchanges": []
+  },
+  "EDF": {
+   "qid": "Q274591",
+   "label": "\u00c9lectricit\u00e9 de France",
+   "description": "French multinational electric utility company",
+   "listed": false,
+   "exchanges": [],
+   "ended_exchanges": [
+    "Euronext Paris (until 2023-05-18)"
+   ]
+  },
+  "Engie": {
+   "qid": "Q13416787",
+   "label": "Engie",
+   "description": "French multinational energy company",
+   "listed": true,
+   "exchanges": [
+    "Euronext Paris"
+   ],
+   "ended_exchanges": []
+  },
+  "Orsted": {
+   "qid": "Q1241260",
+   "label": "\u00d8rsted",
+   "description": "integrated energy company based in Fredericia, Denmark",
+   "listed": true,
+   "exchanges": [
+    "Nasdaq Copenhagen A/S",
+    "OTC Markets Group"
+   ],
+   "ended_exchanges": []
+  },
+  "Fortum": {
+   "qid": "Q1439075",
+   "label": "Fortum",
+   "description": "Finnish energy company",
+   "listed": true,
+   "exchanges": [
+    "OTC Markets Group"
+   ],
+   "ended_exchanges": []
+  },
+  "PGE": {
+   "qid": "Q787714",
+   "label": "PGE Polska Grupa Energetyczna",
+   "description": "Polish energy company",
+   "listed": true,
+   "exchanges": [
+    "Warsaw Stock Exchange"
+   ],
+   "ended_exchanges": []
+  },
+  "Tauron": {
+   "qid": "Q2397198",
+   "label": "Tauron Polska Energia",
+   "description": "Polish energy company",
+   "listed": true,
+   "exchanges": [
+    "Warsaw Stock Exchange"
+   ],
+   "ended_exchanges": []
+  },
+  "Enea": {
+   "qid": "Q1341068",
+   "label": "Enea SA",
+   "description": "public company",
+   "listed": true,
+   "exchanges": [
+    "Warsaw Stock Exchange"
+   ],
+   "ended_exchanges": []
+  },
+  "Energa": {
+   "qid": "Q9253957",
+   "label": "Energa",
+   "description": "Polish power company",
+   "listed": true,
+   "exchanges": [
+    "Warsaw Stock Exchange"
+   ],
+   "ended_exchanges": []
+  },
+  "CEZ": {
+   "qid": "Q336735",
+   "label": "\u010cEZ Group",
+   "description": "Czech multinational utility holding company",
+   "listed": true,
+   "exchanges": [
+    "Prague Stock Exchange",
+    "Warsaw Stock Exchange"
+   ],
+   "ended_exchanges": []
+  },
+  "Verbund": {
+   "qid": "Q688816",
+   "label": "Verbund",
+   "description": "Austrian energy company",
+   "listed": true,
+   "exchanges": [
+    "OTC Markets Group",
+    "Wiener Boerse AG"
+   ],
+   "ended_exchanges": []
+  },
+  "PPC": {
+   "qid": "Q326345",
+   "label": "Public Power Corporation SA",
+   "description": "Greek state-owned electricity company",
+   "listed": true,
+   "exchanges": [
+    "Euronext Athens"
+   ],
+   "ended_exchanges": []
+  },
+  "Vattenfall": {
+   "qid": "Q157675",
+   "label": "Vattenfall",
+   "description": "Swedish power company",
+   "listed": false,
+   "exchanges": [],
+   "ended_exchanges": []
+  },
+  "Statkraft": {
+   "qid": "Q1681145",
+   "label": "Statkraft AS",
+   "description": "Norwegian renewable energy company",
+   "listed": false,
+   "exchanges": [],
+   "ended_exchanges": []
+  },
+  "EnBW": {
+   "qid": "Q644304",
+   "label": "EnBW",
+   "description": "German energy company",
+   "listed": true,
+   "exchanges": [
+    "Frankfurt Stock Exchange"
+   ],
+   "ended_exchanges": []
+  },
+  "Centrica": {
+   "qid": "Q259013",
+   "label": "Centrica",
+   "description": "business, enterprise and public company in United Kingdom",
+   "listed": true,
+   "exchanges": [
+    "London Stock Exchange"
+   ],
+   "ended_exchanges": []
+  },
+  "SSE": {
+   "qid": "Q493854",
+   "label": "SSE plc",
+   "description": "international energy company",
+   "listed": true,
+   "exchanges": [
+    "London Stock Exchange"
+   ],
+   "ended_exchanges": []
+  },
+  "Drax": {
+   "qid": "Q1256028",
+   "label": "Drax Group",
+   "description": "power generation business",
+   "listed": true,
+   "exchanges": [
+    "London Stock Exchange"
+   ],
+   "ended_exchanges": []
+  },
+  "A2A": {
+   "qid": "Q279978",
+   "label": "A2A",
+   "description": "Italian utility company",
+   "listed": true,
+   "exchanges": [
+    "Italian Stock Exchange"
+   ],
+   "ended_exchanges": []
+  },
+  "Edison": {
+   "qid": "Q912872",
+   "label": "Edison",
+   "description": "Italian electric utility company",
+   "listed": false,
+   "exchanges": [],
+   "ended_exchanges": []
+  },
+  "TVO": {
+   "qid": "Q2913670",
+   "label": "Teollisuuden Voima",
+   "description": "Finnish nuclear power company",
+   "listed": false,
+   "exchanges": [],
+   "ended_exchanges": []
+  },
+  "ESB": {
+   "qid": "Q3050566",
+   "label": "ESB Group",
+   "description": "state-owned electricity company in Ireland, with international operations",
+   "listed": false,
+   "exchanges": [],
+   "ended_exchanges": []
+  }
+ },
+ "sources": {
+  "wri": "https://raw.githubusercontent.com/wri/global-power-plant-database/master/output_database/global_power_plant_database.csv",
+  "ngfs": "https://db1.ene.iiasa.ac.at/ngfs-phase-5-api/rest/v2.1",
+  "eurostat": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_inf_epc?format=JSON&lang=EN&geo=EU27_2020&plant_tec=CAP_NET_ELC&operator=TOTAL&unit=MW",
+  "wikidata": "https://www.wikidata.org/w/api.php"
+ },
+ "scenario_regions": {
+  "REMIND": [
+   "REMIND-MAgPIE 3.3-4.8|EU 28"
+  ],
+  "GCAM": [
+   "GCAM 6.0 NGFS|EU-15",
+   "GCAM 6.0 NGFS|EU-12"
+  ],
+  "MESSAGE": [
+   "MESSAGEix-GLOBIOM 2.0-R12|Western Europe",
+   "MESSAGEix-GLOBIOM 2.0-R12|Eastern Europe"
+  ]
+ }
+}
