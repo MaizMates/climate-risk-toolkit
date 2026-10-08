@@ -1,0 +1,295 @@
+model,scenario,region,variable,year,unit,value
+GCAM,Below 2°C,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2020,Mt CO2/yr,2621.84374282378
+GCAM,Below 2°C,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2025,Mt CO2/yr,2286.25627779113
+GCAM,Below 2°C,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2030,Mt CO2/yr,1693.41372922445
+GCAM,Below 2°C,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2035,Mt CO2/yr,1310.5139856076
+GCAM,Below 2°C,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2040,Mt CO2/yr,938.063928317734
+GCAM,Below 2°C,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2045,Mt CO2/yr,562.144610863048
+GCAM,Below 2°C,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2050,Mt CO2/yr,183.181385871856
+GCAM,Below 2°C,GCAM 6.0 NGFS|EU-15,Price|Carbon,2020,US$2010/t CO2,0.0
+GCAM,Below 2°C,GCAM 6.0 NGFS|EU-15,Price|Carbon,2025,US$2010/t CO2,9.5766103930909
+GCAM,Below 2°C,GCAM 6.0 NGFS|EU-15,Price|Carbon,2030,US$2010/t CO2,60.0787189480909
+GCAM,Below 2°C,GCAM 6.0 NGFS|EU-15,Price|Carbon,2035,US$2010/t CO2,115.893357444
+GCAM,Below 2°C,GCAM 6.0 NGFS|EU-15,Price|Carbon,2040,US$2010/t CO2,195.762800771182
+GCAM,Below 2°C,GCAM 6.0 NGFS|EU-15,Price|Carbon,2045,US$2010/t CO2,291.814995808636
+GCAM,Below 2°C,GCAM 6.0 NGFS|EU-15,Price|Carbon,2050,US$2010/t CO2,416.460549952718
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2020,Mt CO2/yr,2621.84382781012
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2025,Mt CO2/yr,2316.40173627619
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2030,Mt CO2/yr,2002.16134252839
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2035,Mt CO2/yr,1917.66328231101
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2040,Mt CO2/yr,1877.53229787043
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2045,Mt CO2/yr,1854.6489580072
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2050,Mt CO2/yr,1837.71428402695
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Price|Carbon,2020,US$2010/t CO2,0.0
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Price|Carbon,2025,US$2010/t CO2,0.0
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Price|Carbon,2030,US$2010/t CO2,0.0
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Price|Carbon,2035,US$2010/t CO2,0.0
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Price|Carbon,2040,US$2010/t CO2,0.0
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Price|Carbon,2045,US$2010/t CO2,0.0
+GCAM,Current Policies,GCAM 6.0 NGFS|EU-15,Price|Carbon,2050,US$2010/t CO2,0.0
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2020,Mt CO2/yr,2621.84370943654
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2025,Mt CO2/yr,2316.40170193565
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2030,Mt CO2/yr,2002.14888492024
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2035,Mt CO2/yr,1460.22541077363
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2040,Mt CO2/yr,902.121459574583
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2045,Mt CO2/yr,281.465059039375
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2050,Mt CO2/yr,-321.982710915156
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Price|Carbon,2020,US$2010/t CO2,0.0
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Price|Carbon,2025,US$2010/t CO2,0.0
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Price|Carbon,2030,US$2010/t CO2,0.0
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Price|Carbon,2035,US$2010/t CO2,77.5530149023637
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Price|Carbon,2040,US$2010/t CO2,189.400581062182
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Price|Carbon,2045,US$2010/t CO2,390.404388997636
+GCAM,Delayed transition,GCAM 6.0 NGFS|EU-15,Price|Carbon,2050,US$2010/t CO2,929.572391218173
+GCAM,Fragmented World,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2020,Mt CO2/yr,2621.86467524236
+GCAM,Fragmented World,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2025,Mt CO2/yr,2316.40118543215
+GCAM,Fragmented World,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2030,Mt CO2/yr,2002.15714360284
+GCAM,Fragmented World,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2035,Mt CO2/yr,1608.78482151379
+GCAM,Fragmented World,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2040,Mt CO2/yr,1187.0608595378
+GCAM,Fragmented World,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2045,Mt CO2/yr,691.612183464322
+GCAM,Fragmented World,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2050,Mt CO2/yr,180.593519817425
+GCAM,Fragmented World,GCAM 6.0 NGFS|EU-15,Price|Carbon,2020,US$2010/t CO2,0.0
+GCAM,Fragmented World,GCAM 6.0 NGFS|EU-15,Price|Carbon,2025,US$2010/t CO2,0.0516783068181752
+GCAM,Fragmented World,GCAM 6.0 NGFS|EU-15,Price|Carbon,2030,US$2010/t CO2,0.0971552168181518
+GCAM,Fragmented World,GCAM 6.0 NGFS|EU-15,Price|Carbon,2035,US$2010/t CO2,57.364574274
+GCAM,Fragmented World,GCAM 6.0 NGFS|EU-15,Price|Carbon,2040,US$2010/t CO2,121.205887384909
+GCAM,Fragmented World,GCAM 6.0 NGFS|EU-15,Price|Carbon,2045,US$2010/t CO2,178.568807953091
+GCAM,Fragmented World,GCAM 6.0 NGFS|EU-15,Price|Carbon,2050,US$2010/t CO2,250.476856702446
+GCAM,Low demand,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2020,Mt CO2/yr,2620.48121833136
+GCAM,Low demand,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2025,Mt CO2/yr,2253.38274301346
+GCAM,Low demand,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2030,Mt CO2/yr,1612.5575206189
+GCAM,Low demand,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2035,Mt CO2/yr,1122.07143087399
+GCAM,Low demand,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2040,Mt CO2/yr,638.490324614845
+GCAM,Low demand,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2045,Mt CO2/yr,209.871384858951
+GCAM,Low demand,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2050,Mt CO2/yr,-328.270211082992
+GCAM,Low demand,GCAM 6.0 NGFS|EU-15,Price|Carbon,2020,US$2010/t CO2,0.0
+GCAM,Low demand,GCAM 6.0 NGFS|EU-15,Price|Carbon,2025,US$2010/t CO2,16.9806647675455
+GCAM,Low demand,GCAM 6.0 NGFS|EU-15,Price|Carbon,2030,US$2010/t CO2,68.3282304220909
+GCAM,Low demand,GCAM 6.0 NGFS|EU-15,Price|Carbon,2035,US$2010/t CO2,172.587767435182
+GCAM,Low demand,GCAM 6.0 NGFS|EU-15,Price|Carbon,2040,US$2010/t CO2,330.677909388818
+GCAM,Low demand,GCAM 6.0 NGFS|EU-15,Price|Carbon,2045,US$2010/t CO2,629.633606920364
+GCAM,Low demand,GCAM 6.0 NGFS|EU-15,Price|Carbon,2050,US$2010/t CO2,1153.62885825908
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2020,Mt CO2/yr,2621.8735829628
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2025,Mt CO2/yr,2296.52665718457
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2030,Mt CO2/yr,1710.76021776521
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2035,Mt CO2/yr,1557.77323882212
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2040,Mt CO2/yr,1437.77958943638
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2045,Mt CO2/yr,1331.35105202235
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2050,Mt CO2/yr,1236.17566872184
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Price|Carbon,2020,US$2010/t CO2,0.0151314082363605
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Price|Carbon,2025,US$2010/t CO2,8.13581919900001
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Price|Carbon,2030,US$2010/t CO2,56.7923920609091
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Price|Carbon,2035,US$2010/t CO2,61.9230143618182
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Price|Carbon,2040,US$2010/t CO2,84.0586935910909
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Price|Carbon,2045,US$2010/t CO2,90.785555433
+GCAM,Nationally Determined Contributions (NDCs),GCAM 6.0 NGFS|EU-15,Price|Carbon,2050,US$2010/t CO2,95.8115394982636
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2020,Mt CO2/yr,2621.84385427901
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2025,Mt CO2/yr,2256.98899088008
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2030,Mt CO2/yr,1611.81689132957
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2035,Mt CO2/yr,1117.15743177007
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2040,Mt CO2/yr,636.325771662028
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2045,Mt CO2/yr,159.353638421037
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Emissions|CO2|Energy and Industrial Processes,2050,Mt CO2/yr,-319.362498024622
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Price|Carbon,2020,US$2010/t CO2,0.0
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Price|Carbon,2025,US$2010/t CO2,21.2451586461818
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Price|Carbon,2030,US$2010/t CO2,80.9178928159091
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Price|Carbon,2035,US$2010/t CO2,194.381129560091
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Price|Carbon,2040,US$2010/t CO2,381.297431056909
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Price|Carbon,2045,US$2010/t CO2,736.243886754
+GCAM,Net Zero 2050,GCAM 6.0 NGFS|EU-15,Price|Carbon,2050,US$2010/t CO2,1581.42601636454
+MESSAGE,Below 2°C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2020,Mt CO2/yr,2986.31157034415
+MESSAGE,Below 2°C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2025,Mt CO2/yr,2790.57240348578
+MESSAGE,Below 2°C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2030,Mt CO2/yr,2406.51935800531
+MESSAGE,Below 2°C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2035,Mt CO2/yr,1991.8291089698
+MESSAGE,Below 2°C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2040,Mt CO2/yr,1575.38715432992
+MESSAGE,Below 2°C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2045,Mt CO2/yr,1275.8778964475
+MESSAGE,Below 2°C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2050,Mt CO2/yr,984.1746209529
+MESSAGE,Below 2°C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2020,US$2010/t CO2,0.0
+MESSAGE,Below 2°C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2025,US$2010/t CO2,0.0
+MESSAGE,Below 2°C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2030,US$2010/t CO2,49.4127617677689
+MESSAGE,Below 2°C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2035,US$2010/t CO2,54.7790907346259
+MESSAGE,Below 2°C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2040,US$2010/t CO2,65.5345514952925
+MESSAGE,Below 2°C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2045,US$2010/t CO2,87.8240185560189
+MESSAGE,Below 2°C,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2050,US$2010/t CO2,112.667828915357
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2020,Mt CO2/yr,2986.31157034415
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2025,Mt CO2/yr,2790.62970849126
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2030,Mt CO2/yr,2675.06851729357
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2035,Mt CO2/yr,2643.26657501743
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2040,Mt CO2/yr,2650.25968427823
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2045,Mt CO2/yr,2803.64847820492
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2050,Mt CO2/yr,2850.70630085375
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2020,US$2010/t CO2,0.0
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2025,US$2010/t CO2,0.0
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2030,US$2010/t CO2,0.0
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2035,US$2010/t CO2,0.539483766233766
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2040,US$2010/t CO2,1.07896753246753
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2045,US$2010/t CO2,1.6184512987013
+MESSAGE,Current Policies,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2050,US$2010/t CO2,2.15793506493507
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2020,Mt CO2/yr,2986.31157034415
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2025,Mt CO2/yr,2790.62970849126
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2030,Mt CO2/yr,2675.06851729357
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2035,Mt CO2/yr,2263.9251874368
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2040,Mt CO2/yr,1790.75462152286
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2045,Mt CO2/yr,1380.51458849958
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2050,Mt CO2/yr,916.808017870817
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2020,US$2010/t CO2,0.0
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2025,US$2010/t CO2,0.0
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2030,US$2010/t CO2,0.0
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2035,US$2010/t CO2,52.7437161786559
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2040,US$2010/t CO2,78.652737761296
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2045,US$2010/t CO2,84.853105658421
+MESSAGE,Delayed transition,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2050,US$2010/t CO2,155.587897090826
+MESSAGE,Fragmented World,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2020,Mt CO2/yr,2986.31157034415
+MESSAGE,Fragmented World,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2025,Mt CO2/yr,2790.62970849126
+MESSAGE,Fragmented World,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2030,Mt CO2/yr,2675.06851729357
+MESSAGE,Fragmented World,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2035,Mt CO2/yr,2357.53884232224
+MESSAGE,Fragmented World,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2040,Mt CO2/yr,2027.73653467469
+MESSAGE,Fragmented World,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2045,Mt CO2/yr,1617.79215286153
+MESSAGE,Fragmented World,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2050,Mt CO2/yr,906.620959762609
+MESSAGE,Fragmented World,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2020,US$2010/t CO2,0.0
+MESSAGE,Fragmented World,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2025,US$2010/t CO2,0.0
+MESSAGE,Fragmented World,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2030,US$2010/t CO2,0.0
+MESSAGE,Fragmented World,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2035,US$2010/t CO2,11.577346851814
+MESSAGE,Fragmented World,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2040,US$2010/t CO2,14.0874211455255
+MESSAGE,Fragmented World,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2045,US$2010/t CO2,17.9795158712068
+MESSAGE,Fragmented World,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2050,US$2010/t CO2,236.957053112947
+MESSAGE,Low demand,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2020,Mt CO2/yr,2986.31157034415
+MESSAGE,Low demand,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2025,Mt CO2/yr,2790.57240348578
+MESSAGE,Low demand,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2030,Mt CO2/yr,2098.87198307735
+MESSAGE,Low demand,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2035,Mt CO2/yr,1465.56129844811
+MESSAGE,Low demand,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2040,Mt CO2/yr,999.729767855506
+MESSAGE,Low demand,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2045,Mt CO2/yr,600.885248656674
+MESSAGE,Low demand,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2050,Mt CO2/yr,303.764930829771
+MESSAGE,Low demand,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2020,US$2010/t CO2,0.0
+MESSAGE,Low demand,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2025,US$2010/t CO2,0.0
+MESSAGE,Low demand,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2030,US$2010/t CO2,104.00761464738
+MESSAGE,Low demand,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2035,US$2010/t CO2,127.871383674395
+MESSAGE,Low demand,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2040,US$2010/t CO2,167.942725572616
+MESSAGE,Low demand,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2045,US$2010/t CO2,197.451228525542
+MESSAGE,Low demand,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2050,US$2010/t CO2,233.503544404244
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2020,Mt CO2/yr,2986.31157034415
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2025,Mt CO2/yr,2790.57240348578
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2030,Mt CO2/yr,2456.5589759488
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2035,Mt CO2/yr,2152.17401833628
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2040,Mt CO2/yr,1771.64371252795
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2045,Mt CO2/yr,1534.58712437997
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2050,Mt CO2/yr,1436.51586467678
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2020,US$2010/t CO2,0.0
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2025,US$2010/t CO2,0.0
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2030,US$2010/t CO2,52.2669122986155
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2035,US$2010/t CO2,56.509289420143
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2040,US$2010/t CO2,60.7516665416704
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2045,US$2010/t CO2,64.9940436631979
+MESSAGE,Nationally Determined Contributions (NDCs),MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2050,US$2010/t CO2,69.2364207847254
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2020,Mt CO2/yr,2986.31157034415
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2025,Mt CO2/yr,2790.57240348578
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2030,Mt CO2/yr,1895.75720425384
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2035,Mt CO2/yr,1325.27679922787
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2040,Mt CO2/yr,940.824465178146
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2045,Mt CO2/yr,662.93472595764
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Emissions|CO2|Energy and Industrial Processes,2050,Mt CO2/yr,404.803583796975
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2020,US$2010/t CO2,0.0
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2025,US$2010/t CO2,0.0
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2030,US$2010/t CO2,246.982108681731
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2035,US$2010/t CO2,296.71214563142
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2040,US$2010/t CO2,326.911356349782
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2045,US$2010/t CO2,372.31291535475
+MESSAGE,Net Zero 2050,MESSAGEix-GLOBIOM 2.0-R12|Western Europe,Price|Carbon,2050,US$2010/t CO2,482.486710341575
+REMIND,Below 2°C,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2020,Mt CO2/yr,3325.264887399999
+REMIND,Below 2°C,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2025,Mt CO2/yr,2856.9045264
+REMIND,Below 2°C,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2030,Mt CO2/yr,2240.376033500001
+REMIND,Below 2°C,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2035,Mt CO2/yr,1613.7409062
+REMIND,Below 2°C,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2040,Mt CO2/yr,1056.8049971
+REMIND,Below 2°C,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2045,Mt CO2/yr,672.3826889999999
+REMIND,Below 2°C,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2050,Mt CO2/yr,418.8079834
+REMIND,Below 2°C,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2020,US$2010/t CO2,28.000025424
+REMIND,Below 2°C,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2025,US$2010/t CO2,28.607625536
+REMIND,Below 2°C,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2030,US$2010/t CO2,49.58655083200001
+REMIND,Below 2°C,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2035,US$2010/t CO2,73.89387398400001
+REMIND,Below 2°C,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2040,US$2010/t CO2,98.201197248
+REMIND,Below 2°C,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2045,US$2010/t CO2,122.5085204
+REMIND,Below 2°C,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2050,US$2010/t CO2,146.815843664
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2020,Mt CO2/yr,3325.264887399999
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2025,Mt CO2/yr,2903.5073319
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2030,Mt CO2/yr,2421.5708484
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2035,Mt CO2/yr,2026.7216708
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2040,Mt CO2/yr,1748.4898428
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2045,Mt CO2/yr,1572.0338621
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2050,Mt CO2/yr,1447.2243454
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2020,US$2010/t CO2,28.000025424
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2025,US$2010/t CO2,28.000025424
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2030,US$2010/t CO2,28.000025424
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2035,US$2010/t CO2,28.000025424
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2040,US$2010/t CO2,28.000025424
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2045,US$2010/t CO2,28.000025424
+REMIND,Current Policies,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2050,US$2010/t CO2,28.000025424
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2020,Mt CO2/yr,3325.264887399999
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2025,Mt CO2/yr,2903.5073319
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2030,Mt CO2/yr,2421.5708484
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2035,Mt CO2/yr,1794.2780982
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2040,Mt CO2/yr,582.3633389
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2045,Mt CO2/yr,155.9865119
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2050,Mt CO2/yr,-64.86236849999999
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2020,US$2010/t CO2,28.000025424
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2025,US$2010/t CO2,28.000025424
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2030,US$2010/t CO2,28.000025424
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2035,US$2010/t CO2,220.8492360480001
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2040,US$2010/t CO2,386.215671856
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2045,US$2010/t CO2,551.582107664
+REMIND,Delayed transition,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2050,US$2010/t CO2,716.9485434719999
+REMIND,Fragmented World,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2020,Mt CO2/yr,3325.264887399999
+REMIND,Fragmented World,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2025,Mt CO2/yr,2903.5073319
+REMIND,Fragmented World,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2030,Mt CO2/yr,2421.5708484
+REMIND,Fragmented World,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2035,Mt CO2/yr,1919.4350759
+REMIND,Fragmented World,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2040,Mt CO2/yr,1326.8215646
+REMIND,Fragmented World,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2045,Mt CO2/yr,900.2654506
+REMIND,Fragmented World,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2050,Mt CO2/yr,629.8701874
+REMIND,Fragmented World,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2020,US$2010/t CO2,28.000025424
+REMIND,Fragmented World,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2025,US$2010/t CO2,28.000025424
+REMIND,Fragmented World,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2030,US$2010/t CO2,28.000025424
+REMIND,Fragmented World,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2035,US$2010/t CO2,56.07344881600002
+REMIND,Fragmented World,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2040,US$2010/t CO2,84.14687209600001
+REMIND,Fragmented World,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2045,US$2010/t CO2,112.220295488
+REMIND,Fragmented World,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2050,US$2010/t CO2,140.293718768
+REMIND,Low demand,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2020,Mt CO2/yr,3325.264887399999
+REMIND,Low demand,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2025,Mt CO2/yr,2661.5737682
+REMIND,Low demand,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2030,Mt CO2/yr,1379.6868172
+REMIND,Low demand,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2035,Mt CO2/yr,671.8615626999998
+REMIND,Low demand,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2040,Mt CO2/yr,163.7776929
+REMIND,Low demand,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2045,Mt CO2/yr,-47.4772727
+REMIND,Low demand,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2050,Mt CO2/yr,-125.7514427
+REMIND,Low demand,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2020,US$2010/t CO2,28.000025424
+REMIND,Low demand,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2025,US$2010/t CO2,92.565796064
+REMIND,Low demand,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2030,US$2010/t CO2,171.418140768
+REMIND,Low demand,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2035,US$2010/t CO2,250.270485472
+REMIND,Low demand,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2040,US$2010/t CO2,329.122830288
+REMIND,Low demand,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2045,US$2010/t CO2,407.975174992
+REMIND,Low demand,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2050,US$2010/t CO2,486.827519808
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2020,Mt CO2/yr,3325.264887399999
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2025,Mt CO2/yr,2746.344712500001
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2030,Mt CO2/yr,1774.6774198
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2035,Mt CO2/yr,1038.4023616
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2040,Mt CO2/yr,553.9996339
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2045,Mt CO2/yr,277.5018823
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2050,Mt CO2/yr,159.3987204
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2020,US$2010/t CO2,28.000025424
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2025,US$2010/t CO2,115.867226608
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2030,US$2010/t CO2,203.734427904
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2035,US$2010/t CO2,203.858956224
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2040,US$2010/t CO2,203.162804656
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2045,US$2010/t CO2,201.54027992
+REMIND,Nationally Determined Contributions (NDCs),REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2050,US$2010/t CO2,198.875512864
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2020,Mt CO2/yr,3325.264887399999
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2025,Mt CO2/yr,2714.7312685
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2030,Mt CO2/yr,1538.4986917
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2035,Mt CO2/yr,520.6601512999999
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2040,Mt CO2/yr,-94.5580643
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2045,Mt CO2/yr,-308.4345971
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Emissions|CO2|Energy and Industrial Processes,2050,Mt CO2/yr,-379.9962343999999
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2020,US$2010/t CO2,28.000025424
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2025,US$2010/t CO2,153.19648344
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2030,US$2010/t CO2,283.6971915680001
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2035,US$2010/t CO2,497.5149928
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2040,US$2010/t CO2,711.332794032
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2045,US$2010/t CO2,925.150595152
+REMIND,Net Zero 2050,REMIND-MAgPIE 3.3-4.8|EU 28,Price|Carbon,2050,US$2010/t CO2,1042.06771872

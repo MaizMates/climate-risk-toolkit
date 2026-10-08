@@ -1,0 +1,2465 @@
+{
+ "meta": {
+  "access_date": "2026-10-08",
+  "urls": {
+   "a64": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_a64?format=JSON&lang=EN&unit=CP_MEUR&na_item=B1G&na_item=D1&sinceTimePeriod=2014",
+   "air": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/env_ac_ainah_r2?format=JSON&lang=EN&unit=T&airpol=CO2&airpol=GHG&sinceTimePeriod=2014",
+   "nfa": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_nfa_st?format=JSON&lang=EN&unit=CRC_MEUR&asset10=N11N&sinceTimePeriod=2014",
+   "rb": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_rb_a?format=JSON&lang=EN&indic_bt=BKRT&unit=I15",
+   "fx": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ert_bil_eur_a?format=JSON&lang=EN&currency=USD&statinfo=AVG&sinceTimePeriod=2010",
+   "hicp": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_aind?format=JSON&lang=EN&geo=EA&coicop=CP00&unit=INX_A_AVG&sinceTimePeriod=2010"
+  },
+  "ngfs_base": "https://db1.ene.iiasa.ac.at/ngfs-phase-5-api/rest/v2.1",
+  "chs_url": "https://www.nber.org/papers/w12362.pdf",
+  "ref_year": 2022,
+  "ref_year_rule": "latest year with at least 26 EU27 countries reporting every series for NACE B-E",
+  "n_ngfs_rows": 294,
+  "n_panel": 1176
+ },
+ "config": {
+  "model": "REMIND",
+  "disorderly": "Delayed transition",
+  "orderly": "Net Zero 2050",
+  "year": 2040,
+  "sector": "B-E",
+  "ref_year": 2022,
+  "pass_through": 0.7,
+  "lag": 12,
+  "assets_scale": 1.0,
+  "gas": "CO2",
+  "abatement": false,
+  "pd0": 0.02
+ },
+ "chs": {
+  "lags": [
+   0,
+   6,
+   12,
+   24,
+   36
+  ],
+  "coef": [
+   -29.672,
+   -23.915,
+   -20.264,
+   -13.232,
+   -14.061
+  ],
+  "z": [
+   23.37,
+   21.82,
+   18.09,
+   10.5,
+   9.77
+  ],
+  "se": [
+   1.2696619597774925,
+   1.096012832263978,
+   1.1201768933112217,
+   1.260190476190476,
+   1.4392016376663255
+  ]
+ },
+ "headline": {
+  "dl_dis": 0.12164465247482684,
+  "dl_ord": 0.22404536332806493,
+  "pd_dis": 0.02252877119985951,
+  "pd_ord": 0.024897506362463715,
+  "rel": -0.09513945405293223,
+  "bp": -23.687351626042048,
+  "sector_stats": {
+   "n_countries": 26,
+   "countries": [
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "EL",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE"
+   ],
+   "profit_share": 0.515234408290844,
+   "gva_over_k": 0.4231676261230028,
+   "co2_per_gva": 517.6408504285471,
+   "ghg_per_gva": 583.5381803306134,
+   "gva_meur": 2895878.7999999993,
+   "co2_t": 1499025164.7700002
+  },
+  "coef": -20.264,
+  "lit_lo": -0.14210280602047348,
+  "lit_hi": -0.05519210460099097,
+  "lit_stat_lo": -0.10473582095902784,
+  "lit_stat_hi": -0.08519444160327261,
+  "by_lag": {
+   "0": -0.13592760696482464,
+   "6": -0.11121345342780398,
+   "12": -0.09513945405293223,
+   "24": -0.06328096366519076,
+   "36": -0.06709926198568261
+  },
+  "own_lo": -0.054954355347832,
+  "own_hi": 0.037610473583500295,
+  "own_rel": -0.007473279100286612,
+  "beta_pp": -0.0016028786332731475,
+  "beta_ci": [
+   -0.012099208132769157,
+   0.007877367156526488
+  ],
+  "scaled_rel": -0.018097264826841597,
+  "scaled_ci": [
+   -0.0427910223615916,
+   0.007352445705434807
+  ],
+  "shared_draw_ratio_cv": 0.0004652687282052423,
+  "coef_draw_range": [
+   -33.305285145490664,
+   -9.373233757462394
+  ]
+ },
+ "panel_specs": [
+  {
+   "fe": "country + sector-year",
+   "sample": "all years",
+   "n": 1176,
+   "beta": -0.0016028786332731475,
+   "rel": -0.007473279100286612
+  },
+  {
+   "fe": "country + sector-year",
+   "sample": "excluding 2020-2021",
+   "n": 885,
+   "beta": -0.0013041220937488438,
+   "rel": -0.006084896322828048
+  },
+  {
+   "fe": "country + year",
+   "sample": "all years",
+   "n": 1176,
+   "beta": -0.003092454519628926,
+   "rel": -0.014364725816113366
+  },
+  {
+   "fe": "country + year",
+   "sample": "excluding 2020-2021",
+   "n": 885,
+   "beta": 0.00014215462136085618,
+   "rel": 0.0006656820860346802
+  }
+ ],
+ "backtest": {
+  "test_years": [
+   2019,
+   2020,
+   2021,
+   2022,
+   2023
+  ],
+  "per_year": [
+   {
+    "year": 2019,
+    "n": 145,
+    "beta_train": 0.02076569072169468,
+    "skill_own": -0.039365636890118294,
+    "skill_lit": -0.021163047449485273,
+    "rmse_zero": 0.28758104936978657
+   },
+   {
+    "year": 2020,
+    "n": 145,
+    "beta_train": 0.007469438036260496,
+    "skill_own": -0.010238433209047049,
+    "skill_lit": -0.46868225409804376,
+    "rmse_zero": 0.27489946044873886
+   },
+   {
+    "year": 2021,
+    "n": 146,
+    "beta_train": 0.003530920126614653,
+    "skill_own": -0.011368381180604237,
+    "skill_lit": -0.07975798730861605,
+    "rmse_zero": 0.3784348210370164
+   },
+   {
+    "year": 2022,
+    "n": 150,
+    "beta_train": -0.0008426429416437479,
+    "skill_own": 0.0009572943443335591,
+    "skill_lit": -0.05236387286442157,
+    "rmse_zero": 0.3899775307812916
+   },
+   {
+    "year": 2023,
+    "n": 150,
+    "beta_train": -0.0013373518768124448,
+    "skill_own": 0.0009327605515007109,
+    "skill_lit": -0.029956211343480366,
+    "rmse_zero": 0.3847673856866141
+   }
+  ],
+  "all": {
+   "n": 736,
+   "rmse_zero": 0.34750248451068616,
+   "skill_own": -0.008769434741849658,
+   "skill_lit": -0.10032719045395355,
+   "slope_lit": 0.18210480457928305,
+   "slope_lit_ci": [
+    -0.07297972349432477,
+    0.4364821474287066
+   ]
+  },
+  "ex_moratorium": {
+   "n": 445,
+   "rmse_zero": 0.35793156408864113,
+   "skill_own": -0.007533917309512805,
+   "skill_lit": -0.03707279868003721,
+   "slope_lit": 0.3093375918434573,
+   "slope_lit_ci": [
+    -0.013095949428214782,
+    0.7129364801378206
+   ]
+  },
+  "kappa_lit_be": -0.021437671939391324,
+  "sd_dps_be_pp": 3.2010727869686324,
+  "sd_dlnb": 0.38191038633187874
+ },
+ "vs_base": [
+  {
+   "model": "REMIND",
+   "scenario": "Net Zero 2050",
+   "price_usd2010": 711.332794032,
+   "cost_share": 0.3483670614382117,
+   "d_logodds": 0.22404536332806493,
+   "pd": 0.024897506362463715,
+   "rel_vs_today": 0.24487531812318575
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Below 2\u00b0C",
+   "price_usd2010": 98.201197248,
+   "cost_share": 0.04809290785131577,
+   "d_logodds": 0.030929999433836543,
+   "pd": 0.020615314135176754,
+   "rel_vs_today": 0.030765706758837608
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Low demand",
+   "price_usd2010": 329.122830288,
+   "cost_share": 0.16118412394536663,
+   "d_logodds": 0.10366237112936878,
+   "pd": 0.02213616086484922,
+   "rel_vs_today": 0.10680804324246096
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Delayed transition",
+   "price_usd2010": 386.215671856,
+   "cost_share": 0.18914468700821171,
+   "d_logodds": 0.12164465247482684,
+   "pd": 0.02252877119985951,
+   "rel_vs_today": 0.1264385599929756
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Fragmented World",
+   "price_usd2010": 84.14687209600001,
+   "cost_share": 0.04120996361652611,
+   "d_logodds": 0.026503370419360177,
+   "pd": 0.020526128468562558,
+   "rel_vs_today": 0.026306423428127834
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "price_usd2010": 203.162804656,
+   "cost_share": 0.0994966488897351,
+   "d_logodds": 0.06398929553900835,
+   "pd": 0.021293477856944694,
+   "rel_vs_today": 0.06467389284723457
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Current Policies",
+   "price_usd2010": 28.000025424,
+   "cost_share": 0.01371269068288632,
+   "d_logodds": 0.008819044927981948,
+   "pd": 0.02017358697375515,
+   "rel_vs_today": 0.008679348687757438
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Net Zero 2050",
+   "price_usd2010": 381.297431056909,
+   "cost_share": 0.18673603509591458,
+   "d_logodds": 0.12009557578946645,
+   "pd": 0.022494683851761215,
+   "rel_vs_today": 0.12473419258806073
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Below 2\u00b0C",
+   "price_usd2010": 195.762800771182,
+   "cost_share": 0.09587258202593543,
+   "d_logodds": 0.06165854884363167,
+   "pd": 0.02124495909924149,
+   "rel_vs_today": 0.06224795496207447
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Low demand",
+   "price_usd2010": 330.677909388818,
+   "cost_share": 0.16194570606445502,
+   "d_logodds": 0.10415216755808648,
+   "pd": 0.0221467655543047,
+   "rel_vs_today": 0.10733827771523496
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Delayed transition",
+   "price_usd2010": 189.400581062182,
+   "cost_share": 0.09275675803631503,
+   "d_logodds": 0.05965466846832065,
+   "pd": 0.021203331141057075,
+   "rel_vs_today": 0.060166557052853786
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Fragmented World",
+   "price_usd2010": 121.205887384909,
+   "cost_share": 0.059359190482355405,
+   "d_logodds": 0.03817568556445725,
+   "pd": 0.02076211614848199,
+   "rel_vs_today": 0.038105807424099636
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "price_usd2010": 84.0586935910909,
+   "cost_share": 0.041166779207069765,
+   "d_logodds": 0.02647559722327553,
+   "pd": 0.020525570101264424,
+   "rel_vs_today": 0.02627850506322127
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Current Policies",
+   "price_usd2010": 0.0,
+   "cost_share": 0.0,
+   "d_logodds": 0.0,
+   "pd": 0.02,
+   "rel_vs_today": 0.0
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Net Zero 2050",
+   "price_usd2010": 326.911356349782,
+   "cost_share": 0.1601010799977688,
+   "d_logodds": 0.10296583290403241,
+   "pd": 0.022121088510523274,
+   "rel_vs_today": 0.10605442552616373
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Below 2\u00b0C",
+   "price_usd2010": 65.5345514952925,
+   "cost_share": 0.032094793489950056,
+   "d_logodds": 0.020641129614001847,
+   "pd": 0.020408599936161467,
+   "rel_vs_today": 0.020429996808073447
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Low demand",
+   "price_usd2010": 167.942725572616,
+   "cost_share": 0.08224801989801742,
+   "d_logodds": 0.052896182047146814,
+   "pd": 0.02106352015648714,
+   "rel_vs_today": 0.05317600782435705
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Delayed transition",
+   "price_usd2010": 78.652737761296,
+   "cost_share": 0.03851927446317109,
+   "d_logodds": 0.02477290707854507,
+   "pd": 0.02049136668884667,
+   "rel_vs_today": 0.024568334442333528
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Fragmented World",
+   "price_usd2010": 14.0874211455255,
+   "cost_share": 0.006899152617288825,
+   "d_logodds": 0.004437053114076926,
+   "pd": 0.02008715171250625,
+   "rel_vs_today": 0.00435758562531241
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "price_usd2010": 60.7516665416704,
+   "cost_share": 0.029752430547499497,
+   "d_logodds": 0.019134685364304575,
+   "pd": 0.020378504717486888,
+   "rel_vs_today": 0.01892523587434436
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Current Policies",
+   "price_usd2010": 1.07896753246753,
+   "cost_share": 0.0005284119498306759,
+   "d_logodds": 0.0003398376608797241,
+   "pd": 0.020006661904792878,
+   "rel_vs_today": 0.0003330952396438658
+  }
+ ],
+ "prices": [
+  {
+   "model": "REMIND",
+   "scenario": "Net Zero 2050",
+   "year": 2020,
+   "price": 28.000025424,
+   "emissions": 3325.264887399999
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Net Zero 2050",
+   "year": 2025,
+   "price": 153.19648344,
+   "emissions": 2714.7312685
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Net Zero 2050",
+   "year": 2030,
+   "price": 283.6971915680001,
+   "emissions": 1538.4986917
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Net Zero 2050",
+   "year": 2035,
+   "price": 497.5149928,
+   "emissions": 520.6601512999999
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Net Zero 2050",
+   "year": 2040,
+   "price": 711.332794032,
+   "emissions": -94.5580643
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Net Zero 2050",
+   "year": 2045,
+   "price": 925.150595152,
+   "emissions": -308.4345971
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Net Zero 2050",
+   "year": 2050,
+   "price": 1042.06771872,
+   "emissions": -379.9962343999999
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Below 2\u00b0C",
+   "year": 2020,
+   "price": 28.000025424,
+   "emissions": 3325.264887399999
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Below 2\u00b0C",
+   "year": 2025,
+   "price": 28.607625536,
+   "emissions": 2856.9045264
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Below 2\u00b0C",
+   "year": 2030,
+   "price": 49.58655083200001,
+   "emissions": 2240.376033500001
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Below 2\u00b0C",
+   "year": 2035,
+   "price": 73.89387398400001,
+   "emissions": 1613.7409062
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Below 2\u00b0C",
+   "year": 2040,
+   "price": 98.201197248,
+   "emissions": 1056.8049971
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Below 2\u00b0C",
+   "year": 2045,
+   "price": 122.5085204,
+   "emissions": 672.3826889999999
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Below 2\u00b0C",
+   "year": 2050,
+   "price": 146.815843664,
+   "emissions": 418.8079834
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Low demand",
+   "year": 2020,
+   "price": 28.000025424,
+   "emissions": 3325.264887399999
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Low demand",
+   "year": 2025,
+   "price": 92.565796064,
+   "emissions": 2661.5737682
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Low demand",
+   "year": 2030,
+   "price": 171.418140768,
+   "emissions": 1379.6868172
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Low demand",
+   "year": 2035,
+   "price": 250.270485472,
+   "emissions": 671.8615626999998
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Low demand",
+   "year": 2040,
+   "price": 329.122830288,
+   "emissions": 163.7776929
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Low demand",
+   "year": 2045,
+   "price": 407.975174992,
+   "emissions": -47.4772727
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Low demand",
+   "year": 2050,
+   "price": 486.827519808,
+   "emissions": -125.7514427
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Delayed transition",
+   "year": 2020,
+   "price": 28.000025424,
+   "emissions": 3325.264887399999
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Delayed transition",
+   "year": 2025,
+   "price": 28.000025424,
+   "emissions": 2903.5073319
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Delayed transition",
+   "year": 2030,
+   "price": 28.000025424,
+   "emissions": 2421.5708484
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Delayed transition",
+   "year": 2035,
+   "price": 220.8492360480001,
+   "emissions": 1794.2780982
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Delayed transition",
+   "year": 2040,
+   "price": 386.215671856,
+   "emissions": 582.3633389
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Delayed transition",
+   "year": 2045,
+   "price": 551.582107664,
+   "emissions": 155.9865119
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Delayed transition",
+   "year": 2050,
+   "price": 716.9485434719999,
+   "emissions": -64.86236849999999
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Fragmented World",
+   "year": 2020,
+   "price": 28.000025424,
+   "emissions": 3325.264887399999
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Fragmented World",
+   "year": 2025,
+   "price": 28.000025424,
+   "emissions": 2903.5073319
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Fragmented World",
+   "year": 2030,
+   "price": 28.000025424,
+   "emissions": 2421.5708484
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Fragmented World",
+   "year": 2035,
+   "price": 56.07344881600002,
+   "emissions": 1919.4350759
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Fragmented World",
+   "year": 2040,
+   "price": 84.14687209600001,
+   "emissions": 1326.8215646
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Fragmented World",
+   "year": 2045,
+   "price": 112.220295488,
+   "emissions": 900.2654506
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Fragmented World",
+   "year": 2050,
+   "price": 140.293718768,
+   "emissions": 629.8701874
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "year": 2020,
+   "price": 28.000025424,
+   "emissions": 3325.264887399999
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "year": 2025,
+   "price": 115.867226608,
+   "emissions": 2746.344712500001
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "year": 2030,
+   "price": 203.734427904,
+   "emissions": 1774.6774198
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "year": 2035,
+   "price": 203.858956224,
+   "emissions": 1038.4023616
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "year": 2040,
+   "price": 203.162804656,
+   "emissions": 553.9996339
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "year": 2045,
+   "price": 201.54027992,
+   "emissions": 277.5018823
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "year": 2050,
+   "price": 198.875512864,
+   "emissions": 159.3987204
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Current Policies",
+   "year": 2020,
+   "price": 28.000025424,
+   "emissions": 3325.264887399999
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Current Policies",
+   "year": 2025,
+   "price": 28.000025424,
+   "emissions": 2903.5073319
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Current Policies",
+   "year": 2030,
+   "price": 28.000025424,
+   "emissions": 2421.5708484
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Current Policies",
+   "year": 2035,
+   "price": 28.000025424,
+   "emissions": 2026.7216708
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Current Policies",
+   "year": 2040,
+   "price": 28.000025424,
+   "emissions": 1748.4898428
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Current Policies",
+   "year": 2045,
+   "price": 28.000025424,
+   "emissions": 1572.0338621
+  },
+  {
+   "model": "REMIND",
+   "scenario": "Current Policies",
+   "year": 2050,
+   "price": 28.000025424,
+   "emissions": 1447.2243454
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Net Zero 2050",
+   "year": 2020,
+   "price": 0.0,
+   "emissions": 2621.84385427901
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Net Zero 2050",
+   "year": 2025,
+   "price": 21.2451586461818,
+   "emissions": 2256.98899088008
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Net Zero 2050",
+   "year": 2030,
+   "price": 80.9178928159091,
+   "emissions": 1611.81689132957
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Net Zero 2050",
+   "year": 2035,
+   "price": 194.381129560091,
+   "emissions": 1117.15743177007
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Net Zero 2050",
+   "year": 2040,
+   "price": 381.297431056909,
+   "emissions": 636.325771662028
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Net Zero 2050",
+   "year": 2045,
+   "price": 736.243886754,
+   "emissions": 159.353638421037
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Net Zero 2050",
+   "year": 2050,
+   "price": 1581.42601636454,
+   "emissions": -319.362498024622
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Below 2\u00b0C",
+   "year": 2020,
+   "price": 0.0,
+   "emissions": 2621.84374282378
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Below 2\u00b0C",
+   "year": 2025,
+   "price": 9.5766103930909,
+   "emissions": 2286.25627779113
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Below 2\u00b0C",
+   "year": 2030,
+   "price": 60.0787189480909,
+   "emissions": 1693.41372922445
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Below 2\u00b0C",
+   "year": 2035,
+   "price": 115.893357444,
+   "emissions": 1310.5139856076
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Below 2\u00b0C",
+   "year": 2040,
+   "price": 195.762800771182,
+   "emissions": 938.063928317734
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Below 2\u00b0C",
+   "year": 2045,
+   "price": 291.814995808636,
+   "emissions": 562.144610863048
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Below 2\u00b0C",
+   "year": 2050,
+   "price": 416.460549952718,
+   "emissions": 183.181385871856
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Low demand",
+   "year": 2020,
+   "price": 0.0,
+   "emissions": 2620.48121833136
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Low demand",
+   "year": 2025,
+   "price": 16.9806647675455,
+   "emissions": 2253.38274301346
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Low demand",
+   "year": 2030,
+   "price": 68.3282304220909,
+   "emissions": 1612.5575206189
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Low demand",
+   "year": 2035,
+   "price": 172.587767435182,
+   "emissions": 1122.07143087399
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Low demand",
+   "year": 2040,
+   "price": 330.677909388818,
+   "emissions": 638.490324614845
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Low demand",
+   "year": 2045,
+   "price": 629.633606920364,
+   "emissions": 209.871384858951
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Low demand",
+   "year": 2050,
+   "price": 1153.62885825908,
+   "emissions": -328.270211082992
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Delayed transition",
+   "year": 2020,
+   "price": 0.0,
+   "emissions": 2621.84370943654
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Delayed transition",
+   "year": 2025,
+   "price": 0.0,
+   "emissions": 2316.40170193565
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Delayed transition",
+   "year": 2030,
+   "price": 0.0,
+   "emissions": 2002.14888492024
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Delayed transition",
+   "year": 2035,
+   "price": 77.5530149023637,
+   "emissions": 1460.22541077363
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Delayed transition",
+   "year": 2040,
+   "price": 189.400581062182,
+   "emissions": 902.121459574583
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Delayed transition",
+   "year": 2045,
+   "price": 390.404388997636,
+   "emissions": 281.465059039375
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Delayed transition",
+   "year": 2050,
+   "price": 929.572391218173,
+   "emissions": -321.982710915156
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Fragmented World",
+   "year": 2020,
+   "price": 0.0,
+   "emissions": 2621.86467524236
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Fragmented World",
+   "year": 2025,
+   "price": 0.0516783068181752,
+   "emissions": 2316.40118543215
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Fragmented World",
+   "year": 2030,
+   "price": 0.0971552168181518,
+   "emissions": 2002.15714360284
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Fragmented World",
+   "year": 2035,
+   "price": 57.364574274,
+   "emissions": 1608.78482151379
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Fragmented World",
+   "year": 2040,
+   "price": 121.205887384909,
+   "emissions": 1187.0608595378
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Fragmented World",
+   "year": 2045,
+   "price": 178.568807953091,
+   "emissions": 691.612183464322
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Fragmented World",
+   "year": 2050,
+   "price": 250.476856702446,
+   "emissions": 180.593519817425
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "year": 2020,
+   "price": 0.0151314082363605,
+   "emissions": 2621.8735829628
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "year": 2025,
+   "price": 8.13581919900001,
+   "emissions": 2296.52665718457
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "year": 2030,
+   "price": 56.7923920609091,
+   "emissions": 1710.76021776521
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "year": 2035,
+   "price": 61.9230143618182,
+   "emissions": 1557.77323882212
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "year": 2040,
+   "price": 84.0586935910909,
+   "emissions": 1437.77958943638
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "year": 2045,
+   "price": 90.785555433,
+   "emissions": 1331.35105202235
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "year": 2050,
+   "price": 95.8115394982636,
+   "emissions": 1236.17566872184
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Current Policies",
+   "year": 2020,
+   "price": 0.0,
+   "emissions": 2621.84382781012
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Current Policies",
+   "year": 2025,
+   "price": 0.0,
+   "emissions": 2316.40173627619
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Current Policies",
+   "year": 2030,
+   "price": 0.0,
+   "emissions": 2002.16134252839
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Current Policies",
+   "year": 2035,
+   "price": 0.0,
+   "emissions": 1917.66328231101
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Current Policies",
+   "year": 2040,
+   "price": 0.0,
+   "emissions": 1877.53229787043
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Current Policies",
+   "year": 2045,
+   "price": 0.0,
+   "emissions": 1854.6489580072
+  },
+  {
+   "model": "GCAM",
+   "scenario": "Current Policies",
+   "year": 2050,
+   "price": 0.0,
+   "emissions": 1837.71428402695
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Net Zero 2050",
+   "year": 2020,
+   "price": 0.0,
+   "emissions": 2986.31157034415
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Net Zero 2050",
+   "year": 2025,
+   "price": 0.0,
+   "emissions": 2790.57240348578
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Net Zero 2050",
+   "year": 2030,
+   "price": 246.982108681731,
+   "emissions": 1895.75720425384
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Net Zero 2050",
+   "year": 2035,
+   "price": 296.71214563142,
+   "emissions": 1325.27679922787
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Net Zero 2050",
+   "year": 2040,
+   "price": 326.911356349782,
+   "emissions": 940.824465178146
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Net Zero 2050",
+   "year": 2045,
+   "price": 372.31291535475,
+   "emissions": 662.93472595764
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Net Zero 2050",
+   "year": 2050,
+   "price": 482.486710341575,
+   "emissions": 404.803583796975
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Below 2\u00b0C",
+   "year": 2020,
+   "price": 0.0,
+   "emissions": 2986.31157034415
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Below 2\u00b0C",
+   "year": 2025,
+   "price": 0.0,
+   "emissions": 2790.57240348578
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Below 2\u00b0C",
+   "year": 2030,
+   "price": 49.4127617677689,
+   "emissions": 2406.51935800531
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Below 2\u00b0C",
+   "year": 2035,
+   "price": 54.7790907346259,
+   "emissions": 1991.8291089698
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Below 2\u00b0C",
+   "year": 2040,
+   "price": 65.5345514952925,
+   "emissions": 1575.38715432992
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Below 2\u00b0C",
+   "year": 2045,
+   "price": 87.8240185560189,
+   "emissions": 1275.8778964475
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Below 2\u00b0C",
+   "year": 2050,
+   "price": 112.667828915357,
+   "emissions": 984.1746209529
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Low demand",
+   "year": 2020,
+   "price": 0.0,
+   "emissions": 2986.31157034415
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Low demand",
+   "year": 2025,
+   "price": 0.0,
+   "emissions": 2790.57240348578
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Low demand",
+   "year": 2030,
+   "price": 104.00761464738,
+   "emissions": 2098.87198307735
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Low demand",
+   "year": 2035,
+   "price": 127.871383674395,
+   "emissions": 1465.56129844811
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Low demand",
+   "year": 2040,
+   "price": 167.942725572616,
+   "emissions": 999.729767855506
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Low demand",
+   "year": 2045,
+   "price": 197.451228525542,
+   "emissions": 600.885248656674
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Low demand",
+   "year": 2050,
+   "price": 233.503544404244,
+   "emissions": 303.764930829771
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Delayed transition",
+   "year": 2020,
+   "price": 0.0,
+   "emissions": 2986.31157034415
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Delayed transition",
+   "year": 2025,
+   "price": 0.0,
+   "emissions": 2790.62970849126
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Delayed transition",
+   "year": 2030,
+   "price": 0.0,
+   "emissions": 2675.06851729357
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Delayed transition",
+   "year": 2035,
+   "price": 52.7437161786559,
+   "emissions": 2263.9251874368
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Delayed transition",
+   "year": 2040,
+   "price": 78.652737761296,
+   "emissions": 1790.75462152286
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Delayed transition",
+   "year": 2045,
+   "price": 84.853105658421,
+   "emissions": 1380.51458849958
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Delayed transition",
+   "year": 2050,
+   "price": 155.587897090826,
+   "emissions": 916.808017870817
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Fragmented World",
+   "year": 2020,
+   "price": 0.0,
+   "emissions": 2986.31157034415
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Fragmented World",
+   "year": 2025,
+   "price": 0.0,
+   "emissions": 2790.62970849126
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Fragmented World",
+   "year": 2030,
+   "price": 0.0,
+   "emissions": 2675.06851729357
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Fragmented World",
+   "year": 2035,
+   "price": 11.577346851814,
+   "emissions": 2357.53884232224
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Fragmented World",
+   "year": 2040,
+   "price": 14.0874211455255,
+   "emissions": 2027.73653467469
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Fragmented World",
+   "year": 2045,
+   "price": 17.9795158712068,
+   "emissions": 1617.79215286153
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Fragmented World",
+   "year": 2050,
+   "price": 236.957053112947,
+   "emissions": 906.620959762609
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "year": 2020,
+   "price": 0.0,
+   "emissions": 2986.31157034415
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "year": 2025,
+   "price": 0.0,
+   "emissions": 2790.57240348578
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "year": 2030,
+   "price": 52.2669122986155,
+   "emissions": 2456.5589759488
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "year": 2035,
+   "price": 56.509289420143,
+   "emissions": 2152.17401833628
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "year": 2040,
+   "price": 60.7516665416704,
+   "emissions": 1771.64371252795
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "year": 2045,
+   "price": 64.9940436631979,
+   "emissions": 1534.58712437997
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Nationally Determined Contributions (NDCs)",
+   "year": 2050,
+   "price": 69.2364207847254,
+   "emissions": 1436.51586467678
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Current Policies",
+   "year": 2020,
+   "price": 0.0,
+   "emissions": 2986.31157034415
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Current Policies",
+   "year": 2025,
+   "price": 0.0,
+   "emissions": 2790.62970849126
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Current Policies",
+   "year": 2030,
+   "price": 0.0,
+   "emissions": 2675.06851729357
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Current Policies",
+   "year": 2035,
+   "price": 0.539483766233766,
+   "emissions": 2643.26657501743
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Current Policies",
+   "year": 2040,
+   "price": 1.07896753246753,
+   "emissions": 2650.25968427823
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Current Policies",
+   "year": 2045,
+   "price": 1.6184512987013,
+   "emissions": 2803.64847820492
+  },
+  {
+   "model": "MESSAGE",
+   "scenario": "Current Policies",
+   "year": 2050,
+   "price": 2.15793506493507,
+   "emissions": 2850.70630085375
+  }
+ ],
+ "price_comparisons": {
+  "REMIND": {
+   "delayed_below_nz_every_year_2025_2050": true,
+   "delayed_above_below2_2040": true,
+   "delayed_above_lowdemand_2040": true
+  },
+  "GCAM": {
+   "delayed_below_nz_every_year_2025_2050": true,
+   "delayed_above_below2_2040": false,
+   "delayed_above_lowdemand_2040": false
+  },
+  "MESSAGE": {
+   "delayed_below_nz_every_year_2025_2050": true,
+   "delayed_above_below2_2040": true,
+   "delayed_above_lowdemand_2040": false
+  }
+ },
+ "sweeps": [
+  {
+   "factor": "pass-through of carbon cost",
+   "value": 0.0,
+   "rel": -0.28059011627710506,
+   "bp": -115.85186824704053,
+   "note": ""
+  },
+  {
+   "factor": "pass-through of carbon cost",
+   "value": 0.25,
+   "rel": -0.2197799335810965,
+   "bp": -75.8226047400079,
+   "note": ""
+  },
+  {
+   "factor": "pass-through of carbon cost",
+   "value": 0.5,
+   "rel": -0.15307239258431304,
+   "bp": -44.07396134630006,
+   "note": ""
+  },
+  {
+   "factor": "pass-through of carbon cost",
+   "value": 0.7,
+   "rel": -0.09513945405293223,
+   "bp": -23.687351626042048,
+   "note": ""
+  },
+  {
+   "factor": "pass-through of carbon cost",
+   "value": 0.85,
+   "rel": -0.04885219929822415,
+   "bp": -10.90276262960297,
+   "note": ""
+  },
+  {
+   "factor": "pass-through of carbon cost",
+   "value": 1.0,
+   "rel": 0.0,
+   "bp": 0.0,
+   "note": ""
+  },
+  {
+   "factor": "year",
+   "value": 2030,
+   "rel": -0.07581714375443205,
+   "bp": -16.549795674042702,
+   "note": ""
+  },
+  {
+   "factor": "year",
+   "value": 2035,
+   "rel": -0.08166472628392174,
+   "bp": -19.03914659507809,
+   "note": ""
+  },
+  {
+   "factor": "year",
+   "value": 2040,
+   "rel": -0.09513945405293223,
+   "bp": -23.687351626042048,
+   "note": ""
+  },
+  {
+   "factor": "year",
+   "value": 2045,
+   "rel": -0.10837153692051704,
+   "bp": -28.811517603675693,
+   "note": ""
+  },
+  {
+   "factor": "year",
+   "value": 2050,
+   "rel": -0.09490528582380275,
+   "bp": -26.15177969970014,
+   "note": ""
+  },
+  {
+   "factor": "IAM",
+   "value": "REMIND",
+   "rel": -0.09513945405293223,
+   "bp": -23.687351626042048,
+   "note": ""
+  },
+  {
+   "factor": "IAM",
+   "value": "GCAM",
+   "rel": -0.05740701755197308,
+   "bp": -12.913527107041405,
+   "note": ""
+  },
+  {
+   "factor": "IAM",
+   "value": "MESSAGE",
+   "rel": -0.0736727679969873,
+   "bp": -16.297218216766023,
+   "note": ""
+  },
+  {
+   "factor": "scenario pair",
+   "value": "Delayed transition vs Net Zero 2050",
+   "rel": -0.09513945405293223,
+   "bp": -23.687351626042048,
+   "note": ""
+  },
+  {
+   "factor": "scenario pair",
+   "value": "Fragmented World vs Net Zero 2050",
+   "rel": -0.17557492827842336,
+   "bp": -43.71377893901157,
+   "note": ""
+  },
+  {
+   "factor": "scenario pair",
+   "value": "Delayed transition vs Below 2\u00b0C",
+   "rel": 0.09281726449260086,
+   "bp": 19.13457064682756,
+   "note": ""
+  },
+  {
+   "factor": "scenario pair",
+   "value": "Fragmented World vs Below 2\u00b0C",
+   "rel": -0.004326185185896114,
+   "bp": -0.8918566661419645,
+   "note": ""
+  },
+  {
+   "factor": "scenario pair",
+   "value": "Delayed transition vs Low demand",
+   "rel": 0.017736152958381046,
+   "bp": 3.926103350102919,
+   "note": ""
+  },
+  {
+   "factor": "scenario pair",
+   "value": "Fragmented World vs Low demand",
+   "rel": -0.07273313589093433,
+   "bp": -16.100323962866607,
+   "note": ""
+  },
+  {
+   "factor": "reference year of ratios",
+   "value": 2015,
+   "rel": -0.12618191658352373,
+   "bp": -33.91875280847532,
+   "note": ""
+  },
+  {
+   "factor": "reference year of ratios",
+   "value": 2016,
+   "rel": -0.12326901612211372,
+   "bp": -32.89436196094477,
+   "note": ""
+  },
+  {
+   "factor": "reference year of ratios",
+   "value": 2017,
+   "rel": -0.12289391306582265,
+   "bp": -32.763464847043245,
+   "note": ""
+  },
+  {
+   "factor": "reference year of ratios",
+   "value": 2018,
+   "rel": -0.11686887560231085,
+   "bp": -30.69221163690114,
+   "note": ""
+  },
+  {
+   "factor": "reference year of ratios",
+   "value": 2019,
+   "rel": -0.1054472160193567,
+   "bp": -26.922232031357378,
+   "note": ""
+  },
+  {
+   "factor": "reference year of ratios",
+   "value": 2020,
+   "rel": -0.09397255619986222,
+   "bp": -23.33075490296502,
+   "note": ""
+  },
+  {
+   "factor": "reference year of ratios",
+   "value": 2021,
+   "rel": -0.0982599108672293,
+   "bp": -24.650424609281366,
+   "note": ""
+  },
+  {
+   "factor": "reference year of ratios",
+   "value": 2022,
+   "rel": -0.09513945405293223,
+   "bp": -23.687351626042048,
+   "note": ""
+  },
+  {
+   "factor": "reference year of ratios",
+   "value": 2023,
+   "rel": -0.08123231015439747,
+   "bp": -19.559306539312857,
+   "note": ""
+  },
+  {
+   "factor": "horizon of the CHS coefficient (months)",
+   "value": 0,
+   "rel": -0.13592760696482464,
+   "bp": -37.45020771285256,
+   "note": ""
+  },
+  {
+   "factor": "horizon of the CHS coefficient (months)",
+   "value": 6,
+   "rel": -0.11121345342780398,
+   "bp": -28.800432450206554,
+   "note": ""
+  },
+  {
+   "factor": "horizon of the CHS coefficient (months)",
+   "value": 12,
+   "rel": -0.09513945405293223,
+   "bp": -23.687351626042048,
+   "note": ""
+  },
+  {
+   "factor": "horizon of the CHS coefficient (months)",
+   "value": 24,
+   "rel": -0.06328096366519076,
+   "bp": -14.604038146663576,
+   "note": ""
+  },
+  {
+   "factor": "horizon of the CHS coefficient (months)",
+   "value": 36,
+   "rel": -0.06709926198568261,
+   "bp": -15.624493604644297,
+   "note": ""
+  },
+  {
+   "factor": "total assets as multiple of net fixed assets",
+   "value": 1.0,
+   "rel": -0.09513945405293223,
+   "bp": -23.687351626042048,
+   "note": ""
+  },
+  {
+   "factor": "total assets as multiple of net fixed assets",
+   "value": 2.0,
+   "rel": -0.04885219929822415,
+   "bp": -10.90276262960297,
+   "note": ""
+  },
+  {
+   "factor": "total assets as multiple of net fixed assets",
+   "value": 3.0,
+   "rel": -0.03285924482113167,
+   "bp": -7.070473021216876,
+   "note": ""
+  },
+  {
+   "factor": "gas",
+   "value": "CO2",
+   "rel": -0.09513945405293223,
+   "bp": -23.687351626042048,
+   "note": ""
+  },
+  {
+   "factor": "gas",
+   "value": "all GHG",
+   "rel": -0.106529375535662,
+   "bp": -27.270890340416567,
+   "note": ""
+  },
+  {
+   "factor": "abatement",
+   "value": "static intensity",
+   "rel": -0.09513945405293223,
+   "bp": -23.687351626042048,
+   "note": ""
+  },
+  {
+   "factor": "abatement",
+   "value": "intensity follows regional emissions",
+   "rel": 0.021092798483897557,
+   "bp": 4.218559696779513,
+   "note": ""
+  },
+  {
+   "factor": "baseline PD",
+   "value": 0.005,
+   "rel": -0.09678297273288827,
+   "bp": -6.0468006612772465,
+   "note": ""
+  },
+  {
+   "factor": "baseline PD",
+   "value": 0.01,
+   "rel": -0.09623442544301097,
+   "bp": -12.009995808412166,
+   "note": ""
+  },
+  {
+   "factor": "baseline PD",
+   "value": 0.02,
+   "rel": -0.09513945405293223,
+   "bp": -23.687351626042048,
+   "note": ""
+  },
+  {
+   "factor": "baseline PD",
+   "value": 0.05,
+   "rel": -0.09187142716492713,
+   "bp": -56.75876198072645,
+   "note": ""
+  },
+  {
+   "factor": "baseline PD",
+   "value": 0.1,
+   "rel": -0.0864803596694863,
+   "bp": -105.54739169428895,
+   "note": ""
+  },
+  {
+   "factor": "sensitivity source",
+   "value": "CHS 12-month",
+   "rel": -0.09513945405293223,
+   "bp": -23.687351626042048,
+   "note": ""
+  },
+  {
+   "factor": "sensitivity source",
+   "value": "EU panel, country + sector-year, all years",
+   "rel": -0.007473279100286612,
+   "bp": -1.5193914065875571,
+   "note": ""
+  },
+  {
+   "factor": "sensitivity source",
+   "value": "EU panel, country + sector-year, excluding 2020-2021",
+   "rel": -0.006084896322828048,
+   "bp": -1.2333410094319055,
+   "note": ""
+  },
+  {
+   "factor": "sensitivity source",
+   "value": "EU panel, country + year, all years",
+   "rel": -0.014364725816113366,
+   "bp": -2.9653653417882966,
+   "note": ""
+  },
+  {
+   "factor": "sensitivity source",
+   "value": "EU panel, country + year, excluding 2020-2021",
+   "rel": 0.0006656820860346802,
+   "bp": 0.1329427158816912,
+   "note": ""
+  },
+  {
+   "factor": "sensitivity source",
+   "value": "CHS rescaled by calibration slope",
+   "rel": -0.018097264826841597,
+   "bp": -3.7670421351723715,
+   "note": ""
+  },
+  {
+   "factor": "sensitivity source",
+   "value": "CHS rescaled by slope, excluding 2020-2021 test years",
+   "rel": -0.030532932701353488,
+   "bp": -6.535437921871487,
+   "note": ""
+  }
+ ],
+ "sweep_summary": [
+  {
+   "factor": "pass-through of carbon cost",
+   "lo": -0.28059011627710506,
+   "hi": 0.0,
+   "span": 0.28059011627710506,
+   "flips_sign": false
+  },
+  {
+   "factor": "scenario pair",
+   "lo": -0.17557492827842336,
+   "hi": 0.09281726449260086,
+   "span": 0.2683921927710242,
+   "flips_sign": true
+  },
+  {
+   "factor": "abatement",
+   "lo": -0.09513945405293223,
+   "hi": 0.021092798483897557,
+   "span": 0.11623225253682978,
+   "flips_sign": true
+  },
+  {
+   "factor": "sensitivity source",
+   "lo": -0.09513945405293223,
+   "hi": 0.0006656820860346802,
+   "span": 0.0958051361389669,
+   "flips_sign": true
+  },
+  {
+   "factor": "horizon of the CHS coefficient (months)",
+   "lo": -0.13592760696482464,
+   "hi": -0.06328096366519076,
+   "span": 0.07264664329963388,
+   "flips_sign": false
+  },
+  {
+   "factor": "total assets as multiple of net fixed assets",
+   "lo": -0.09513945405293223,
+   "hi": -0.03285924482113167,
+   "span": 0.062280209231800554,
+   "flips_sign": false
+  },
+  {
+   "factor": "reference year of ratios",
+   "lo": -0.12618191658352373,
+   "hi": -0.08123231015439747,
+   "span": 0.044949606429126265,
+   "flips_sign": false
+  },
+  {
+   "factor": "IAM",
+   "lo": -0.09513945405293223,
+   "hi": -0.05740701755197308,
+   "span": 0.03773243650095914,
+   "flips_sign": false
+  },
+  {
+   "factor": "year",
+   "lo": -0.10837153692051704,
+   "hi": -0.07581714375443205,
+   "span": 0.032554393166084994,
+   "flips_sign": false
+  },
+  {
+   "factor": "leave one country out of the sector",
+   "lo": -0.09842753308848318,
+   "hi": -0.08529118363036814,
+   "span": 0.013136349458115038,
+   "flips_sign": false
+  },
+  {
+   "factor": "gas",
+   "lo": -0.106529375535662,
+   "hi": -0.09513945405293223,
+   "span": 0.01138992148272977,
+   "flips_sign": false
+  },
+  {
+   "factor": "baseline PD",
+   "lo": -0.09678297273288827,
+   "hi": -0.0864803596694863,
+   "span": 0.010302613063401966,
+   "flips_sign": false
+  }
+ ],
+ "leave_one_country": [
+  {
+   "country": "AT",
+   "rel": -0.09628558015970856
+  },
+  {
+   "country": "BE",
+   "rel": -0.09511923809314371
+  },
+  {
+   "country": "BG",
+   "rel": -0.09371519454808575
+  },
+  {
+   "country": "HR",
+   "rel": -0.09541924508097466
+  },
+  {
+   "country": "CY",
+   "rel": -0.09495514401679439
+  },
+  {
+   "country": "CZ",
+   "rel": -0.09345913935294392
+  },
+  {
+   "country": "DK",
+   "rel": -0.0968714969461495
+  },
+  {
+   "country": "EE",
+   "rel": -0.09484720365420951
+  },
+  {
+   "country": "FI",
+   "rel": -0.09548388843089861
+  },
+  {
+   "country": "FR",
+   "rel": -0.09640362599789942
+  },
+  {
+   "country": "DE",
+   "rel": -0.09243248786347658
+  },
+  {
+   "country": "EL",
+   "rel": -0.09358596600073066
+  },
+  {
+   "country": "HU",
+   "rel": -0.09586451759226344
+  },
+  {
+   "country": "IE",
+   "rel": -0.09842753308848318
+  },
+  {
+   "country": "IT",
+   "rel": -0.09692915949118797
+  },
+  {
+   "country": "LV",
+   "rel": -0.0952052626737443
+  },
+  {
+   "country": "LT",
+   "rel": -0.0951775100320651
+  },
+  {
+   "country": "LU",
+   "rel": -0.09530424322803388
+  },
+  {
+   "country": "NL",
+   "rel": -0.0951672446143067
+  },
+  {
+   "country": "PL",
+   "rel": -0.08529118363036814
+  },
+  {
+   "country": "PT",
+   "rel": -0.09537298479093059
+  },
+  {
+   "country": "RO",
+   "rel": -0.09610574256939541
+  },
+  {
+   "country": "SK",
+   "rel": -0.09540944375763638
+  },
+  {
+   "country": "SI",
+   "rel": -0.09523785200101664
+  },
+  {
+   "country": "ES",
+   "rel": -0.0974845462608862
+  },
+  {
+   "country": "SE",
+   "rel": -0.09795939798482456
+  }
+ ],
+ "sectors": [
+  {
+   "sector": "B-E",
+   "n_countries": 26,
+   "co2_per_gva": 517.6408504285471,
+   "profit_share": 0.515234408290844,
+   "gva_over_k": 0.4231676261230028,
+   "dl_dis": 0.12164465247482684,
+   "dl_ord": 0.22404536332806493,
+   "pd_dis": 0.02252877119985951,
+   "pd_ord": 0.024897506362463715,
+   "rel": -0.09513945405293223,
+   "bp": -23.687351626042048
+  },
+  {
+   "sector": "F",
+   "n_countries": 27,
+   "co2_per_gva": 66.59653031272057,
+   "profit_share": 0.45115138725491377,
+   "gva_over_k": 0.68566797785452,
+   "dl_dis": 0.025358147007719396,
+   "dl_ord": 0.0467046856897115,
+   "pd_dis": 0.020503116611884687,
+   "pd_ord": 0.020936230304493344,
+   "rel": -0.02068728163138811,
+   "bp": -4.331136926086568
+  },
+  {
+   "sector": "G",
+   "n_countries": 27,
+   "co2_per_gva": 39.04099890263453,
+   "profit_share": 0.4717004411906085,
+   "gva_over_k": 1.0286764966882247,
+   "dl_dis": 0.022302409355690594,
+   "dl_ord": 0.041076621993070855,
+   "pd_dis": 0.02044183886357412,
+   "pd_ord": 0.020821177301714313,
+   "rel": -0.018218875553639435,
+   "bp": -3.7933843814019417
+  },
+  {
+   "sector": "H",
+   "n_countries": 27,
+   "co2_per_gva": 580.1760790296579,
+   "profit_share": 0.4877843571513958,
+   "gva_over_k": 0.25626542894878773,
+   "dl_dis": 0.08256612178458511,
+   "dl_ord": 0.15207044763142977,
+   "pd_dis": 0.02168408249017657,
+   "pd_ord": 0.023208608351178335,
+   "rel": -0.06568794810673617,
+   "bp": -15.245258610017652
+  },
+  {
+   "sector": "I",
+   "n_countries": 27,
+   "co2_per_gva": 34.3677064800975,
+   "profit_share": 0.43134587450611106,
+   "gva_over_k": 0.7528074072811198,
+   "dl_dis": 0.014367674453345494,
+   "dl_ord": 0.026462411438474786,
+   "pd_dis": 0.020283557088257763,
+   "pd_ord": 0.020525305012348435,
+   "rel": -0.01177804295454965,
+   "bp": -2.4174792409067254
+  },
+  {
+   "sector": "J",
+   "n_countries": 27,
+   "co2_per_gva": 7.890159396095091,
+   "profit_share": 0.46267992146993675,
+   "gva_over_k": 0.6568339694749216,
+   "dl_dis": 0.002878017476072835,
+   "dl_ord": 0.005300738322423956,
+   "pd_dis": 0.020056487137606084,
+   "pd_ord": 0.020104159245265707,
+   "rel": -0.002371255971365671,
+   "bp": -0.47672107659622875
+  },
+  {
+   "sector": "K-N",
+   "n_countries": 5,
+   "co2_per_gva": 10.5083563365293,
+   "profit_share": 0.6221780635895566,
+   "gva_over_k": 0.15704547585717699,
+   "dl_dis": 0.0009164573652346409,
+   "dl_ord": 0.0016879330015034308,
+   "pd_dis": 0.020017970468301484,
+   "pd_ord": 0.02003311030519709,
+   "rel": -0.0007557407045114539,
+   "bp": -0.15139836895605718
+  },
+  {
+   "sector": "P-S",
+   "n_countries": 10,
+   "co2_per_gva": 9.129573109087817,
+   "profit_share": 0.2343302777820716,
+   "gva_over_k": 0.6396461780026023,
+   "dl_dis": 0.0032429654725556287,
+   "dl_ord": 0.005972900269573727,
+   "pd_dis": 0.020063661163928468,
+   "pd_ord": 0.020117405095728437,
+   "rel": -0.002671514121440066,
+   "bp": -0.5374393179996897
+  }
+ ],
+ "detail": [
+  {
+   "code": "C19",
+   "name": "Coke and refined petroleum",
+   "n_countries": 14,
+   "co2_per_gva": 2396.34018806323,
+   "gva_over_k": 0.47856747888215473,
+   "dl_dis": 0.636859598525473,
+   "dl_ord": 1.1729692776271647,
+   "pd_dis": 0.03714904015147424,
+   "pd_ord": 0.06187012201200246,
+   "rel": -0.39956413623578224,
+   "bp": -247.21081860528224
+  },
+  {
+   "code": "C23",
+   "name": "Non-metallic minerals (cement, glass)",
+   "n_countries": 9,
+   "co2_per_gva": 2227.441153456499,
+   "gva_over_k": 0.4217406105406494,
+   "dl_dis": 0.521679422567522,
+   "dl_ord": 0.9608302000295714,
+   "pd_dis": 0.03324178125751498,
+   "pd_ord": 0.05064270179332991,
+   "rel": -0.3436017416058711,
+   "bp": -174.00920535814927
+  },
+  {
+   "code": "C24",
+   "name": "Basic metals",
+   "n_countries": 9,
+   "co2_per_gva": 1838.445059558626,
+   "gva_over_k": 0.5024762741893396,
+   "dl_dis": 0.5130010580303404,
+   "dl_ord": 0.9448463709317113,
+   "pd_dis": 0.03296401358999021,
+   "pd_ord": 0.049879727232159325,
+   "rel": -0.339130035002736,
+   "bp": -169.15713642169115
+  },
+  {
+   "code": "D",
+   "name": "Electricity, gas, steam",
+   "n_countries": 26,
+   "co2_per_gva": 2525.651154821866,
+   "gva_over_k": 0.178240882362781,
+   "dl_dis": 0.249995812079624,
+   "dl_ord": 0.4604427848520905,
+   "pd_dis": 0.025535349765177594,
+   "pd_ord": 0.031329101043083535,
+   "rel": -0.18493193500631955,
+   "bp": -57.93751277905941
+  },
+  {
+   "code": "C20",
+   "name": "Chemicals",
+   "n_countries": 14,
+   "co2_per_gva": 965.2577976905619,
+   "gva_over_k": 0.40469171484805216,
+   "dl_dis": 0.21693003022868296,
+   "dl_ord": 0.39954216194921616,
+   "pd_dis": 0.024725345723003604,
+   "pd_ord": 0.02953274149731077,
+   "rel": -0.16278190003948412,
+   "bp": -48.07395774307166
+  },
+  {
+   "code": "C17",
+   "name": "Paper",
+   "n_countries": 9,
+   "co2_per_gva": 348.5590216630758,
+   "gva_over_k": 0.391220329244429,
+   "dl_dis": 0.07572683170467878,
+   "dl_ord": 0.13947382953368198,
+   "pd_dis": 0.021539468236516895,
+   "pd_ord": 0.02292475199434804,
+   "rel": -0.060427426136286155,
+   "bp": -13.852837578311462
+  },
+  {
+   "code": "C10-C12",
+   "name": "Food, beverages, tobacco",
+   "n_countries": 14,
+   "co2_per_gva": 178.81525867600644,
+   "gva_over_k": 0.5304288532348868,
+   "dl_dis": 0.052672479166213135,
+   "dl_ord": 0.09701227708818731,
+   "pd_dis": 0.0210589079311942,
+   "pd_ord": 0.0219926684481064,
+   "rel": -0.04245780902465235,
+   "bp": -9.337605169121993
+  },
+  {
+   "code": "B",
+   "name": "Mining and quarrying",
+   "n_countries": 26,
+   "co2_per_gva": 310.75907421383647,
+   "gva_over_k": 0.28758060342773106,
+   "dl_dis": 0.04962899199519643,
+   "dl_ord": 0.09140677635188615,
+   "pd_dis": 0.020996256505744132,
+   "pd_ord": 0.021872422294192898,
+   "rel": -0.040058013541617976,
+   "bp": -8.761657884487663
+  },
+  {
+   "code": "C13-C15",
+   "name": "Textiles, clothing, leather",
+   "n_countries": 15,
+   "co2_per_gva": 102.40785720603658,
+   "gva_over_k": 0.7865580238897052,
+   "dl_dis": 0.044731770657201034,
+   "dl_ord": 0.08238706433292842,
+   "pd_dis": 0.020895827879983904,
+   "pd_ord": 0.02168028431164575,
+   "rel": -0.036182940241261785,
+   "bp": -7.844564316618445
+  },
+  {
+   "code": "C25",
+   "name": "Fabricated metal products",
+   "n_countries": 9,
+   "co2_per_gva": 85.37798584318134,
+   "gva_over_k": 0.7104991646772891,
+   "dl_dis": 0.03368693678574841,
+   "dl_ord": 0.062044667299570935,
+   "pd_dis": 0.020671051219384465,
+   "pd_ord": 0.021252989380488828,
+   "rel": -0.027381473292345748,
+   "bp": -5.819381611043631
+  },
+  {
+   "code": "C22",
+   "name": "Rubber and plastics",
+   "n_countries": 9,
+   "co2_per_gva": 78.94725083540268,
+   "gva_over_k": 0.4972256943385872,
+   "dl_dis": 0.021799303553843272,
+   "dl_ord": 0.0401500007246952,
+   "pd_dis": 0.020431767118254365,
+   "pd_ord": 0.020802294052006388,
+   "rel": -0.01781183040801626,
+   "bp": -3.7052693375202312
+  },
+  {
+   "code": "C16",
+   "name": "Wood products",
+   "n_countries": 9,
+   "co2_per_gva": 64.63389091154262,
+   "gva_over_k": 0.6052914025930566,
+   "dl_dis": 0.021725853717269313,
+   "dl_ord": 0.040014720669330615,
+   "pd_dis": 0.020430297122235052,
+   "pd_ord": 0.020799538635615837,
+   "rel": -0.017752389601013552,
+   "bp": -3.692415133807851
+  },
+  {
+   "code": "E37-E39",
+   "name": "Waste, sewerage",
+   "n_countries": 10,
+   "co2_per_gva": 242.60651862464186,
+   "gva_over_k": 0.13784103471372525,
+   "dl_dis": 0.01857090357845861,
+   "dl_ord": 0.034203927216835454,
+   "pd_dis": 0.020367252859773338,
+   "pd_ord": 0.020681519642935728,
+   "rel": -0.015195536333314608,
+   "bp": -3.1426678316238963
+  },
+  {
+   "code": "C28",
+   "name": "Machinery",
+   "n_countries": 14,
+   "co2_per_gva": 30.991299328364587,
+   "gva_over_k": 0.7735756763100496,
+   "dl_dis": 0.013313573344502493,
+   "dl_ord": 0.024520965915712338,
+   "pd_dis": 0.02026262043831827,
+   "pd_ord": 0.02048631047006719,
+   "rel": -0.01091900037714244,
+   "bp": -2.2369003174892157
+  },
+  {
+   "code": "C27",
+   "name": "Electrical equipment",
+   "n_countries": 14,
+   "co2_per_gva": 31.138372854978083,
+   "gva_over_k": 0.627433681379393,
+   "dl_dis": 0.010849651483996083,
+   "dl_ord": 0.01998290972320229,
+   "pd_dis": 0.020213764320976137,
+   "pd_ord": 0.02039544489874546,
+   "rel": -0.008907899713454959,
+   "bp": -1.81680577769322
+  },
+  {
+   "code": "C21",
+   "name": "Pharmaceuticals",
+   "n_countries": 13,
+   "co2_per_gva": 25.967737527337434,
+   "gva_over_k": 0.566147052384872,
+   "dl_dis": 0.008164233329555563,
+   "dl_ord": 0.015036901215151235,
+   "pd_dis": 0.020160647632014334,
+   "pd_ord": 0.0202968603227742,
+   "rel": -0.006711022719461113,
+   "bp": -1.362126907598661
+  },
+  {
+   "code": "C29",
+   "name": "Motor vehicles",
+   "n_countries": 9,
+   "co2_per_gva": 23.992978399616923,
+   "gva_over_k": 0.39245876571305,
+   "dl_dis": 0.005229139664178096,
+   "dl_ord": 0.00963103985353093,
+   "pd_dis": 0.020102748801448456,
+   "pd_ord": 0.020189643618554007,
+   "rel": -0.004303930210323048,
+   "bp": -0.8689481710555045
+  },
+  {
+   "code": "C26",
+   "name": "Computers, electronics",
+   "n_countries": 14,
+   "co2_per_gva": 11.347931344218397,
+   "gva_over_k": 0.49416612842394186,
+   "dl_dis": 0.0031141657122646625,
+   "dl_ord": 0.005735676614411995,
+   "pd_dis": 0.02006112897412037,
+   "pd_ord": 0.020112729310452843,
+   "rel": -0.0025655561478499234,
+   "bp": -0.5160033633247463
+  },
+  {
+   "code": "E36",
+   "name": "Water supply",
+   "n_countries": 10,
+   "co2_per_gva": 43.88594874206442,
+   "gva_over_k": 0.07030902577446557,
+   "dl_dis": 0.0017135177855450241,
+   "dl_ord": 0.0031559604719244173,
+   "pd_dis": 0.020033612586339376,
+   "pd_ord": 0.020061950620410694,
+   "rel": -0.0014125263593505188,
+   "bp": -0.28338034071317963
+  }
+ ],
+ "rank_stability": [
+  {
+   "ref_year": 2015,
+   "n_sectors": 8,
+   "spearman_vs_headline": 0.9523809523809524
+  },
+  {
+   "ref_year": 2016,
+   "n_sectors": 8,
+   "spearman_vs_headline": 0.9761904761904763
+  },
+  {
+   "ref_year": 2017,
+   "n_sectors": 8,
+   "spearman_vs_headline": 0.9523809523809524
+  },
+  {
+   "ref_year": 2018,
+   "n_sectors": 8,
+   "spearman_vs_headline": 0.9523809523809524
+  },
+  {
+   "ref_year": 2019,
+   "n_sectors": 8,
+   "spearman_vs_headline": 1.0
+  },
+  {
+   "ref_year": 2020,
+   "n_sectors": 8,
+   "spearman_vs_headline": 1.0
+  },
+  {
+   "ref_year": 2021,
+   "n_sectors": 8,
+   "spearman_vs_headline": 1.0
+  },
+  {
+   "ref_year": 2022,
+   "n_sectors": 8,
+   "spearman_vs_headline": 1.0
+  },
+  {
+   "ref_year": 2023,
+   "n_sectors": 8,
+   "spearman_vs_headline": 1.0
+  }
+ ],
+ "coverage_be": {
+  "2015": 26,
+  "2016": 26,
+  "2017": 26,
+  "2018": 26,
+  "2019": 26,
+  "2020": 26,
+  "2021": 26,
+  "2022": 26,
+  "2023": 25,
+  "2024": 11,
+  "2025": 0
+ },
+ "fx_2010": 1.3257,
+ "hicp_ratio": 1.254240927635817
+}
