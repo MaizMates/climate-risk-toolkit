@@ -1,0 +1,55 @@
+{
+ "accessed": "2026-10-12",
+ "years": {
+  "2021": {
+   "facilities": 10958,
+   "emitting_facilities": 7670,
+   "direct_emissions_t": 2852160958.0860763,
+   "no_parent_t": 44202896.15300001
+  },
+  "2022": {
+   "facilities": 11160,
+   "emitting_facilities": 7616,
+   "direct_emissions_t": 2824511621.22933,
+   "no_parent_t": 44624912.42779999
+  },
+  "2023": {
+   "facilities": 11281,
+   "emitting_facilities": 7544,
+   "direct_emissions_t": 2696780494.902545,
+   "no_parent_t": 41620439.6686
+  }
+ },
+ "endpoints": {
+  "epa_facility": "https://data.epa.gov/efservice/pub_dim_facility/year/=/<year>/rows/<i>:<j>/JSON",
+  "epa_emissions": "https://data.epa.gov/efservice/pub_facts_sector_ghg_emission/year/=/<year>/rows/<i>:<j>/JSON",
+  "sec_tickers": "https://www.sec.gov/files/company_tickers.json",
+  "sec_submissions": "https://data.sec.gov/submissions/CIK<CIK10>.json",
+  "sec_facts": "https://data.sec.gov/api/xbrl/companyfacts/CIK<CIK10>.json"
+ },
+ "filter": "GHGRP sector_type E only (sector_id not in 9,10,11,12,13,16,17); parents matched by exact normalised name to SEC company_tickers titles, one CIK only",
+ "ambiguous_names": [],
+ "dropped_reasons": {
+  "2021: missing revenue,assets,equity,debt": 4,
+  "2022: missing revenue,assets,equity,debt": 5,
+  "2023: missing revenue,assets,equity,debt": 3,
+  "2023: missing debt": 10,
+  "2021: missing debt": 11,
+  "2022: missing debt": 12,
+  "2021: missing revenue": 6,
+  "2022: missing revenue": 6,
+  "2023: missing revenue": 8,
+  "2022: missing assets,debt": 3,
+  "2021: missing revenue,assets,debt": 2,
+  "2021: missing equity": 9,
+  "2022: missing equity": 8,
+  "2023: missing equity": 8,
+  "2021: missing revenue,debt": 2,
+  "2022: missing revenue,debt": 1,
+  "2023: missing revenue,debt": 3,
+  "2022: missing revenue,assets,debt": 2,
+  "2023: missing assets,equity,debt": 1,
+  "2021: missing assets": 1
+ },
+ "matched_parents": 257
+}

@@ -18,7 +18,7 @@ draws on the work of, any employer.
 | 06 | `06-flood-depth-damage` | **built** |
 | 07 | `07-pacta-alignment-open` | **built** |
 | 08 | `08-scenario-pd-shift` | **built** |
-| 09 | `09-financed-emissions-pcaf` | financed emissions with data-quality scores |
+| 09 | `09-financed-emissions-pcaf` | **built** |
 | 10 | `10-disclosure-quality-index` | data quality at scale |
 | 11 | `11-hazard-exposure-gridded` | module 03 at grid-cell resolution |
 | 12 | `12-nature-dependency-encore` | nature risk, quantified |
