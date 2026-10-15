@@ -2,8 +2,7 @@
 
 Modules are built in this order, lowest number first. The order encodes which gap in my own
 work each one closes, and the sequence is designed so each module reuses the previous one's
-output. Every module meets `STANDARD.md`; one that cannot meet it is not built, and its row is
-marked **blocked** with the reason.
+output. Every module meets `STANDARD.md`; one that cannot meet it is not published.
 
 Every module is an independent project on public data. None of it is affiliated with, or
 draws on the work of, any employer.
@@ -19,7 +18,7 @@ draws on the work of, any employer.
 | 07 | `07-pacta-alignment-open` | **built** |
 | 08 | `08-scenario-pd-shift` | **built** |
 | 09 | `09-financed-emissions-pcaf` | **built** |
-| 10 | `10-disclosure-quality-index` | **blocked** 15/10/2026: # 10-disclosure-quality-index: not built |
+| 10 | `10-disclosure-quality-index` | data quality at scale: Pillar 3 ESG template coverage across EU banks' published reports |
 | 11 | `11-hazard-exposure-gridded` | module 03 at grid-cell resolution |
 | 12 | `12-nature-dependency-encore` | nature risk, quantified |
 | 13 | `13-transition-plan-nlp` | AI on unstructured regulatory text |
