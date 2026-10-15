@@ -19,7 +19,7 @@ draws on the work of, any employer.
 | 07 | `07-pacta-alignment-open` | **built** |
 | 08 | `08-scenario-pd-shift` | **built** |
 | 09 | `09-financed-emissions-pcaf` | **built** |
-| 10 | `10-disclosure-quality-index` | data quality at scale |
+| 10 | `10-disclosure-quality-index` | **blocked** 15/10/2026: # 10-disclosure-quality-index: not built |
 | 11 | `11-hazard-exposure-gridded` | module 03 at grid-cell resolution |
 | 12 | `12-nature-dependency-encore` | nature risk, quantified |
 | 13 | `13-transition-plan-nlp` | AI on unstructured regulatory text |
