@@ -1,0 +1,141 @@
+bank,template,status,pages,numeric_cells,placeholder_cells,fill
+UniCredit,T1,published,204 205 206 207 208,828,167,0.8322
+UniCredit,T2,published,209 210,194,26,0.8818
+UniCredit,T3,published,211 212,23,0,1.0
+UniCredit,T4,published,213,13,0,1.0
+UniCredit,T5,published,213 217 218 219 220 221 222 223 224,1401,242,0.8527
+UniCredit,T6,published,225,8,0,1.0
+UniCredit,T7,published,226 227 228 229 230,400,522,0.4338
+UniCredit,T8,published,231 232 233 234,337,289,0.5383
+UniCredit,T9,omitted_stated,,0,0,0.0
+UniCredit,T10,published,235,8,9,0.4706
+Intesa Sanpaolo,T1,published,314 315 316 317,750,194,0.7945
+Intesa Sanpaolo,T2,published,318 319 320,153,48,0.7612
+Intesa Sanpaolo,T3,published,319 320,87,37,0.7016
+Intesa Sanpaolo,T4,published,321 322,7,0,1.0
+Intesa Sanpaolo,T5,published,312 313 321 322 323 324,313,110,0.74
+Intesa Sanpaolo,T6,published,325,11,0,1.0
+Intesa Sanpaolo,T7,published,326 327 328 329,322,252,0.561
+Intesa Sanpaolo,T8,published,330 331 332 333,316,184,0.632
+Intesa Sanpaolo,T9,not_found,,0,0,0.0
+Intesa Sanpaolo,T10,published,16 17 18 312 313 334 335,78,14,0.8478
+Banco BPM,T1,published,328 329 330,840,142,0.8554
+Banco BPM,T2,published,331,112,47,0.7044
+Banco BPM,T3,published,332 333,13,32,0.2889
+Banco BPM,T4,published,334,5,0,1.0
+Banco BPM,T5,published,336 337 338 339,407,203,0.6672
+Banco BPM,T6,published,340 341,10,0,1.0
+Banco BPM,T7,published,340 341 342 343 344 345,256,251,0.5049
+Banco BPM,T8,published,346 347 348,511,0,1.0
+Banco BPM,T9,not_found,,0,0,0.0
+Banco BPM,T10,published,349,3,0,1.0
+ING Group,T1,published,101 102 103,845,61,0.9327
+ING Group,T2,published,104,110,0,1.0
+ING Group,T3,published,106,13,0,1.0
+ING Group,T4,published,107 108,5,1,0.8333
+ING Group,T5,published,107 108 109 110 111 112 113 114,817,53,0.9391
+ING Group,T6,published,115,0,0,0.0
+ING Group,T7,published,115 116 117 118 119,616,2,0.9968
+ING Group,T8,published,119 120 121,159,0,1.0
+ING Group,T9,not_found,,0,0,0.0
+ING Group,T10,published,123,7,6,0.5385
+ABN AMRO,T1,published,232 233 234 235 236 237 238 239 240 241 242 243 244,2149,141,0.9384
+ABN AMRO,T2,published,247 248 249 250,240,0,1.0
+ABN AMRO,T3,published,251 252 253,45,0,1.0
+ABN AMRO,T4,published,254,34,0,1.0
+ABN AMRO,T5,published,255 256 257 258,523,41,0.9273
+ABN AMRO,T6,published,259,8,0,1.0
+ABN AMRO,T7,published,260 261 262 263 264 265 266 267 268 269 270 271,534,3,0.9944
+ABN AMRO,T8,published,272 273 274 275 276 277 278 279 280,228,0,1.0
+ABN AMRO,T9,not_found,,0,0,0.0
+ABN AMRO,T10,published,282 283,2,0,1.0
+Rabobank,T1,published,162 163 164 165,839,206,0.8029
+Rabobank,T2,published,166,123,0,1.0
+Rabobank,T3,published,167,0,0,0.0
+Rabobank,T4,published,168,6,0,1.0
+Rabobank,T5,published,169 170 171 172 173 174 175 176 177,934,278,0.7706
+Rabobank,T6,published,178,6,0,1.0
+Rabobank,T7,published,179 180 181,156,119,0.5673
+Rabobank,T8,published,182 183 184,162,0,1.0
+Rabobank,T9,not_found,,0,0,0.0
+Rabobank,T10,published,185 186,11,4,0.7333
+de Volksbank,T1,published,133 134,465,110,0.8087
+de Volksbank,T2,published,135,64,15,0.8101
+de Volksbank,T3,published,136,15,1,0.9375
+de Volksbank,T4,published,137,2,0,1.0
+de Volksbank,T5,published,138,72,88,0.45
+de Volksbank,T6,omitted_stated,,0,0,0.0
+de Volksbank,T7,omitted_stated,,0,0,0.0
+de Volksbank,T8,omitted_stated,,0,0,0.0
+de Volksbank,T9,omitted_stated,,0,0,0.0
+de Volksbank,T10,omitted_stated,,0,0,0.0
+NWB Bank,T1,published,99 100 101,83,6,0.9326
+NWB Bank,T2,published,102,9,0,1.0
+NWB Bank,T3,published,103 104 105 106,10,0,1.0
+NWB Bank,T4,published,107,6,0,1.0
+NWB Bank,T5,published,108 109,22,4,0.8462
+NWB Bank,T6,published,111,8,0,1.0
+NWB Bank,T7,published,112 113,131,0,1.0
+NWB Bank,T8,published,114,37,0,1.0
+NWB Bank,T9,omitted_stated,,0,0,0.0
+NWB Bank,T10,published,115,13,0,1.0
+Société Générale,T1,published,275 276 277 278 279 280 281 282 283 332,1699,204,0.8928
+Société Générale,T2,published,284 285,228,124,0.6477
+Société Générale,T3,published,286,49,0,1.0
+Société Générale,T4,published,287 288 289,211,24,0.8979
+Société Générale,T5,published,287 288 289 290 291 292 293 294 295 296 297 298 299 300 301 302 303 332,1390,433,0.7625
+Société Générale,T6,published,304,10,0,1.0
+Société Générale,T7,published,306 307 308 309,262,300,0.4662
+Société Générale,T8,published,310 311 312 313,480,0,1.0
+Société Générale,T9,not_found,,0,0,0.0
+Société Générale,T10,published,314 315,6,12,0.3333
+BBVA,T1,published,295 296 297 298,814,113,0.8781
+BBVA,T2,published,301,129,18,0.8776
+BBVA,T3,published,271 272 273 351,2,0,1.0
+BBVA,T4,published,299,4,1,0.8
+BBVA,T5,published,304 305 306 307 308 352 353 354 355 356 357 358 359 360 361 362 363 364 365 366 367 368 369,893,731,0.5499
+BBVA,T6,published,278,0,0,0.0
+BBVA,T7,published,279 280,171,306,0.3585
+BBVA,T8,published,282 283,207,267,0.4367
+BBVA,T9,not_found,,0,0,0.0
+BBVA,T10,published,284 285,0,0,0.0
+Nordea,T1,published,156 157 158 159 160,853,29,0.9671
+Nordea,T2,published,161,63,0,1.0
+Nordea,T3,published,162,3,0,1.0
+Nordea,T4,published,163,7,0,1.0
+Nordea,T5,published,164,174,6,0.9667
+Nordea,T6,published,165,9,0,1.0
+Nordea,T7,published,166 167 168,359,0,1.0
+Nordea,T8,published,169 170,411,2,0.9952
+Nordea,T9,not_found,,0,0,0.0
+Nordea,T10,published,171 172 173,42,0,1.0
+Danske Bank,T1,published,82 83 84,803,148,0.8444
+Danske Bank,T2,published,85,123,31,0.7987
+Danske Bank,T3,published,78 79 80 81 86,36,3,0.9231
+Danske Bank,T4,published,86,15,1,0.9375
+Danske Bank,T5,published,87 88,129,58,0.6898
+Danske Bank,T6,published,89,9,0,1.0
+Danske Bank,T7,published,78 79 80 81 90 91,258,292,0.4691
+Danske Bank,T8,published,92 93,211,295,0.417
+Danske Bank,T9,not_found,,0,0,0.0
+Danske Bank,T10,published,94 95 96,14,12,0.5385
+Bank of Ireland,T1,published,116,688,236,0.7446
+Bank of Ireland,T2,published,117,122,52,0.7011
+Bank of Ireland,T3,published,118,11,0,1.0
+Bank of Ireland,T4,published,119,1,5,0.1667
+Bank of Ireland,T5,published,120,148,464,0.2418
+Bank of Ireland,T6,published,121 125,8,0,1.0
+Bank of Ireland,T7,published,122 124 125,180,363,0.3315
+Bank of Ireland,T8,published,123,188,307,0.3798
+Bank of Ireland,T9,omitted_stated,,0,0,0.0
+Bank of Ireland,T10,published,124,3,15,0.1667
+Belfius,T1,omitted_stated,,0,0,0.0
+Belfius,T2,not_found,,0,0,0.0
+Belfius,T3,not_found,,0,0,0.0
+Belfius,T4,not_found,,0,0,0.0
+Belfius,T5,not_found,,0,0,0.0
+Belfius,T6,omitted_stated,,0,0,0.0
+Belfius,T7,omitted_stated,,0,0,0.0
+Belfius,T8,omitted_stated,,0,0,0.0
+Belfius,T9,omitted_stated,,0,0,0.0
+Belfius,T10,omitted_stated,,0,0,0.0

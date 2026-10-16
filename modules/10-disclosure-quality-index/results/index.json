@@ -1,0 +1,992 @@
+{
+ "estimand": "mean over banks of the bank index; bank index = mean over the nine mandatory ESG templates (1-8, 10) of the fill rate (0 if not published)",
+ "n_banks_listed": 14,
+ "n_banks_scored": 13,
+ "out_of_scope": [
+  "Belfius"
+ ],
+ "headline": {
+  "mean_index": 0.7607544471092385,
+  "interval": [
+   0.6502247776024019,
+   0.8360427601416095
+  ],
+  "interval_banks_only": [
+   0.6703502489098828,
+   0.8505341937946591
+  ],
+  "interval_parser_only": [
+   0.7320610193683336,
+   0.7525669770931004
+  ],
+  "parser_corrected_mean": 0.745481329315575,
+  "presence_mean": 0.9658119658119658,
+  "min_bank": "de Volksbank",
+  "max_bank": "Nordea"
+ },
+ "per_bank": {
+  "UniCredit": {
+   "index": 0.7788282020895435,
+   "interval_parser": [
+    0.7125657620940449,
+    0.8066938816818684
+   ],
+   "presence": 1.0,
+   "published": 9,
+   "mean_fill_published": 0.7788282020895435,
+   "period_detected": 2024,
+   "period_listed": "2024-12-31",
+   "not_published": []
+  },
+  "Intesa Sanpaolo": {
+   "index": 0.7820058748765581,
+   "interval_parser": [
+    0.7160309949648166,
+    0.8158789788571614
+   ],
+   "presence": 1.0,
+   "published": 9,
+   "mean_fill_published": 0.7820058748765581,
+   "period_detected": 2024,
+   "period_listed": "2024-12-31",
+   "not_published": []
+  },
+  "Banco BPM": {
+   "index": 0.7800925149457618,
+   "interval_parser": [
+    0.7139444875834062,
+    0.7998930416144854
+   ],
+   "presence": 1.0,
+   "published": 9,
+   "mean_fill_published": 0.7800925149457618,
+   "period_detected": 2024,
+   "period_listed": "2024-12-31",
+   "not_published": []
+  },
+  "ING Group": {
+   "index": 0.8044789074764442,
+   "interval_parser": [
+    0.7557312184001412,
+    0.828434307295745
+   ],
+   "presence": 1.0,
+   "published": 9,
+   "mean_fill_published": 0.8044789074764442,
+   "period_detected": 2024,
+   "period_listed": "2024-12-31",
+   "not_published": []
+  },
+  "ABN AMRO": {
+   "index": 0.9844607022176098,
+   "interval_parser": [
+    0.9283014528058874,
+    0.9991319975748625
+   ],
+   "presence": 1.0,
+   "published": 9,
+   "mean_fill_published": 0.9844607022176098,
+   "period_detected": 2024,
+   "period_listed": "2024-12-31",
+   "not_published": []
+  },
+  "Rabobank": {
+   "index": 0.7637893263010512,
+   "interval_parser": [
+    0.7137776595723262,
+    0.7842292303835277
+   ],
+   "presence": 1.0,
+   "published": 9,
+   "mean_fill_published": 0.7637893263010512,
+   "period_detected": 2024,
+   "period_listed": "2024-12-31",
+   "not_published": []
+  },
+  "de Volksbank": {
+   "index": 0.4451469149391549,
+   "interval_parser": [
+    0.4047372495763012,
+    0.4663187749073121
+   ],
+   "presence": 0.5555555555555556,
+   "published": 5,
+   "mean_fill_published": 0.8012644468904788,
+   "period_detected": 2025,
+   "period_listed": "2024-12-31",
+   "not_published": [
+    "T6",
+    "T7",
+    "T8",
+    "T10"
+   ]
+  },
+  "NWB Bank": {
+   "index": 0.9754153462018631,
+   "interval_parser": [
+    0.9269428485369576,
+    0.9888714100550603
+   ],
+   "presence": 1.0,
+   "published": 9,
+   "mean_fill_published": 0.9754153462018631,
+   "period_detected": 2024,
+   "period_listed": "2024-12-31",
+   "not_published": []
+  },
+  "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale": {
+   "index": 0.7778228208437951,
+   "interval_parser": [
+    0.7114693999529644,
+    0.8053581176220539
+   ],
+   "presence": 1.0,
+   "published": 9,
+   "mean_fill_published": 0.7778228208437951,
+   "period_detected": 2025,
+   "period_listed": "2024-12-31",
+   "not_published": []
+  },
+  "BBVA": {
+   "index": 0.5445254107632533,
+   "interval_parser": [
+    0.48340756372292604,
+    0.5705980820137257
+   ],
+   "presence": 1.0,
+   "published": 9,
+   "mean_fill_published": 0.5445254107632533,
+   "period_detected": 2024,
+   "period_listed": "2024-12-31",
+   "not_published": []
+  },
+  "Nordea": {
+   "index": 0.9921049147844951,
+   "interval_parser": [
+    0.9399491256883482,
+    1.0
+   ],
+   "presence": 1.0,
+   "published": 9,
+   "mean_fill_published": 0.9921049147844951,
+   "period_detected": 2024,
+   "period_listed": "2024-12-31",
+   "not_published": []
+  },
+  "Danske Bank": {
+   "index": 0.735337847972341,
+   "interval_parser": [
+    0.6651397951208966,
+    0.7745415509091178
+   ],
+   "presence": 1.0,
+   "published": 9,
+   "mean_fill_published": 0.735337847972341,
+   "period_detected": 2024,
+   "period_listed": "2024-12-31",
+   "not_published": []
+  },
+  "Bank of Ireland": {
+   "index": 0.5257990290082304,
+   "interval_parser": [
+    0.43663898592988526,
+    0.5379307475475181
+   ],
+   "presence": 1.0,
+   "published": 9,
+   "mean_fill_published": 0.5257990290082304,
+   "period_detected": 2024,
+   "period_listed": "2024-12-31",
+   "not_published": []
+  }
+ },
+ "status": {
+  "UniCredit": {
+   "T1": {
+    "status": "published",
+    "fill": 0.8321608040201005
+   },
+   "T2": {
+    "status": "published",
+    "fill": 0.8818181818181818
+   },
+   "T3": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T4": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T5": {
+    "status": "published",
+    "fill": 0.8527084601339014
+   },
+   "T6": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T7": {
+    "status": "published",
+    "fill": 0.43383947939262474
+   },
+   "T8": {
+    "status": "published",
+    "fill": 0.5383386581469649
+   },
+   "T9": {
+    "status": "omitted_stated",
+    "fill": 0.0
+   },
+   "T10": {
+    "status": "published",
+    "fill": 0.47058823529411764
+   }
+  },
+  "Intesa Sanpaolo": {
+   "T1": {
+    "status": "published",
+    "fill": 0.7944915254237288
+   },
+   "T2": {
+    "status": "published",
+    "fill": 0.7611940298507462
+   },
+   "T3": {
+    "status": "published",
+    "fill": 0.7016129032258065
+   },
+   "T4": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T5": {
+    "status": "published",
+    "fill": 0.7399527186761229
+   },
+   "T6": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T7": {
+    "status": "published",
+    "fill": 0.5609756097560976
+   },
+   "T8": {
+    "status": "published",
+    "fill": 0.632
+   },
+   "T9": {
+    "status": "not_found",
+    "fill": 0.0
+   },
+   "T10": {
+    "status": "published",
+    "fill": 0.8478260869565217
+   }
+  },
+  "Banco BPM": {
+   "T1": {
+    "status": "published",
+    "fill": 0.8553971486761711
+   },
+   "T2": {
+    "status": "published",
+    "fill": 0.7044025157232704
+   },
+   "T3": {
+    "status": "published",
+    "fill": 0.28888888888888886
+   },
+   "T4": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T5": {
+    "status": "published",
+    "fill": 0.6672131147540984
+   },
+   "T6": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T7": {
+    "status": "published",
+    "fill": 0.504930966469428
+   },
+   "T8": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T9": {
+    "status": "not_found",
+    "fill": 0.0
+   },
+   "T10": {
+    "status": "published",
+    "fill": 1.0
+   }
+  },
+  "ING Group": {
+   "T1": {
+    "status": "published",
+    "fill": 0.9326710816777042
+   },
+   "T2": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T3": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T4": {
+    "status": "published",
+    "fill": 0.8333333333333334
+   },
+   "T5": {
+    "status": "published",
+    "fill": 0.9390804597701149
+   },
+   "T6": {
+    "status": "published",
+    "fill": 0.0
+   },
+   "T7": {
+    "status": "published",
+    "fill": 0.9967637540453075
+   },
+   "T8": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T9": {
+    "status": "not_found",
+    "fill": 0.0
+   },
+   "T10": {
+    "status": "published",
+    "fill": 0.5384615384615384
+   }
+  },
+  "ABN AMRO": {
+   "T1": {
+    "status": "published",
+    "fill": 0.9384279475982533
+   },
+   "T2": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T3": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T4": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T5": {
+    "status": "published",
+    "fill": 0.9273049645390071
+   },
+   "T6": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T7": {
+    "status": "published",
+    "fill": 0.994413407821229
+   },
+   "T8": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T9": {
+    "status": "not_found",
+    "fill": 0.0
+   },
+   "T10": {
+    "status": "published",
+    "fill": 1.0
+   }
+  },
+  "Rabobank": {
+   "T1": {
+    "status": "published",
+    "fill": 0.8028708133971292
+   },
+   "T2": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T3": {
+    "status": "published",
+    "fill": 0.0
+   },
+   "T4": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T5": {
+    "status": "published",
+    "fill": 0.7706270627062707
+   },
+   "T6": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T7": {
+    "status": "published",
+    "fill": 0.5672727272727273
+   },
+   "T8": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T9": {
+    "status": "not_found",
+    "fill": 0.0
+   },
+   "T10": {
+    "status": "published",
+    "fill": 0.7333333333333333
+   }
+  },
+  "de Volksbank": {
+   "T1": {
+    "status": "published",
+    "fill": 0.808695652173913
+   },
+   "T2": {
+    "status": "published",
+    "fill": 0.810126582278481
+   },
+   "T3": {
+    "status": "published",
+    "fill": 0.9375
+   },
+   "T4": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T5": {
+    "status": "published",
+    "fill": 0.45
+   },
+   "T6": {
+    "status": "omitted_stated",
+    "fill": 0.0
+   },
+   "T7": {
+    "status": "omitted_stated",
+    "fill": 0.0
+   },
+   "T8": {
+    "status": "omitted_stated",
+    "fill": 0.0
+   },
+   "T9": {
+    "status": "omitted_stated",
+    "fill": 0.0
+   },
+   "T10": {
+    "status": "omitted_stated",
+    "fill": 0.0
+   }
+  },
+  "NWB Bank": {
+   "T1": {
+    "status": "published",
+    "fill": 0.9325842696629213
+   },
+   "T2": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T3": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T4": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T5": {
+    "status": "published",
+    "fill": 0.8461538461538461
+   },
+   "T6": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T7": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T8": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T9": {
+    "status": "omitted_stated",
+    "fill": 0.0
+   },
+   "T10": {
+    "status": "published",
+    "fill": 1.0
+   }
+  },
+  "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale": {
+   "T1": {
+    "status": "published",
+    "fill": 0.8928008407777194
+   },
+   "T2": {
+    "status": "published",
+    "fill": 0.6477272727272727
+   },
+   "T3": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T4": {
+    "status": "published",
+    "fill": 0.8978723404255319
+   },
+   "T5": {
+    "status": "published",
+    "fill": 0.7624794295117937
+   },
+   "T6": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T7": {
+    "status": "published",
+    "fill": 0.46619217081850534
+   },
+   "T8": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T9": {
+    "status": "not_found",
+    "fill": 0.0
+   },
+   "T10": {
+    "status": "published",
+    "fill": 0.3333333333333333
+   }
+  },
+  "BBVA": {
+   "T1": {
+    "status": "published",
+    "fill": 0.8781014023732471
+   },
+   "T2": {
+    "status": "published",
+    "fill": 0.8775510204081632
+   },
+   "T3": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T4": {
+    "status": "published",
+    "fill": 0.8
+   },
+   "T5": {
+    "status": "published",
+    "fill": 0.5498768472906403
+   },
+   "T6": {
+    "status": "published",
+    "fill": 0.0
+   },
+   "T7": {
+    "status": "published",
+    "fill": 0.3584905660377358
+   },
+   "T8": {
+    "status": "published",
+    "fill": 0.43670886075949367
+   },
+   "T9": {
+    "status": "not_found",
+    "fill": 0.0
+   },
+   "T10": {
+    "status": "published",
+    "fill": 0.0
+   }
+  },
+  "Nordea": {
+   "T1": {
+    "status": "published",
+    "fill": 0.9671201814058957
+   },
+   "T2": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T3": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T4": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T5": {
+    "status": "published",
+    "fill": 0.9666666666666667
+   },
+   "T6": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T7": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T8": {
+    "status": "published",
+    "fill": 0.9951573849878934
+   },
+   "T9": {
+    "status": "not_found",
+    "fill": 0.0
+   },
+   "T10": {
+    "status": "published",
+    "fill": 1.0
+   }
+  },
+  "Danske Bank": {
+   "T1": {
+    "status": "published",
+    "fill": 0.8443743427970557
+   },
+   "T2": {
+    "status": "published",
+    "fill": 0.7987012987012987
+   },
+   "T3": {
+    "status": "published",
+    "fill": 0.9230769230769231
+   },
+   "T4": {
+    "status": "published",
+    "fill": 0.9375
+   },
+   "T5": {
+    "status": "published",
+    "fill": 0.6898395721925134
+   },
+   "T6": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T7": {
+    "status": "published",
+    "fill": 0.4690909090909091
+   },
+   "T8": {
+    "status": "published",
+    "fill": 0.41699604743083
+   },
+   "T9": {
+    "status": "not_found",
+    "fill": 0.0
+   },
+   "T10": {
+    "status": "published",
+    "fill": 0.5384615384615384
+   }
+  },
+  "Bank of Ireland": {
+   "T1": {
+    "status": "published",
+    "fill": 0.7445887445887446
+   },
+   "T2": {
+    "status": "published",
+    "fill": 0.7011494252873564
+   },
+   "T3": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T4": {
+    "status": "published",
+    "fill": 0.16666666666666666
+   },
+   "T5": {
+    "status": "published",
+    "fill": 0.24183006535947713
+   },
+   "T6": {
+    "status": "published",
+    "fill": 1.0
+   },
+   "T7": {
+    "status": "published",
+    "fill": 0.3314917127071823
+   },
+   "T8": {
+    "status": "published",
+    "fill": 0.3797979797979798
+   },
+   "T9": {
+    "status": "omitted_stated",
+    "fill": 0.0
+   },
+   "T10": {
+    "status": "published",
+    "fill": 0.16666666666666666
+   }
+  },
+  "Belfius": {
+   "T1": {
+    "status": "omitted_stated",
+    "fill": 0.0
+   },
+   "T2": {
+    "status": "not_found",
+    "fill": 0.0
+   },
+   "T3": {
+    "status": "not_found",
+    "fill": 0.0
+   },
+   "T4": {
+    "status": "not_found",
+    "fill": 0.0
+   },
+   "T5": {
+    "status": "not_found",
+    "fill": 0.0
+   },
+   "T6": {
+    "status": "omitted_stated",
+    "fill": 0.0
+   },
+   "T7": {
+    "status": "omitted_stated",
+    "fill": 0.0
+   },
+   "T8": {
+    "status": "omitted_stated",
+    "fill": 0.0
+   },
+   "T9": {
+    "status": "omitted_stated",
+    "fill": 0.0
+   },
+   "T10": {
+    "status": "omitted_stated",
+    "fill": 0.0
+   }
+  }
+ },
+ "per_template": {
+  "T1": {
+   "published": 13,
+   "of": 13,
+   "stated_omitted": 0,
+   "not_found": 0,
+   "mean_fill": 0.8634065195825065
+  },
+  "T2": {
+   "published": 13,
+   "of": 13,
+   "stated_omitted": 0,
+   "not_found": 0,
+   "mean_fill": 0.8602054097534437
+  },
+  "T3": {
+   "published": 13,
+   "of": 13,
+   "stated_omitted": 0,
+   "not_found": 0,
+   "mean_fill": 0.8346983627070477
+  },
+  "T4": {
+   "published": 13,
+   "of": 13,
+   "stated_omitted": 0,
+   "not_found": 0,
+   "mean_fill": 0.8950286415711949
+  },
+  "T5": {
+   "published": 13,
+   "of": 13,
+   "stated_omitted": 0,
+   "not_found": 0,
+   "mean_fill": 0.7233640929041886
+  },
+  "T6": {
+   "published": 12,
+   "of": 13,
+   "stated_omitted": 1,
+   "not_found": 0,
+   "mean_fill": 0.8333333333333334
+  },
+  "T7": {
+   "published": 12,
+   "of": 13,
+   "stated_omitted": 1,
+   "not_found": 0,
+   "mean_fill": 0.6402884419509788
+  },
+  "T8": {
+   "published": 12,
+   "of": 13,
+   "stated_omitted": 1,
+   "not_found": 0,
+   "mean_fill": 0.7832499109269301
+  },
+  "T9": {
+   "published": 0,
+   "of": 13,
+   "stated_omitted": 4,
+   "not_found": 9,
+   "mean_fill": null
+  },
+  "T10": {
+   "published": 12,
+   "of": 13,
+   "stated_omitted": 1,
+   "not_found": 0,
+   "mean_fill": 0.6357225610422541
+  }
+ },
+ "sweeps": {
+  "baseline": {
+   "mean": 0.7607544471092385,
+   "n_banks": 13,
+   "spearman_vs_baseline": 1.0
+  },
+  "T9 (BTAR) included in the template set": {
+   "mean": 0.6846790023983147,
+   "n_banks": 13,
+   "spearman_vs_baseline": 1.0
+  },
+  "stated omissions dropped from denominator": {
+   "mean": 0.7881481034131864,
+   "n_banks": 13,
+   "spearman_vs_baseline": 0.8021978021978022
+  },
+  "presence only (fill ignored)": {
+   "mean": 0.9658119658119658,
+   "n_banks": 13,
+   "spearman_vs_baseline": -0.0934065934065934
+  },
+  "zero counted as blank": {
+   "mean": 0.6790144041034464,
+   "n_banks": 13,
+   "spearman_vs_baseline": 0.8131868131868131
+  },
+  "years not excluded from numeric cells": {
+   "mean": 0.7670994136358188,
+   "n_banks": 13,
+   "spearman_vs_baseline": 0.9120879120879121
+  },
+  "leading row codes excluded": {
+   "mean": 0.7027263154745437,
+   "n_banks": 13,
+   "spearman_vs_baseline": 0.8296703296703297
+  },
+  "fill counted on lenient rows (long labels kept)": {
+   "mean": 0.7597565313412988,
+   "n_banks": 13,
+   "spearman_vs_baseline": 0.7802197802197801
+  },
+  "table page needs 10 cells, template 12": {
+   "mean": 0.7014385703348954,
+   "n_banks": 13,
+   "spearman_vs_baseline": 0.9065934065934067
+  },
+  "table page needs 3 cells, template 4": {
+   "mean": 0.7601961488569018,
+   "n_banks": 13,
+   "spearman_vs_baseline": 0.967032967032967
+  },
+  "run caps halved": {
+   "mean": 0.7585602436057916,
+   "n_banks": 13,
+   "spearman_vs_baseline": 0.9945054945054945
+  },
+  "run caps doubled": {
+   "mean": 0.7599592807343094,
+   "n_banks": 13,
+   "spearman_vs_baseline": 0.9835164835164836
+  },
+  "only documents detected as FY2024": {
+   "mean": 0.7878943706033773,
+   "n_banks": 11,
+   "spearman_vs_baseline": 1.0
+  },
+  "out-of-scope banks scored (zeros) as well": {
+   "mean": 0.7064148437442929,
+   "n_banks": 14,
+   "spearman_vs_baseline": 1.0,
+   "note": "banks whose document holds no ESG template are scored 0"
+  }
+ },
+ "sweep_range": {
+  "min": 0.6790144041034464,
+  "max": 0.9658119658119658,
+  "min_spearman": -0.0934065934065934
+ },
+ "toc_validation": {
+  "ING Group": {
+   "matched": 8,
+   "agree": 7,
+   "offset": -1
+  },
+  "ABN AMRO": {
+   "matched": 7,
+   "agree": 7,
+   "offset": 0
+  },
+  "Rabobank": {
+   "matched": 8,
+   "agree": 8,
+   "offset": 0
+  },
+  "BBVA": {
+   "matched": 7,
+   "agree": 7,
+   "offset": -2
+  },
+  "Nordea": {
+   "matched": 7,
+   "agree": 5,
+   "offset": -98
+  }
+ },
+ "toc_totals": {
+  "matched": 37,
+  "agree": 34
+ },
+ "parser": {
+  "intercept": 0.08267623838499938,
+  "slope": 0.9170156539312306,
+  "resid_sd": 0.02308151707872005,
+  "mean_error": 0.0359644237248668,
+  "mean_abs_error": 0.0359644237248668,
+  "by_style": {
+   "codes+labels": 0.045795948719090825,
+   "wrapped labels+footnotes": 0.05241473002386361,
+   "no codes": 0.0,
+   "n/a placeholders": 0.0362300900807926,
+   "percent+zeros": 0.045381349800586994
+  }
+ },
+ "bootstrap": {
+  "B": 4000,
+  "seed": 20261016
+ }
+}
