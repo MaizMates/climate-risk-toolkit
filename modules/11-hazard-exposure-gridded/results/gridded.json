@@ -1,0 +1,1206 @@
+{
+ "estimand": "share of thermal MW, in eleven countries, held by plants whose 0.25 degree cell shows the annual count of days at or above a 35 C heat index rising by more than k days, 1995-2014 to 2040-2059, SSP2-4.5 ensemble median; and its difference from the country-level share module 03 computes",
+ "k_reference": 2.0,
+ "n_boot": 2000,
+ "seed": 20260919,
+ "n_plants": 672,
+ "total_mw": 259319.375,
+ "reference": {
+  "k": 2,
+  "grid_share": 0.17674649647755783,
+  "grid_ci": [
+   0.13135004988092214,
+   0.22517031988858022
+  ],
+  "country_share": 0.42890017377220657,
+  "country_ci": [
+   0.3657132731785937,
+   0.4929434907876358
+  ],
+  "diff": -0.25215367729464877,
+  "diff_ci": [
+   -0.31364859287442476,
+   -0.19378061708069
+  ],
+  "plant_level_grid_ci": [
+   0.1325047880544383,
+   0.22617437444953267
+  ],
+  "plant_level_diff_ci": [
+   -0.31357537862983115,
+   -0.19372460457753596
+  ],
+  "grid_p10_share": 0.1046792242191699,
+  "grid_p90_share": 0.46626132351275335,
+  "country_p10_share": 0.21136397926302264,
+  "country_p90_share": 0.6077838379797114,
+  "diff_p10": -0.10668475504385273,
+  "diff_p90": -0.14152251446695802,
+  "diff_p10_ci": [
+   -0.1611747732999177,
+   -0.0509214524529994
+  ],
+  "diff_p90_ci": [
+   -0.22025677381274705,
+   -0.059956352493772354
+  ],
+  "envelope": [
+   0.06799987736189544,
+   0.5328862025606448
+  ],
+  "missed_by_country_mw_share": 0.01444550759078453,
+  "over_assigned_by_country_mw_share": 0.2665991848854332,
+  "disagree_mw_share": 0.28104469247621783,
+  "top10_share_of_grid_exposed": 0.34693268117402726
+ },
+ "by_k": [
+  {
+   "k": 0,
+   "grid_share": 0.713059230533777,
+   "grid_ci": [
+    0.650198949710213,
+    0.7744417344035016
+   ],
+   "country_share": 0.9778146156645643,
+   "country_ci": [
+    0.9625192622317682,
+    0.9901721298203574
+   ],
+   "diff": -0.26475538513078734,
+   "diff_ci": [
+    -0.32649647570930085,
+    -0.20514806944126518
+   ],
+   "plant_level_grid_ci": [
+    0.6548126674396605,
+    0.767909622757281
+   ],
+   "plant_level_diff_ci": [
+    -0.3227943168378959,
+    -0.21066388692307253
+   ],
+   "grid_p10_share": 0.5633501353302274,
+   "grid_p90_share": 0.8200422741262584,
+   "country_p10_share": 0.9778146156645643,
+   "country_p90_share": 0.9778146156645643,
+   "diff_p10": -0.4144644803343369,
+   "diff_p90": -0.15777234153830588,
+   "diff_p10_ci": [
+    -0.48132201775080435,
+    -0.35009833932080686
+   ],
+   "diff_p90_ci": [
+    -0.21710773135630887,
+    -0.10604463025067104
+   ],
+   "envelope": [
+    0.4987395690704199,
+    0.8722318341995282
+   ],
+   "missed_by_country_mw_share": 0.0,
+   "over_assigned_by_country_mw_share": 0.2647553851307871,
+   "disagree_mw_share": 0.2647553851307871,
+   "top10_share_of_grid_exposed": 0.15170887877098574
+  },
+  {
+   "k": 1,
+   "grid_share": 0.3258159595672325,
+   "grid_ci": [
+    0.2613259308947966,
+    0.39023038312715386
+   ],
+   "country_share": 0.47891571927473603,
+   "country_ci": [
+    0.41673063151702805,
+    0.5442537688386161
+   ],
+   "diff": -0.1530997597075035,
+   "diff_ci": [
+    -0.24417765410640707,
+    -0.056488186630221246
+   ],
+   "plant_level_grid_ci": [
+    0.26174077027187,
+    0.3900978043744948
+   ],
+   "plant_level_diff_ci": [
+    -0.24482218809337666,
+    -0.05930295345641845
+   ],
+   "grid_p10_share": 0.14577468806563335,
+   "grid_p90_share": 0.6400983497665764,
+   "country_p10_share": 0.42890017377220657,
+   "country_p90_share": 0.9051829428479842,
+   "diff_p10": -0.28312548570657325,
+   "diff_p90": -0.26508459308140775,
+   "diff_p10_ci": [
+    -0.3442918973875558,
+    -0.22481889535763275
+   ],
+   "diff_p90_ci": [
+    -0.32242545795827887,
+    -0.21150753265316655
+   ],
+   "envelope": [
+    0.1011480971332988,
+    0.7009404107062286
+   ],
+   "missed_by_country_mw_share": 0.14634309526621375,
+   "over_assigned_by_country_mw_share": 0.29944285497371725,
+   "disagree_mw_share": 0.44578595023993095,
+   "top10_share_of_grid_exposed": 0.2669462140375229
+  },
+  {
+   "k": 2,
+   "grid_share": 0.17674649647755783,
+   "grid_ci": [
+    0.13135004988092214,
+    0.22517031988858022
+   ],
+   "country_share": 0.42890017377220657,
+   "country_ci": [
+    0.3657132731785937,
+    0.4929434907876358
+   ],
+   "diff": -0.25215367729464877,
+   "diff_ci": [
+    -0.31364859287442476,
+    -0.19378061708069
+   ],
+   "plant_level_grid_ci": [
+    0.1325047880544383,
+    0.22617437444953267
+   ],
+   "plant_level_diff_ci": [
+    -0.31357537862983115,
+    -0.19372460457753596
+   ],
+   "grid_p10_share": 0.1046792242191699,
+   "grid_p90_share": 0.46626132351275335,
+   "country_p10_share": 0.21136397926302264,
+   "country_p90_share": 0.6077838379797114,
+   "diff_p10": -0.10668475504385273,
+   "diff_p90": -0.14152251446695802,
+   "diff_p10_ci": [
+    -0.1611747732999177,
+    -0.0509214524529994
+   ],
+   "diff_p90_ci": [
+    -0.22025677381274705,
+    -0.059956352493772354
+   ],
+   "envelope": [
+    0.06799987736189544,
+    0.5328862025606448
+   ],
+   "missed_by_country_mw_share": 0.01444550759078453,
+   "over_assigned_by_country_mw_share": 0.2665991848854332,
+   "disagree_mw_share": 0.28104469247621783,
+   "top10_share_of_grid_exposed": 0.34693268117402726
+  },
+  {
+   "k": 3,
+   "grid_share": 0.1453577890198139,
+   "grid_ci": [
+    0.10175796995623405,
+    0.1932542189515338
+   ],
+   "country_share": 0.42890017377220657,
+   "country_ci": [
+    0.3657132731785937,
+    0.4929434907876358
+   ],
+   "diff": -0.2835423847523927,
+   "diff_ci": [
+    -0.34290584066167124,
+    -0.2251203865242828
+   ],
+   "plant_level_grid_ci": [
+    0.10240695498851558,
+    0.19159616700896548
+   ],
+   "plant_level_diff_ci": [
+    -0.3463191934838941,
+    -0.22463308333549675
+   ],
+   "grid_p10_share": 0.0890922670162999,
+   "grid_p90_share": 0.37003079696609636,
+   "country_p10_share": 0.21136397926302264,
+   "country_p90_share": 0.47891571927473603,
+   "diff_p10": -0.12227171224672274,
+   "diff_p90": -0.10888492230863966,
+   "diff_p10_ci": [
+    -0.1752420348141355,
+    -0.0680134303932477
+   ],
+   "diff_p90_ci": [
+    -0.20195884802132744,
+    -0.007998711513858349
+   ],
+   "envelope": [
+    0.05428987866760415,
+    0.4348435470750293
+   ],
+   "missed_by_country_mw_share": 0.0064283665653598,
+   "over_assigned_by_country_mw_share": 0.28997075131775246,
+   "disagree_mw_share": 0.2963991178831123,
+   "top10_share_of_grid_exposed": 0.4091421119559562
+  },
+  {
+   "k": 5,
+   "grid_share": 0.11891263813203315,
+   "grid_ci": [
+    0.0803142479338096,
+    0.16368315745645576
+   ],
+   "country_share": 0.21136397926302264,
+   "country_ci": [
+    0.16465936216261398,
+    0.26443584972557643
+   ],
+   "diff": -0.09245134113098949,
+   "diff_ci": [
+    -0.14777904001453648,
+    -0.03606476089695199
+   ],
+   "plant_level_grid_ci": [
+    0.07897187079178304,
+    0.16136137704743822
+   ],
+   "plant_level_diff_ci": [
+    -0.1455155428037218,
+    -0.03801844256549081
+   ],
+   "grid_p10_share": 0.06901522495185715,
+   "grid_p90_share": 0.19111873534324228,
+   "country_p10_share": 0.1477050258971201,
+   "country_p90_share": 0.42890017377220657,
+   "diff_p10": -0.07868980094526294,
+   "diff_p90": -0.2377814384289643,
+   "diff_p10_ci": [
+    -0.12340374539788371,
+    -0.033366187240951424
+   ],
+   "diff_p90_ci": [
+    -0.3005711674669315,
+    -0.17662214056752135
+   ],
+   "envelope": [
+    0.04039534239885576,
+    0.24180807877572888
+   ],
+   "missed_by_country_mw_share": 0.056206752773486364,
+   "over_assigned_by_country_mw_share": 0.1486580939044759,
+   "disagree_mw_share": 0.2048648466779623,
+   "top10_share_of_grid_exposed": 0.4771044407945674
+  },
+  {
+   "k": 8,
+   "grid_share": 0.08789682992256172,
+   "grid_ci": [
+    0.054494532794507666,
+    0.1267958038282154
+   ],
+   "country_share": 0.1477050258971201,
+   "country_ci": [
+    0.10689856478411464,
+    0.19363478814307422
+   ],
+   "diff": -0.05980819597455837,
+   "diff_ci": [
+    -0.10922208503931899,
+    -0.01034086633146022
+   ],
+   "plant_level_grid_ci": [
+    0.05449574818022833,
+    0.12753050269903543
+   ],
+   "plant_level_diff_ci": [
+    -0.10546255336420644,
+    -0.011782512361389422
+   ],
+   "grid_p10_share": 0.04909087491052298,
+   "grid_p90_share": 0.15474891145329964,
+   "country_p10_share": 0.0,
+   "country_p90_share": 0.21136397926302264,
+   "diff_p10": 0.04909087491052298,
+   "diff_p90": -0.056615067809723,
+   "diff_p10_ci": [
+    0.02479224958401477,
+    0.076766421078779
+   ],
+   "diff_p90_ci": [
+    -0.11376045551583468,
+    0.0005227710673538516
+   ],
+   "envelope": [
+    0.02479224958401477,
+    0.20308318602262385
+   ],
+   "missed_by_country_mw_share": 0.05408967224296295,
+   "over_assigned_by_country_mw_share": 0.11389786821752136,
+   "disagree_mw_share": 0.16798754046048425,
+   "top10_share_of_grid_exposed": 0.5711104084695577
+  }
+ ],
+ "coordinate_qa": {
+  "n_thermal_plants": 676,
+  "mw": 260625.72499999998,
+  "swapped": 1,
+  "swapped_mw": 14.95,
+  "dropped": 4,
+  "dropped_mw": 1306.3500000000001,
+  "dropped_names": [
+   {
+    "country": "ESP",
+    "name": "CEUTA  GRUPO 13",
+    "lat": 35.89,
+    "lon": -5.35,
+    "capacity_mw": 48.7
+   },
+   {
+    "country": "ESP",
+    "name": "CEUTA 9  G-9",
+    "lat": 35.89,
+    "lon": -5.35,
+    "capacity_mw": 11.5
+   },
+   {
+    "country": "ESP",
+    "name": "ESCOMBRERAS GRUPO 1",
+    "lat": 7.5732,
+    "lon": -0.9392,
+    "capacity_mw": 1199.25
+   },
+   {
+    "country": "ESP",
+    "name": "MELILLA 13",
+    "lat": 35.29,
+    "lon": -2.94,
+    "capacity_mw": 46.900000000000006
+   }
+  ],
+  "swapped_names": [
+   {
+    "country": "ESP",
+    "name": "GARONA VERDA",
+    "lat": 0.7046,
+    "lon": 42.8025,
+    "capacity_mw": 14.95
+   }
+  ]
+ },
+ "reproduces_module03": {
+  "module03_share_k2": 0.4317627317871249,
+  "this_module_share_k2_all_plants": 0.43176273178712504,
+  "module03_total_mw": 260625.725,
+  "this_module_total_mw": 260625.72499999998
+ },
+ "validation_grid_vs_api": {
+  "rows": [
+   {
+    "iso3": "ITA",
+    "n_cells": 529,
+    "hist_median": {
+     "grid": 0.42729637026786804,
+     "api": 0.42,
+     "diff": 0.0072963702678680575
+    },
+    "ssp245_median": {
+     "grid": 3.670236110687256,
+     "api": 3.61,
+     "diff": 0.060236110687255984
+    },
+    "ssp370_median": {
+     "grid": 4.210594177246094,
+     "api": 4.14,
+     "diff": 0.07059417724609407
+    }
+   },
+   {
+    "iso3": "ESP",
+    "n_cells": 858,
+    "hist_median": {
+     "grid": 6.872660160064697,
+     "api": 6.87,
+     "diff": 0.002660160064697159
+    },
+    "ssp245_median": {
+     "grid": 18.464420318603516,
+     "api": 18.45,
+     "diff": 0.014420318603516336
+    },
+    "ssp370_median": {
+     "grid": 20.601789474487305,
+     "api": 20.58,
+     "diff": 0.021789474487306393
+    }
+   },
+   {
+    "iso3": "FRA",
+    "n_cells": 1034,
+    "hist_median": {
+     "grid": 0.4285816252231598,
+     "api": 0.43,
+     "diff": -0.0014183747768402033
+    },
+    "ssp245_median": {
+     "grid": 1.795025110244751,
+     "api": 1.79,
+     "diff": 0.005025110244750941
+    },
+    "ssp370_median": {
+     "grid": 2.0019614696502686,
+     "api": 2.0,
+     "diff": 0.0019614696502685547
+    }
+   },
+   {
+    "iso3": "DEU",
+    "n_cells": 733,
+    "hist_median": {
+     "grid": 0.08590680360794067,
+     "api": 0.09,
+     "diff": -0.004093196392059323
+    },
+    "ssp245_median": {
+     "grid": 0.6253001093864441,
+     "api": 0.62,
+     "diff": 0.005300109386444096
+    },
+    "ssp370_median": {
+     "grid": 0.7199746966362,
+     "api": 0.72,
+     "diff": -2.5303363800022183e-05
+    }
+   },
+   {
+    "iso3": "NLD",
+    "n_cells": 75,
+    "hist_median": {
+     "grid": 0.0020433212630450726,
+     "api": 0.0,
+     "diff": 0.0020433212630450726
+    },
+    "ssp245_median": {
+     "grid": 0.10667303204536438,
+     "api": 0.13,
+     "diff": -0.023326967954635625
+    },
+    "ssp370_median": {
+     "grid": 0.09183303266763687,
+     "api": 0.11,
+     "diff": -0.01816696733236313
+    }
+   },
+   {
+    "iso3": "PRT",
+    "n_cells": 155,
+    "hist_median": {
+     "grid": 5.079537868499756,
+     "api": 5.13,
+     "diff": -0.050462131500244034
+    },
+    "ssp245_median": {
+     "grid": 11.761011123657227,
+     "api": 11.9,
+     "diff": -0.1389888763427738
+    },
+    "ssp370_median": {
+     "grid": 13.137518882751465,
+     "api": 13.29,
+     "diff": -0.1524811172485343
+    }
+   },
+   {
+    "iso3": "GRC",
+    "n_cells": 220,
+    "hist_median": {
+     "grid": 2.010141134262085,
+     "api": 2.11,
+     "diff": -0.09985886573791491
+    },
+    "ssp245_median": {
+     "grid": 9.357863426208496,
+     "api": 9.38,
+     "diff": -0.022136573791504688
+    },
+    "ssp370_median": {
+     "grid": 10.579058647155762,
+     "api": 10.56,
+     "diff": 0.01905864715576122
+    }
+   },
+   {
+    "iso3": "AUT",
+    "n_cells": 163,
+    "hist_median": {
+     "grid": 0.08261848241090775,
+     "api": 0.08,
+     "diff": 0.0026184824109077437
+    },
+    "ssp245_median": {
+     "grid": 0.6540260314941406,
+     "api": 0.66,
+     "diff": -0.005973968505859406
+    },
+    "ssp370_median": {
+     "grid": 0.7866753339767456,
+     "api": 0.79,
+     "diff": -0.00332466602325443
+    }
+   },
+   {
+    "iso3": "BEL",
+    "n_cells": 62,
+    "hist_median": {
+     "grid": 0.0016010134713724256,
+     "api": 0.0,
+     "diff": 0.0016010134713724256
+    },
+    "ssp245_median": {
+     "grid": 0.17482006549835205,
+     "api": 0.17,
+     "diff": 0.004820065498352039
+    },
+    "ssp370_median": {
+     "grid": 0.21848060190677643,
+     "api": 0.21,
+     "diff": 0.008480601906776436
+    }
+   },
+   {
+    "iso3": "IRL",
+    "n_cells": 153,
+    "hist_median": {
+     "grid": 0.0,
+     "api": 0.0,
+     "diff": 0.0
+    },
+    "ssp245_median": {
+     "grid": 0.0,
+     "api": 0.0,
+     "diff": 0.0
+    },
+    "ssp370_median": {
+     "grid": 0.0,
+     "api": 0.0,
+     "diff": 0.0
+    }
+   },
+   {
+    "iso3": "POL",
+    "n_cells": 657,
+    "hist_median": {
+     "grid": 0.1059190183877945,
+     "api": 0.11,
+     "diff": -0.004080981612205506
+    },
+    "ssp245_median": {
+     "grid": 0.7545070052146912,
+     "api": 0.76,
+     "diff": -0.005492994785308847
+    },
+    "ssp370_median": {
+     "grid": 0.8271823525428772,
+     "api": 0.83,
+     "diff": -0.0028176474571227628
+    }
+   }
+  ],
+  "max_abs_diff_days": 0.1524811172485343
+ },
+ "by_country": [
+  {
+   "iso3": "DEU",
+   "n_plants": 300,
+   "thermal_mw": 75054.35,
+   "share_of_total_mw": 0.289428238827122,
+   "country_change": 0.53,
+   "plant_mean_change": 0.8633755834137979,
+   "plant_min_change": 0.0,
+   "plant_max_change": 2.200000047683716,
+   "plant_sd_change": 0.479015499307058,
+   "country_exposed": false,
+   "grid_exposed_mw": 2079.0,
+   "grid_exposed_share": 0.027699926786388794,
+   "disagree_mw_share": 0.027699926786388794
+  },
+  {
+   "iso3": "ITA",
+   "n_plants": 77,
+   "thermal_mw": 56411.350000000006,
+   "share_of_total_mw": 0.21753619450918393,
+   "country_change": 3.19,
+   "plant_mean_change": 3.6319426902616216,
+   "plant_min_change": 0.0,
+   "plant_max_change": 19.799999237060547,
+   "plant_sd_change": 5.888595250247434,
+   "country_exposed": true,
+   "grid_exposed_mw": 20205.05,
+   "grid_exposed_share": 0.35817348813669586,
+   "disagree_mw_share": 0.6418265118633041
+  },
+  {
+   "iso3": "ESP",
+   "n_plants": 95,
+   "thermal_mw": 38302.774999999994,
+   "share_of_total_mw": 0.1477050258971201,
+   "country_change": 11.579999999999998,
+   "plant_mean_change": 5.053045074382996,
+   "plant_min_change": 0.0,
+   "plant_max_change": 31.799999237060547,
+   "plant_sd_change": 9.160537935350046,
+   "country_exposed": true,
+   "grid_exposed_mw": 10717.741,
+   "grid_exposed_share": 0.27981630573763916,
+   "disagree_mw_share": 0.7201836942623611
+  },
+  {
+   "iso3": "POL",
+   "n_plants": 87,
+   "thermal_mw": 33418.0,
+   "share_of_total_mw": 0.12886811870497528,
+   "country_change": 0.65,
+   "plant_mean_change": 0.9257196524085216,
+   "plant_min_change": 0.0,
+   "plant_max_change": 1.75,
+   "plant_sd_change": 0.3576807319215314,
+   "country_exposed": false,
+   "grid_exposed_mw": 0.0,
+   "grid_exposed_share": 0.0,
+   "disagree_mw_share": 0.0
+  },
+  {
+   "iso3": "NLD",
+   "n_plants": 17,
+   "thermal_mw": 14327.0,
+   "share_of_total_mw": 0.055248474974151085,
+   "country_change": 0.13,
+   "plant_mean_change": 0.014413345186244571,
+   "plant_min_change": 0.0,
+   "plant_max_change": 0.3499999940395355,
+   "plant_sd_change": 0.06954801370145323,
+   "country_exposed": false,
+   "grid_exposed_mw": 0.0,
+   "grid_exposed_share": 0.0,
+   "disagree_mw_share": 0.0
+  },
+  {
+   "iso3": "FRA",
+   "n_plants": 19,
+   "thermal_mw": 12970.0,
+   "share_of_total_mw": 0.05001554550252946,
+   "country_change": 1.36,
+   "plant_mean_change": 0.4566730839064605,
+   "plant_min_change": 0.0,
+   "plant_max_change": 1.9000000953674316,
+   "plant_sd_change": 0.46650449093665486,
+   "country_exposed": false,
+   "grid_exposed_mw": 0.0,
+   "grid_exposed_share": 0.0,
+   "disagree_mw_share": 0.0
+  },
+  {
+   "iso3": "GRC",
+   "n_plants": 21,
+   "thermal_mw": 10701.0,
+   "share_of_total_mw": 0.041265717226103914,
+   "country_change": 7.270000000000001,
+   "plant_mean_change": 7.235379817207086,
+   "plant_min_change": 0.0,
+   "plant_max_change": 22.05000114440918,
+   "plant_sd_change": 6.524518236966131,
+   "country_exposed": true,
+   "grid_exposed_mw": 9646.0,
+   "grid_exposed_share": 0.901411083076348,
+   "disagree_mw_share": 0.098588916923652
+  },
+  {
+   "iso3": "PRT",
+   "n_plants": 6,
+   "thermal_mw": 5807.0,
+   "share_of_total_mw": 0.022393236139798656,
+   "country_change": 6.7700000000000005,
+   "plant_mean_change": 3.774108625192722,
+   "plant_min_change": 0.0,
+   "plant_max_change": 13.549999237060547,
+   "plant_sd_change": 5.831635580952629,
+   "country_exposed": true,
+   "grid_exposed_mw": 1519.0,
+   "grid_exposed_share": 0.26158085069743414,
+   "disagree_mw_share": 0.7384191493025659
+  },
+  {
+   "iso3": "IRL",
+   "n_plants": 17,
+   "thermal_mw": 5753.1,
+   "share_of_total_mw": 0.022185384335435793,
+   "country_change": 0.0,
+   "plant_mean_change": 0.0,
+   "plant_min_change": 0.0,
+   "plant_max_change": 0.0,
+   "plant_sd_change": 0.0,
+   "country_exposed": false,
+   "grid_exposed_mw": 0.0,
+   "grid_exposed_share": 0.0,
+   "disagree_mw_share": 0.0
+  },
+  {
+   "iso3": "BEL",
+   "n_plants": 30,
+   "thermal_mw": 4507.800000000001,
+   "share_of_total_mw": 0.017383197842428862,
+   "country_change": 0.17,
+   "plant_mean_change": 0.21031323565008436,
+   "plant_min_change": 0.0,
+   "plant_max_change": 0.699999988079071,
+   "plant_sd_change": 0.20870727707273873,
+   "country_exposed": false,
+   "grid_exposed_mw": 0.0,
+   "grid_exposed_share": 0.0,
+   "disagree_mw_share": 0.0
+  },
+  {
+   "iso3": "AUT",
+   "n_plants": 3,
+   "thermal_mw": 2067.0,
+   "share_of_total_mw": 0.007970866041150994,
+   "country_change": 0.5800000000000001,
+   "plant_mean_change": 2.982365824949009,
+   "plant_min_change": 0.20000000298023224,
+   "plant_max_change": 3.6500000953674316,
+   "plant_sd_change": 1.3629390212284918,
+   "country_exposed": false,
+   "grid_exposed_mw": 1667.0,
+   "grid_exposed_share": 0.8064828253507499,
+   "disagree_mw_share": 0.8064828253507499
+  }
+ ],
+ "rank_corr_country_vs_plant_mean": 0.9272727272727275,
+ "sweep": [
+  {
+   "label": "radius 0 km",
+   "kind": "radius",
+   "scenario": "ssp245",
+   "radius_km": 0,
+   "land_only": false,
+   "gas": true,
+   "biomass": false,
+   "n_plants": 672,
+   "mw": 259319.375,
+   "grid_share": 0.17674649647755783,
+   "country_share": 0.42890017377220657,
+   "diff": -0.25215367729464877,
+   "fallbacks": 0,
+   "per_country": [
+    0.35817348813669586,
+    0.27981630573763916,
+    0.0,
+    0.027699926786388794,
+    0.0,
+    0.26158085069743414,
+    0.901411083076348,
+    0.8064828253507499,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rank_corr_vs_base": 0.9999999999999999
+  },
+  {
+   "label": "radius 25 km",
+   "kind": "radius",
+   "scenario": "ssp245",
+   "radius_km": 25,
+   "land_only": false,
+   "gas": true,
+   "biomass": false,
+   "n_plants": 672,
+   "mw": 259319.375,
+   "grid_share": 0.2157482100980692,
+   "country_share": 0.42890017377220657,
+   "diff": -0.21315196367413738,
+   "fallbacks": 0,
+   "per_country": [
+    0.5176608962558067,
+    0.27981630573763916,
+    0.12336160370084812,
+    0.0,
+    0.0,
+    0.46409505768899606,
+    0.9406597514251005,
+    0.8064828253507499,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rank_corr_vs_base": 0.8999999999999998
+  },
+  {
+   "label": "radius 25 km, land cells",
+   "kind": "radius",
+   "scenario": "ssp245",
+   "radius_km": 25,
+   "land_only": true,
+   "gas": true,
+   "biomass": false,
+   "n_plants": 672,
+   "mw": 259319.375,
+   "grid_share": 0.2196539730207201,
+   "country_share": 0.42890017377220657,
+   "diff": -0.20924620075148648,
+   "fallbacks": 1,
+   "per_country": [
+    0.5288288615677519,
+    0.30077666696473043,
+    0.12336160370084812,
+    0.0,
+    0.0,
+    0.46409505768899606,
+    0.901411083076348,
+    0.8064828253507499,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rank_corr_vs_base": 0.8999999999999998
+  },
+  {
+   "label": "radius 50 km",
+   "kind": "radius",
+   "scenario": "ssp245",
+   "radius_km": 50,
+   "land_only": false,
+   "gas": true,
+   "biomass": false,
+   "n_plants": 672,
+   "mw": 259319.375,
+   "grid_share": 0.2443528024082273,
+   "country_share": 0.42890017377220657,
+   "diff": -0.18454737136397928,
+   "fallbacks": 0,
+   "per_country": [
+    0.5675196569484686,
+    0.38451172271460754,
+    0.169236700077101,
+    0.0,
+    0.0,
+    0.46409505768899606,
+    0.9406597514251005,
+    0.8064828253507499,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rank_corr_vs_base": 0.8999999999999998
+  },
+  {
+   "label": "radius 50 km, land cells",
+   "kind": "radius",
+   "scenario": "ssp245",
+   "radius_km": 50,
+   "land_only": true,
+   "gas": true,
+   "biomass": false,
+   "n_plants": 672,
+   "mw": 259319.375,
+   "grid_share": 0.2749360552022,
+   "country_share": 0.42890017377220657,
+   "diff": -0.15396411857000658,
+   "fallbacks": 0,
+   "per_country": [
+    0.6510560374818187,
+    0.434702080984994,
+    0.169236700077101,
+    0.0,
+    0.0,
+    0.687273979679697,
+    0.9406597514251005,
+    0.8064828253507499,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rank_corr_vs_base": 0.8799999999999999
+  },
+  {
+   "label": "radius 100 km",
+   "kind": "radius",
+   "scenario": "ssp245",
+   "radius_km": 100,
+   "land_only": false,
+   "gas": true,
+   "biomass": false,
+   "n_plants": 672,
+   "mw": 259319.375,
+   "grid_share": 0.2611296668442148,
+   "country_share": 0.42890017377220657,
+   "diff": -0.16777050692799178,
+   "fallbacks": 0,
+   "per_country": [
+    0.5372597890318171,
+    0.5034473872976567,
+    0.169236700077101,
+    0.0,
+    0.0,
+    0.687273979679697,
+    0.95991028875806,
+    0.8064828253507499,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rank_corr_vs_base": 0.8799999999999999
+  },
+  {
+   "label": "radius 100 km, land cells",
+   "kind": "radius",
+   "scenario": "ssp245",
+   "radius_km": 100,
+   "land_only": true,
+   "gas": true,
+   "biomass": false,
+   "n_plants": 672,
+   "mw": 259319.375,
+   "grid_share": 0.32510550358992646,
+   "country_share": 0.42890017377220657,
+   "diff": -0.10379467018228011,
+   "fallbacks": 0,
+   "per_country": [
+    0.7657492685425894,
+    0.5758383302515289,
+    0.169236700077101,
+    0.0,
+    0.0,
+    0.8295161012571035,
+    0.9694421082141856,
+    0.8064828253507499,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rank_corr_vs_base": 0.8499999999999999
+  },
+  {
+   "label": "SSP3-7.0",
+   "kind": "scenario",
+   "scenario": "ssp370",
+   "radius_km": 0,
+   "land_only": false,
+   "gas": true,
+   "biomass": false,
+   "n_plants": 672,
+   "mw": 259319.375,
+   "grid_share": 0.18364301163382027,
+   "country_share": 0.42890017377220657,
+   "diff": -0.2452571621383863,
+   "fallbacks": 0,
+   "per_country": [
+    0.37909126443525987,
+    0.27981630573763916,
+    0.018889745566692366,
+    0.027878464073035073,
+    0.0,
+    0.26158085069743414,
+    0.901411083076348,
+    0.8064828253507499,
+    0.0,
+    0.0,
+    0.010473397570171765
+   ],
+   "rank_corr_vs_base": 0.9622504486493761
+  },
+  {
+   "label": "gas in, biomass in",
+   "kind": "fuel",
+   "scenario": "ssp245",
+   "radius_km": 0,
+   "land_only": false,
+   "gas": true,
+   "biomass": true,
+   "n_plants": 1008,
+   "mw": 265289.401,
+   "grid_share": 0.17478862640275628,
+   "country_share": 0.42308090175076385,
+   "diff": -0.24829227534800757,
+   "fallbacks": 0,
+   "per_country": [
+    0.35817348813669586,
+    0.28136199304850845,
+    0.011925385269473942,
+    0.027548438059757246,
+    0.0,
+    0.25265578797503013,
+    0.9016317016317016,
+    0.8064828253507499,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rank_corr_vs_base": 0.975900072948533
+  },
+  {
+   "label": "gas out, biomass out",
+   "kind": "fuel",
+   "scenario": "ssp245",
+   "radius_km": 0,
+   "land_only": false,
+   "gas": false,
+   "biomass": false,
+   "n_plants": 294,
+   "mw": 136586.28100000002,
+   "grid_share": 0.11018829921871873,
+   "country_share": 0.28302682170546833,
+   "diff": -0.1728385224867496,
+   "fallbacks": 0,
+   "per_country": [
+    0.28842478153884094,
+    0.19564815125009358,
+    0.0,
+    0.03194130858622672,
+    0.0,
+    0.3447927199191102,
+    0.9088427947598253,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rank_corr_vs_base": 0.7226265904249506
+  },
+  {
+   "label": "gas out, biomass in",
+   "kind": "fuel",
+   "scenario": "ssp245",
+   "radius_km": 0,
+   "land_only": false,
+   "gas": false,
+   "biomass": true,
+   "n_plants": 630,
+   "mw": 142556.307,
+   "grid_share": 0.1093321602389714,
+   "country_share": 0.27830641684622204,
+   "diff": -0.16897425660725063,
+   "fallbacks": 0,
+   "per_country": [
+    0.28842478153884094,
+    0.2024971392854377,
+    0.018762111032896208,
+    0.0314656884766894,
+    0.0,
+    0.3035470402310064,
+    0.9092391304347827,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rank_corr_vs_base": 0.66
+  }
+ ],
+ "sweep_spans": {
+  "radius": {
+   "grid_share": {
+    "min": 0.17674649647755783,
+    "max": 0.32510550358992646,
+    "range": 0.14835900711236863
+   },
+   "diff": {
+    "min": -0.25215367729464877,
+    "max": -0.10379467018228011,
+    "range": 0.14835900711236866
+   }
+  },
+  "scenario": {
+   "grid_share": {
+    "min": 0.17674649647755783,
+    "max": 0.18364301163382027,
+    "range": 0.006896515156262439
+   },
+   "diff": {
+    "min": -0.25215367729464877,
+    "max": -0.2452571621383863,
+    "range": 0.006896515156262467
+   }
+  },
+  "fuel": {
+   "grid_share": {
+    "min": 0.1093321602389714,
+    "max": 0.17674649647755783,
+    "range": 0.06741433623858643
+   },
+   "diff": {
+    "min": -0.25215367729464877,
+    "max": -0.16897425660725063,
+    "range": 0.08317942068739814
+   }
+  }
+ },
+ "k_span": {
+  "grid_share": {
+   "min": 0.08789682992256172,
+   "max": 0.713059230533777
+  },
+  "diff": {
+   "min": -0.2835423847523927,
+   "max": -0.05980819597455837
+  }
+ },
+ "k1_to_k3": {
+  "grid_share_range": 0.18045817054741864,
+  "diff_range": 0.13044262504488918
+ },
+ "resolution_ladder": [
+  {
+   "resolution": "country",
+   "degrees": null,
+   "share": 0.42890017377220657
+  },
+  {
+   "resolution": "2 degree",
+   "degrees": 2.0,
+   "share": 0.24292252748179732,
+   "ci": [
+    0.19140502439004034,
+    0.2976361071699566
+   ]
+  },
+  {
+   "resolution": "1 degree",
+   "degrees": 1.0,
+   "share": 0.23153818336944548,
+   "ci": [
+    0.17986049003478985,
+    0.28423615438982114
+   ]
+  },
+  {
+   "resolution": "0.5 degree",
+   "degrees": 0.5,
+   "share": 0.20478543494869983,
+   "ci": [
+    0.15615292162317418,
+    0.25499586899838755
+   ]
+  },
+  {
+   "resolution": "0.25 degree",
+   "degrees": 0.25,
+   "share": 0.17674649647755783,
+   "ci": [
+    0.13135004988092214,
+    0.22517031988858022
+   ]
+  }
+ ],
+ "ladder_step": {
+  "country_to_2deg": 0.18597764629040925,
+  "two_deg_to_quarter_deg": 0.0661760310042395,
+  "two_deg_to_quarter_deg_ci": [
+   0.019498438727440563,
+   0.11415725254216018
+  ]
+ },
+ "n_sites": 617
+}

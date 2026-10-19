@@ -1,0 +1,130 @@
+[
+ {
+  "file": "grid_hist_median.nc",
+  "url": "https://wbg-cckp.s3.amazonaws.com/data/cmip6-x0.25/hd35/ensemble-all-historical/climatology-hd35-annual-mean_cmip6-x0.25_ensemble-all-historical_climatology_median_1995-2014.nc",
+  "accessed": "2026-10-19",
+  "http_status": 200,
+  "bytes": 372614,
+  "sha256": "14d5bfc7066d6faba59b687610bc30027395fc58cfe5656b9d55f5bc42a11bc6"
+ },
+ {
+  "file": "grid_hist_p10.nc",
+  "url": "https://wbg-cckp.s3.amazonaws.com/data/cmip6-x0.25/hd35/ensemble-all-historical/climatology-hd35-annual-mean_cmip6-x0.25_ensemble-all-historical_climatology_p10_1995-2014.nc",
+  "accessed": "2026-10-19",
+  "http_status": 200,
+  "bytes": 339840,
+  "sha256": "0b2d53a9b75ca3ff230a596d71dfc79dce207568d06fcdb4200d91e49c173d15"
+ },
+ {
+  "file": "grid_hist_p90.nc",
+  "url": "https://wbg-cckp.s3.amazonaws.com/data/cmip6-x0.25/hd35/ensemble-all-historical/climatology-hd35-annual-mean_cmip6-x0.25_ensemble-all-historical_climatology_p90_1995-2014.nc",
+  "accessed": "2026-10-19",
+  "http_status": 200,
+  "bytes": 397067,
+  "sha256": "884a8291728d695b4213d146986ce99147a6cce0bb6a26644697b0882455a046"
+ },
+ {
+  "file": "grid_ssp245_median.nc",
+  "url": "https://wbg-cckp.s3.amazonaws.com/data/cmip6-x0.25/hd35/ensemble-all-ssp245/climatology-hd35-annual-mean_cmip6-x0.25_ensemble-all-ssp245_climatology_median_2040-2059.nc",
+  "accessed": "2026-10-19",
+  "http_status": 200,
+  "bytes": 425846,
+  "sha256": "21cd1bbeb1b1e97efa3298b41ab0e08618ed1aac062f2b090ad97a8a59e18638"
+ },
+ {
+  "file": "grid_ssp245_p10.nc",
+  "url": "https://wbg-cckp.s3.amazonaws.com/data/cmip6-x0.25/hd35/ensemble-all-ssp245/climatology-hd35-annual-mean_cmip6-x0.25_ensemble-all-ssp245_climatology_p10_2040-2059.nc",
+  "accessed": "2026-10-19",
+  "http_status": 200,
+  "bytes": 377346,
+  "sha256": "d1e855f26d876850b227f52e3519237e7053b81c8750ab40582df1bbd1ddfd55"
+ },
+ {
+  "file": "grid_ssp245_p90.nc",
+  "url": "https://wbg-cckp.s3.amazonaws.com/data/cmip6-x0.25/hd35/ensemble-all-ssp245/climatology-hd35-annual-mean_cmip6-x0.25_ensemble-all-ssp245_climatology_p90_2040-2059.nc",
+  "accessed": "2026-10-19",
+  "http_status": 200,
+  "bytes": 483424,
+  "sha256": "1ea26d7d90e22ad113edc47f270cf618d0d349b1dfa91b726a4608ce5b92d55f"
+ },
+ {
+  "file": "grid_ssp370_median.nc",
+  "url": "https://wbg-cckp.s3.amazonaws.com/data/cmip6-x0.25/hd35/ensemble-all-ssp370/climatology-hd35-annual-mean_cmip6-x0.25_ensemble-all-ssp370_climatology_median_2040-2059.nc",
+  "accessed": "2026-10-19",
+  "http_status": 200,
+  "bytes": 433988,
+  "sha256": "46d880352714606201f27586cb0aa07ff19560bcfed6ea20c0dd1f41eaefa805"
+ },
+ {
+  "file": "wri_gppd.csv",
+  "url": "https://raw.githubusercontent.com/wri/global-power-plant-database/master/output_database/global_power_plant_database.csv",
+  "accessed": "2026-10-19",
+  "http_status": 200,
+  "bytes": 11973385,
+  "sha256": "4b1f93e0fd93664f18684d9b05d0a52ed9658c6a8cf0d21ff2520791379ba7fc"
+ },
+ {
+  "file": "ne_50m_admin_0_countries.geojson",
+  "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson",
+  "accessed": "2026-10-19",
+  "http_status": 200,
+  "bytes": 3083490,
+  "sha256": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb"
+ },
+ {
+  "file": "api_hist_median",
+  "url": "https://cckpapi.worldbank.org/cckp/v1/cmip6-x0.25_climatology_hd35_climatology_annual_1995-2014_median_historical_ensemble_all_mean/ITA,ESP,FRA,DEU,NLD,PRT,GRC,AUT,BEL,IRL,POL?_format=json",
+  "accessed": "2026-10-19",
+  "http_status": 200,
+  "bytes": 318,
+  "sha256": "f67a3ec1868fb227d56e727a06321d8c48c767b4fcd484bdb3577b1c79cfb45b"
+ },
+ {
+  "file": "api_ssp245_median",
+  "url": "https://cckpapi.worldbank.org/cckp/v1/cmip6-x0.25_climatology_hd35_climatology_annual_2040-2059_median_ssp245_ensemble_all_mean/ITA,ESP,FRA,DEU,NLD,PRT,GRC,AUT,BEL,IRL,POL?_format=json",
+  "accessed": "2026-10-19",
+  "http_status": 200,
+  "bytes": 325,
+  "sha256": "981dfb17129519d29976e87c0cffba4941d0bbe24d4dfdffb0d63ede19bdb2c7"
+ },
+ {
+  "file": "api_ssp370_median",
+  "url": "https://cckpapi.worldbank.org/cckp/v1/cmip6-x0.25_climatology_hd35_climatology_annual_2040-2059_median_ssp370_ensemble_all_mean/ITA,ESP,FRA,DEU,NLD,PRT,GRC,AUT,BEL,IRL,POL?_format=json",
+  "accessed": "2026-10-19",
+  "http_status": 200,
+  "bytes": 324,
+  "sha256": "5c1ea992d030229b170d3495d040ca5bd8590d05296d92978ea467a406b5e097"
+ },
+ {
+  "file": "api_hist_p10",
+  "url": "https://cckpapi.worldbank.org/cckp/v1/cmip6-x0.25_climatology_hd35_climatology_annual_1995-2014_p10_historical_ensemble_all_mean/ITA,ESP,FRA,DEU,NLD,PRT,GRC,AUT,BEL,IRL,POL?_format=json",
+  "accessed": "2026-10-19",
+  "http_status": 200,
+  "bytes": 318,
+  "sha256": "a3decd04c94f8be5dec0d93be3e6a6f4a9fd0c5364833629155b1c8351b4404c"
+ },
+ {
+  "file": "api_ssp245_p10",
+  "url": "https://cckpapi.worldbank.org/cckp/v1/cmip6-x0.25_climatology_hd35_climatology_annual_2040-2059_p10_ssp245_ensemble_all_mean/ITA,ESP,FRA,DEU,NLD,PRT,GRC,AUT,BEL,IRL,POL?_format=json",
+  "accessed": "2026-10-19",
+  "http_status": 200,
+  "bytes": 325,
+  "sha256": "9d03eb15ba6efeb51f6a95151ae20b9d92d04e8f12324bd06b2917dd046d1b17"
+ },
+ {
+  "file": "api_hist_p90",
+  "url": "https://cckpapi.worldbank.org/cckp/v1/cmip6-x0.25_climatology_hd35_climatology_annual_1995-2014_p90_historical_ensemble_all_mean/ITA,ESP,FRA,DEU,NLD,PRT,GRC,AUT,BEL,IRL,POL?_format=json",
+  "accessed": "2026-10-19",
+  "http_status": 200,
+  "bytes": 323,
+  "sha256": "6c1cb09da43bd37f4f36a24f982a843240e462ba080c13346919c9f5957e43a0"
+ },
+ {
+  "file": "api_ssp245_p90",
+  "url": "https://cckpapi.worldbank.org/cckp/v1/cmip6-x0.25_climatology_hd35_climatology_annual_2040-2059_p90_ssp245_ensemble_all_mean/ITA,ESP,FRA,DEU,NLD,PRT,GRC,AUT,BEL,IRL,POL?_format=json",
+  "accessed": "2026-10-19",
+  "http_status": 200,
+  "bytes": 325,
+  "sha256": "1cab3824449e0aa582964ef8de202ff792f730153621661fa6e0b6ad4857d45c"
+ }
+]

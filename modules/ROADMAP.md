@@ -19,7 +19,7 @@ draws on the work of, any employer.
 | 08 | `08-scenario-pd-shift` | **built** |
 | 09 | `09-financed-emissions-pcaf` | **built** |
 | 10 | `10-disclosure-quality-index` | **built** |
-| 11 | `11-hazard-exposure-gridded` | module 03 at grid-cell resolution |
+| 11 | `11-hazard-exposure-gridded` | **built** |
 | 12 | `12-nature-dependency-encore` | nature risk, quantified |
 | 13 | `13-transition-plan-nlp` | AI on unstructured regulatory text |
 
