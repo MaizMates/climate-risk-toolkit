@@ -1,0 +1,5 @@
+id,what,url,fetched_by,access_note
+encore_dependencies,ENCORE knowledge base: dependency rating (VH/H/M/L/VL) per ecosystem service and production process (JSON behind the public Explore tool; licence CC BY-SA 4.0),https://encorenature.org/en/ecosystem_services,src/fetch.py,access date and SHA-256 in results/fetch_log.json
+encore_sectors,ENCORE economic-activity hierarchy (ISIC-based sector > sub-industry > production process),https://encorenature.org/en/sectors,src/fetch.py,same
+ssga_zpre_holdings,SPDR MSCI EMU UCITS ETF daily holdings (ISIN IE00B910VR50) with GICS sector and industry,https://www.ssga.com/library-content/products/fund-data/etfs/emea/holdings-daily-emea-en-zpre-gy.xlsx,src/fetch.py,same
+ecb_blog_2023,ECB blog 8 June 2023 on euro area bank loans and ecosystem-service dependency (comparator figure read from the text),https://www.ecb.europa.eu/press/blog/date/2023/html/ecb.blog230608~5cffb7c349.en.html,src/fetch.py,same

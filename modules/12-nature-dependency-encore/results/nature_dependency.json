@@ -1,0 +1,648 @@
+{
+ "fund": {
+  "name": "State Street\u00ae SPDR\u00ae MSCI EMU UCITS ETF",
+  "isin": "IE00B910VR50",
+  "holdings_as_of": "21-Oct-2026"
+ },
+ "n_holdings": 213,
+ "n_industries": 54,
+ "total_market_value_eur": 348438108.71999997,
+ "unassigned_market_value_eur": 3193159.158,
+ "n_services": 25,
+ "n_processes": 271,
+ "n_ratings": 3386,
+ "n_draw": 5000,
+ "headline": {
+  "share_any": 0.254426398998925,
+  "ci_conditional": [
+   0.20310493293622303,
+   0.3088925766383087
+  ],
+  "ci_with_mapping": [
+   0.2011838452258144,
+   0.394306762850116
+  ]
+ },
+ "services": [
+  {
+   "service": "Biomass provisioning services",
+   "share": 0.007384683470785305,
+   "ci_cond": [
+    0.0,
+    0.027782364666027574
+   ],
+   "ci_mix": [
+    0.0,
+    0.027706558056219494
+   ]
+  },
+  {
+   "service": "Genetic material services",
+   "share": 0.05526482229109817,
+   "ci_cond": [
+    0.04429988432294003,
+    0.06212891058192518
+   ],
+   "ci_mix": [
+    0.009509206463299278,
+    0.09146477178780733
+   ]
+  },
+  {
+   "service": "Water supply",
+   "share": 0.10823074538435996,
+   "ci_cond": [
+    0.08062801063352071,
+    0.14292902973127464
+   ],
+   "ci_mix": [
+    0.06228227673551932,
+    0.22185372800272257
+   ]
+  },
+  {
+   "service": "Other provisioning services - Animal-based energy",
+   "share": 0.0,
+   "ci_cond": [
+    0.0,
+    0.0
+   ],
+   "ci_mix": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "service": "Global climate regulation services",
+   "share": 0.036517059307201366,
+   "ci_cond": [
+    0.007940816668745694,
+    0.0713515380036356
+   ],
+   "ci_mix": [
+    0.005342594151335859,
+    0.07721219770587555
+   ]
+  },
+  {
+   "service": "Rainfall pattern regulation services (at sub-continental scale)",
+   "share": 0.025944140027564518,
+   "ci_cond": [
+    0.014353776771498489,
+    0.038129315254308786
+   ],
+   "ci_mix": [
+    0.0162954442149229,
+    0.04927992851536326
+   ]
+  },
+  {
+   "service": "Local (micro and meso) climate regulation services",
+   "share": 0.0008147561320349648,
+   "ci_cond": [
+    0.0,
+    0.002851646462122377
+   ],
+   "ci_mix": [
+    0.0,
+    0.002851646462122377
+   ]
+  },
+  {
+   "service": "Air filtration services",
+   "share": 0.001491803703963338,
+   "ci_cond": [
+    0.0,
+    0.005651272781940039
+   ],
+   "ci_mix": [
+    0.0,
+    0.005712011631883135
+   ]
+  },
+  {
+   "service": "Soil quality regulation services",
+   "share": 0.0012221341980524472,
+   "ci_cond": [
+    0.0,
+    0.002851646462122377
+   ],
+   "ci_mix": [
+    0.0,
+    0.002851646462122377
+   ]
+  },
+  {
+   "service": "Soil and sediment retention services",
+   "share": 0.030518822396643955,
+   "ci_cond": [
+    0.009766648613727445,
+    0.05794779534928938
+   ],
+   "ci_mix": [
+    0.011072389871253347,
+    0.05979669409522905
+   ]
+  },
+  {
+   "service": "Solid waste remediation",
+   "share": 0.0017102052548524965,
+   "ci_cond": [
+    0.0,
+    0.008364132473069866
+   ],
+   "ci_mix": [
+    0.0,
+    0.012689308916990497
+   ]
+  },
+  {
+   "service": "Water purification services",
+   "share": 0.09631296598724556,
+   "ci_cond": [
+    0.08137773914616721,
+    0.12225530576287072
+   ],
+   "ci_mix": [
+    0.04960879552038455,
+    0.19490140176608062
+   ]
+  },
+  {
+   "service": "Water flow regulation services",
+   "share": 0.11147859090274632,
+   "ci_cond": [
+    0.08298598211378791,
+    0.14645408301049853
+   ],
+   "ci_mix": [
+    0.06582781433554902,
+    0.22337659261044096
+   ]
+  },
+  {
+   "service": "Flood mitigation services",
+   "share": 0.051874072045038855,
+   "ci_cond": [
+    0.018300697528249404,
+    0.088693859169217
+   ],
+   "ci_mix": [
+    0.013695090081506055,
+    0.09472973544929991
+   ]
+  },
+  {
+   "service": "Storm mitigation services",
+   "share": 0.00937979882824824,
+   "ci_cond": [
+    0.0007445637360191215,
+    0.022591832061416982
+   ],
+   "ci_mix": [
+    0.0,
+    0.022368134789794405
+   ]
+  },
+  {
+   "service": "Noise attenuation services",
+   "share": 0.0,
+   "ci_cond": [
+    0.0,
+    0.0
+   ],
+   "ci_mix": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "service": "Pollination services",
+   "share": 0.0,
+   "ci_cond": [
+    0.0,
+    0.0
+   ],
+   "ci_mix": [
+    0.0,
+    0.0008568216062724358
+   ]
+  },
+  {
+   "service": "Biological control services",
+   "share": 0.0008147561320349648,
+   "ci_cond": [
+    0.0,
+    0.002851646462122377
+   ],
+   "ci_mix": [
+    0.0,
+    0.002851646462122377
+   ]
+  },
+  {
+   "service": "Nursery population and habitat maintenance services",
+   "share": 0.0008147561320349648,
+   "ci_cond": [
+    0.0,
+    0.002851646462122377
+   ],
+   "ci_mix": [
+    0.0,
+    0.002851646462122377
+   ]
+  },
+  {
+   "service": "Other regulating and maintenance service - Dilution by atmosphere and ecosystems",
+   "share": 0.0,
+   "ci_cond": [
+    0.0,
+    0.0
+   ],
+   "ci_mix": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "service": "Other regulating and maintenance service - Mediation of sensory impacts (other than noise)",
+   "share": 0.0,
+   "ci_cond": [
+    0.0,
+    0.0
+   ],
+   "ci_mix": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "service": "Recreation-related services",
+   "share": 0.00919971115481939,
+   "ci_cond": [
+    0.006506553827675133,
+    0.01806479947650657
+   ],
+   "ci_mix": [
+    0.006506553827675133,
+    0.021224962054001355
+   ]
+  },
+  {
+   "service": "Visual amenity services",
+   "share": 0.036791260294510436,
+   "ci_cond": [
+    0.018487768153903555,
+    0.06761377235915908
+   ],
+   "ci_mix": [
+    0.01869808301590072,
+    0.07299313431854859
+   ]
+  },
+  {
+   "service": "Education, scientific and research services",
+   "share": 0.07004299592288403,
+   "ci_cond": [
+    0.04390474882238937,
+    0.10965914645606278
+   ],
+   "ci_mix": [
+    0.01734215263923902,
+    0.12513142163731233
+   ]
+  },
+  {
+   "service": "Spiritual, artistic and symbolic services",
+   "share": 0.01938473449650057,
+   "ci_cond": [
+    0.0112205303694027,
+    0.02991212635161384
+   ],
+   "ci_mix": [
+    0.009800177456318506,
+    0.06386840831719452
+   ]
+  },
+  {
+   "service": "at least one service",
+   "share": 0.254426398998925,
+   "ci_cond": [
+    0.20310493293622303,
+    0.3088925766383087
+   ],
+   "ci_mix": [
+    0.2011838452258144,
+    0.394306762850116
+   ]
+  }
+ ],
+ "sweep": [
+  {
+   "variant": "narrow",
+   "threshold": "VH",
+   "weighting": "process",
+   "any": 0.19011851945067695,
+   "rank_corr_services": 0.7932142143341098
+  },
+  {
+   "variant": "narrow",
+   "threshold": "VH",
+   "weighting": "sub",
+   "any": 0.19011851945067695,
+   "rank_corr_services": 0.7932142143341098
+  },
+  {
+   "variant": "narrow",
+   "threshold": "H+",
+   "weighting": "process",
+   "any": 0.28682146886900967,
+   "rank_corr_services": 0.9614663086798946
+  },
+  {
+   "variant": "narrow",
+   "threshold": "H+",
+   "weighting": "sub",
+   "any": 0.28682146886900967,
+   "rank_corr_services": 0.9614663086798946
+  },
+  {
+   "variant": "narrow",
+   "threshold": "M+",
+   "weighting": "process",
+   "any": 0.6867546527325147,
+   "rank_corr_services": 0.741775855914545
+  },
+  {
+   "variant": "narrow",
+   "threshold": "M+",
+   "weighting": "sub",
+   "any": 0.6867546527325147,
+   "rank_corr_services": 0.741775855914545
+  },
+  {
+   "variant": "base",
+   "threshold": "VH",
+   "weighting": "process",
+   "any": 0.1670244833158048,
+   "rank_corr_services": 0.8070373702752799
+  },
+  {
+   "variant": "base",
+   "threshold": "VH",
+   "weighting": "sub",
+   "any": 0.17166636019739112,
+   "rank_corr_services": 0.7817061335427552
+  },
+  {
+   "variant": "base",
+   "threshold": "H+",
+   "weighting": "process",
+   "any": 0.254426398998925,
+   "rank_corr_services": 1.0
+  },
+  {
+   "variant": "base",
+   "threshold": "H+",
+   "weighting": "sub",
+   "any": 0.25514678195041823,
+   "rank_corr_services": 0.9968944099378882
+  },
+  {
+   "variant": "base",
+   "threshold": "M+",
+   "weighting": "process",
+   "any": 0.6784506948118189,
+   "rank_corr_services": 0.7653722068801703
+  },
+  {
+   "variant": "base",
+   "threshold": "M+",
+   "weighting": "sub",
+   "any": 0.677402890221605,
+   "rank_corr_services": 0.7777418587085366
+  },
+  {
+   "variant": "broad",
+   "threshold": "VH",
+   "weighting": "process",
+   "any": 0.21593328132900405,
+   "rank_corr_services": 0.8048284167589926
+  },
+  {
+   "variant": "broad",
+   "threshold": "VH",
+   "weighting": "sub",
+   "any": 0.20027088987659838,
+   "rank_corr_services": 0.7642044172808453
+  },
+  {
+   "variant": "broad",
+   "threshold": "H+",
+   "weighting": "process",
+   "any": 0.2960932022269412,
+   "rank_corr_services": 0.9703806148237611
+  },
+  {
+   "variant": "broad",
+   "threshold": "H+",
+   "weighting": "sub",
+   "any": 0.29560184298061687,
+   "rank_corr_services": 0.9701932645729904
+  },
+  {
+   "variant": "broad",
+   "threshold": "M+",
+   "weighting": "process",
+   "any": 0.6846257595497144,
+   "rank_corr_services": 0.7619865529836171
+  },
+  {
+   "variant": "broad",
+   "threshold": "M+",
+   "weighting": "sub",
+   "any": 0.6842381225344085,
+   "rank_corr_services": 0.7519400771329203
+  }
+ ],
+ "swings": {
+  "variant": {
+   "min": 0.254426398998925,
+   "max": 0.2960932022269412,
+   "range": 0.04166680322801619
+  },
+  "threshold": {
+   "min": 0.1670244833158048,
+   "max": 0.6784506948118189,
+   "range": 0.5114262114960141
+  },
+  "weighting": {
+   "min": 0.254426398998925,
+   "max": 0.25514678195041823,
+   "range": 0.0007203829514932369
+  }
+ },
+ "sweep_range": [
+  0.1670244833158048,
+  0.6867546527325147
+ ],
+ "sweep_min_rank_corr": 0.741775855914545,
+ "by_sector": {
+  "Utilities": {
+   "mv": 24073891.79,
+   "flagged_mv": 19779357.763030306,
+   "weight": 0.06909086918889645,
+   "contribution": 0.056765770643430746,
+   "own_share": 0.8216103127640713
+  },
+  "Health Care": {
+   "mv": 20925352.29,
+   "flagged_mv": 17617031.004285716,
+   "weight": 0.060054717800156934,
+   "contribution": 0.050560000652633885,
+   "own_share": 0.841898896617607
+  },
+  "Consumer Staples": {
+   "mv": 19953440.19,
+   "flagged_mv": 12346726.767777778,
+   "weight": 0.057265378529632385,
+   "contribution": 0.03543449025462205,
+   "own_share": 0.6187768450056821
+  },
+  "Energy": {
+   "mv": 14947916.459999999,
+   "flagged_mv": 11324008.385,
+   "weight": 0.04289977498417642,
+   "contribution": 0.03249933948556648,
+   "own_share": 0.7575643344878582
+  },
+  "Industrials": {
+   "mv": 67322887.66,
+   "flagged_mv": 11183403.604611112,
+   "weight": 0.1932133310771117,
+   "contribution": 0.03209581077596176,
+   "own_share": 0.1661159227318134
+  },
+  "Materials": {
+   "mv": 14534587.36,
+   "flagged_mv": 4763480.687428571,
+   "weight": 0.04171354107446322,
+   "contribution": 0.013670952080779541,
+   "own_share": 0.327734153673873
+  },
+  "Consumer Discretionary": {
+   "mv": 26845032.5,
+   "flagged_mv": 4407566.533492063,
+   "weight": 0.0770439048662507,
+   "contribution": 0.012649496203740224,
+   "own_share": 0.16418555401235083
+  },
+  "Information Technology": {
+   "mv": 55050112.67,
+   "flagged_mv": 4172013.4566666665,
+   "weight": 0.15799107873770923,
+   "contribution": 0.011973470617185672,
+   "own_share": 0.07578573874455008
+  },
+  "Real Estate": {
+   "mv": 1824680.09,
+   "flagged_mv": 1824680.09,
+   "weight": 0.005236740885499088,
+   "contribution": 0.005236740885499088,
+   "own_share": 1.0
+  },
+  "Communication Services": {
+   "mv": 10678163.7,
+   "flagged_mv": 1233584.9833333334,
+   "weight": 0.030645797439397833,
+   "contribution": 0.0035403273995056185,
+   "own_share": 0.11552407492435553
+  },
+  "Financials": {
+   "mv": 92282044.01,
+   "flagged_mv": 0.0,
+   "weight": 0.2648448654167061,
+   "contribution": 0.0,
+   "own_share": 0.0
+  }
+ },
+ "financials": {
+  "weight": 0.2648448654167061,
+  "own_share": 0.0,
+  "nonfinancial_share": 0.34608531863569303
+ },
+ "top_holdings": [
+  {
+   "name": "TotalEnergies SE",
+   "industry": "Oil Gas & Consumable Fuels",
+   "weight": 0.02422787516271306,
+   "frac_any": 0.75
+  },
+  {
+   "name": "Iberdrola SA",
+   "industry": "Electric Utilities",
+   "weight": 0.02060554175998456,
+   "frac_any": 0.8181818181818183
+  },
+  {
+   "name": "Sanofi SA",
+   "industry": "Pharmaceuticals",
+   "weight": 0.012419386375092021,
+   "frac_any": 1.0
+  },
+  {
+   "name": "SAP SE",
+   "industry": "Software",
+   "weight": 0.032783328557150826,
+   "frac_any": 0.3333333333333333
+  },
+  {
+   "name": "Anheuser-Busch InBev SA/NV",
+   "industry": "Beverages",
+   "weight": 0.010219759007076728,
+   "frac_any": 1.0
+  },
+  {
+   "name": "Enel SpA",
+   "industry": "Electric Utilities",
+   "weight": 0.010834730488775913,
+   "frac_any": 0.8181818181818183
+  },
+  {
+   "name": "argenx SE",
+   "industry": "Biotechnology",
+   "weight": 0.007594239073678324,
+   "frac_any": 1.0
+  },
+  {
+   "name": "VINCI SA",
+   "industry": "Construction & Engineering",
+   "weight": 0.007756037391913669,
+   "frac_any": 0.875
+  },
+  {
+   "name": "Bayer AG",
+   "industry": "Pharmaceuticals",
+   "weight": 0.006772284491695022,
+   "frac_any": 1.0
+  },
+  {
+   "name": "Danone SA",
+   "industry": "Food Products",
+   "weight": 0.005930523235793783,
+   "frac_any": 1.0
+  }
+ ],
+ "ecb_comparator": {
+  "loans_share_pct": 75,
+  "companies_share_pct": 72,
+  "score_threshold": 0.7
+ },
+ "rating_counts": {
+  "VL": 1258,
+  "M": 856,
+  "L": 701,
+  "VH": 346,
+  "H": 225
+ }
+}

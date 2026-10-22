@@ -1,0 +1,214 @@
+isin,name,sector,industry,mv,frac_any,flagged_mv
+NL0010273215,ASML Holding NV,Information Technology,Semiconductors & Semiconductor Equipment,31278680.0,0.0,0.0
+DE0007164600,SAP SE,Information Technology,Software,11422961.0,0.3333333333333333,3807653.6666666665
+DE0007236101,Siemens AG,Industrials,Industrial Conglomerates,10421922.0,0.0,0.0
+ES0113900J37,Banco Santander S.A.,Financials,Banks,9183947.0,0.0,0.0
+DE0008404005,Allianz SE,Financials,Insurance,8940422.0,0.0,0.0
+FR0000120271,TotalEnergies SE,Energy,Oil Gas & Consumable Fuels,8441915.0,0.75,6331436.25
+FR0000121972,Schneider Electric SE,Industrials,Electrical Equipment,7512856.0,0.0,0.0
+ES0144580Y14,Iberdrola SA,Utilities,Electric Utilities,7179756.0,0.8181818181818183,5874345.818181819
+ES0113211835,Banco Bilbao Vizcaya Argentaria S.A.,Financials,Banks,6954622.5,0.0,0.0
+NL0000235190,Airbus SE,Industrials,Aerospace & Defense,6361954.0,0.125,795244.25
+FR0000073272,Safran SA,Industrials,Aerospace & Defense,5834773.0,0.125,729346.625
+FR0000120073,Air Liquide SA,Materials,Chemicals,5819593.0,0.2,1163918.6
+DE000ENER6Y0,Siemens Energy AG,Industrials,Electrical Equipment,5572921.5,0.0,0.0
+IT0005239360,UniCredit S.p.A.,Financials,Banks,5489803.5,0.0,0.0
+FR0000120321,L'Oreal S.A.,Consumer Staples,Personal Care Products,5232313.0,0.2,1046462.6000000001
+FR0000121014,LVMH Moet Hennessy Louis Vuitton SE,Consumer Discretionary,Textiles Apparel & Luxury Goods,5186644.5,0.14285714285714285,740949.2142857142
+DE0005557508,Deutsche Telekom AG,Communication Services,Diversified Telecommunication Services,4665250.5,0.0,0.0
+NL0011821202,ING Groep N.V.,Financials,Banks,4628452.5,0.0,0.0
+FR0000131104,BNP Paribas S.A. Class A,Financials,Banks,4624976.0,0.0,0.0
+IT0000072618,Intesa Sanpaolo S.p.A.,Financials,Banks,4620460.0,0.0,0.0
+FR0000120578,Sanofi SA,Health Care,Pharmaceuticals,4327387.5,1.0,4327387.5
+IT0003128367,Enel SpA,Utilities,Electric Utilities,3775233.0,0.8181818181818183,3088827.0000000005
+DE0008430026,Munchener Ruckversicherungs-Gesellschaft AG,Financials,Insurance,3767427.8,0.0,0.0
+DE0006231004,Infineon Technologies AG,Information Technology,Semiconductors & Semiconductor Equipment,3728988.5,0.0,0.0
+FR0000120628,AXA SA,Financials,Insurance,3643790.5,0.0,0.0
+BE0974293251,Anheuser-Busch InBev SA/NV,Consumer Staples,Beverages,3560953.5,1.0,3560953.5
+ES0148396007,Industria de Diseno Textil S.A.,Consumer Discretionary,Specialty Retail,3335239.3,0.1111111111111111,370582.1444444444
+DE0005810055,Deutsche Boerse AG,Financials,Capital Markets,2999920.0,0.0,0.0
+DE0005552004,DHL AG,Industrials,Air Freight & Logistics,2863092.3,0.30000000000000004,858927.6900000001
+FR0000121667,EssilorLuxottica SA,Health Care,Health Care Equipment & Supplies,2717015.5,0.2857142857142857,776290.1428571428
+FR0000125486,VINCI SA,Industrials,Construction & Engineering,2702499.0,0.875,2364686.625
+DE0005140008,Deutsche Bank Aktiengesellschaft,Financials,Capital Markets,2662996.0,0.0,0.0
+NL0010832176,argenx SE,Health Care,Biotechnology,2646122.3,1.0,2646122.3
+FI4000297767,Nordea Bank Abp,Financials,Banks,2589997.5,0.0,0.0
+DE0007030009,Rheinmetall AG,Industrials,Aerospace & Defense,2571420.0,0.125,321427.5
+IT0003132476,Eni S.p.A.,Energy,Oil Gas & Consumable Fuels,2566819.3,0.75,1925114.4749999999
+FR0000052292,Hermes International SCA,Consumer Discretionary,Textiles Apparel & Luxury Goods,2494603.5,0.14285714285714285,356371.9285714286
+DE000BASF111,BASF SE,Materials,Chemicals,2462952.5,0.2,492590.5
+DE000BAY0017,Bayer AG,Health Care,Pharmaceuticals,2359722.0,1.0,2359722.0
+NL0011585146,Ferrari NV,Consumer Discretionary,Automobiles,2309415.5,0.0,0.0
+FI0009000681,Nokia Oyj,Information Technology,Communications Equipment,2229522.0,0.0,0.0
+NL0013654783,Prosus N.V. Class N,Consumer Discretionary,Broadline Retail,2229476.5,0.1111111111111111,247719.6111111111
+FR0010208488,ENGIE S.A.,Utilities,Multi-Utilities,2219309.5,0.8333333333333334,1849424.5833333335
+ES0140609019,CaixaBank SA,Financials,Banks,2213166.0,0.0,0.0
+DE000ENAG999,E.ON SE,Utilities,Multi-Utilities,2202129.3,0.8333333333333334,1835107.75
+FR0000130809,Societe Generale SA Class A,Financials,Banks,2126887.5,0.0,0.0
+FR0000120644,Danone SA,Consumer Staples,Food Products,2066420.3,1.0,2066420.3
+DE0007037129,RWE AG,Utilities,Independent Power And Renewable Electricity Producers,2013615.5,0.8181818181818183,1647503.5909090913
+NL0000334118,ASM International N.V.,Information Technology,Semiconductors & Semiconductor Equipment,1916720.0,0.0,0.0
+AT0000652011,Erste Group Bank AG,Financials,Banks,1848765.6,0.0,0.0
+FR0010307819,Legrand SA,Industrials,Electrical Equipment,1811283.5,0.0,0.0
+ES0173516115,Repsol SA,Energy,Oil Gas & Consumable Fuels,1747977.0,0.75,1310982.75
+IT0000062072,Assicurazioni Generali S.p.A.,Financials,Insurance,1684321.5,0.0,0.0
+IT0004176001,Prysmian S.p.A.,Industrials,Electrical Equipment,1622649.6,0.0,0.0
+FR0000125007,Compagnie de Saint-Gobain SA,Industrials,Building Products,1596356.1,0.4,638542.4400000001
+NL0011794037,Koninklijke Ahold Delhaize N.V.,Consumer Staples,Consumer Staples Distribution & Retail,1538095.0,0.1111111111111111,170899.44444444444
+DE0007100000,Mercedes-Benz Group AG,Consumer Discretionary,Automobiles,1488356.6,0.0,0.0
+BE0003565737,KBC Group N.V.,Financials,Banks,1434531.6,0.0,0.0
+FR0000133308,Orange SA,Communication Services,Diversified Telecommunication Services,1430106.6,0.0,0.0
+NL0000226223,STMicroelectronics NV,Information Technology,Semiconductors & Semiconductor Equipment,1414981.1,0.0,0.0
+DE000A1EWWW0,adidas AG,Consumer Discretionary,Textiles Apparel & Luxury Goods,1414921.5,0.14285714285714285,202131.64285714284
+BE0003739530,UCB S.A.,Health Care,Pharmaceuticals,1395363.0,1.0,1395363.0
+NL0011540547,ABN AMRO Bank N.V. Depositary receipts,Financials,Banks,1379025.0,0.0,0.0
+NL0012969182,Adyen NV,Financials,Financial Services,1363435.0,0.0,0.0
+LU1598757687,ArcelorMittal SA,Materials,Metals & Mining,1299594.0,0.6000000000000001,779756.4000000001
+ES0109067019,Amadeus IT Group SA Class A,Consumer Discretionary,Hotels Restaurants & Leisure,1274045.8,0.9999999999999999,1274045.7999999998
+FR0000130577,Publicis Groupe SA,Communication Services,Media,1242460.9,0.5,621230.45
+IE00BF0L3536,AIB Group plc,Financials,Banks,1239970.5,0.0,0.0
+FI4000552500,Sampo Oyj,Financials,Insurance,1208461.4,0.0,0.0
+DE000CBK1001,Commerzbank AG,Financials,Banks,1187239.0,0.0,0.0
+IT0005508921,Banca Monte dei Paschi di Siena S.p.A.,Financials,Banks,1144282.8,0.0,0.0
+FR0000121329,Thales SA,Industrials,Aerospace & Defense,1142180.0,0.125,142772.5
+NL0015001FS8,Ferrovial N.V.,Industrials,Construction & Engineering,1139751.5,0.875,997282.5625
+NL0000687663,AerCap Holdings NV,Industrials,Trading Companies & Distributors,1128918.4,0.0,0.0
+NL0000009165,Heineken NV,Consumer Staples,Beverages,1108179.4,1.0,1108179.4
+IT0003796171,Poste Italiane SpA,Financials,Financial Services,1095346.5,0.0,0.0
+NL0010773842,NN Group N.V.,Financials,Insurance,1085414.5,0.0,0.0
+ES0105046017,Aena SME SA,Industrials,Transportation Infrastructure,1083588.0,0.4444444444444444,481594.6666666666
+DE0006047004,Heidelberg Materials AG,Materials,Construction Materials,1054996.4,1.0,1054996.4
+DE000FRE5EN2,Fresenius SE & Co. KGaA,Health Care,Health Care Providers & Services,1042347.3,1.0,1042347.3
+IT0003856405,Leonardo SpA,Industrials,Aerospace & Defense,1039866.8,0.125,129983.35
+GB00BDCPN049,Coca-Cola Europacific Partners plc,Consumer Staples,Beverages,1034705.75,1.0,1034705.75
+NL0000395903,Wolters Kluwer N.V.,Industrials,Professional Services,1031582.2,0.0,0.0
+FR001400AJ45,Cie Generale des Etablissements Michelin SA,Consumer Discretionary,Automobile Components,1028995.9,0.0,0.0
+FR0000125338,Capgemini SE,Information Technology,It Services,1028661.3,0.0,0.0
+FR0000124141,Veolia Environnement SA,Utilities,Multi-Utilities,1026016.9,0.8333333333333334,855014.0833333334
+DE000A0D9PT0,MTU Aero Engines AG,Industrials,Aerospace & Defense,1012032.2,0.125,126504.025
+DE000DTR0CK8,Daimler Truck Holding AG,Industrials,Machinery,1004299.5,0.0,0.0
+IT0000066123,BPER Banca S.p.A.,Financials,Banks,1004044.2,0.0,0.0
+NL0000009538,Koninklijke Philips N.V.,Health Care,Health Care Equipment & Supplies,995908.2,0.2857142857142857,284545.19999999995
+DE0005190003,Bayerische Motoren Werke AG,Consumer Discretionary,Automobiles,991800.0,0.0,0.0
+DE0006599905,Merck KGaA,Health Care,Pharmaceuticals,989206.5,1.0,989206.5
+IE00BD1RP616,Bank of Ireland Group Plc,Financials,Banks,966056.25,0.0,0.0
+CH1216478797,DSM-Firmenich AG,Materials,Chemicals,956737.3,0.2,191347.46000000002
+NL0015000IY2,Universal Music Group N.V.,Communication Services,Entertainment,918531.8,0.6666666666666666,612354.5333333333
+FI0009013403,KONE Oyj Class B,Industrials,Machinery,917863.1,0.0,0.0
+DE0008402215,Hannover Rueck SE,Financials,Insurance,900256.8,0.0,0.0
+ES0167050915,ACS Actividades de Construccion y Servicios SA,Industrials,Construction & Engineering,896948.9,0.875,784830.2875
+ES0113860A34,Banco de Sabadell SA,Financials,Banks,881858.94,0.0,0.0
+FR0014003TT8,Dassault Systemes SE,Information Technology,Software,861872.56,0.3333333333333333,287290.85333333333
+FR0000121485,Kering SA,Consumer Discretionary,Textiles Apparel & Luxury Goods,830832.5,0.14285714285714285,118690.35714285713
+NL0000009082,Royal KPN NV,Communication Services,Diversified Telecommunication Services,830066.56,0.0,0.0
+IE0004906560,Kerry Group Plc Class A,Consumer Staples,Food Products,802281.6,1.0,802281.6
+IE0004927939,Kingspan Group Plc,Industrials,Building Products,772106.44,0.4,308842.576
+DE0007664039,Volkswagen AG Pref,Consumer Discretionary,Automobiles,769497.56,0.0,0.0
+FI0009003727,Wartsila Oyj Abp,Industrials,Machinery,766108.75,0.0,0.0
+PTEDP0AM0009,EDP S.A.,Utilities,Electric Utilities,759377.1,0.8181818181818183,621308.5363636365
+NL0006294274,Euronext NV,Financials,Capital Markets,740273.25,0.0,0.0
+FR0000045072,Credit Agricole SA,Financials,Banks,739551.5,0.0,0.0
+DE000SHL1006,Siemens Healthineers AG,Health Care,Health Care Equipment & Supplies,735013.6,0.2857142857142857,210003.8857142857
+IT0005218380,Banco BPM SpA,Financials,Banks,717543.1,0.0,0.0
+DE000SYM9999,Symrise AG,Materials,Chemicals,716898.0,0.2,143379.6
+IT0003242622,Terna S.p.A.,Utilities,Electric Utilities,712011.94,0.8181818181818183,582555.2236363637
+ES0130670112,Endesa S.A.,Utilities,Electric Utilities,706427.3,0.8181818181818183,577985.9727272729
+IT0000072170,FinecoBank SpA,Financials,Banks,704530.8,0.0,0.0
+FI0009013296,Neste Corporation,Energy,Oil Gas & Consumable Fuels,698008.44,0.75,523506.32999999996
+FI0009005987,UPM-Kymmene Oyj,Materials,Paper & Forest Products,695073.0,0.5714285714285714,397184.5714285714
+FR0000120693,Pernod Ricard SA,Consumer Staples,Beverages,687816.0,1.0,687816.0
+ES0116870314,Naturgy Energy Group S.A.,Utilities,Gas Utilities,680343.8,0.8181818181818183,556644.9272727274
+ES0105066007,Cellnex Telecom S.A.,Communication Services,Diversified Telecommunication Services,668203.06,0.0,0.0
+ES0178430E18,Telefonica SA,Communication Services,Diversified Telecommunication Services,660665.9,0.0,0.0
+AT0000BAWAG2,BAWAG Group AG,Financials,Banks,640156.25,0.0,0.0
+IT0003153415,Snam S.p.A.,Utilities,Gas Utilities,639428.75,0.8181818181818183,523168.97727272735
+DE0006048432,Henkel AG & Co. KGaA Pref,Consumer Staples,Household Products,635869.94,0.2,127173.988
+DE000A1ML7J1,Vonovia SE,Real Estate,Real Estate Management & Development,635598.3,1.0,635598.3
+NL0011872643,ASR Nederland N.V.,Financials,Insurance,610153.4,0.0,0.0
+NL0012866412,BE Semiconductor Industries N.V.,Information Technology,Semiconductors & Semiconductor Equipment,606425.8,0.0,0.0
+BE0974264930,ageas SA/NV,Financials,Insurance,594428.44,0.0,0.0
+IT0004810054,UNIPOL ASSICURAZIONI SPA,Financials,Insurance,580572.6,0.0,0.0
+AT0000743059,OMV Aktiengesellschaft,Energy,Oil Gas & Consumable Fuels,568480.06,0.75,426360.04500000004
+FI0009014575,Metso Corporation,Industrials,Machinery,556937.56,0.0,0.0
+FI0009007132,Fortum Oyj,Utilities,Electric Utilities,537972.6,0.8181818181818183,440159.4000000001
+DE0006602006,GEA Group Aktiengesellschaft,Industrials,Machinery,533462.75,0.0,0.0
+IE00BYTBXV33,Ryanair Holdings Plc,Industrials,Passenger Airlines,521321.25,1.0,521321.25
+FR0013326246,Unibail-Rodamco-Westfield SE Stapled Secs Cons of 1 Sh Unibail Rodamco + 1 Sh WFD Unib Rod,Real Estate,Retail Reits,518422.1,1.0,518422.1
+ES0113679I37,Bankinter SA,Financials,Banks,517030.4,0.0,0.0
+FI0009014377,Orion Oyj Class B,Health Care,Pharmaceuticals,513582.6,1.0,513582.6
+IT0004965148,Moncler SpA,Consumer Discretionary,Textiles Apparel & Luxury Goods,505103.22,0.14285714285714285,72157.60285714285
+NL0000008977,Heineken Holding N.V.,Consumer Staples,Beverages,502374.13,1.0,502374.13
+FR0000120503,Bouygues SA,Industrials,Construction & Engineering,497547.44,0.875,435354.01
+NL0013267909,Akzo Nobel N.V.,Materials,Chemicals,491825.28,0.2,98365.05600000001
+NL0015002SN0,QIAGEN NV,Health Care,Life Sciences Tools & Services,489775.16,1.0,489775.16
+PTBCP0AM0015,Banco Comercial Portugues S.A.,Financials,Banks,487891.6,0.0,0.0
+BMG0112X1056,Aegon Ltd.,Financials,Insurance,487178.1,0.0,0.0
+FR0014000MR3,Eurofins Scientific SE,Health Care,Life Sciences Tools & Services,485157.3,1.0,485157.3
+FR0006174348,Bureau Veritas SA,Industrials,Professional Services,476716.88,0.0,0.0
+PTGAL0AM0009,Galp Energia SGPS S.A. Class B,Energy,Oil Gas & Consumable Fuels,472432.5,0.75,354324.375
+FR0000120404,Accor SA,Consumer Discretionary,Hotels Restaurants & Leisure,470747.13,0.9999999999999999,470747.12999999995
+LU2598331598,Tenaris S.A.,Energy,Energy Equipment & Services,452284.16,1.0,452284.16
+NL0015002MS2,Magnum Ice Cream Co. N.V.,Consumer Staples,Food Products,449836.5,1.0,449836.5
+FR0000120172,Carrefour SA,Consumer Staples,Consumer Staples Distribution & Retail,445427.16,0.1111111111111111,49491.90666666666
+DE000TLX1005,Talanx AG,Financials,Insurance,415426.0,0.0,0.0
+AT0000606306,Raiffeisen Bank International AG,Financials,Banks,413531.0,0.0,0.0
+FR0000121964,Klepierre SA,Real Estate,Retail Reits,410524.34,1.0,410524.34
+DE000A1DAHH0,Brenntag SE,Industrials,Trading Companies & Distributors,407535.84,0.0,0.0
+NL00150001Q9,Stellantis N.V.,Consumer Discretionary,Automobiles,403871.16,0.0,0.0
+DE0005439004,Continental AG,Consumer Discretionary,Automobile Components,402849.78,0.0,0.0
+DE0005200000,Beiersdorf AG,Consumer Staples,Personal Care Products,393560.66,0.2,78712.132
+DE0005785802,Fresenius Medical Care AG,Health Care,Health Care Providers & Services,389152.47,1.0,389152.47
+FR0010451203,Rexel SA,Industrials,Trading Companies & Distributors,378930.34,0.0,0.0
+FR0000130452,Eiffage SA,Industrials,Construction & Engineering,367228.8,0.875,321325.2
+DE0006048408,Henkel AG & Co. KGaA,Consumer Staples,Household Products,364006.5,0.2,72801.3
+FI0009000202,Kesko Oyj Class B,Consumer Staples,Consumer Staples Distribution & Retail,351420.97,0.1111111111111111,39046.77444444444
+NL0012059018,EXOR N.V.,Financials,Financial Services,347510.4,0.0,0.0
+DE000KBX1006,Knorr-Bremse AG,Industrials,Machinery,338552.9,0.0,0.0
+DE0007165631,Sartorius AG Pref,Health Care,Life Sciences Tools & Services,336296.8,1.0,336296.8
+ES0118594417,Indra Sistemas S.A. Class A,Information Technology,It Services,330093.6,0.0,0.0
+FR0013154002,Sartorius Stedim Biotech SA,Health Care,Life Sciences Tools & Services,322884.6,1.0,322884.6
+ES0173093024,Redeia Corporacion SA,Utilities,Electric Utilities,320863.6,0.8181818181818183,262524.76363636367
+ES0177542018,International Consolidated Airlines Group SA,Industrials,Passenger Airlines,310870.0,1.0,310870.0
+BE0003797140,Groupe Bruxelles Lambert SA,Financials,Financial Services,308400.0,0.0,0.0
+BE0003822393,Elia Group SA/NV,Utilities,Electric Utilities,304410.72,0.8181818181818183,249063.3163636364
+FR0010220475,Alstom SA,Industrials,Machinery,303671.5,0.0,0.0
+FR0012333284,Abivax SA,Health Care,Biotechnology,299273.78,1.0,299273.78
+BE0974464977,Syensqo SA/NV,Materials,Chemicals,298999.2,0.2,59799.840000000004
+FR0004125920,Amundi SA,Financials,Capital Markets,298812.0,0.0,0.0
+FI0009005961,Stora Enso Oyj Class R,Materials,Paper & Forest Products,298549.3,0.5714285714285714,170599.59999999998
+DE0006070006,HOCHTIEF Aktiengesellschaft,Industrials,Construction & Engineering,295460.0,0.875,258527.5
+BE0003604155,Lotus Bakeries NV,Consumer Staples,Food Products,292600.0,1.0,292600.0
+DE000ZAL1111,Zalando SE,Consumer Discretionary,Specialty Retail,286494.5,0.1111111111111111,31832.72222222222
+DE000EVNK013,Evonik Industries AG,Materials,Chemicals,284783.4,0.2,56956.68000000001
+DE000A2E4K43,Delivery Hero SE,Consumer Discretionary,Hotels Restaurants & Leisure,276848.78,0.9999999999999999,276848.77999999997
+IT0005211237,Italgas SpA,Utilities,Gas Utilities,274795.9,0.8181818181818183,224833.00909090915
+DE000HAG0005,HENSOLDT AG,Industrials,Aerospace & Defense,273637.8,0.125,34204.725
+ES0125220311,Acciona SA,Utilities,Electric Utilities,266872.8,0.8181818181818183,218350.47272727275
+FR0010259150,Ipsen SA,Health Care,Pharmaceuticals,266197.78,1.0,266197.78
+FR0014004L86,Dassault Aviation SA,Industrials,Aerospace & Defense,264736.78,0.125,33092.0975
+FI0009007884,Elisa Oyj Class A,Communication Services,Diversified Telecommunication Services,262878.38,0.0,0.0
+PTJMT0AE0001,Jeronimo Martins SGPS S.A.,Consumer Staples,Consumer Staples Distribution & Retail,259434.38,0.1111111111111111,28826.042222222222
+IT0004776628,Banca Mediolanum SpA,Financials,Financial Services,257855.84,0.0,0.0
+FR0000131906,Renault SA,Consumer Discretionary,Automobiles,255215.61,0.0,0.0
+FR0010533075,Getlink SE,Industrials,Transportation Infrastructure,255079.55,0.4444444444444444,113368.68888888888
+AT0000746409,VERBUND AG Class A,Utilities,Electric Utilities,254886.97,0.8181818181818183,208543.88454545458
+IT0003828271,Recordati S.p.A.,Health Care,Pharmaceuticals,246323.4,1.0,246323.4
+FR0000121220,Sodexo SA,Consumer Discretionary,Hotels Restaurants & Leisure,245489.6,0.9999999999999999,245489.59999999998
+DE000PAG9113,Porsche AG,Consumer Discretionary,Automobiles,244141.67,0.0,0.0
+DE0008232125,Deutsche Lufthansa AG,Industrials,Passenger Airlines,243341.44,1.0,243341.44
+DE0006452907,Nemetschek SE,Information Technology,Software,231206.81,0.3333333333333333,77068.93666666666
+NL0015435975,Davide Campari-Milano N.V.,Consumer Staples,Beverages,228145.4,1.0,228145.4
+BE0003717312,Sofina SA,Financials,Financial Services,213204.0,0.0,0.0
+ES0124244E34,Mapfre SA,Financials,Insurance,208663.6,0.0,0.0
+BE0974259880,D'Ieteren Group SA/NV,Consumer Discretionary,Distributors,202812.69,0.0,0.0
+ES0127797019,EDP Renewables SA,Utilities,Independent Power And Renewable Electricity Producers,200440.11,0.8181818181818183,163996.45363636364
+DE000PAH0038,Porsche Automobil Holding SE Pref,Consumer Discretionary,Automobiles,197629.2,0.0,0.0
+BE0003823409,Financiere de Tubize S.A.,Health Care,Pharmaceuticals,184910.0,1.0,184910.0
+FR0013280286,bioMerieux SA,Health Care,Health Care Equipment & Supplies,183712.5,0.2857142857142857,52489.28571428571
+FR0010340141,Aeroports de Paris,Industrials,Transportation Infrastructure,181559.6,0.4444444444444444,80693.15555555555
+DE0007010803,Rational Aktiengesellschaft,Industrials,Machinery,158004.0,0.0,0.0
+IT0001347308,Buzzi Spa,Materials,Construction Materials,154585.98,1.0,154585.98
+FR0013258662,Ayvens,Industrials,Ground Transportation,151320.44,1.0,151320.44
+FR0010040865,Gecina SA,Real Estate,Office Reits,146008.11,1.0,146008.11
+JE00BRX98089,CVC Capital Partners plc,Financials,Capital Markets,129453.34,0.0,0.0
+FR0000064578,Covivio SA,Real Estate,Diversified Reits,114127.24,1.0,114127.24

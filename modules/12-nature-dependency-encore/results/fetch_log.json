@@ -1,0 +1,30 @@
+[
+ {
+  "file": "ecosystem_services.json",
+  "url": "https://encorenature.org/en/ecosystem_services",
+  "accessed": "2026-10-22",
+  "bytes": 1128683,
+  "sha256": "244f37ce488f1850aa60232a09023d66f570e89db072cd55e117f9086366bdb9"
+ },
+ {
+  "file": "sectors.json",
+  "url": "https://encorenature.org/en/sectors",
+  "accessed": "2026-10-22",
+  "bytes": 27509,
+  "sha256": "84916cf655a8477b262784c1f69565ff64d5925d7b922695a8de0e650bbf41eb"
+ },
+ {
+  "file": "zpre_holdings.xlsx",
+  "url": "https://www.ssga.com/library-content/products/fund-data/etfs/emea/holdings-daily-emea-en-zpre-gy.xlsx",
+  "accessed": "2026-10-22",
+  "bytes": 30261,
+  "sha256": "7cf4d217251ccf136b6a2f391761a5a72086310e22f1e04c02801cb73214f3a8"
+ },
+ {
+  "file": "ecb_blog.html",
+  "url": "https://www.ecb.europa.eu/press/blog/date/2023/html/ecb.blog230608~5cffb7c349.en.html",
+  "accessed": "2026-10-22",
+  "bytes": 114707,
+  "sha256": "203233896ba11261c2ddb95dbe20002557be7cc884958a9d60e352ac363f2c01"
+ }
+]
