@@ -1,0 +1,3 @@
+name,what,url,license,verified
+climate_commitments_actions,expert-annotated climate paragraphs (train 1000 / test 320) labelled for climate commitments and actions,https://datasets-server.huggingface.co/rows?dataset=climatebert/climate_commitments_actions,CC-BY-NC-SA-4.0,2026-10-26
+dataset_card,label definition and annotation provenance,https://huggingface.co/datasets/climatebert/climate_commitments_actions/raw/main/README.md,CC-BY-NC-SA-4.0,2026-10-26

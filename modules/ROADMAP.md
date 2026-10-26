@@ -21,7 +21,7 @@ draws on the work of, any employer.
 | 10 | `10-disclosure-quality-index` | **built** |
 | 11 | `11-hazard-exposure-gridded` | **built** |
 | 12 | `12-nature-dependency-encore` | **built** |
-| 13 | `13-transition-plan-nlp` | AI on unstructured regulatory text |
+| 13 | `13-transition-plan-nlp` | **built** |
 
 ---
 

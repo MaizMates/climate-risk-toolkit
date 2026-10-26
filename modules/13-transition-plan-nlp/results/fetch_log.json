@@ -1,0 +1,24 @@
+{
+ "accessed": "2026-10-26",
+ "dataset": "climatebert/climate_commitments_actions",
+ "endpoint": "https://datasets-server.huggingface.co/rows",
+ "splits": {
+  "train": {
+   "http_status": 200,
+   "rows": 1000,
+   "label_1": 425,
+   "sha256": "88a435113b5f88bd3f3c1d8041866afd89de7a89cb07b037b3acc83efe6e54a3"
+  },
+  "test": {
+   "http_status": 200,
+   "rows": 320,
+   "label_1": 98,
+   "sha256": "0177a5de3648d957facb63a41d87eeaba194442e4913cd8d1295021604e1e3ad"
+  }
+ },
+ "card": {
+  "url": "https://huggingface.co/datasets/climatebert/climate_commitments_actions/raw/main/README.md",
+  "http_status": 200,
+  "sha256": "e51aa821b8842b599e705899004ac00fdcdff26ebbb02b3dfac730de5a335500"
+ }
+}
