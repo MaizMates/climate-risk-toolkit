@@ -22,6 +22,12 @@ draws on the work of, any employer.
 | 11 | `11-hazard-exposure-gridded` | **built** |
 | 12 | `12-nature-dependency-encore` | **built** |
 | 13 | `13-transition-plan-nlp` | **built** |
+| 14 | `14-energy-intensity-lmdi` | energy statistics: decomposition, the method energy agencies use |
+| 15 | `15-solar-capture-rate` | power markets: what solar earns as its share grows |
+| 16 | `16-load-temperature` | energy demand and weather, fitted and backtested |
+| 17 | `17-monthly-annual-coherence` | data validation the way a statistics office runs it |
+| 18 | `18-power-emissions-nowcast` | nowcasting with a measured error |
+| 19 | `19-transition-exposure-banking` | supervisory data: sector exposures from the EBA transparency exercise |
 
 ---
 
@@ -218,3 +224,115 @@ pipeline without a labelled test set and measured error.
 
 **The question it answers.** "You say you use LLMs. How do you know the output is right?"
 
+---
+
+Modules 14 to 18 move from climate risk to energy statistics and power markets: the same
+discipline (a fixed estimand, fetched inputs, an interval, a backtest) on the data an energy
+agency or a market analyst works with. Module 19 returns to supervisory data.
+
+## 14 — `14-energy-intensity-lmdi`
+
+**Estimand.** The change in EU27 final energy consumption of the productive economy (industry,
+services, agriculture) between 2015 and the latest year in the data, split into an activity
+effect, a structure effect and an intensity effect, in ktoe, by additive LMDI-I. The three
+effects sum to the observed change exactly; the module tests that identity.
+
+**Data.** Eurostat simplified energy balances `nrg_bal_s` (final consumption by sector, KTOE)
+and gross value added by industry `nama_10_a10` (chain-linked volumes, `CLV15_MEUR`), both from
+the Eurostat dissemination API, for the EU27 and each member state.
+
+**Method.** LMDI-I across sectors and member states, year by year and cumulated. The interval
+comes from resampling member states; the sweep covers the base year, the sector mapping between
+the energy balance and NACE, and whether 2020 is included. A cross-check against the intensity
+figures Eurostat publishes itself.
+
+**The question it answers.** "Energy use fell. Was that efficiency, or did the economy change
+shape?"
+
+## 15 — `15-solar-capture-rate`
+
+**Estimand.** The capture rate of solar in the DE-LU bidding zone, by calendar year from 2019:
+the generation-weighted average day-ahead price earned by solar divided by the baseload average
+price. Then the slope of that rate against solar's share of load, with onshore wind as the
+comparator.
+
+**Data.** Energy-Charts API (Fraunhofer ISE, data from Bundesnetzagentur SMARD, CC BY 4.0):
+`/price` for hourly day-ahead prices and `/public_power` for quarter-hourly generation and load.
+
+**Method.** Quarter-hourly generation averaged to the hour and joined to prices. Intervals by
+block bootstrap over weeks, because hours within a day are not independent. Backtest: the slope
+fitted on years up to t-1 predicts the capture rate of year t. Sweep: negative-price hours kept
+or floored, and the treatment of the 2022 price spike.
+
+**The question it answers.** "What is a megawatt-hour of solar worth when everyone else's
+panels produce in the same hours?"
+
+## 16 — `16-load-temperature`
+
+**Estimand.** The temperature sensitivity of German daily electricity load: GWh per degree-day
+of heating and of cooling, net of weekday and holiday effects, on 2019 to the latest full year.
+
+**Data.** Daily load from the Energy-Charts API (`/public_power`, series "Load"). Daily mean
+temperature from the Open-Meteo historical weather API for six cities fixed in advance (Berlin,
+Hamburg, Munich, Cologne, Frankfurt, Stuttgart), weighted by population.
+
+**Method.** A piecewise-linear regression in heating and cooling degree-days with calendar
+controls. The thresholds are swept, not chosen. Block bootstrap for the intervals. Backtest:
+fit on all years but the last, predict the last, report the error. One applied result: the
+change in annual load implied by a uniformly warmer year, stated with its interval and with the
+limit that today's sensitivities need not hold as heat pumps and air conditioning spread.
+
+**The question it answers.** "How much of electricity demand is weather, and how well can it be
+predicted out of sample?"
+
+## 17 — `17-monthly-annual-coherence`
+
+**Estimand.** For each member state and year, the relative gap between the sum of Eurostat's
+twelve monthly electricity figures (`nrg_cb_em`) and the annual figure for the same flow
+(`nrg_cb_e`). Reported as the distribution of gaps, the share within one percent, and the
+country-flow pairs that diverge persistently.
+
+**Data.** Both datasets from the Eurostat dissemination API, on the flows and products that
+exist in both.
+
+**Method.** The coherence check a statistics office runs before publishing. Intervals by
+resampling country-years. The sweep covers the tolerance and the set of flows. Each persistent
+divergence is traced to a documented cause where the metadata gives one (provisional monthly
+data, different coverage), and reported as unexplained where it does not.
+
+**The question it answers.** "How do you know a dataset is fit for use before you build on it?"
+
+## 18 — `18-power-emissions-nowcast`
+
+**Estimand.** A nowcast of calendar-year EU27 power-sector emissions (MtCO2e) from the first
+three, six and nine months of monthly data, with the error of each measured on every complete
+year since 2018.
+
+**Data.** Ember's monthly electricity data (generation and emissions by source, CC BY 4.0),
+from Ember's public download.
+
+**Method.** Three benchmarks, from the simplest up: last year's value, a seasonal
+share-of-year ratio, and a regression on generation by source. Pseudo out-of-sample backtest,
+year by year. The interval on the current-year nowcast comes from those backtest errors, not
+from the in-sample fit.
+
+**The question it answers.** "What will this year's number be, and how wrong has this method
+been before?"
+
+## 19 — `19-transition-exposure-banking`
+
+**Estimand.** The share of EU banks' loans and advances to non-financial corporations that sits
+in climate-policy-relevant NACE sections, aggregated by the country of the reporting bank, in
+the latest EBA transparency exercise. Then the gap in the non-performing ratio between those
+sections and the rest. Country aggregates and distributions only: no bank is ranked or named.
+
+**Data.** EBA EU-wide transparency exercise, full database (`tr_cre.csv`) with its metadata and
+data dictionary, from the EBA website.
+
+**Method.** NACE sections mapped to climate-policy-relevant sectors at the resolution the data
+allows, which is coarse and stated as the main limit. Intervals by resampling banks within a
+country. The mapping is swept. Cross-check of the totals against the aggregates the EBA
+publishes in the exercise's own report.
+
+**The question it answers.** "Where does transition risk concentrate in bank lending, read
+straight from supervisory disclosures?"
