@@ -1,0 +1,3 @@
+name,url,verified,note
+Eurostat nrg_bal_s (example query),https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_bal_s?format=JSON&geo=EU27_2020&unit=KTOE&siec=TOTAL&nrg_bal=FC_IND_E&nrg_bal=FC_TRA_E&nrg_bal=FC_OTH_HH_E&nrg_bal=FC_OTH_CP_E&sinceTimePeriod=2015,2026-11-10,JSON-stat; add geo codes for member states and FC_OTH_AF_E for agriculture
+Eurostat nama_10_a10 (example query),https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_a10?format=JSON&geo=EU27_2020&unit=CLV15_MEUR&na_item=B1G&nace_r2=C&sinceTimePeriod=2015,2026-11-10,JSON-stat; gross value added chain-linked volumes; vary nace_r2 and geo
