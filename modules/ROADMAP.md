@@ -23,7 +23,7 @@ draws on the work of, any employer.
 | 12 | `12-nature-dependency-encore` | **built** |
 | 13 | `13-transition-plan-nlp` | **built** |
 | 14 | `14-energy-intensity-lmdi` | **built** |
-| 15 | `15-solar-capture-rate` | power markets: what solar earns as its share grows |
+| 15 | `15-solar-capture-rate` | **built** |
 | 16 | `16-load-temperature` | energy demand and weather, fitted and backtested |
 | 17 | `17-monthly-annual-coherence` | data validation the way a statistics office runs it |
 | 18 | `18-power-emissions-nowcast` | nowcasting with a measured error |
