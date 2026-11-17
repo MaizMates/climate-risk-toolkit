@@ -1,0 +1,184 @@
+{
+ "accessed": "2026-11-17",
+ "first_day": "2019-01-01",
+ "last_day": "2026-10-31",
+ "load": {
+  "endpoint": "https://api.energy-charts.info/public_power",
+  "filter": "country=de, one calendar year per call (to last_day for the current year); series Load, MW, quarter-hourly",
+  "files": {
+   "2019": 35040,
+   "2020": 35136,
+   "2021": 35040,
+   "2022": 35040,
+   "2023": 35040,
+   "2024": 35136,
+   "2025": 35040,
+   "2026": 29184
+  }
+ },
+ "weather": {
+  "endpoint": "https://archive-api.open-meteo.com/v1/archive",
+  "filter": "daily=temperature_2m_mean, timezone=Europe/Berlin, one call per city and year",
+  "files": {
+   "Berlin_2019": 365,
+   "Berlin_2020": 366,
+   "Berlin_2021": 365,
+   "Berlin_2022": 365,
+   "Berlin_2023": 365,
+   "Berlin_2024": 366,
+   "Berlin_2025": 365,
+   "Berlin_2026": 304,
+   "Hamburg_2019": 365,
+   "Hamburg_2020": 366,
+   "Hamburg_2021": 365,
+   "Hamburg_2022": 365,
+   "Hamburg_2023": 365,
+   "Hamburg_2024": 366,
+   "Hamburg_2025": 365,
+   "Hamburg_2026": 304,
+   "Munich_2019": 365,
+   "Munich_2020": 366,
+   "Munich_2021": 365,
+   "Munich_2022": 365,
+   "Munich_2023": 365,
+   "Munich_2024": 366,
+   "Munich_2025": 365,
+   "Munich_2026": 304,
+   "Cologne_2019": 365,
+   "Cologne_2020": 366,
+   "Cologne_2021": 365,
+   "Cologne_2022": 365,
+   "Cologne_2023": 365,
+   "Cologne_2024": 366,
+   "Cologne_2025": 365,
+   "Cologne_2026": 304,
+   "Frankfurt am Main_2019": 365,
+   "Frankfurt am Main_2020": 366,
+   "Frankfurt am Main_2021": 365,
+   "Frankfurt am Main_2022": 365,
+   "Frankfurt am Main_2023": 365,
+   "Frankfurt am Main_2024": 366,
+   "Frankfurt am Main_2025": 365,
+   "Frankfurt am Main_2026": 304,
+   "Stuttgart_2019": 365,
+   "Stuttgart_2020": 366,
+   "Stuttgart_2021": 365,
+   "Stuttgart_2022": 365,
+   "Stuttgart_2023": 365,
+   "Stuttgart_2024": 366,
+   "Stuttgart_2025": 365,
+   "Stuttgart_2026": 304
+  }
+ },
+ "geocoding": {
+  "endpoint": "https://geocoding-api.open-meteo.com/v1/search",
+  "filter": "name=<city>, countryCode=DE, first result with population, count=5",
+  "cities": {
+   "Berlin": {
+    "name": "Berlin",
+    "admin1": "State of Berlin",
+    "latitude": 52.52437,
+    "longitude": 13.41053,
+    "population": 3426354,
+    "feature_code": "PPLC"
+   },
+   "Hamburg": {
+    "name": "Hamburg",
+    "admin1": "Free and Hanseatic City of Hamburg",
+    "latitude": 53.55073,
+    "longitude": 9.99302,
+    "population": 1973896,
+    "feature_code": "PPLA"
+   },
+   "Munich": {
+    "name": "Munich",
+    "admin1": "Bavaria",
+    "latitude": 48.13743,
+    "longitude": 11.57549,
+    "population": 1505005,
+    "feature_code": "PPLA"
+   },
+   "Cologne": {
+    "name": "Cologne",
+    "admin1": "North Rhine-Westphalia",
+    "latitude": 50.93333,
+    "longitude": 6.95,
+    "population": 1024621,
+    "feature_code": "PPLA2"
+   },
+   "Frankfurt am Main": {
+    "name": "Frankfurt am Main",
+    "admin1": "Hesse",
+    "latitude": 50.11552,
+    "longitude": 8.68417,
+    "population": 650000,
+    "feature_code": "PPLA3"
+   },
+   "Stuttgart": {
+    "name": "Stuttgart",
+    "admin1": "Baden-Wurttemberg",
+    "latitude": 48.78232,
+    "longitude": 9.17702,
+    "population": 612663,
+    "feature_code": "PPLA"
+   }
+  }
+ },
+ "holidays": {
+  "endpoint": "https://date.nager.at/api/v3/PublicHolidays/<year>/DE",
+  "files": {
+   "2019": 19,
+   "2020": 20,
+   "2021": 19,
+   "2022": 19,
+   "2023": 19,
+   "2024": 19,
+   "2025": 20,
+   "2026": 19
+  }
+ },
+ "dwd": {
+  "endpoint": "https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/daily/kl/",
+  "filter": "TMK (daily mean air temperature, deg C) of one station per city; ids resolved from the station list by name",
+  "stations": {
+   "Berlin": {
+    "id": "00433",
+    "name": "Berlin-Tempelhof"
+   },
+   "Hamburg": {
+    "id": "01975",
+    "name": "Hamburg-Fuhlsb\u00fcttel"
+   },
+   "Munich": {
+    "id": "03379",
+    "name": "M\u00fcnchen-Stadt"
+   },
+   "Cologne": {
+    "id": "02667",
+    "name": "K\u00f6ln/Bonn"
+   },
+   "Frankfurt am Main": {
+    "id": "01420",
+    "name": "Frankfurt/Main"
+   },
+   "Stuttgart": {
+    "id": "04928",
+    "name": "Stuttgart (Schnarrenberg)"
+   }
+  },
+  "files": {
+   "Berlin-Tempelhof_hist": "tageswerte_KL_00433_19480101_20251231_hist.zip",
+   "Berlin-Tempelhof_akt": "tageswerte_KL_00433_akt.zip",
+   "Hamburg-Fuhlsb\u00fcttel_hist": "tageswerte_KL_01975_19360101_20251231_hist.zip",
+   "Hamburg-Fuhlsb\u00fcttel_akt": "tageswerte_KL_01975_akt.zip",
+   "M\u00fcnchen-Stadt_hist": "tageswerte_KL_03379_19540601_20251231_hist.zip",
+   "M\u00fcnchen-Stadt_akt": "tageswerte_KL_03379_akt.zip",
+   "K\u00f6ln/Bonn_hist": "tageswerte_KL_02667_19570701_20251231_hist.zip",
+   "K\u00f6ln/Bonn_akt": "tageswerte_KL_02667_akt.zip",
+   "Frankfurt/Main_hist": "tageswerte_KL_01420_19350701_20251231_hist.zip",
+   "Frankfurt/Main_akt": "tageswerte_KL_01420_akt.zip",
+   "Stuttgart (Schnarrenberg)_hist": "tageswerte_KL_04928_19580101_20251231_hist.zip",
+   "Stuttgart (Schnarrenberg)_akt": "tageswerte_KL_04928_akt.zip"
+  }
+ }
+}

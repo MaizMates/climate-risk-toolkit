@@ -1,0 +1,7 @@
+city,name,admin1,latitude,longitude,population,feature_code,weight
+Berlin,Berlin,State of Berlin,52.52437,13.41053,3426354.0,PPLC,0.3727320602066524
+Hamburg,Hamburg,Free and Hanseatic City of Hamburg,53.55073,9.99302,1973896.0,PPLA,0.21472805282631927
+Munich,Munich,Bavaria,48.13743,11.57549,1505005.0,PPLA,0.16372027358273922
+Cologne,Cologne,North Rhine-Westphalia,50.93333,6.95,1024621.0,PPLA2,0.11146224128067338
+Frankfurt am Main,Frankfurt am Main,Hesse,50.11552,8.68417,650000.0,PPLA3,0.07070951779481165
+Stuttgart,Stuttgart,Baden-Wurttemberg,48.78232,9.17702,612663.0,PPLA,0.06664785430880413

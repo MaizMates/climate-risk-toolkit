@@ -1,0 +1,10 @@
+{
+ "days": 2861,
+ "first": "2019-01-01",
+ "last": "2026-10-31",
+ "days_dropped_missing_load": [],
+ "days_dropped_missing_weather": 0,
+ "days_without_dwd_temperature": 1,
+ "global_holidays": 72,
+ "non_standard_quarters_days": 16
+}
