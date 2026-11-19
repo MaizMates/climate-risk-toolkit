@@ -1,0 +1,32 @@
+geo,flow,years,outside,median_signed_gap,same_sign_share,median_abs_gap_gwh,share_flagged,annual_zero_share,monthly_zero_share,alt_closes,cause
+AT,DL,9,8,0.3751,1.0,888.355,0.0,0.375,0.0,1.0,"pattern, not documented: monthly matches annual total losses"
+AT,PS,18,11,-0.0099,0.8182,75.843,0.0,0.0,0.0,,unexplained
+BE,DL,9,9,0.3462,1.0,3719.32,0.0,0.5556,0.0,0.125,"pattern, not documented: annual is zero, monthly is not"
+BG,DL,9,8,0.5106,1.0,2602.4685,0.0,0.625,0.0,0.875,"pattern, not documented: annual is zero, monthly is not"
+BG,PS,18,15,-0.0061,0.6,19.211,0.0,0.0,0.0,,unexplained
+CZ,DL,9,8,0.393,1.0,3858.0085,0.0,0.625,0.0,0.875,"pattern, not documented: annual is zero, monthly is not"
+DE,DL,5,4,0.4762,1.0,9377.5645,0.0,0.25,0.0,0.75,"pattern, not documented: monthly matches annual total losses"
+DK,DL,9,9,0.9132,0.8889,935.912,0.0,0.3333,0.0,0.0,unexplained
+EE,DL,5,5,-1.0,1.0,858.62,0.0,0.0,1.0,0.0,"pattern, not documented: monthly is zero, annual is not"
+EL,DL,9,9,-0.7697,0.5556,1484.701,0.1111,0.5556,0.0,0.125,"pattern, not documented: annual is zero, monthly is not"
+EL,PS,18,9,0.0005,0.7778,13.39,0.0,0.0,0.0,,unexplained
+ES,DL,9,9,0.1762,1.0,23689.571,0.3333,0.5556,0.0,0.125,"pattern, not documented: annual is zero, monthly is not"
+ES,PS,18,13,0.0015,0.6154,177.243,0.0,0.0,0.0,,unexplained
+FI,DL,6,5,0.9484,1.0,1515.0,0.2,0.2,0.0,0.2,unexplained
+FR,DL,9,9,0.3748,1.0,10051.574,0.6667,0.0,0.0,0.125,documented: Eurostat flag on the observation
+FR,IMP,18,16,-0.0453,1.0,712.4805,0.0,0.0,0.0,,unexplained
+FR,PS,18,9,-0.0086,0.7778,144.473,0.0,0.0,0.0,,unexplained
+HR,PS,15,15,0.0119,0.5333,6.0,0.0,0.0,0.0,,unexplained
+HU,DL,5,4,0.2063,1.0,504.6075,0.0,0.25,0.0,1.0,"pattern, not documented: monthly matches annual total losses"
+IE,DL,7,7,0.1709,0.8571,391.561,0.0,0.0,0.1429,0.3333,unexplained
+IT,PS,18,16,-0.0218,0.875,73.689,0.0,0.0,0.0,,unexplained
+LT,DL,9,8,0.6463,1.0,900.922,0.125,0.625,0.0,0.625,"pattern, not documented: annual is zero, monthly is not"
+LU,DL,5,5,0.3249,1.0,43.585,0.6,0.2,0.0,0.0,documented: Eurostat flag on the observation
+MT,DL,5,3,-1.0,1.0,187.166,0.0,0.0,1.0,0.0,"pattern, not documented: monthly is zero, annual is not"
+NL,DL,8,7,0.3612,1.0,1271.066,0.7143,0.0,0.0,0.2857,documented: Eurostat flag on the observation
+PL,DL,9,9,-0.0117,0.7778,8108.222,0.0,0.5556,0.0,0.0,"pattern, not documented: annual is zero, monthly is not"
+PT,DL,5,5,0.2437,1.0,1139.048,1.0,0.2,0.0,0.0,documented: Eurostat flag on the observation
+RO,PS,17,17,-1.0,1.0,466.424,0.0588,0.0,0.9412,,"pattern, not documented: monthly is zero, annual is not"
+SE,DL,9,8,0.8033,1.0,10312.445,0.0,0.625,0.0,0.25,"pattern, not documented: annual is zero, monthly is not"
+SE,PS,18,17,-0.5876,1.0,124.0,0.0,0.0,0.0,,unexplained
+SI,DL,8,8,0.7621,0.875,612.6265,0.0,0.5,0.0,0.7143,"pattern, not documented: annual is zero, monthly is not"

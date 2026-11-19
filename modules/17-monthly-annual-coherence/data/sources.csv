@@ -1,0 +1,3 @@
+name,url,verified,note
+Eurostat nrg_cb_em monthly electricity (example query),https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_cb_em?format=JSON&geo=IT&siec=E7000&unit=GWH&sinceTimePeriod=2023-01,2026-11-10,JSON-stat; several nrg_bal flows per country
+Eurostat nrg_cb_e annual electricity (example query),https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_cb_e?format=JSON&geo=IT&siec=E7000&unit=GWH&sinceTimePeriod=2020,2026-11-10,JSON-stat; match nrg_bal codes present in both datasets

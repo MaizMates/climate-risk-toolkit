@@ -1,0 +1,79 @@
+{
+ "accessed": "2026-11-19",
+ "datasets": {
+  "nrg_cb_em": {
+   "endpoint": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_cb_em",
+   "filter": "format=JSON&siec=E7000&unit=GWH",
+   "updated": "2026-11-16T23:00:00+0100",
+   "dimensions": {
+    "freq": 1,
+    "nrg_bal": 7,
+    "siec": 1,
+    "unit": 1,
+    "geo": 41,
+    "time": 225
+   },
+   "values": 44624,
+   "obs_period_oldest": "2008-01",
+   "obs_period_latest": "2026-09",
+   "flag_labels": {
+    "p": "provisional",
+    "e": "estimated",
+    "u": "low reliability",
+    "b": "break in time series"
+   }
+  },
+  "nrg_cb_pem": {
+   "endpoint": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_cb_pem",
+   "filter": "format=JSON&siec=TOTAL&unit=GWH",
+   "updated": "2026-11-16T23:00:00+0100",
+   "dimensions": {
+    "freq": 1,
+    "siec": 1,
+    "unit": 1,
+    "geo": 42,
+    "time": 225
+   },
+   "values": 7901,
+   "obs_period_oldest": "2008-01",
+   "obs_period_latest": "2026-09",
+   "flag_labels": {
+    "p": "provisional",
+    "e": "estimated"
+   }
+  },
+  "nrg_cb_e": {
+   "endpoint": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_cb_e",
+   "filter": "format=JSON&siec=E7000&unit=GWH",
+   "updated": "2026-10-22T23:00:00+0200",
+   "dimensions": {
+    "freq": 1,
+    "nrg_bal": 63,
+    "siec": 1,
+    "unit": 1,
+    "geo": 43,
+    "time": 36
+   },
+   "values": 78105,
+   "obs_period_oldest": "1990",
+   "obs_period_latest": "2025",
+   "flag_labels": {
+    "p": "provisional",
+    "e": "estimated",
+    "d": "definition differs (see metadata)",
+    "b": "break in time series"
+   }
+  }
+ },
+ "ember": {
+  "ember_yearly.csv": {
+   "endpoint": "https://files.ember-energy.org/public-downloads/generation/outputs/release_generation_yearly_global.csv",
+   "bytes": 16149377,
+   "rows": 104169
+  }
+ },
+ "metadata": {
+  "endpoint": "https://ec.europa.eu/eurostat/cache/metadata/en/nrg_prd_esms.htm",
+  "use": "quality notes: revision policy, provisional data"
+ }
+}

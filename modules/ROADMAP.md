@@ -25,7 +25,7 @@ draws on the work of, any employer.
 | 14 | `14-energy-intensity-lmdi` | **built** |
 | 15 | `15-solar-capture-rate` | **built** |
 | 16 | `16-load-temperature` | **built** |
-| 17 | `17-monthly-annual-coherence` | data validation the way a statistics office runs it |
+| 17 | `17-monthly-annual-coherence` | **built** |
 | 18 | `18-power-emissions-nowcast` | nowcasting with a measured error |
 | 19 | `19-transition-exposure-banking` | supervisory data: sector exposures from the EBA transparency exercise |
 

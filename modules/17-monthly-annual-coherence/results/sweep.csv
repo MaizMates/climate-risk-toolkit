@@ -1,0 +1,33 @@
+group,label,n,share_within,lo,hi,median_abs_gap,p90,n_persistent
+base,"headline: EU27, IMP EXP DL PS, 2008-2025, tolerance 1%",1427,0.69026,0.66759,0.71399,0.00042,0.60011,31
+tolerance,tolerance 0.1%,1427,0.55221,0.52523,0.57893,0.00042,0.60011,46
+tolerance,tolerance 0.5%,1427,0.64121,0.61215,0.66829,0.00042,0.60011,33
+tolerance,tolerance 2%,1427,0.7316,0.70892,0.75495,0.00042,0.60011,29
+tolerance,tolerance 5%,1427,0.78206,0.76061,0.80295,0.00042,0.60011,24
+tolerance,tolerance 10%,1427,0.8185,0.80013,0.83478,0.00042,0.60011,23
+flows,flows: IMP EXP,912,0.86294,0.83643,0.89159,9e-05,0.02804,1
+flows,flows: IMP EXP DL,1090,0.73303,0.70598,0.76084,0.00019,0.62376,22
+flows,flows: IMP EXP PS,1249,0.77902,0.75521,0.80589,0.00019,0.06625,10
+flows,flows: IMP only,457,0.84683,0.81182,0.87965,7e-05,0.03484,1
+flows,flows: EXP only,455,0.87912,0.8483,0.90769,0.00013,0.0186,0
+flows,flows: DL only,178,0.06742,0.03371,0.10674,0.79607,inf,21
+flows,flows: PS only,337,0.55193,0.50438,0.60245,0.00755,0.41333,9
+flows,flows: core + NEP (nrg_cb_pem),1910,0.61832,0.59819,0.6377,0.00318,0.33187,49
+flows,flows: NEP only (nrg_cb_pem),483,0.4058,0.35611,0.44519,0.01326,0.05841,18
+flows,DL against annual LOSS,1401,0.73091,0.7078,0.75669,0.00028,0.10567,20
+flows,"DL only, against annual LOSS",152,0.33553,0.25658,0.40789,0.03176,1.0,10
+window,years 2015-2025,955,0.67749,0.65199,0.70465,0.00026,1.0,29
+window,years 2018-2025,733,0.65757,0.62856,0.68182,0.00028,1.0,30
+window,years 2008-2024,1330,0.68571,0.66022,0.70799,0.00047,0.66881,26
+window,years 2008-2019,861,0.71545,0.68432,0.74763,0.00046,0.32314,15
+window,years 2019-2025,651,0.65131,0.62403,0.67822,0.0003,1.0,30
+zero pairs,count pairs with both figures zero as coherent,1641,0.73065,0.70918,0.75336,0.00016,0.4192,33
+population,all countries with data (EU27 + others),1769,0.67552,0.65104,0.69843,0.00049,0.75739,38
+size floor,annual figure at least 10 GWh,1366,0.71816,0.69252,0.74293,0.0003,0.31922,19
+size floor,annual figure at least 100 GWh,1342,0.72727,0.70315,0.7523,0.00027,0.29186,17
+size floor,annual figure at least 1000 GWh,1127,0.76131,0.73421,0.7902,0.00019,0.12934,11
+flags,drop observations with an Eurostat flag,1295,0.69653,0.6735,0.72137,0.00042,0.67887,23
+persistence rule,"persistent: 75% of years outside, at least 5 years",1427,0.69026,0.66759,0.71399,0.00042,0.60011,26
+persistence rule,"persistent: 100% of years outside, at least 5 years",1427,0.69026,0.66759,0.71399,0.00042,0.60011,13
+persistence rule,"persistent: 50% of years outside, at least 3 years",1427,0.69026,0.66759,0.71399,0.00042,0.60011,36
+persistence rule,"persistent: 50% of years outside, at least 8 years",1427,0.69026,0.66759,0.71399,0.00042,0.60011,23

@@ -1,0 +1,212 @@
+{
+ "window": [
+  2008,
+  2025
+ ],
+ "tol": 0.01,
+ "flows": [
+  "IMP",
+  "EXP",
+  "DL",
+  "PS"
+ ],
+ "persist_rule": {
+  "share": 0.5,
+  "min_years": 5
+ },
+ "seed": 17,
+ "draws": 2000,
+ "n_countries": 27,
+ "n_country_years": 462,
+ "headline": {
+  "n": 1427.0,
+  "share_within": 0.6902592852137351,
+  "median": 0.00042186311766042494,
+  "p75": 0.02803904170363798,
+  "p90": 0.6001094929881338,
+  "p95": 1.0,
+  "n_persistent": 31
+ },
+ "inf_share": 0.039243167484232656,
+ "ci_country_year": {
+  "share_within": [
+   0.6666666666666666,
+   0.7125958902723241
+  ],
+  "median": [
+   0.00026034836403737716,
+   0.0006788866259334691
+  ],
+  "p90": [
+   0.41920011289867337,
+   0.784523811315546
+  ],
+  "n_persistent": [
+   25.0,
+   33.0
+  ],
+  "by_flow": {
+   "IMP": [
+    0.8135862492770388,
+    0.8796498905908097
+   ],
+   "EXP": [
+    0.8495575221238938,
+    0.9100975350494138
+   ],
+   "DL": [
+    0.031446540880503145,
+    0.1058236097971197
+   ],
+   "PS": [
+    0.5,
+    0.6053432573022058
+   ]
+  }
+ },
+ "ci_country": {
+  "share_within": [
+   0.6327660709151449,
+   0.7466671318911375
+  ],
+  "median": [
+   0.00017260723224303098,
+   0.0014497761310566107
+  ],
+  "p90": [
+   0.3231377345022799,
+   1.0
+  ],
+  "n_persistent": [
+   16.0,
+   26.0
+  ],
+  "by_flow": {
+   "IMP": [
+    0.7675782033058153,
+    0.9088788847892635
+   ],
+   "EXP": [
+    0.8329762100854178,
+    0.9164971927635682
+   ],
+   "DL": [
+    0.037032163742690055,
+    0.10169745255252206
+   ],
+   "PS": [
+    0.3864256001271793,
+    0.7029995898998181
+   ]
+  }
+ },
+ "persistent_causes": {
+  "unexplained": 12,
+  "pattern, not documented: annual is zero, monthly is not": 9,
+  "documented: Eurostat flag on the observation": 4,
+  "pattern, not documented: monthly matches annual total losses": 3,
+  "pattern, not documented: monthly is zero, annual is not": 3
+ },
+ "persistent_by_flow": {
+  "DL": 21,
+  "PS": 9,
+  "IMP": 1
+ },
+ "flagged": {
+  "n": 40,
+  "share_within": 0.25,
+  "share_within_unflagged": 0.702956020187455,
+  "diff": -0.45295602018745496,
+  "diff_ci": [
+   -0.6266440774950023,
+   -0.27926916945316044
+  ]
+ },
+ "dl_break": {
+  "n": 26,
+  "median_annual_ratio": 1.3737301012391465,
+  "median_monthly_ratio": 1.0148826561147857,
+  "annual_ratio_min": 1.0233767277223413,
+  "annual_ratio_max": 2.110743201989187,
+  "annual_ratio_gt_1_2": 24
+ },
+ "dl_over_loss": {
+  "2017": {
+   "annual_dl": 0.0,
+   "monthly_dl": 0.9738602941449526
+  },
+  "2018": {
+   "annual_dl": 0.0,
+   "monthly_dl": 0.9999998388076408
+  },
+  "2019": {
+   "annual_dl": 0.0,
+   "monthly_dl": 0.9998800019106493
+  },
+  "2020": {
+   "annual_dl": 0.0,
+   "monthly_dl": 0.9858878924133236
+  },
+  "2021": {
+   "annual_dl": 0.0,
+   "monthly_dl": 0.9564442761494525
+  },
+  "2022": {
+   "annual_dl": 0.7174690576346503,
+   "monthly_dl": 0.9999994552507956
+  },
+  "2023": {
+   "annual_dl": 0.7263739182105784,
+   "monthly_dl": 0.9682412716696789
+  },
+  "2024": {
+   "annual_dl": 0.7244268326372166,
+   "monthly_dl": 0.9994494986203604
+  }
+ },
+ "dl_share_by_year": {
+  "2017": 0.21428571428571427,
+  "2018": 0.1875,
+  "2019": 0.17647058823529413,
+  "2020": 0.16666666666666666,
+  "2021": 0.19230769230769232,
+  "2022": 0.0,
+  "2023": 0.037037037037037035,
+  "2024": 0.038461538461538464,
+  "2025": 0.4230769230769231
+ },
+ "imp_exp": {
+  "n": 455,
+  "corr_gwh_gap": 0.9604625434962648,
+  "same_sign_share": 0.5494505494505495
+ },
+ "rank_corr_min": 0.411510185246453,
+ "rank_corr_min_pair": [
+  "flows IMP EXP",
+  "years 2015-2025"
+ ],
+ "ember": {
+  "n": 182,
+  "median_abs_diff_monthly": 3.0,
+  "median_abs_diff_annual": 2.4035000000005766,
+  "share_closer_to_annual": 0.5439560439560439,
+  "share_closer_ci": [
+   0.46703296703296704,
+   0.6153846153846154
+  ],
+  "within_1pct_monthly": 0.8956043956043956,
+  "within_1pct_annual": 0.978021978021978,
+  "within_1pct_diff": 0.08241758241758235,
+  "within_1pct_diff_ci": [
+   0.038461538461538464,
+   0.12087912087912088
+  ]
+ },
+ "zero_pairs_dropped": 214,
+ "small_flows": {
+  "share_under_100": 0.05956552207428171,
+  "share_within_under_100": 0.10588235294117647,
+  "share_within_100_plus": 0.7272727272727273
+ },
+ "backtest": "none: the module estimates a property of published data and projects nothing"
+}
