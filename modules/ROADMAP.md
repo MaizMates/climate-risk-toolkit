@@ -28,6 +28,9 @@ draws on the work of, any employer.
 | 17 | `17-monthly-annual-coherence` | **built** |
 | 18 | `18-power-emissions-nowcast` | nowcasting with a measured error |
 | 19 | `19-transition-exposure-banking` | supervisory data: sector exposures from the EBA transparency exercise |
+| 20 | `20-bidding-zone-price-convergence` | market coupling: how often neighbouring zones clear at one price |
+| 21 | `21-carbon-cost-margin-stress` | credit: the carbon price that erases a sector's operating surplus |
+| 22 | `22-residual-load-ramps` | system adequacy: the flexibility that wind and solar demand of the grid |
 
 ---
 
@@ -336,3 +339,83 @@ publishes in the exercise's own report.
 
 **The question it answers.** "Where does transition risk concentrate in bank lending, read
 straight from supervisory disclosures?"
+
+---
+
+Modules 20 to 22 continue the alternation: power markets, credit, power system.
+
+## 20 — `20-bidding-zone-price-convergence`
+
+**Estimand.** For each border between DE-LU and a neighbouring bidding zone (FR, NL, AT, PL,
+DK1, BE), the share of hours per calendar year, from 2019, in which the two day-ahead prices
+are equal to within 0.01 EUR/MWh. Then the mean absolute price spread in the hours in which
+they differ. A shared price means the interconnector was not binding; a spread means it was.
+
+**Data.** Energy-Charts API (Fraunhofer ISE, data from Bundesnetzagentur SMARD, CC BY 4.0):
+`/price?bzn=<zone>` for each zone, hourly until the day-ahead market moved to 15-minute
+products in October 2025 and quarter-hourly after. The API rate-limits (HTTP 429), so the fetch
+pauses between calls and retries, and caches raw responses in the repository.
+
+**Method.** Align on a common time grid (quarter-hours averaged to the hour after the switch,
+so every year is on the same unit). Intervals by block bootstrap over weeks, because congestion
+persists across hours. Sweep: the equality tolerance (0.01, 0.1, 1 EUR/MWh), the treatment of
+the 2022 price crisis, and hourly versus daily aggregation. No forward-looking claim, so no
+backtest; the module says so rather than inventing one.
+
+**Validation.** None from a second machine-readable source: the regulator's market monitoring
+reports publish convergence figures, but not as an endpoint a script can fetch. The module
+states this as a limit and does not transcribe them.
+
+**The question it answers.** "How integrated is the European day-ahead market in practice, and
+which borders bind?"
+
+## 21 — `21-carbon-cost-margin-stress`
+
+**Estimand.** For each NACE manufacturing and energy section in the EU27, the break-even carbon
+price: the price in EUR per tCO2e at which the sector's gross greenhouse-gas bill, with no
+pass-through, equals its gross operating surplus. Then the same figure for 2030 under the
+sector's own trend in emission intensity.
+
+**Data.** Eurostat air emissions accounts `env_ac_ainah_r2` (GHG, thousand tonnes CO2e) and
+national accounts by industry `nama_10_a64` (current prices, EUR million): gross value added
+`B1G`, compensation of employees `D1` and other taxes less subsidies on production `D29X39`.
+Gross operating surplus is derived as `B1G - D1 - D29X39`, from the Eurostat API.
+
+**Method.** Break-even price = surplus divided by emissions, by sector and year. Intervals
+by resampling member states within the sector. The 2030 figure extrapolates the log trend of
+emission intensity per unit of surplus. Backtest: fit on years up to t, predict t+3, and use
+the realised errors for the interval on the 2030 figure. Sweep: the emission scope (all GHG or
+CO2 only), the pass-through share, and the window of the trend fit.
+
+**Validation.** The NACE-based accounts follow the residence principle and the national
+inventory `env_air_gge` the territorial one; the module reconciles the EU27 totals and reports
+the gap rather than hiding it.
+
+**The limit to state first.** The accounts cover all emissions of a sector, ETS and non-ETS,
+and free allocation is not in the data. The break-even price is a ceiling on exposure, not a
+forecast of the bill.
+
+**The question it answers.** "At what carbon price does a sector stop earning its cost of
+doing business, and how fast is that moving?"
+
+## 22 — `22-residual-load-ramps`
+
+**Estimand.** The 99th percentile of the three-hour upward ramp in German residual load (load
+minus wind and solar generation), in GW, by calendar year from 2019. Reported also as a share of
+peak load, and then the change in that ramp per GW of added solar capacity.
+
+**Data.** Energy-Charts API: `/public_power?country=de` (quarter-hourly Load, Wind onshore, Wind
+offshore, Solar) and `/installed_power?country=de&time_step=yearly` for capacity by type.
+Fetched in monthly requests with pauses, because a year is a 5 MB response and the API rate-limits.
+
+**Method.** Compute the ramp on rolling three-hour windows. Interval on the percentile by block
+bootstrap over days. Regress the annual ramp on installed solar and wind capacity. Backtest: fit
+up to year t-1, predict the ramp of year t, and report the error of each year; the interval on
+the forward figure for a stated solar capacity comes from those errors. Sweep: window length
+(1, 3, 6 hours), percentile (95, 99, 99.9) and the treatment of the DST days.
+
+**Validation.** The `Residual load` series the API publishes itself is compared with the one
+computed here, and the difference is reported.
+
+**The question it answers.** "How much flexibility does the grid need within three hours, and
+how fast is that number growing with solar?"
