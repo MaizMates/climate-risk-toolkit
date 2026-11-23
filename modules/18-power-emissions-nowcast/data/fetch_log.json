@@ -1,0 +1,15 @@
+{
+ "accessed": "2026-11-23",
+ "ember": {
+  "endpoint": "https://files.ember-energy.org/public-downloads/generation/outputs/release_generation_monthly_global.csv",
+  "filter": "none (whole file)",
+  "bytes": 29477581,
+  "rows": 184503
+ },
+ "eurostat": {
+  "endpoint": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/env_air_gge",
+  "filter": "format=JSON&geo=EU27_2020&airpol=GHG&src_crf=CRF1A1A&unit=MIO_T",
+  "updated": "2026-06-02T23:00:00+0200",
+  "values": 35
+ }
+}

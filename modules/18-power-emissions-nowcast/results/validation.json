@@ -1,0 +1,38 @@
+{
+ "members_Fossil": {
+  "months": 58,
+  "first": "2021-12",
+  "max_abs_rel_diff": 0.004299076279556243,
+  "mean_rel_diff": -0.00306197626035321
+ },
+ "members_Total generation": {
+  "months": 94,
+  "first": "2018-12",
+  "max_abs_rel_diff": 0.004143646408839757,
+  "mean_rel_diff": -0.0030702743345252786
+ },
+ "crf_Fossil": {
+  "years": [
+   2016,
+   2024
+  ],
+  "mean_ratio": 0.9925709488180738,
+  "corr_levels": 0.9977334695876949,
+  "corr_changes": 0.9952268257176738,
+  "same_sign": 0.875,
+  "n_changes": 8,
+  "rmse_change_pp": 1.0186217854248678
+ },
+ "crf_Total generation": {
+  "years": [
+   2016,
+   2024
+  ],
+  "mean_ratio": 1.0632689828012387,
+  "corr_levels": 0.9974361743727048,
+  "corr_changes": 0.9965990054740654,
+  "same_sign": 0.875,
+  "n_changes": 8,
+  "rmse_change_pp": 1.1562097939456335
+ }
+}

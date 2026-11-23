@@ -1,0 +1,2 @@
+name,url,verified,note
+Ember monthly electricity data (global long format),https://files.ember-energy.org/public-downloads/generation/outputs/release_generation_monthly_global.csv,2026-11-10,"CSV 29 MB; columns Area, ISO 3 code, Date, Electricity source, Generation (TWh), Emissions (MtCO2e), EU member; CC BY 4.0"

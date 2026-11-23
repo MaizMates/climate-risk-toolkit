@@ -1,0 +1,405 @@
+Date,source,emis_mt,n_states
+2010-01,Fossil,1.621,2
+2010-01,Total generation,1.6260000000000001,2
+2010-02,Fossil,1.5179999999999998,2
+2010-02,Total generation,1.5219999999999998,2
+2010-03,Fossil,1.4769999999999999,2
+2010-03,Total generation,1.48,2
+2010-04,Fossil,1.278,2
+2010-04,Total generation,1.282,2
+2010-05,Fossil,1.32,2
+2010-05,Total generation,1.322,2
+2010-06,Fossil,1.3139999999999998,2
+2010-06,Total generation,1.3159999999999998,2
+2010-07,Fossil,1.343,2
+2010-07,Total generation,1.347,2
+2010-08,Fossil,1.425,2
+2010-08,Total generation,1.428,2
+2010-09,Fossil,1.3719999999999999,2
+2010-09,Total generation,1.3769999999999998,2
+2010-10,Fossil,1.379,2
+2010-10,Total generation,1.384,2
+2010-11,Fossil,1.4180000000000001,2
+2010-11,Total generation,1.4249999999999998,2
+2010-12,Fossil,1.677,2
+2010-12,Total generation,1.681,2
+2011-01,Fossil,1.556,2
+2011-01,Total generation,1.562,2
+2011-02,Fossil,1.311,2
+2011-02,Total generation,1.318,2
+2011-03,Fossil,1.502,2
+2011-03,Total generation,1.506,2
+2011-04,Fossil,1.229,2
+2011-04,Total generation,1.233,2
+2011-05,Fossil,1.134,2
+2011-05,Total generation,1.141,2
+2011-06,Fossil,1.27,2
+2011-06,Total generation,1.274,2
+2011-07,Fossil,1.33,2
+2011-07,Total generation,1.332,2
+2011-08,Fossil,1.38,2
+2011-08,Total generation,1.383,2
+2011-09,Fossil,1.221,2
+2011-09,Total generation,1.227,2
+2011-10,Fossil,1.311,2
+2011-10,Total generation,1.319,2
+2011-11,Fossil,1.304,2
+2011-11,Total generation,1.313,2
+2011-12,Fossil,1.3519999999999999,2
+2011-12,Total generation,1.364,2
+2012-01,Fossil,1.413,2
+2012-01,Total generation,1.424,2
+2012-02,Fossil,1.4100000000000001,2
+2012-02,Total generation,1.4180000000000001,2
+2012-03,Fossil,1.367,2
+2012-03,Total generation,1.375,2
+2012-04,Fossil,1.2690000000000001,2
+2012-04,Total generation,1.2770000000000001,2
+2012-05,Fossil,1.318,2
+2012-05,Total generation,1.3250000000000002,2
+2012-06,Fossil,1.281,2
+2012-06,Total generation,1.287,2
+2012-07,Fossil,1.442,2
+2012-07,Total generation,1.449,2
+2012-08,Fossil,1.289,2
+2012-08,Total generation,1.295,2
+2012-09,Fossil,1.258,2
+2012-09,Total generation,1.265,2
+2012-10,Fossil,1.424,2
+2012-10,Total generation,1.431,2
+2012-11,Fossil,1.401,2
+2012-11,Total generation,1.409,2
+2012-12,Fossil,1.352,2
+2012-12,Total generation,1.3639999999999999,2
+2013-01,Fossil,1.3550000000000002,2
+2013-01,Total generation,1.366,2
+2013-02,Fossil,1.22,2
+2013-02,Total generation,1.229,2
+2013-03,Fossil,1.4000000000000001,2
+2013-03,Total generation,1.4080000000000001,2
+2013-04,Fossil,1.204,2
+2013-04,Total generation,1.214,2
+2013-05,Fossil,1.02,2
+2013-05,Total generation,1.028,2
+2013-06,Fossil,1.158,2
+2013-06,Total generation,1.1640000000000001,2
+2013-07,Fossil,1.3840000000000001,2
+2013-07,Total generation,1.389,2
+2013-08,Fossil,1.22,2
+2013-08,Total generation,1.227,2
+2013-09,Fossil,1.1949999999999998,2
+2013-09,Total generation,1.201,2
+2013-10,Fossil,1.1280000000000001,2
+2013-10,Total generation,1.137,2
+2013-11,Fossil,1.191,2
+2013-11,Total generation,1.198,2
+2013-12,Fossil,1.147,2
+2013-12,Total generation,1.1600000000000001,2
+2014-01,Fossil,1.118,2
+2014-01,Total generation,1.131,2
+2014-02,Fossil,0.97,2
+2014-02,Total generation,0.9810000000000001,2
+2014-03,Fossil,1.198,2
+2014-03,Total generation,1.2089999999999999,2
+2014-04,Fossil,1.196,2
+2014-04,Total generation,1.204,2
+2014-05,Fossil,1.147,2
+2014-05,Total generation,1.155,2
+2014-06,Fossil,1.1909999999999998,2
+2014-06,Total generation,1.197,2
+2014-07,Fossil,1.291,2
+2014-07,Total generation,1.296,2
+2014-08,Fossil,1.239,2
+2014-08,Total generation,1.246,2
+2014-09,Fossil,1.311,2
+2014-09,Total generation,1.318,2
+2014-10,Fossil,1.1560000000000001,2
+2014-10,Total generation,1.166,2
+2014-11,Fossil,1.261,2
+2014-11,Total generation,1.271,2
+2014-12,Fossil,1.238,2
+2014-12,Total generation,1.252,2
+2015-01,Fossil,77.84,21
+2015-01,Total generation,81.181,22
+2015-02,Fossil,73.203,21
+2015-02,Total generation,76.378,22
+2015-03,Fossil,71.38000000000001,21
+2015-03,Total generation,74.80799999999999,22
+2015-04,Fossil,61.976,21
+2015-04,Total generation,65.17699999999999,22
+2015-05,Fossil,55.132999999999996,21
+2015-05,Total generation,58.410000000000004,22
+2015-06,Fossil,60.107,21
+2015-06,Total generation,63.138,22
+2015-07,Fossil,69.02799999999999,21
+2015-07,Total generation,72.05799999999999,22
+2015-08,Fossil,65.823,21
+2015-08,Total generation,68.744,22
+2015-09,Fossil,69.729,21
+2015-09,Total generation,72.54299999999999,22
+2015-10,Fossil,78.19500000000001,21
+2015-10,Total generation,81.175,22
+2015-11,Fossil,72.59,21
+2015-11,Total generation,75.67,22
+2015-12,Fossil,73.046,21
+2015-12,Total generation,76.271,22
+2016-01,Fossil,86.019,23
+2016-01,Total generation,89.901,24
+2016-02,Fossil,70.634,23
+2016-02,Total generation,74.488,24
+2016-03,Fossil,74.655,23
+2016-03,Total generation,78.66499999999999,24
+2016-04,Fossil,63.799,23
+2016-04,Total generation,67.665,24
+2016-05,Fossil,60.186,23
+2016-05,Total generation,64.079,24
+2016-06,Fossil,64.403,23
+2016-06,Total generation,68.061,24
+2016-07,Fossil,70.307,23
+2016-07,Total generation,73.988,24
+2016-08,Fossil,68.289,23
+2016-08,Total generation,71.894,24
+2016-09,Fossil,77.883,23
+2016-09,Total generation,81.139,24
+2016-10,Fossil,86.21,23
+2016-10,Total generation,89.592,24
+2016-11,Fossil,89.156,23
+2016-11,Total generation,92.685,24
+2016-12,Fossil,93.2,23
+2016-12,Total generation,96.884,24
+2017-01,Fossil,101.732,24
+2017-01,Total generation,105.634,25
+2017-02,Fossil,81.148,24
+2017-02,Total generation,84.789,25
+2017-03,Fossil,74.968,24
+2017-03,Total generation,79.105,25
+2017-04,Fossil,67.103,24
+2017-04,Total generation,70.95400000000001,25
+2017-05,Fossil,69.194,24
+2017-05,Total generation,73.051,25
+2017-06,Fossil,67.04599999999999,24
+2017-06,Total generation,70.737,25
+2017-07,Fossil,73.715,24
+2017-07,Total generation,77.352,25
+2017-08,Fossil,69.658,24
+2017-08,Total generation,73.279,25
+2017-09,Fossil,70.825,24
+2017-09,Total generation,74.305,25
+2017-10,Fossil,75.83500000000001,24
+2017-10,Total generation,79.46300000000001,25
+2017-11,Fossil,86.842,24
+2017-11,Total generation,90.475,25
+2017-12,Fossil,79.245,24
+2017-12,Total generation,83.177,25
+2018-01,Fossil,77.149,25
+2018-01,Total generation,81.261,26
+2018-02,Fossil,81.847,25
+2018-02,Total generation,85.747,26
+2018-03,Fossil,77.22,25
+2018-03,Total generation,81.541,26
+2018-04,Fossil,56.552,25
+2018-04,Total generation,60.695,26
+2018-05,Fossil,58.737,25
+2018-05,Total generation,62.813,26
+2018-06,Fossil,61.838,25
+2018-06,Total generation,65.614,26
+2018-07,Fossil,73.598,25
+2018-07,Total generation,77.366,26
+2018-08,Fossil,72.038,25
+2018-08,Total generation,75.68599999999999,26
+2018-09,Fossil,71.42099999999999,25
+2018-09,Total generation,74.959,26
+2018-10,Fossil,76.227,25
+2018-10,Total generation,79.903,26
+2018-11,Fossil,81.666,25
+2018-11,Total generation,85.413,26
+2018-12,Fossil,77.206,26
+2018-12,Total generation,81.268,27
+2019-01,Fossil,85.904,26
+2019-01,Total generation,90.133,27
+2019-02,Fossil,70.029,26
+2019-02,Total generation,73.91,27
+2019-03,Fossil,60.954,26
+2019-03,Total generation,65.333,27
+2019-04,Fossil,57.9,26
+2019-04,Total generation,61.929,27
+2019-05,Fossil,56.028,26
+2019-05,Total generation,60.093,27
+2019-06,Fossil,52.791,26
+2019-06,Total generation,56.76,27
+2019-07,Fossil,61.900999999999996,26
+2019-07,Total generation,65.802,27
+2019-08,Fossil,58.934,26
+2019-08,Total generation,62.699999999999996,27
+2019-09,Fossil,58.233999999999995,26
+2019-09,Total generation,61.759,27
+2019-10,Fossil,66.292,26
+2019-10,Total generation,70.071,27
+2019-11,Fossil,69.294,26
+2019-11,Total generation,73.279,27
+2019-12,Fossil,61.512,26
+2019-12,Total generation,65.854,27
+2020-01,Fossil,68.794,26
+2020-01,Total generation,73.03,27
+2020-02,Fossil,54.408,26
+2020-02,Total generation,58.53,27
+2020-03,Fossil,53.172,26
+2020-03,Total generation,57.671,27
+2020-04,Fossil,40.226,26
+2020-04,Total generation,44.418,27
+2020-05,Fossil,40.219,26
+2020-05,Total generation,44.561,27
+2020-06,Fossil,45.614000000000004,26
+2020-06,Total generation,49.641000000000005,27
+2020-07,Fossil,52.444,26
+2020-07,Total generation,56.526,27
+2020-08,Fossil,54.302,26
+2020-08,Total generation,58.294000000000004,27
+2020-09,Fossil,57.981,26
+2020-09,Total generation,61.805,27
+2020-10,Fossil,57.118,26
+2020-10,Total generation,61.169,27
+2020-11,Fossil,64.85,26
+2020-11,Total generation,68.761,27
+2020-12,Fossil,65.262,26
+2020-12,Total generation,69.472,27
+2021-01,Fossil,71.33,26
+2021-01,Total generation,75.902,27
+2021-02,Fossil,56.791,26
+2021-02,Total generation,61.155,27
+2021-03,Fossil,59.498000000000005,26
+2021-03,Total generation,64.20100000000001,27
+2021-04,Fossil,54.527,26
+2021-04,Total generation,59.023,27
+2021-05,Fossil,43.714,26
+2021-05,Total generation,48.443,27
+2021-06,Fossil,50.704,26
+2021-06,Total generation,55.027,27
+2021-07,Fossil,54.806,26
+2021-07,Total generation,59.221000000000004,27
+2021-08,Fossil,51.909,26
+2021-08,Total generation,56.285,27
+2021-09,Fossil,61.899,26
+2021-09,Total generation,65.949,27
+2021-10,Fossil,61.679,26
+2021-10,Total generation,65.906,27
+2021-11,Fossil,73.476,26
+2021-11,Total generation,77.56,27
+2021-12,Fossil,74.978,27
+2021-12,Total generation,79.485,27
+2022-01,Fossil,73.263,27
+2022-01,Total generation,77.774,27
+2022-02,Fossil,58.279,27
+2022-02,Total generation,62.549,27
+2022-03,Fossil,72.143,27
+2022-03,Total generation,76.838,27
+2022-04,Fossil,54.205999999999996,27
+2022-04,Total generation,58.813,27
+2022-05,Fossil,52.447,27
+2022-05,Total generation,57.160000000000004,27
+2022-06,Fossil,56.709,27
+2022-06,Total generation,61.203,27
+2022-07,Fossil,61.095000000000006,27
+2022-07,Total generation,65.63799999999999,27
+2022-08,Fossil,62.189,27
+2022-08,Total generation,66.52199999999999,27
+2022-09,Fossil,60.506,27
+2022-09,Total generation,64.58,27
+2022-10,Fossil,57.127,27
+2022-10,Total generation,61.116,27
+2022-11,Fossil,61.935,27
+2022-11,Total generation,65.987,27
+2022-12,Fossil,70.703,27
+2022-12,Total generation,75.00999999999999,27
+2023-01,Fossil,59.643,27
+2023-01,Total generation,64.097,27
+2023-02,Fossil,59.621,27
+2023-02,Total generation,63.754999999999995,27
+2023-03,Fossil,53.506,27
+2023-03,Total generation,58.214999999999996,27
+2023-04,Fossil,43.795,27
+2023-04,Total generation,48.327999999999996,27
+2023-05,Fossil,36.909,27
+2023-05,Total generation,41.629,27
+2023-06,Fossil,38.857,27
+2023-06,Total generation,43.315,27
+2023-07,Fossil,41.391999999999996,27
+2023-07,Total generation,45.931,27
+2023-08,Fossil,42.900000000000006,27
+2023-08,Total generation,47.342,27
+2023-09,Fossil,44.507,27
+2023-09,Total generation,48.684,27
+2023-10,Fossil,45.935,27
+2023-10,Total generation,50.042,27
+2023-11,Fossil,48.683,27
+2023-11,Total generation,52.966,27
+2023-12,Fossil,51.13,27
+2023-12,Total generation,55.551,27
+2024-01,Fossil,53.775,27
+2024-01,Total generation,58.426,27
+2024-02,Fossil,43.565,27
+2024-02,Total generation,48.021,27
+2024-03,Fossil,43.331,27
+2024-03,Total generation,48.376999999999995,27
+2024-04,Fossil,33.202,27
+2024-04,Total generation,38.182,27
+2024-05,Fossil,31.86,27
+2024-05,Total generation,37.07,27
+2024-06,Fossil,34.01,27
+2024-06,Total generation,38.966,27
+2024-07,Fossil,39.019999999999996,27
+2024-07,Total generation,44.123,27
+2024-08,Fossil,39.542,27
+2024-08,Total generation,44.373000000000005,27
+2024-09,Fossil,38.016000000000005,27
+2024-09,Total generation,42.451,27
+2024-10,Fossil,43.444,27
+2024-10,Total generation,47.848,27
+2024-11,Fossil,55.493,27
+2024-11,Total generation,59.655,27
+2024-12,Fossil,53.859,27
+2024-12,Total generation,58.226,27
+2025-01,Fossil,56.816,27
+2025-01,Total generation,61.405,27
+2025-02,Fossil,56.087,27
+2025-02,Total generation,60.502,27
+2025-03,Fossil,47.403999999999996,27
+2025-03,Total generation,52.528,27
+2025-04,Fossil,35.704,27
+2025-04,Total generation,40.827999999999996,27
+2025-05,Fossil,29.463,27
+2025-05,Total generation,34.787,27
+2025-06,Fossil,30.318,27
+2025-06,Total generation,35.571,27
+2025-07,Fossil,39.2,27
+2025-07,Total generation,44.325,27
+2025-08,Fossil,33.933,27
+2025-08,Total generation,39.012,27
+2025-09,Fossil,34.865,27
+2025-09,Total generation,39.504999999999995,27
+2025-10,Fossil,43.675000000000004,27
+2025-10,Total generation,48.197,27
+2025-11,Fossil,50.582,27
+2025-11,Total generation,54.981,27
+2025-12,Fossil,52.049,27
+2025-12,Total generation,56.494,27
+2026-01,Fossil,62.391,27
+2026-01,Total generation,67.147,27
+2026-02,Fossil,49.04,27
+2026-02,Total generation,53.722,27
+2026-03,Fossil,44.956,27
+2026-03,Total generation,50.345,27
+2026-04,Fossil,34.278,27
+2026-04,Total generation,39.655,27
+2026-05,Fossil,33.412,27
+2026-05,Total generation,38.97,27
+2026-06,Fossil,34.59,27
+2026-06,Total generation,40.099000000000004,27
+2026-07,Fossil,39.201,27
+2026-07,Total generation,44.95,27
+2026-08,Fossil,40.728,27
+2026-08,Total generation,46.249,27
+2026-09,Fossil,42.208,27
+2026-09,Total generation,47.272999999999996,27
+2026-10,Fossil,47.644,25
+2026-10,Total generation,52.421,25

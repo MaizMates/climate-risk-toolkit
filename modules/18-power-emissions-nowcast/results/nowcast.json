@@ -1,0 +1,179 @@
+{
+ "current_year": 2026,
+ "months_available": 10,
+ "backtest_years": [
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "horizons": [
+  3,
+  6,
+  9,
+  10
+ ],
+ "ytd": {
+  "3": 171.809,
+  "6": 290.999,
+  "9": 429.967,
+  "10": 483.229
+ },
+ "last_year_actual": 569.7749999999999,
+ "actual_by_year": {
+  "2016": 957.185,
+  "2017": 968.463,
+  "2018": 917.811,
+  "2019": 810.263,
+  "2020": 705.835,
+  "2021": 770.571,
+  "2022": 795.491,
+  "2023": 621.6750000000001,
+  "2024": 567.41,
+  "2025": 569.7749999999999
+ },
+ "factors_fitted_latest": {
+  "Coal": 1.0303196165534811,
+  "Gas": 0.4869214332724304,
+  "Other fossil": 0.6974551389309008,
+  "Bioenergy": 0.17517194214349774,
+  "Hydro": 0.019058449127729887,
+  "Nuclear": 0.0058597367250260435,
+  "Other renewables": 0.57339412691497,
+  "Solar": 0.05687765101999387,
+  "Wind": 0.0077774306123059855
+ },
+ "factors_fitted_2018": {
+  "Coal": 1.0448719781018327,
+  "Gas": 0.4891401882472118,
+  "Other fossil": 0.6510975326750552,
+  "Bioenergy": -0.005454399093445299,
+  "Hydro": 0.02267419641956811,
+  "Nuclear": 0.010067992248344149,
+  "Other renewables": 0.5207725008311648,
+  "Solar": 0.09244289520725685,
+  "Wind": 0.03375939338499656
+ },
+ "n_obs_latest": 120,
+ "n_obs_2018": 24,
+ "factor_mean": {
+  "Coal": NaN,
+  "Gas": NaN,
+  "Other fossil": NaN,
+  "Bioenergy": NaN,
+  "Hydro": NaN,
+  "Nuclear": NaN,
+  "Other renewables": NaN,
+  "Solar": NaN,
+  "Wind": NaN
+ },
+ "factor_range": {
+  "Coal": [
+   1.0273821512492207,
+   1.040287372202266
+  ],
+  "Gas": [
+   0.4731081779322654,
+   0.49503174557981955
+  ],
+  "Other fossil": [
+   0.6998923242578065,
+   0.7001057561565192
+  ],
+  "Bioenergy": [
+   0.2299441340782123,
+   0.23005955856592314
+  ],
+  "Hydro": [
+   0.023973015299361522,
+   0.02402095728620904
+  ],
+  "Nuclear": [
+   0.005121896667412212,
+   0.005143308363745012
+  ],
+  "Other renewables": [
+   0.0189873417721519,
+   0.025255972696245733
+  ],
+  "Solar": [
+   0.04784514243973704,
+   0.048109010011123464
+  ],
+  "Wind": [
+   0.012444174652040063,
+   0.012553732971192711
+  ]
+ },
+ "boot": {
+  "n": 4000,
+  "seed": 18
+ },
+ "loo_coverage": 0.9479166666666666,
+ "loo_coverage_by": [
+  {
+   "method": "last year",
+   "horizon": 3,
+   "covered": 0.875
+  },
+  {
+   "method": "last year",
+   "horizon": 6,
+   "covered": 0.875
+  },
+  {
+   "method": "last year",
+   "horizon": 9,
+   "covered": 0.875
+  },
+  {
+   "method": "last year",
+   "horizon": 10,
+   "covered": 0.875
+  },
+  {
+   "method": "regression",
+   "horizon": 3,
+   "covered": 1.0
+  },
+  {
+   "method": "regression",
+   "horizon": 6,
+   "covered": 1.0
+  },
+  {
+   "method": "regression",
+   "horizon": 9,
+   "covered": 1.0
+  },
+  {
+   "method": "regression",
+   "horizon": 10,
+   "covered": 1.0
+  },
+  {
+   "method": "share of year",
+   "horizon": 3,
+   "covered": 0.875
+  },
+  {
+   "method": "share of year",
+   "horizon": 6,
+   "covered": 1.0
+  },
+  {
+   "method": "share of year",
+   "horizon": 9,
+   "covered": 1.0
+  },
+  {
+   "method": "share of year",
+   "horizon": 10,
+   "covered": 1.0
+  }
+ ]
+}
