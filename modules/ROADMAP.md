@@ -27,7 +27,7 @@ draws on the work of, any employer.
 | 16 | `16-load-temperature` | **built** |
 | 17 | `17-monthly-annual-coherence` | **built** |
 | 18 | `18-power-emissions-nowcast` | **built** |
-| 19 | `19-transition-exposure-banking` | supervisory data: sector exposures from the EBA transparency exercise |
+| 19 | `19-transition-exposure-banking` | **built** |
 | 20 | `20-bidding-zone-price-convergence` | market coupling: how often neighbouring zones clear at one price |
 | 21 | `21-carbon-cost-margin-stress` | credit: the carbon price that erases a sector's operating surplus |
 | 22 | `22-residual-load-ramps` | system adequacy: the flexibility that wind and solar demand of the grid |

@@ -1,0 +1,137 @@
+{
+ "bootstrap_draws": 4000,
+ "seed": 19,
+ "min_banks_for_country_row": 3,
+ "thin_below": 5,
+ "banks_eu27": 102,
+ "countries": [
+  "AT",
+  "BE",
+  "DE",
+  "DK",
+  "ES",
+  "FI",
+  "FR",
+  "GR",
+  "IE",
+  "IT",
+  "NL",
+  "PT",
+  "SE"
+ ],
+ "head": {
+  "share": 0.6077308548887839,
+  "share_ci": [
+   0.58091925716154,
+   0.6346008396966846
+  ],
+  "npl_in": 0.032694484501607744,
+  "npl_in_ci": [
+   0.029655389255719842,
+   0.03599696508992823
+  ],
+  "npl_out": 0.034000073875934615,
+  "npl_out_ci": [
+   0.03141787443694346,
+   0.03692499166069805
+  ],
+  "gap": -0.001305589374326871,
+  "gap_ci": [
+   -0.004391015356640997,
+   0.001978102890197153
+  ],
+  "gap_within_country": 0.0005179698729951338,
+  "gap_within_country_ci": [
+   -0.0023756670025335057,
+   0.003936453579714336
+  ],
+  "loans_eur_bn": 6205.371145900001,
+  "banks": 102,
+  "top5_banks_loan_share": 0.30026936967841233,
+  "leave_one_bank_out_max_share_move_pp": 0.7486362709648975,
+  "leave_one_bank_out_max_gap_move_pp": 0.09879350767059702
+ },
+ "country_summary": {
+  "countries_reported": 13,
+  "highest": {
+   "country": "DK",
+   "share": 0.8107858249560755,
+   "share_lo": 0.7597260654024307,
+   "share_hi": 0.8819894599207664,
+   "banks": 3
+  },
+  "lowest": {
+   "country": "BE",
+   "share": 0.49961496285136864,
+   "share_lo": 0.4320574360759936,
+   "share_hi": 0.5366114736693948,
+   "banks": 4
+  },
+  "n_ge5": 7,
+  "gap_positive_countries": 6,
+  "gap_interval_excludes_zero": 5,
+  "pairs_ge5": 21,
+  "pairs_ge5_separated": 6
+ },
+ "yoy": {
+  "banks_matched": 100,
+  "share_2024": 0.6109122021445365,
+  "share_2025": 0.610897890564846,
+  "share_change": -1.4311579690451381e-05,
+  "share_change_ci": [
+   -0.006740878573152018,
+   0.005531269861430183
+  ],
+  "gap_2024": -0.0029456747759686527,
+  "gap_2025": -0.0014329741337620258,
+  "gap_change": 0.001512700642206627,
+  "gap_change_ci": [
+   -0.0011606789776853921,
+   0.003806148369144004
+  ]
+ },
+ "validation_totals": {
+  "nace_sections_vs_nace_total": -1.5588008661637787e-10,
+  "nace_total_vs_npe_sheet_nfc": -4.632809691429429e-10,
+  "npl_volume_all_eur_bn": 372.3817904089077,
+  "report_npl_eur_bn": 373.0,
+  "npl_ratio_incl_cash": 0.018363314569326397,
+  "report_npl_ratio": 0.0184,
+  "report_page": 26,
+  "report_text": "reported EUR 373 bn of NPLs. This remains unchanged from the previous year, and slightly above their lowest level reported since the EBA has collected supervisory reporting data (EUR 357 bn in March 2023). The NPL ratio was reported at 1.84%"
+ },
+ "validation_published": {
+  "sample": "all banks of the exercise, June 2025 (EU/EEA)",
+  "banks": 107,
+  "mine_share": 0.6098381158480374,
+  "mine_share_ci": [
+   0.5841454677827904,
+   0.6363061435202298
+  ],
+  "eba_share": 0.6127744510978044,
+  "mine_gap": -0.0014508681181598718,
+  "mine_gap_ci": [
+   -0.004493401762875532,
+   0.001667176819045352
+  ],
+  "eba_gap": -0.0013621679707176426,
+  "eba_npl_in": 0.03252442996742666,
+  "eba_npl_out": 0.0338865979381443,
+  "sections_share_inside_ci": 19,
+  "sections_npl_inside_ci": 19,
+  "share_mae_pp": 0.05113314678784073,
+  "share_max_abs_pp": 0.16690414884989457,
+  "npl_mae_pp": 0.027119359112958725,
+  "share_corr": 0.9999551033292848,
+  "npl_corr": 0.9997607970772554
+ },
+ "validation_country": {
+  "countries": 13,
+  "share_inside": 12,
+  "share_mae_pp": 1.0135083254531199,
+  "share_max_abs_pp": 5.78275945911888,
+  "share_corr": 0.9775333697799398,
+  "gap_inside": 12,
+  "gap_corr": 0.9633730938031773
+ }
+}

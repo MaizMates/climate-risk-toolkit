@@ -1,0 +1,47 @@
+{
+ "accessed": "2026-11-26",
+ "page": {
+  "endpoint": "https://www.eba.europa.eu/risk-and-data-analysis/risk-analysis/eu-wide-transparency-exercise",
+  "latest_edition_linked": "2025"
+ },
+ "2025/tr_cre.csv": {
+  "endpoint": "https://www.eba.europa.eu/assets/TE2025/Full_database/883401/tr_cre.csv",
+  "bytes": 123180326,
+  "sha256": "a29ca3b808d4f51b6aa2d74ccb3cd39d05f416e10d26e16340cce45842637c99"
+ },
+ "2025/TR_Metadata.xlsx": {
+  "endpoint": "https://www.eba.europa.eu/assets/TE2025/Full_database/883401/TR_Metadata.xlsx",
+  "bytes": 2782361,
+  "sha256": "8110aea2ed614bc86cb5e00058787e8fe2b5e1ce816a5ec1f9346647668eb5df"
+ },
+ "2025/SDD.xlsx": {
+  "endpoint": "https://www.eba.europa.eu/assets/TE2025/Full_database/883401/SDD.xlsx",
+  "bytes": 58751,
+  "sha256": "8b7fdf40bacb79d0bd51564c4cc157f68261a2290a209db18df9fa8eb6ee66cb"
+ },
+ "2024/tr_cre.csv": {
+  "endpoint": "https://www.eba.europa.eu/assets/TE2024/Full_database/256109/tr_cre.csv",
+  "bytes": 119032803,
+  "sha256": "4175521fbbe352e7e8973c37f419f16a8fe3b6fc5974ea7955baf67aadf2060e"
+ },
+ "2024/TR_Metadata.xlsx": {
+  "endpoint": "https://www.eba.europa.eu/assets/TE2024/Full_database/256109/TR_Metadata.xlsx",
+  "bytes": 2790861,
+  "sha256": "ecd488dffa578dabb89594ccc00409303b14446e7b0eaebab2bdaa7a65e7bc21"
+ },
+ "2024/SDD.xlsx": {
+  "endpoint": "https://www.eba.europa.eu/assets/TE2024/Full_database/256109/SDD.xlsx",
+  "bytes": 56448,
+  "sha256": "9f350211b2d54ae7a273526a0402ab43965822ff527dc2e587149c98bd13d6a9"
+ },
+ "rar2025.pdf": {
+  "endpoint": "https://www.eba.europa.eu/sites/default/files/2025-12/8acb45c4-912b-4f0f-b887-37b8fc058779/Risk%20Assessment%20Report%20Autumn%202025.pdf",
+  "bytes": 2816144,
+  "sha256": "52b448718d3967261dcccb9c15ef58efc274412175de0496c94ce02e281122d4"
+ },
+ "dash_q2_2025.pdf": {
+  "endpoint": "https://www.eba.europa.eu/sites/default/files/2025-09/0b362777-be60-43a4-a8dd-3287500d7cc6/EBA%20Dashboard%20-%20Q2%202025.pdf",
+  "bytes": 3051068,
+  "sha256": "cd20bdbb4caebce443cf44c025930d6288f01a18a8b2c5dce1a627d0141648a2"
+ }
+}

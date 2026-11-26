@@ -1,0 +1,5 @@
+name,url,verified,note
+EBA transparency exercise 2024 credit risk,https://www.eba.europa.eu/assets/TE2024/Full_database/256109/tr_cre.csv,2026-11-10,"CSV 119 MB; columns LEI_Code, NSA, Period, Item, Label, Portfolio, Country, Exposure, Status, Perf_Status, NACE_codes, Amount, Sheet; NACE breakdown in sheet NACE"
+EBA transparency exercise 2024 metadata,https://www.eba.europa.eu/assets/TE2024/Full_database/256109/TR_Metadata.xlsx,2026-11-10,"XLSX; sheets List of Institutions, NACE_codes, Exposure, Status, Perf_status"
+EBA transparency exercise 2024 data dictionary,https://www.eba.europa.eu/assets/TE2024/Full_database/256109/SDD.xlsx,2026-11-10,XLSX; item codes and labels
+EBA transparency exercise 2024 page,https://www.eba.europa.eu/risk-and-data-analysis/risk-analysis/eu-wide-transparency-exercise/2024-eu-wide-transparency-exercise,2026-11-10,HTML; check here for a later edition before using 2024

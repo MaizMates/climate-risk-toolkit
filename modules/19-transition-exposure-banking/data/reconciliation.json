@@ -1,0 +1,97 @@
+{
+ "2025_202409": {
+  "nace_total_nace0": 6267458.798011095,
+  "nace_sum_sections": 6267458.799007211,
+  "npe_sheet_nfc_total": 6267458.797052703,
+  "loans_gross_all": 16920935.171286732,
+  "loans_npl_all": 378807.8618269596,
+  "cash_balances": 3189532.2854598407,
+  "npl_ratio_loans_only": 0.02238693417310419,
+  "npl_ratio_with_cash_in_denominator": 0.0188363528914331,
+  "nfc_npl": 215053.84492926346,
+  "nfc_npl_ratio": 0.034312765650791895
+ },
+ "2025_202412": {
+  "nace_total_nace0": 6368068.490733013,
+  "nace_sum_sections": 6368068.492735381,
+  "npe_sheet_nfc_total": 6368068.4907090645,
+  "loans_gross_all": 16986641.333224703,
+  "loans_npl_all": 374968.22141831944,
+  "cash_balances": 2944324.96192531,
+  "npl_ratio_loans_only": 0.02207430027293903,
+  "npl_ratio_with_cash_in_denominator": 0.018813348829432516,
+  "nfc_npl": 211897.32057626132,
+  "nfc_npl_ratio": 0.03327497511771693
+ },
+ "2025_202503": {
+  "nace_total_nace0": 6430500.444540687,
+  "nace_sum_sections": 6430500.44020021,
+  "npe_sheet_nfc_total": 6430500.443488998,
+  "loans_gross_all": 17325030.379663892,
+  "loans_npl_all": 375245.3905499611,
+  "cash_balances": 3089843.096054881,
+  "npl_ratio_loans_only": 0.021659147622068466,
+  "npl_ratio_with_cash_in_denominator": 0.0183809804648691,
+  "nfc_npl": 212063.38188205834,
+  "nfc_npl_ratio": 0.032977741584136966
+ },
+ "2025_202506": {
+  "nace_total_nace0": 6440825.140035178,
+  "nace_sum_sections": 6440825.139031181,
+  "npe_sheet_nfc_total": 6440825.1430190895,
+  "loans_gross_all": 17377445.853554808,
+  "loans_npl_all": 372381.7904089077,
+  "cash_balances": 2901125.8064288707,
+  "npl_ratio_loans_only": 0.021429028957827632,
+  "npl_ratio_with_cash_in_denominator": 0.018363314569326397,
+  "nfc_npl": 212505.02867710058,
+  "nfc_npl_ratio": 0.032993447882593875
+ },
+ "2024_202406": {
+  "nace_total_nace0": 6326817.162687892,
+  "nace_sum_sections": 6326817.162687657,
+  "npe_sheet_nfc_total": 6326817.162835775,
+  "loans_gross_all": 16801837.961191546,
+  "loans_npl_all": 373148.5434050244,
+  "cash_balances": 3233301.381716974,
+  "npl_ratio_loans_only": 0.02220879312530649,
+  "npl_ratio_with_cash_in_denominator": 0.018624704176919093,
+  "nfc_npl": 211877.0164742014,
+  "nfc_npl_ratio": 0.03348872126711418
+ },
+ "rar_2025": {
+  "page": 26,
+  "npl_bn": 373.0,
+  "npl_ratio": 0.0184,
+  "text": "reported EUR 373 bn of NPLs. This remains unchanged from the previous year, and slightly above their lowest level reported since the EBA has collected supervisory reporting data (EUR 357 bn in March 2023). The NPL ratio was reported at 1.84%"
+ },
+ "pooled_small_countries": [
+  "CY",
+  "EE",
+  "HU",
+  "LI",
+  "LT",
+  "LU",
+  "LV",
+  "MT",
+  "PL",
+  "RO",
+  "SI"
+ ],
+ "banks_by_country_2025_06": {
+  "AT": 5,
+  "BE": 4,
+  "DE": 17,
+  "DK": 3,
+  "ES": 10,
+  "FI": 3,
+  "FR": 10,
+  "GR": 4,
+  "IE": 3,
+  "IT": 12,
+  "NL": 6,
+  "NO": 3,
+  "PT": 3,
+  "SE": 6
+ }
+}
